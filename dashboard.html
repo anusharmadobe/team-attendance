@@ -340,7 +340,6 @@ tbody tr:last-child td{border-bottom:none}
     <span id="wk-label" style="font-weight:600"></span>
     <button onclick="wkNav(1)">Next ›</button>
     <label>Member</label><select id="wm" onchange="renderWeekly()"></select>
-    <button onclick="exportWeeklySummary()" title="Copies this week's plain-text attendance summary to your clipboard" style="margin-left:auto;background:var(--acc-bg);border:1px solid var(--acc);color:var(--acc);padding:5px 14px;border-radius:var(--r);cursor:pointer;font-size:12px">⬇ Copy Summary</button>
   </div>
   <div class="kpi-row" id="kpi-weekly" style="margin-bottom:16px"></div>
   <!-- Fix 8 + per-person: two-column layout for weekly -->
@@ -1312,30 +1311,6 @@ function _renderDayOfWeekChart(mid, days){
     </svg>`;
 }
 
-// ═══════════════════════════════════════════════════════════════════════════
-// P3: Export / copy-to-clipboard weekly text summary
-// ═══════════════════════════════════════════════════════════════════════════
-function exportWeeklySummary(){
-  const days=wkDays(wkOff);
-  const att=DATA.attendance;const M=DATA.team_members;
-  const lines=[`Team Attendance — Week of ${days[0]} to ${days[4]}\n`];
-  Object.entries(M).forEach(([id,m])=>{
-    const statuses=days.map(d=>{
-      const rec=att[d]?.[id];
-      if(!rec||rec.status==='no_info') return '?';
-      return {office:'O',wfh:'H',sick:'S',leave:'L'}[rec.status]||'?';
-    });
-    lines.push(`${m.name.padEnd(20)} ${days.map((d,i)=>`${DAYS[i]}: ${statuses[i]}`).join(' | ')}`);
-  });
-  lines.push('\nKey: O=Office  H=WFH  S=Sick  L=Leave  ?=No status posted');
-  const text=lines.join('\n');
-  if(navigator.clipboard){
-    navigator.clipboard.writeText(text).then(()=>showToast('✓ Weekly summary copied to clipboard'))
-      .catch(()=>{const ta=document.createElement('textarea');ta.value=text;document.body.appendChild(ta);ta.select();document.execCommand('copy');ta.remove();showToast('✓ Copied to clipboard');});
-  } else {
-    const ta=document.createElement('textarea');ta.value=text;document.body.appendChild(ta);ta.select();document.execCommand('copy');ta.remove();showToast('✓ Copied to clipboard');
-  }
-}
 
 // ═══════════════════════════════════════════════════════════════════════════
 // TOOLTIP
