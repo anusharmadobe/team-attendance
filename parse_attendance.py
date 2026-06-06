@@ -1,0 +1,371 @@
+#!/usr/bin/env python3
+"""
+Team Attendance Parser — v2
+Processes raw Slack messages into daily attendance records.
+Run weekly after fetch_slack.py to update data/attendance.json.
+
+Improvements in v2:
+  P0: Multi-person attribution, official travel = office, correction priority
+  P1: Multi-day expansion, Indian holidays, context-sensitive stepping-out
+  P2: Reporting rate confidence, location-aware holidays, future dates
+"""
+
+import json
+import re
+from datetime import date, timedelta
+from pathlib import Path
+
+# ── Active team roster ────────────────────────────────────────────────────────
+TEAM_MEMBERS = {
+    "W4R4S9FS4":  {"name": "Anurag Sharma",     "username": "anusharm",  "active_from": "2025-01-01", "active_to": None,         "role": "Manager"},
+    "WAM5KDYBZ":  {"name": "Khushwant Singh",   "username": "khsingh",   "active_from": "2025-01-01", "active_to": None,         "role": "Senior PM"},
+    "W010NNJV7S8":{"name": "Chris J",           "username": "macman",    "active_from": "2025-01-01", "active_to": None,         "role": "PM"},
+    "U03HRQ036BD":{"name": "Ruchita Srivastava","username": "ruchitas",  "active_from": "2025-01-01", "active_to": None,         "role": "Technical Writer"},
+    "U0900H3NUUT":{"name": "Utkarsha Sharma",   "username": "utkarshas", "active_from": "2025-06-16", "active_to": None,         "role": "Designer"},
+    # Removed: Ajit Sharma (left Apr 2025), Ashish Alex (left Jul 2025),
+    #          Bhumika Yadav (left May 2026), Tanya Khetrapal (observer, 0 records),
+    #          Satyam Jha (intern, left May 2026)
+}
+
+# ── Name → member ID for multi-person attribution ─────────────────────────────
+# e.g. "Ruchita, Khushwant and I at office" → attribute office to all three
+MEMBER_NAMES = {
+    "anurag":    "W4R4S9FS4",
+    "khushwant": "WAM5KDYBZ",
+    "chris":     "W010NNJV7S8",
+    "ruchita":   "U03HRQ036BD",
+    "utkarsha":  "U0900H3NUUT",
+}
+
+SKIP_USERS = {"USLACKBOT", "U08DY9ATQ4X", "U093GDFNJ84", "U0B0UCDC72T",
+              "U0ACD3LLF5K", "U08TFBARPQC"}  # bots / integrations
+
+# ── Confirmed Indian public holidays (national, from channel/bot data) ────────
+HOLIDAYS = {
+    # ── 2025 (est. from Adobe 2026 PDF pattern; Independence Day + Gandhi Jayanti confirmed) ──
+    "2025-01-01",  # New Year's Day
+    "2025-03-14",  # Holi [est]
+    "2025-03-21",  # Global Wellbeing Day [est]
+    "2025-04-18",  # Good Friday [est]
+    "2025-05-01",  # Labour Day
+    "2025-06-27",  # Global Wellbeing Day [est — Q2]
+    "2025-08-15",  # Independence Day ← confirmed
+    "2025-08-22",  # Global Wellbeing Day [est — Q3, same pattern as 2026 Aug 21]
+    "2025-08-27",  # Ganesh Chaturthi [est]
+    "2025-10-02",  # Gandhi Jayanti ← confirmed
+    "2025-10-20",  # Deepavali [est]
+    "2025-10-31",  # Global Wellbeing Day [est]
+    "2025-11-05",  # Guru Nanak's Birthday [est]
+    "2025-12-24",  # Winter shutdown
+    "2025-12-25",  # Winter shutdown
+    "2025-12-26",  # Winter shutdown
+    "2025-12-29",  # Winter shutdown
+    "2025-12-30",  # Winter shutdown
+    "2025-12-31",  # Winter shutdown
+    # ── 2026 — from official Adobe Global Holidays PDF (pages 47–49) ──────────
+    "2026-01-01",  # New Year's Day
+    "2026-01-26",  # Republic Day
+    "2026-03-04",  # Holi
+    "2026-03-20",  # Global Wellbeing Day
+    "2026-04-03",  # Good Friday
+    "2026-05-01",  # Labour Day
+    "2026-05-27",  # Eid al-Adha / Bakri Id (CORRECTED — PDF says May 27, not May 28)
+    "2026-06-29",  # Global Wellbeing Day
+    "2026-08-21",  # Global Wellbeing Day
+    "2026-09-14",  # Ganesh Chaturthi
+    "2026-10-02",  # Gandhi Jayanti
+    "2026-10-20",  # Dussehra
+    "2026-10-30",  # Global Wellbeing Day
+    "2026-11-09",  # Deepavali / Govardhan Puja
+    "2026-11-24",  # Guru Nanak's Birthday (Noida; +Chris 1-day negligible)
+    "2026-12-24",  # Christmas Eve / Winter shutdown
+    "2026-12-25",  # Christmas Day / Winter shutdown
+    "2026-12-28",  # Winter shutdown
+    "2026-12-29",  # Winter shutdown
+    "2026-12-30",  # Winter shutdown
+    "2026-12-31",  # Winter shutdown
+}
+# Bangalore-specific holidays (Chris): kept as "leave" in seed data; not removed
+# from working_days() to avoid affecting Delhi/Noida members.
+
+# ── Status correction priority ─────────────────────────────────────────────────
+# If multiple messages exist for same person/day, higher priority wins.
+# e.g. "WFH at 9am" then "At office at 2pm" → office wins.
+STATUS_PRIORITY = {"office": 5, "wfh": 4, "sick": 3, "leave": 2, "no_info": 1}
+
+# ── Illness keywords ───────────────────────────────────────────────────────────
+# Match PERSONAL illness (not family member illness, which stays WFH).
+ILLNESS_KW = re.compile(
+    r"(?:not feeling well|feeling unwell|feel(?:ing)? sick|body ache|"
+    r"fever|viral|stomach (?:ache|infection)|migraine|throat infection|"
+    r"cough\b|cervical pain|headache|suffering from|under the weather)",
+    re.I,
+)
+
+# Family illness keywords — these keep status as WFH (not sick)
+FAMILY_ILLNESS_KW = re.compile(
+    r"(?:wife|daughter|son|kid|child|baby|mother|father|parent).*(?:not well|ill|sick|fever|hospital)",
+    re.I,
+)
+
+# ── Classification rules ──────────────────────────────────────────────────────
+# Checked in order; first match wins (after illness upgrades applied).
+RULES = [
+    # ── Sick leave: personal illness causing a full day off ───────────────────
+    ("sick", [
+        r"sick leave",
+        r"on sick leave",
+        r"taking sick leave",
+        r"taking.*day off.*sick",
+        r"sick.*taking.*off",
+    ]),
+    # ── Leave / PTO ───────────────────────────────────────────────────────────
+    ("leave", [
+        r"\bpto\b(?!.*(?:at office|in office|wfh|work from home))",
+        r"\bon leave\b",
+        r"taking leave",
+        r"taking.*day off",
+        r"day off\b",
+        r"will be on leave",
+        r"\bleave today\b",
+        r"\bleave for today\b",
+    ]),
+    # ── WFH ───────────────────────────────────────────────────────────────────
+    ("wfh", [
+        r"\bwfh\b",
+        r"work(?:ing)? from home",
+        r"working remotely",
+        r"attend(?:ing)? (?:\w+ )?meetings? from home",
+        r"logging(?: in)? from home",
+        r"connect(?:ing)? from home",
+        r"available from home",
+        r"online from home",
+        r"wf-home",
+    ]),
+    # ── Office (explicit + official travel + leaving-office context) ──────────
+    ("office", [
+        # Standard "at office" variants
+        r"at (?:the )?office",
+        r"in (?:the )?office",
+        r"working from office",
+        r"working at office",
+        # Official travel / other Adobe buildings (P0: official travel = office)
+        r"at sec-?25",          # Adobe Sec-25A Noida
+        r"at n-?132",           # Adobe N132 Noida
+        r"wf-sec",              # "WF-Sec25A" shorthand
+        r"at hdfc",             # customer site
+        r"at maruti",           # customer site
+        r"workshop at",         # attending any workshop
+        r"offsite\b",           # official offsite
+        r"customer site",
+        r"client site",
+        # "Coming to office" / "heading to office" variants
+        r"coming to office",
+        r"heading (?:to|into) (?:the )?office",
+        r"going (?:to|into) (?:the )?office",
+        r"will (?:be )?(?:reach|arrive|be) (?:at )?office",
+        r"reaching office",
+        r"reach (?:the )?office",
+        # "Leaving for home" implies was at office (P1: context-sensitive)
+        r"leaving (?:the )?office",      # unambiguous: was in office
+        r"leaving for home",             # implies left an office/work location
+        r"heading home from",            # implies was somewhere (likely office)
+    ]),
+    # ── Leave (second pass — half-day signals) ────────────────────────────────
+    ("leave", [
+        r"\bon leave\b",
+        r"(?:first|second|1st|2nd) half.*(?:leave|off)",
+        r"(?:leave|off).*(?:first|second|1st|2nd) half",
+        r"filing.*leave",
+        r"filling.*leave",
+    ]),
+]
+
+
+def classify(text: str):
+    """
+    Returns (status, extra_days) where:
+      status     = 'office'|'wfh'|'sick'|'leave'|None
+      extra_days = number of additional consecutive days with same status (0 = just today)
+    """
+    tl = text.lower()
+    personal_ill = bool(ILLNESS_KW.search(text))
+    family_ill   = bool(FAMILY_ILLNESS_KW.search(text))
+
+    # Check multi-day expansion patterns (P1)
+    extra = _count_extra_days(tl)
+
+    for status, patterns in RULES:
+        for pat in patterns:
+            if re.search(pat, tl):
+                # ── Illness upgrades ──────────────────────────────────────
+                if status == "wfh" and personal_ill and not family_ill:
+                    # Personal illness + WFH = still WFH (they're working)
+                    return ("wfh", extra)
+                if status in ("leave", "pto") and personal_ill and not family_ill:
+                    # Leave specifically because person is ill = sick
+                    return ("sick", extra)
+                return (status, extra)
+
+    # Illness mentioned without explicit status → sick if taking day off
+    if personal_ill and not family_ill:
+        if re.search(r"tak(?:e|ing) (?:the )?(?:day|leave|rest|first half)", tl):
+            return ("sick", extra)
+
+    return (None, 0)
+
+
+def _count_extra_days(tl: str) -> int:
+    """Detect multi-day announcements and return how many extra days to fill."""
+    if re.search(r"today and tomorrow", tl):
+        return 1
+    if re.search(r"(?:for )?(?:rest of|remaining) (?:the )?week", tl):
+        # Fill to end of current work week (up to 4 more days)
+        return 4  # will be clamped to same-week days in process()
+    if re.search(r"this week", tl) and not re.search(r"last|next|past", tl):
+        return 4
+    if re.search(r"today and (?:the )?next (?:two|2) days", tl):
+        return 2
+    return 0
+
+
+def _next_working_days(d: date, n: int):
+    """Yield up to n working days after d (same week only for 'rest of week')."""
+    cur = d + timedelta(days=1)
+    count = 0
+    week_cutoff = d + timedelta(days=(4 - d.weekday()))  # Friday
+    while count < n and cur <= week_cutoff:
+        if cur.weekday() < 5 and cur.isoformat() not in HOLIDAYS:
+            yield cur
+            count += 1
+        cur += timedelta(days=1)
+
+
+def _mentioned_members(text: str, sender_id: str) -> list:
+    """
+    P0: Extract other team members mentioned in a group message.
+    e.g. "Ruchita, Khushwant and I at office" → [ruchita_id, khushwant_id]
+    The sender is already captured separately, so we return only OTHERS.
+    """
+    tl = text.lower()
+    mentioned = []
+    for name, uid in MEMBER_NAMES.items():
+        if uid == sender_id:
+            continue  # skip sender
+        # Match first name with word boundary
+        if re.search(rf"\b{re.escape(name)}\b", tl):
+            mentioned.append(uid)
+    return mentioned
+
+
+def ts_to_date(ts: str) -> date:
+    from datetime import datetime, timezone
+    return datetime.fromtimestamp(float(ts), tz=timezone.utc).date()
+
+
+def is_member_active(member_id: str, d: date) -> bool:
+    m = TEAM_MEMBERS.get(member_id, {})
+    af = date.fromisoformat(m["active_from"])
+    at = date.fromisoformat(m["active_to"]) if m.get("active_to") else date(2099, 12, 31)
+    return af <= d <= at
+
+
+def working_days(start: date, end: date):
+    cur = start
+    while cur <= end:
+        if cur.weekday() < 5 and cur.isoformat() not in HOLIDAYS:
+            yield cur
+        cur += timedelta(days=1)
+
+
+def _apply_status(attendance, ds, uid, status, note):
+    """Apply status with correction priority — higher priority wins."""
+    attendance.setdefault(ds, {})
+    existing_pri = STATUS_PRIORITY.get(attendance[ds].get(uid, {}).get("status", ""), 0)
+    new_pri      = STATUS_PRIORITY.get(status, 0)
+    if new_pri > existing_pri:
+        attendance[ds][uid] = {"status": status, "note": note[:180].strip()}
+
+
+# ── Main processing ───────────────────────────────────────────────────────────
+
+def process(messages: list, start: date, end: date) -> dict:
+    attendance: dict[str, dict] = {}
+
+    for msg in messages:
+        uid = msg.get("user", "")
+        if uid in SKIP_USERS or uid not in TEAM_MEMBERS:
+            continue
+        ts = msg.get("ts", "")
+        if not ts:
+            continue
+        d = ts_to_date(ts)
+        if not (start <= d <= end):
+            continue
+        text = msg.get("text", "")
+        if not text:
+            continue
+
+        result = classify(text)
+        if not result[0]:
+            continue
+        status, extra_days = result
+
+        # P0: Apply to sender
+        _apply_status(attendance, d.isoformat(), uid, status, text)
+
+        # P1: Multi-day expansion — fill extra consecutive working days same week
+        if extra_days > 0:
+            for xd in _next_working_days(d, extra_days):
+                if start <= xd <= end:
+                    _apply_status(attendance, xd.isoformat(), uid, status,
+                                  f"[multi-day] {text[:120]}")
+
+        # P0: Multi-person attribution — attribute to other named team members
+        if status == "office":
+            for other_uid in _mentioned_members(text, uid):
+                if is_member_active(other_uid, d):
+                    _apply_status(attendance, d.isoformat(), other_uid, "office",
+                                  f"[group mention] {text[:120]}")
+
+    # Fill no_info for all active members on all working days with no record
+    for d in working_days(start, end):
+        ds = d.isoformat()
+        attendance.setdefault(ds, {})
+        for mid in TEAM_MEMBERS:
+            if is_member_active(mid, d) and mid not in attendance[ds]:
+                attendance[ds][mid] = {"status": "no_info", "note": None}
+
+    return dict(sorted(attendance.items()))
+
+
+def run():
+    data_dir = Path(__file__).parent / "data"
+    raw_path = data_dir / "raw_messages.json"
+    out_path = data_dir / "attendance.json"
+
+    if not raw_path.exists():
+        print(f"ERROR: {raw_path} not found. Run fetch_slack.py first.")
+        return
+
+    messages = json.loads(raw_path.read_text())
+    print(f"Loaded {len(messages)} messages")
+
+    start = date(2025, 1, 1)
+    end   = date.today()
+
+    att = process(messages, start, end)
+
+    output = {
+        "generated_at": end.isoformat(),
+        "period": {"from": start.isoformat(), "to": end.isoformat()},
+        "team_members": TEAM_MEMBERS,
+        "attendance": att,
+    }
+
+    out_path.write_text(json.dumps(output, indent=2, default=str))
+    print(f"Written {len(att)} days → {out_path}")
+
+
+if __name__ == "__main__":
+    run()

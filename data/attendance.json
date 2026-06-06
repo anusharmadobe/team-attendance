@@ -1,0 +1,7228 @@
+{
+  "generated_at": "2026-06-06",
+  "period": {
+    "from": "2025-01-01",
+    "to": "2026-06-06"
+  },
+  "team_members": {
+    "W4R4S9FS4": {
+      "name": "Anurag Sharma",
+      "username": "anusharm",
+      "active_from": "2025-01-01",
+      "active_to": null,
+      "role": "Manager"
+    },
+    "WAM5KDYBZ": {
+      "name": "Khushwant Singh",
+      "username": "khsingh",
+      "active_from": "2025-01-01",
+      "active_to": null,
+      "role": "Senior PM"
+    },
+    "W010NNJV7S8": {
+      "name": "Chris J",
+      "username": "macman",
+      "active_from": "2025-01-01",
+      "active_to": null,
+      "role": "PM"
+    },
+    "U03HRQ036BD": {
+      "name": "Ruchita Srivastava",
+      "username": "ruchitas",
+      "active_from": "2025-01-01",
+      "active_to": null,
+      "role": "Technical Writer"
+    },
+    "U0900H3NUUT": {
+      "name": "Utkarsha Sharma",
+      "username": "utkarshas",
+      "active_from": "2025-06-16",
+      "active_to": null,
+      "role": "Designer"
+    }
+  },
+  "attendance": {
+    "2025-01-02": {
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-01-03": {
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-01-06": {
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-01-07": {
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "Wfh today"
+      },
+      "U03HRQ036BD": {
+        "status": "sick",
+        "note": "Sick leave, bad throat and fever"
+      },
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-01-08": {
+      "U03HRQ036BD": {
+        "status": "wfh",
+        "note": "Will login around 11"
+      },
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-01-09": {
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-01-10": {
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-01-13": {
+      "WAM5KDYBZ": {
+        "status": "office",
+        "note": "Working from office"
+      },
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "Wfh today"
+      },
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-01-14": {
+      "W4R4S9FS4": {
+        "status": "office",
+        "note": "Morning meetings from home, then office post lunch"
+      },
+      "U03HRQ036BD": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-01-15": {
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "wfh today"
+      },
+      "U03HRQ036BD": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-01-16": {
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-01-17": {
+      "WAM5KDYBZ": {
+        "status": "wfh",
+        "note": "WFH Today"
+      },
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "Wife ill, WFH today"
+      },
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-01-20": {
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-01-21": {
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-01-22": {
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-01-23": {
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-01-24": {
+      "WAM5KDYBZ": {
+        "status": "leave",
+        "note": "On leave till 2:30 pm"
+      },
+      "U03HRQ036BD": {
+        "status": "leave",
+        "note": "PTO today"
+      },
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-01-27": {
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "wfh today"
+      },
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-01-28": {
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-01-29": {
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "wfh today"
+      },
+      "U03HRQ036BD": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-01-30": {
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-01-31": {
+      "W010NNJV7S8": {
+        "status": "sick",
+        "note": "Both me and wife unwell, taking PTO"
+      },
+      "U03HRQ036BD": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-02-03": {
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-02-04": {
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "wfh today"
+      },
+      "U03HRQ036BD": {
+        "status": "wfh",
+        "note": "WFH, son's school admit card"
+      },
+      "WAM5KDYBZ": {
+        "status": "wfh",
+        "note": "Morning meetings from home, then office"
+      },
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-02-05": {
+      "U03HRQ036BD": {
+        "status": "wfh",
+        "note": "WFH due to Delhi elections"
+      },
+      "WAM5KDYBZ": {
+        "status": "wfh",
+        "note": "WFH"
+      },
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-02-06": {
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-02-07": {
+      "U03HRQ036BD": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "WAM5KDYBZ": {
+        "status": "leave",
+        "note": "Away for first half"
+      },
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-02-10": {
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-02-11": {
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "wfh today, PTO in 2nd half"
+      },
+      "U03HRQ036BD": {
+        "status": "wfh",
+        "note": "Not feeling well, WFH"
+      },
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-02-12": {
+      "W4R4S9FS4": {
+        "status": "leave",
+        "note": "Lost cousin, personal emergency"
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-02-13": {
+      "WAM5KDYBZ": {
+        "status": "sick",
+        "note": "Not feeling well, taking off"
+      },
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-02-14": {
+      "U03HRQ036BD": {
+        "status": "sick",
+        "note": "Sick leave today"
+      },
+      "WAM5KDYBZ": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-02-17": {
+      "WAM5KDYBZ": {
+        "status": "leave",
+        "note": "Severe headache, taking first half off"
+      },
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-02-18": {
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "wfh today"
+      },
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-02-19": {
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "wfh today"
+      },
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-02-20": {
+      "U03HRQ036BD": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "wfh, severe back ache"
+      },
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-02-21": {
+      "WAM5KDYBZ": {
+        "status": "wfh",
+        "note": "WFH Today"
+      },
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "Extending wfh, back pain"
+      },
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-02-24": {
+      "W010NNJV7S8": {
+        "status": "office",
+        "note": "At office (left early for physio)"
+      },
+      "WAM5KDYBZ": {
+        "status": "wfh",
+        "note": "WFH Today - daughter not well"
+      },
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-02-25": {
+      "WAM5KDYBZ": {
+        "status": "wfh",
+        "note": "Morning meetings from home, then office"
+      },
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "wfh today, likely take off 2nd half"
+      },
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-02-26": {
+      "WAM5KDYBZ": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "W010NNJV7S8": {
+        "status": "office",
+        "note": "In hospital, then to office"
+      },
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-02-27": {
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-02-28": {
+      "WAM5KDYBZ": {
+        "status": "leave",
+        "note": "Taking leave, wife and kids ill"
+      },
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "Wfh today"
+      },
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-03-03": {
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-03-04": {
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-03-05": {
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-03-06": {
+      "U03HRQ036BD": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "WAM5KDYBZ": {
+        "status": "leave",
+        "note": "On leave for first half"
+      },
+      "W010NNJV7S8": {
+        "status": "sick",
+        "note": "Not feeling well, logging off"
+      },
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-03-07": {
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-03-10": {
+      "U03HRQ036BD": {
+        "status": "leave",
+        "note": "Leave today and tomorrow \u2013 son's exam"
+      },
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-03-11": {
+      "U03HRQ036BD": {
+        "status": "leave",
+        "note": "On leave \u2013 son's exam"
+      },
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-03-12": {
+      "U03HRQ036BD": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "wfh today"
+      },
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-03-13": {
+      "U03HRQ036BD": {
+        "status": "sick",
+        "note": "Sick leave today"
+      },
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-03-17": {
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-03-18": {
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "Wfh today"
+      },
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-03-19": {
+      "U03HRQ036BD": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-03-20": {
+      "WAM5KDYBZ": {
+        "status": "wfh",
+        "note": "Away 1st half, WFH 2nd half"
+      },
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-03-24": {
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-03-25": {
+      "U03HRQ036BD": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "wfh today"
+      },
+      "WAM5KDYBZ": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-03-26": {
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-03-27": {
+      "W4R4S9FS4": {
+        "status": "office",
+        "note": "Back from Summit and sick leave, at office"
+      },
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "wfh today"
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-03-28": {
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-03-31": {
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-04-01": {
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-04-02": {
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-04-03": {
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-04-04": {
+      "U03HRQ036BD": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "WAM5KDYBZ": {
+        "status": "sick",
+        "note": "Sore throat and feverish, taking day off"
+      },
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-04-07": {
+      "U03HRQ036BD": {
+        "status": "leave",
+        "note": "On PTO today"
+      },
+      "WAM5KDYBZ": {
+        "status": "wfh",
+        "note": "Away 1st half, WFH 2nd half"
+      },
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-04-08": {
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-04-09": {
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-04-10": {
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-04-11": {
+      "U03HRQ036BD": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-04-14": {
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-04-15": {
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "Wfh today, stepping out 2nd half"
+      },
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-04-16": {
+      "WAM5KDYBZ": {
+        "status": "leave",
+        "note": "On leave 16th and 17th April"
+      },
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-04-17": {
+      "WAM5KDYBZ": {
+        "status": "leave",
+        "note": "On leave 16th and 17th April"
+      },
+      "W4R4S9FS4": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "U03HRQ036BD": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-04-21": {
+      "U03HRQ036BD": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "Feeling unwell, opting for wfh"
+      },
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-04-22": {
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-04-23": {
+      "U03HRQ036BD": {
+        "status": "leave",
+        "note": "On PTO today"
+      },
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-04-24": {
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-04-25": {
+      "W4R4S9FS4": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "U03HRQ036BD": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "Wfh today"
+      },
+      "WAM5KDYBZ": {
+        "status": "office",
+        "note": "Working from office"
+      }
+    },
+    "2025-04-28": {
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-04-29": {
+      "W4R4S9FS4": {
+        "status": "wfh",
+        "note": "Working from home and PTO 2nd half"
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-04-30": {
+      "WAM5KDYBZ": {
+        "status": "wfh",
+        "note": "Leave 1st half, WFH 2nd half"
+      },
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-05-02": {
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-05-05": {
+      "W4R4S9FS4": {
+        "status": "leave",
+        "note": "Away from office this week - mother hospitalized"
+      },
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "WFH today and tomorrow"
+      },
+      "U03HRQ036BD": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-05-06": {
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-05-07": {
+      "W4R4S9FS4": {
+        "status": "leave",
+        "note": "Mother hospitalized, limited availability"
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-05-08": {
+      "W4R4S9FS4": {
+        "status": "leave",
+        "note": "Away this week, mother hospitalized"
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-05-09": {
+      "W4R4S9FS4": {
+        "status": "leave",
+        "note": "Away from office this week - mother hospitalized"
+      },
+      "U03HRQ036BD": {
+        "status": "wfh",
+        "note": "WFH"
+      },
+      "WAM5KDYBZ": {
+        "status": "wfh",
+        "note": "WFH Today"
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-05-12": {
+      "U03HRQ036BD": {
+        "status": "sick",
+        "note": "Stomach infection, sick leave"
+      },
+      "WAM5KDYBZ": {
+        "status": "office",
+        "note": "Working from office"
+      },
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-05-13": {
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-05-14": {
+      "W4R4S9FS4": {
+        "status": "office",
+        "note": "Joined office and clearing backlog"
+      },
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "wfh today"
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-05-15": {
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-05-16": {
+      "U03HRQ036BD": {
+        "status": "wfh",
+        "note": "WFH"
+      },
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "WAM5KDYBZ": {
+        "status": "office",
+        "note": "Working From Office"
+      },
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-05-19": {
+      "WAM5KDYBZ": {
+        "status": "office",
+        "note": "Working From Office"
+      },
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "WFH Today"
+      },
+      "W4R4S9FS4": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-05-20": {
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "Raining in Bangalore, WFH"
+      },
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-05-21": {
+      "U03HRQ036BD": {
+        "status": "wfh",
+        "note": "WFH today, logging late"
+      },
+      "W4R4S9FS4": {
+        "status": "office",
+        "note": "In office again"
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-05-22": {
+      "W4R4S9FS4": {
+        "status": "wfh",
+        "note": "WFH today, daughter not well"
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-05-23": {
+      "U03HRQ036BD": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "W4R4S9FS4": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "WAM5KDYBZ": {
+        "status": "wfh",
+        "note": "On leave 1st half, then office"
+      }
+    },
+    "2025-05-26": {
+      "U03HRQ036BD": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "Feeling under the weather, WFH"
+      },
+      "W4R4S9FS4": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-05-27": {
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-05-28": {
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "WFH today, still recovering"
+      },
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-05-29": {
+      "U03HRQ036BD": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "W4R4S9FS4": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "WAM5KDYBZ": {
+        "status": "leave",
+        "note": "On leave for the first half"
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-05-30": {
+      "WAM5KDYBZ": {
+        "status": "office",
+        "note": "Working from office"
+      },
+      "U03HRQ036BD": {
+        "status": "leave",
+        "note": "PTO today"
+      },
+      "W4R4S9FS4": {
+        "status": "office",
+        "note": "Cancelled PTO, working"
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-06-02": {
+      "W4R4S9FS4": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "WAM5KDYBZ": {
+        "status": "wfh",
+        "note": "WFH 1st half, office 2nd half"
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-06-03": {
+      "W4R4S9FS4": {
+        "status": "office",
+        "note": "In office"
+      },
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-06-04": {
+      "U03HRQ036BD": {
+        "status": "wfh",
+        "note": "WFH, late (son to doctor)"
+      },
+      "WAM5KDYBZ": {
+        "status": "office",
+        "note": "At office"
+      },
+      "W4R4S9FS4": {
+        "status": "office",
+        "note": "At office"
+      },
+      "W010NNJV7S8": {
+        "status": "office",
+        "note": "Coming late to office"
+      }
+    },
+    "2025-06-05": {
+      "W4R4S9FS4": {
+        "status": "office",
+        "note": "at office"
+      },
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "U03HRQ036BD": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "WAM5KDYBZ": {
+        "status": "leave",
+        "note": "On leave 1st half, WFH 2nd half"
+      }
+    },
+    "2025-06-06": {
+      "WAM5KDYBZ": {
+        "status": "office",
+        "note": "At Office"
+      },
+      "W4R4S9FS4": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "U03HRQ036BD": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-06-09": {
+      "U03HRQ036BD": {
+        "status": "leave",
+        "note": "On leave today, travelling"
+      },
+      "W4R4S9FS4": {
+        "status": "office",
+        "note": "At office"
+      },
+      "WAM5KDYBZ": {
+        "status": "wfh",
+        "note": "WFH - Punjab Today"
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-06-10": {
+      "U03HRQ036BD": {
+        "status": "wfh",
+        "note": "WFH due to cough and cold"
+      },
+      "WAM5KDYBZ": {
+        "status": "wfh",
+        "note": "WFH"
+      },
+      "W4R4S9FS4": {
+        "status": "office",
+        "note": "At office"
+      },
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "WFH today"
+      }
+    },
+    "2025-06-11": {
+      "U03HRQ036BD": {
+        "status": "office",
+        "note": "Reaching late to office"
+      },
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-06-12": {
+      "W4R4S9FS4": {
+        "status": "office",
+        "note": "at office"
+      },
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-06-13": {
+      "U03HRQ036BD": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "Feeling unwell, taking wfh"
+      },
+      "W4R4S9FS4": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-06-16": {
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      },
+      "U0900H3NUUT": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-06-17": {
+      "U03HRQ036BD": {
+        "status": "wfh",
+        "note": "WFH today, dropping son to airport"
+      },
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "U0900H3NUUT": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-06-18": {
+      "WAM5KDYBZ": {
+        "status": "leave",
+        "note": "On leave 2nd half"
+      },
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      },
+      "U0900H3NUUT": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-06-19": {
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "U0900H3NUUT": {
+        "status": "wfh",
+        "note": "Wfh today"
+      },
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-06-20": {
+      "U03HRQ036BD": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "U0900H3NUUT": {
+        "status": "wfh",
+        "note": "Wfh today"
+      },
+      "WAM5KDYBZ": {
+        "status": "leave",
+        "note": "On leave 2nd half"
+      },
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-06-23": {
+      "W4R4S9FS4": {
+        "status": "office",
+        "note": "At office"
+      },
+      "WAM5KDYBZ": {
+        "status": "wfh",
+        "note": "WFh Today"
+      },
+      "U0900H3NUUT": {
+        "status": "wfh",
+        "note": "Wfh today"
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-06-24": {
+      "U03HRQ036BD": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "W4R4S9FS4": {
+        "status": "office",
+        "note": "Bhumika, Utkarsha and I at office"
+      },
+      "U0900H3NUUT": {
+        "status": "office",
+        "note": "At office (with Anurag)"
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-06-25": {
+      "W4R4S9FS4": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      },
+      "U0900H3NUUT": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-06-26": {
+      "W4R4S9FS4": {
+        "status": "office",
+        "note": "Ruchita, Utkarsha, Bhumika and I at office"
+      },
+      "U03HRQ036BD": {
+        "status": "office",
+        "note": "At office (with Anurag)"
+      },
+      "U0900H3NUUT": {
+        "status": "office",
+        "note": "At office (with Anurag)"
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-06-30": {
+      "W4R4S9FS4": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "WAM5KDYBZ": {
+        "status": "wfh",
+        "note": "WFH 1st half, may visit office 2nd half"
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      },
+      "U0900H3NUUT": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-07-01": {
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      },
+      "U0900H3NUUT": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-07-02": {
+      "W4R4S9FS4": {
+        "status": "office",
+        "note": "At office"
+      },
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      },
+      "U0900H3NUUT": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-07-03": {
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "U03HRQ036BD": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "U0900H3NUUT": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-07-04": {
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      },
+      "U0900H3NUUT": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-07-07": {
+      "U03HRQ036BD": {
+        "status": "leave",
+        "note": "PTO today"
+      },
+      "U0900H3NUUT": {
+        "status": "wfh",
+        "note": "Wfh today"
+      },
+      "WAM5KDYBZ": {
+        "status": "wfh",
+        "note": "Wfh today"
+      },
+      "W4R4S9FS4": {
+        "status": "office",
+        "note": "Working at office"
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-07-08": {
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      },
+      "U0900H3NUUT": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-07-09": {
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      },
+      "U0900H3NUUT": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-07-10": {
+      "U0900H3NUUT": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "W4R4S9FS4": {
+        "status": "office",
+        "note": "At office with Khushwant, Ruchita, Bhumika"
+      },
+      "WAM5KDYBZ": {
+        "status": "office",
+        "note": "At office"
+      },
+      "U03HRQ036BD": {
+        "status": "office",
+        "note": "At office"
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-07-11": {
+      "U0900H3NUUT": {
+        "status": "wfh",
+        "note": "Wfh"
+      },
+      "U03HRQ036BD": {
+        "status": "wfh",
+        "note": "WFH"
+      },
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-07-14": {
+      "W4R4S9FS4": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      },
+      "U0900H3NUUT": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-07-15": {
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "Wfh today"
+      },
+      "W4R4S9FS4": {
+        "status": "office",
+        "note": "At office"
+      },
+      "U0900H3NUUT": {
+        "status": "wfh",
+        "note": "Wfh today"
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-07-16": {
+      "W4R4S9FS4": {
+        "status": "office",
+        "note": "WF-Sec25A office today"
+      },
+      "WAM5KDYBZ": {
+        "status": "office",
+        "note": "At office"
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      },
+      "U0900H3NUUT": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-07-17": {
+      "U0900H3NUUT": {
+        "status": "wfh",
+        "note": "Wfh today (inferred from no office message)"
+      },
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-07-18": {
+      "W4R4S9FS4": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      },
+      "U0900H3NUUT": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-07-21": {
+      "W4R4S9FS4": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      },
+      "U0900H3NUUT": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-07-22": {
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "WAM5KDYBZ": {
+        "status": "wfh",
+        "note": "Away 1st half, at office 2nd half"
+      },
+      "W4R4S9FS4": {
+        "status": "office",
+        "note": "At office, got late"
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      },
+      "U0900H3NUUT": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-07-23": {
+      "U0900H3NUUT": {
+        "status": "wfh",
+        "note": "Wfh today"
+      },
+      "W010NNJV7S8": {
+        "status": "leave",
+        "note": "Death in family, away 1st half"
+      },
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-07-24": {
+      "U03HRQ036BD": {
+        "status": "office",
+        "note": "Back in office after a long gap"
+      },
+      "W4R4S9FS4": {
+        "status": "office",
+        "note": "At office"
+      },
+      "WAM5KDYBZ": {
+        "status": "wfh",
+        "note": "WFH 1st half, running errand"
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      },
+      "U0900H3NUUT": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-07-25": {
+      "U03HRQ036BD": {
+        "status": "wfh",
+        "note": "WFH"
+      },
+      "U0900H3NUUT": {
+        "status": "wfh",
+        "note": "Wfh today"
+      },
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-07-28": {
+      "W4R4S9FS4": {
+        "status": "office",
+        "note": "At office"
+      },
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "Wfh, stepping out for personal work"
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      },
+      "U0900H3NUUT": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-07-29": {
+      "W4R4S9FS4": {
+        "status": "office",
+        "note": "At office"
+      },
+      "U0900H3NUUT": {
+        "status": "office",
+        "note": "Working from office"
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-07-30": {
+      "U03HRQ036BD": {
+        "status": "office",
+        "note": "At office with Bhumika"
+      },
+      "W4R4S9FS4": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      },
+      "U0900H3NUUT": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-07-31": {
+      "W4R4S9FS4": {
+        "status": "sick",
+        "note": "Got fever and cold, sick leave"
+      },
+      "U03HRQ036BD": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "WAM5KDYBZ": {
+        "status": "wfh",
+        "note": "WFH Today"
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      },
+      "U0900H3NUUT": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-08-01": {
+      "W4R4S9FS4": {
+        "status": "office",
+        "note": "At office"
+      },
+      "U03HRQ036BD": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "WAM5KDYBZ": {
+        "status": "leave",
+        "note": "On leave Today"
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      },
+      "U0900H3NUUT": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-08-04": {
+      "U03HRQ036BD": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "WAM5KDYBZ": {
+        "status": "wfh",
+        "note": "WFH Today"
+      },
+      "W4R4S9FS4": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "U0900H3NUUT": {
+        "status": "wfh",
+        "note": "WFH Today"
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-08-05": {
+      "W4R4S9FS4": {
+        "status": "office",
+        "note": "At office"
+      },
+      "U0900H3NUUT": {
+        "status": "wfh",
+        "note": "Wfh today"
+      },
+      "WAM5KDYBZ": {
+        "status": "office",
+        "note": "At office now (running late)"
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-08-06": {
+      "U03HRQ036BD": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "Wfh today"
+      },
+      "W4R4S9FS4": {
+        "status": "office",
+        "note": "At office"
+      },
+      "WAM5KDYBZ": {
+        "status": "office",
+        "note": "At office"
+      },
+      "U0900H3NUUT": {
+        "status": "wfh",
+        "note": "wfh today"
+      }
+    },
+    "2025-08-07": {
+      "U03HRQ036BD": {
+        "status": "wfh",
+        "note": "WFH"
+      },
+      "W4R4S9FS4": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "WAM5KDYBZ": {
+        "status": "office",
+        "note": "At office"
+      },
+      "U0900H3NUUT": {
+        "status": "office",
+        "note": "At office"
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-08-08": {
+      "U03HRQ036BD": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      },
+      "U0900H3NUUT": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-08-11": {
+      "U03HRQ036BD": {
+        "status": "sick",
+        "note": "Having high fever with body ache, on leave"
+      },
+      "W4R4S9FS4": {
+        "status": "office",
+        "note": "At office"
+      },
+      "U0900H3NUUT": {
+        "status": "office",
+        "note": "At office"
+      },
+      "WAM5KDYBZ": {
+        "status": "wfh",
+        "note": "Morning meeting from home, then office"
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-08-12": {
+      "U03HRQ036BD": {
+        "status": "sick",
+        "note": "Still down with viral, fever, sick leave"
+      },
+      "U0900H3NUUT": {
+        "status": "wfh",
+        "note": "Wfh today"
+      },
+      "W4R4S9FS4": {
+        "status": "office",
+        "note": "Morning meetings from home, then office"
+      },
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "travelling back home, WFH"
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-08-13": {
+      "W4R4S9FS4": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "WAM5KDYBZ": {
+        "status": "office",
+        "note": "At office"
+      },
+      "U03HRQ036BD": {
+        "status": "wfh",
+        "note": "WFH, feeling weak due to viral"
+      },
+      "W010NNJV7S8": {
+        "status": "office",
+        "note": "Taking calls from home, travel to office later"
+      },
+      "U0900H3NUUT": {
+        "status": "wfh",
+        "note": "Wfh today"
+      }
+    },
+    "2025-08-14": {
+      "W4R4S9FS4": {
+        "status": "office",
+        "note": "At office"
+      },
+      "U03HRQ036BD": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "U0900H3NUUT": {
+        "status": "wfh",
+        "note": "WFH Today"
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-08-18": {
+      "U0900H3NUUT": {
+        "status": "office",
+        "note": "In office"
+      },
+      "W4R4S9FS4": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-08-19": {
+      "W4R4S9FS4": {
+        "status": "office",
+        "note": "Will be at office after morning meetings"
+      },
+      "U0900H3NUUT": {
+        "status": "wfh",
+        "note": "wfh today"
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-08-20": {
+      "U0900H3NUUT": {
+        "status": "office",
+        "note": "At office"
+      },
+      "W4R4S9FS4": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "U03HRQ036BD": {
+        "status": "wfh",
+        "note": "WFH"
+      },
+      "WAM5KDYBZ": {
+        "status": "wfh",
+        "note": "WFH Today"
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-08-21": {
+      "U0900H3NUUT": {
+        "status": "office",
+        "note": "At office"
+      },
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-08-25": {
+      "W4R4S9FS4": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "U0900H3NUUT": {
+        "status": "office",
+        "note": "At office"
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-08-26": {
+      "W4R4S9FS4": {
+        "status": "office",
+        "note": "At office (announced Aug 25 evening: 'Will be at office tomorrow')"
+      },
+      "WAM5KDYBZ": {
+        "status": "office",
+        "note": "At office"
+      },
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "U0900H3NUUT": {
+        "status": "office",
+        "note": "At office"
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-08-28": {
+      "WAM5KDYBZ": {
+        "status": "office",
+        "note": "At office (running late)"
+      },
+      "W4R4S9FS4": {
+        "status": "office",
+        "note": "At office"
+      },
+      "U0900H3NUUT": {
+        "status": "wfh",
+        "note": "Wfh today"
+      },
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-08-29": {
+      "U03HRQ036BD": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "U0900H3NUUT": {
+        "status": "wfh",
+        "note": "Wfh today"
+      },
+      "W4R4S9FS4": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-09-01": {
+      "W4R4S9FS4": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "U03HRQ036BD": {
+        "status": "wfh",
+        "note": "WFH, not feeling well"
+      },
+      "U0900H3NUUT": {
+        "status": "wfh",
+        "note": "Wfh today"
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-09-02": {
+      "W4R4S9FS4": {
+        "status": "office",
+        "note": "WFH morning, office at 12"
+      },
+      "U0900H3NUUT": {
+        "status": "wfh",
+        "note": "Wfh today"
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-09-03": {
+      "W4R4S9FS4": {
+        "status": "office",
+        "note": "at office since morning"
+      },
+      "WAM5KDYBZ": {
+        "status": "office",
+        "note": "At office since morning"
+      },
+      "U0900H3NUUT": {
+        "status": "office",
+        "note": "At office"
+      },
+      "U03HRQ036BD": {
+        "status": "wfh",
+        "note": "WFH due to rain and Yamuna situation"
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-09-04": {
+      "W4R4S9FS4": {
+        "status": "office",
+        "note": "at office"
+      },
+      "U0900H3NUUT": {
+        "status": "office",
+        "note": "At office"
+      },
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "U03HRQ036BD": {
+        "status": "wfh",
+        "note": "Continuing WFH, Delhi situation"
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-09-05": {
+      "W4R4S9FS4": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "U0900H3NUUT": {
+        "status": "wfh",
+        "note": "Wfh today"
+      },
+      "U03HRQ036BD": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "WAM5KDYBZ": {
+        "status": "wfh",
+        "note": "WFH Today"
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-09-08": {
+      "W4R4S9FS4": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "U03HRQ036BD": {
+        "status": "office",
+        "note": "In Office"
+      },
+      "U0900H3NUUT": {
+        "status": "office",
+        "note": "At office"
+      },
+      "WAM5KDYBZ": {
+        "status": "wfh",
+        "note": "Wife ill, taking her to doctor, WFH"
+      },
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "WFH today"
+      }
+    },
+    "2025-09-09": {
+      "W4R4S9FS4": {
+        "status": "leave",
+        "note": "Will be on PTO tomorrow, daughter fever"
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      },
+      "U0900H3NUUT": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-09-10": {
+      "U03HRQ036BD": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "WAM5KDYBZ": {
+        "status": "wfh",
+        "note": "WFH Today"
+      },
+      "U0900H3NUUT": {
+        "status": "office",
+        "note": "At office"
+      },
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-09-11": {
+      "U03HRQ036BD": {
+        "status": "office",
+        "note": "At office"
+      },
+      "U0900H3NUUT": {
+        "status": "wfh",
+        "note": "Wfh today"
+      },
+      "W010NNJV7S8": {
+        "status": "sick",
+        "note": "Not feeling well, sick leave"
+      },
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-09-12": {
+      "U03HRQ036BD": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "U0900H3NUUT": {
+        "status": "wfh",
+        "note": "Wfh today"
+      },
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "WFH today, still recovering"
+      },
+      "WAM5KDYBZ": {
+        "status": "leave",
+        "note": "On leave for first half"
+      },
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-09-15": {
+      "U03HRQ036BD": {
+        "status": "wfh",
+        "note": "Stomach infection, prefer WFH"
+      },
+      "W4R4S9FS4": {
+        "status": "office",
+        "note": "At office"
+      },
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "WFH Today"
+      },
+      "U0900H3NUUT": {
+        "status": "sick",
+        "note": "Not feeling well, sick leave"
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-09-16": {
+      "W4R4S9FS4": {
+        "status": "office",
+        "note": "WFH morning, at office around noon"
+      },
+      "U0900H3NUUT": {
+        "status": "office",
+        "note": "At office"
+      },
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "WFH today, nursing back issue"
+      },
+      "WAM5KDYBZ": {
+        "status": "office",
+        "note": "At office"
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-09-17": {
+      "U03HRQ036BD": {
+        "status": "office",
+        "note": "Reaching late to office"
+      },
+      "W4R4S9FS4": {
+        "status": "office",
+        "note": "at office since morning"
+      },
+      "U0900H3NUUT": {
+        "status": "wfh",
+        "note": "Wfh today"
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-09-18": {
+      "U03HRQ036BD": {
+        "status": "wfh",
+        "note": "Travelling Ahmedabad, working remotely 19-26 Sep"
+      },
+      "W4R4S9FS4": {
+        "status": "office",
+        "note": "At office"
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      },
+      "U0900H3NUUT": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-09-19": {
+      "W4R4S9FS4": {
+        "status": "wfh",
+        "note": "WFH, IIML interviews"
+      },
+      "WAM5KDYBZ": {
+        "status": "wfh",
+        "note": "WFH Today"
+      },
+      "U03HRQ036BD": {
+        "status": "wfh",
+        "note": "WFH remotely from Ahmedabad"
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      },
+      "U0900H3NUUT": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-09-22": {
+      "W4R4S9FS4": {
+        "status": "office",
+        "note": "At office"
+      },
+      "U0900H3NUUT": {
+        "status": "office",
+        "note": "At office"
+      },
+      "U03HRQ036BD": {
+        "status": "leave",
+        "note": "PTO today"
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-09-23": {
+      "W4R4S9FS4": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "U0900H3NUUT": {
+        "status": "wfh",
+        "note": "Wfh today"
+      },
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "WAM5KDYBZ": {
+        "status": "office",
+        "note": "At office"
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-09-24": {
+      "W4R4S9FS4": {
+        "status": "office",
+        "note": "At office"
+      },
+      "U0900H3NUUT": {
+        "status": "office",
+        "note": "At office"
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-09-25": {
+      "W4R4S9FS4": {
+        "status": "office",
+        "note": "At office"
+      },
+      "WAM5KDYBZ": {
+        "status": "wfh",
+        "note": "WFH 1st half, then to office"
+      },
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "Wfh today"
+      },
+      "U0900H3NUUT": {
+        "status": "office",
+        "note": "At office"
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-09-26": {
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      },
+      "U0900H3NUUT": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-09-29": {
+      "W4R4S9FS4": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "WAM5KDYBZ": {
+        "status": "leave",
+        "note": "On Leave Today"
+      },
+      "U0900H3NUUT": {
+        "status": "wfh",
+        "note": "Wfh today"
+      },
+      "U03HRQ036BD": {
+        "status": "office",
+        "note": "At Office"
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-09-30": {
+      "W4R4S9FS4": {
+        "status": "office",
+        "note": "At office"
+      },
+      "U03HRQ036BD": {
+        "status": "office",
+        "note": "Reaching late (emergency with pet)"
+      },
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "Wfh today"
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "U0900H3NUUT": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-10-01": {
+      "U03HRQ036BD": {
+        "status": "office",
+        "note": "At office"
+      },
+      "U0900H3NUUT": {
+        "status": "office",
+        "note": "At office"
+      },
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "Wfh today"
+      },
+      "W4R4S9FS4": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "WAM5KDYBZ": {
+        "status": "wfh",
+        "note": "WFH Today"
+      }
+    },
+    "2025-10-03": {
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      },
+      "U0900H3NUUT": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-10-06": {
+      "W4R4S9FS4": {
+        "status": "office",
+        "note": "At office"
+      },
+      "U0900H3NUUT": {
+        "status": "office",
+        "note": "At office"
+      },
+      "U03HRQ036BD": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-10-07": {
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      },
+      "U0900H3NUUT": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-10-08": {
+      "U03HRQ036BD": {
+        "status": "office",
+        "note": "At Office"
+      },
+      "U0900H3NUUT": {
+        "status": "wfh",
+        "note": "Wfh today"
+      },
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-10-09": {
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      },
+      "U0900H3NUUT": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-10-10": {
+      "U03HRQ036BD": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "U0900H3NUUT": {
+        "status": "wfh",
+        "note": "Wfh today"
+      },
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-10-13": {
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      },
+      "U0900H3NUUT": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-10-14": {
+      "W4R4S9FS4": {
+        "status": "office",
+        "note": "At office"
+      },
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      },
+      "U0900H3NUUT": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-10-15": {
+      "W4R4S9FS4": {
+        "status": "office",
+        "note": "At office"
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      },
+      "U0900H3NUUT": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-10-16": {
+      "WAM5KDYBZ": {
+        "status": "office",
+        "note": "At Office"
+      },
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "wfh today"
+      },
+      "U0900H3NUUT": {
+        "status": "wfh",
+        "note": "Wfh today"
+      },
+      "U03HRQ036BD": {
+        "status": "wfh",
+        "note": "WFH"
+      },
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-10-17": {
+      "U03HRQ036BD": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "U0900H3NUUT": {
+        "status": "wfh",
+        "note": "Wfh today"
+      },
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-10-21": {
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      },
+      "U0900H3NUUT": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-10-22": {
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      },
+      "U0900H3NUUT": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-10-23": {
+      "W4R4S9FS4": {
+        "status": "office",
+        "note": "At office"
+      },
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "Wfh today"
+      },
+      "U0900H3NUUT": {
+        "status": "wfh",
+        "note": "Wfh today"
+      },
+      "U03HRQ036BD": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-10-24": {
+      "WAM5KDYBZ": {
+        "status": "office",
+        "note": "At Office"
+      },
+      "W4R4S9FS4": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      },
+      "U0900H3NUUT": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-10-27": {
+      "WAM5KDYBZ": {
+        "status": "office",
+        "note": "At office"
+      },
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "wfh today"
+      },
+      "U0900H3NUUT": {
+        "status": "wfh",
+        "note": "Experiencing back pain, WFH"
+      },
+      "U03HRQ036BD": {
+        "status": "office",
+        "note": "Reaching late to office"
+      },
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-10-28": {
+      "WAM5KDYBZ": {
+        "status": "office",
+        "note": "At office"
+      },
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      },
+      "U0900H3NUUT": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-10-29": {
+      "U0900H3NUUT": {
+        "status": "office",
+        "note": "At office"
+      },
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-10-30": {
+      "U03HRQ036BD": {
+        "status": "wfh",
+        "note": "Unexpected guests, WFH"
+      },
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      },
+      "U0900H3NUUT": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-11-03": {
+      "U03HRQ036BD": {
+        "status": "office",
+        "note": "At Office"
+      },
+      "W4R4S9FS4": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      },
+      "U0900H3NUUT": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-11-04": {
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "U0900H3NUUT": {
+        "status": "office",
+        "note": "At office"
+      },
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-11-06": {
+      "W4R4S9FS4": {
+        "status": "office",
+        "note": "At Mumbai with customers"
+      },
+      "U0900H3NUUT": {
+        "status": "wfh",
+        "note": "Wfh today"
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-11-07": {
+      "W4R4S9FS4": {
+        "status": "office",
+        "note": "At office"
+      },
+      "U03HRQ036BD": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      },
+      "U0900H3NUUT": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-11-10": {
+      "W4R4S9FS4": {
+        "status": "office",
+        "note": "At office"
+      },
+      "U03HRQ036BD": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      },
+      "U0900H3NUUT": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-11-11": {
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "U0900H3NUUT": {
+        "status": "office",
+        "note": "At office"
+      },
+      "W4R4S9FS4": {
+        "status": "wfh",
+        "note": "Death in extended family, WFH to babysit"
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-11-12": {
+      "U03HRQ036BD": {
+        "status": "office",
+        "note": "At Office"
+      },
+      "W4R4S9FS4": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      },
+      "U0900H3NUUT": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-11-13": {
+      "U0900H3NUUT": {
+        "status": "wfh",
+        "note": "Migraine pain, WFH"
+      },
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-11-14": {
+      "U03HRQ036BD": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      },
+      "U0900H3NUUT": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-11-17": {
+      "W4R4S9FS4": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      },
+      "U0900H3NUUT": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-11-18": {
+      "WAM5KDYBZ": {
+        "status": "wfh",
+        "note": "WFH Today"
+      },
+      "W4R4S9FS4": {
+        "status": "office",
+        "note": "At office"
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      },
+      "U0900H3NUUT": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-11-19": {
+      "U0900H3NUUT": {
+        "status": "office",
+        "note": "At office"
+      },
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-11-20": {
+      "U03HRQ036BD": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "WAM5KDYBZ": {
+        "status": "wfh",
+        "note": "WFH 1st half"
+      },
+      "W4R4S9FS4": {
+        "status": "wfh",
+        "note": "Will come to office 2nd half"
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      },
+      "U0900H3NUUT": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-11-21": {
+      "W010NNJV7S8": {
+        "status": "office",
+        "note": "WFH 1st half, office 2nd half"
+      },
+      "WAM5KDYBZ": {
+        "status": "office",
+        "note": "Working from Office"
+      },
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      },
+      "U0900H3NUUT": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-11-24": {
+      "WAM5KDYBZ": {
+        "status": "leave",
+        "note": "PTO Today"
+      },
+      "W4R4S9FS4": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      },
+      "U0900H3NUUT": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-11-25": {
+      "U03HRQ036BD": {
+        "status": "office",
+        "note": "At office"
+      },
+      "WAM5KDYBZ": {
+        "status": "leave",
+        "note": "On leave first half"
+      },
+      "W4R4S9FS4": {
+        "status": "leave",
+        "note": "On leave 1st half, taking care of daughter"
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      },
+      "U0900H3NUUT": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-11-26": {
+      "U03HRQ036BD": {
+        "status": "wfh",
+        "note": "Not feeling well, WFH"
+      },
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      },
+      "U0900H3NUUT": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-11-27": {
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "wfh today"
+      },
+      "WAM5KDYBZ": {
+        "status": "leave",
+        "note": "Khushwant is on Leave"
+      },
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      },
+      "U0900H3NUUT": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-11-28": {
+      "U03HRQ036BD": {
+        "status": "wfh",
+        "note": "WFH"
+      },
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      },
+      "U0900H3NUUT": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-12-01": {
+      "U03HRQ036BD": {
+        "status": "leave",
+        "note": "On PTO today and tomorrow"
+      },
+      "U0900H3NUUT": {
+        "status": "wfh",
+        "note": "Not feeling well, WFH"
+      },
+      "WAM5KDYBZ": {
+        "status": "office",
+        "note": "At office"
+      },
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-12-02": {
+      "W4R4S9FS4": {
+        "status": "office",
+        "note": "At office"
+      },
+      "U0900H3NUUT": {
+        "status": "wfh",
+        "note": "Wfh today"
+      },
+      "U03HRQ036BD": {
+        "status": "leave",
+        "note": "On PTO (day 2)"
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-12-03": {
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      },
+      "U0900H3NUUT": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-12-04": {
+      "U03HRQ036BD": {
+        "status": "wfh",
+        "note": "Husband and son not well, WFH"
+      },
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "W4R4S9FS4": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "U0900H3NUUT": {
+        "status": "wfh",
+        "note": "Fever, prefer WFH"
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-12-05": {
+      "U03HRQ036BD": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      },
+      "U0900H3NUUT": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-12-08": {
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      },
+      "U0900H3NUUT": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-12-09": {
+      "U0900H3NUUT": {
+        "status": "wfh",
+        "note": "wfh today"
+      },
+      "WAM5KDYBZ": {
+        "status": "leave",
+        "note": "On leave first half"
+      },
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-12-10": {
+      "WAM5KDYBZ": {
+        "status": "office",
+        "note": "At office"
+      },
+      "W4R4S9FS4": {
+        "status": "office",
+        "note": "At office"
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      },
+      "U0900H3NUUT": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-12-11": {
+      "U0900H3NUUT": {
+        "status": "office",
+        "note": "At office"
+      },
+      "W4R4S9FS4": {
+        "status": "office",
+        "note": "At office"
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-12-12": {
+      "U0900H3NUUT": {
+        "status": "sick",
+        "note": "On sick leave"
+      },
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-12-15": {
+      "W4R4S9FS4": {
+        "status": "office",
+        "note": "Ruchita, Khushwant, Anurag at office"
+      },
+      "WAM5KDYBZ": {
+        "status": "office",
+        "note": "At office (with Anurag)"
+      },
+      "U03HRQ036BD": {
+        "status": "office",
+        "note": "At office (with Anurag)"
+      },
+      "U0900H3NUUT": {
+        "status": "wfh",
+        "note": "Recovering, wfh"
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-12-16": {
+      "U0900H3NUUT": {
+        "status": "wfh",
+        "note": "Wfh today"
+      },
+      "W4R4S9FS4": {
+        "status": "office",
+        "note": "At office"
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-12-17": {
+      "U0900H3NUUT": {
+        "status": "sick",
+        "note": "On sick leave"
+      },
+      "WAM5KDYBZ": {
+        "status": "leave",
+        "note": "On leave second half"
+      },
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-12-18": {
+      "U0900H3NUUT": {
+        "status": "wfh",
+        "note": "Wfh today"
+      },
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-12-19": {
+      "W4R4S9FS4": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "WAM5KDYBZ": {
+        "status": "wfh",
+        "note": "WFH Today"
+      },
+      "U03HRQ036BD": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "U0900H3NUUT": {
+        "status": "wfh",
+        "note": "Wfh today"
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-12-22": {
+      "U03HRQ036BD": {
+        "status": "wfh",
+        "note": "WFH"
+      },
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      },
+      "U0900H3NUUT": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2025-12-23": {
+      "WAM5KDYBZ": {
+        "status": "office",
+        "note": "At office"
+      },
+      "U0900H3NUUT": {
+        "status": "wfh",
+        "note": "Wfh today"
+      },
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2026-01-02": {
+      "U03HRQ036BD": {
+        "status": "leave",
+        "note": "PTO today"
+      },
+      "WAM5KDYBZ": {
+        "status": "leave",
+        "note": "PTO Today"
+      },
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      },
+      "U0900H3NUUT": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2026-01-05": {
+      "U03HRQ036BD": {
+        "status": "office",
+        "note": "At office"
+      },
+      "W4R4S9FS4": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      },
+      "U0900H3NUUT": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2026-01-06": {
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      },
+      "U0900H3NUUT": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2026-01-07": {
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      },
+      "U0900H3NUUT": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2026-01-08": {
+      "WAM5KDYBZ": {
+        "status": "office",
+        "note": "At Office"
+      },
+      "U0900H3NUUT": {
+        "status": "wfh",
+        "note": "Working from home today"
+      },
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2026-01-09": {
+      "WAM5KDYBZ": {
+        "status": "wfh",
+        "note": "WFH Today"
+      },
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      },
+      "U0900H3NUUT": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2026-01-12": {
+      "U03HRQ036BD": {
+        "status": "office",
+        "note": "At office"
+      },
+      "WAM5KDYBZ": {
+        "status": "wfh",
+        "note": "Working in patches from home"
+      },
+      "W4R4S9FS4": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      },
+      "U0900H3NUUT": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2026-01-13": {
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "WAM5KDYBZ": {
+        "status": "leave",
+        "note": "Filling leave for today"
+      },
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      },
+      "U0900H3NUUT": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2026-01-14": {
+      "U03HRQ036BD": {
+        "status": "office",
+        "note": "At Office"
+      },
+      "WAM5KDYBZ": {
+        "status": "office",
+        "note": "Late, picking daughter from school"
+      },
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      },
+      "U0900H3NUUT": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2026-01-15": {
+      "U03HRQ036BD": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "W4R4S9FS4": {
+        "status": "sick",
+        "note": "On Sick leave today"
+      },
+      "WAM5KDYBZ": {
+        "status": "office",
+        "note": "I am at office"
+      },
+      "U0900H3NUUT": {
+        "status": "wfh",
+        "note": "WFH, mandatory session 2-5pm"
+      },
+      "W010NNJV7S8": {
+        "status": "leave",
+        "note": "Holiday in Bangalore for Sankranti & Pongal"
+      }
+    },
+    "2026-01-16": {
+      "WAM5KDYBZ": {
+        "status": "wfh",
+        "note": "WFH, taking care of daughter"
+      },
+      "W4R4S9FS4": {
+        "status": "office",
+        "note": "At office"
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      },
+      "U0900H3NUUT": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2026-01-19": {
+      "WAM5KDYBZ": {
+        "status": "office",
+        "note": "At office"
+      },
+      "W4R4S9FS4": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "U0900H3NUUT": {
+        "status": "wfh",
+        "note": "Wfh (Menstrual discomfort)"
+      },
+      "U03HRQ036BD": {
+        "status": "wfh",
+        "note": "WFH, feeling under the weather"
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2026-01-20": {
+      "W4R4S9FS4": {
+        "status": "office",
+        "note": "Ruchita, Khushwant, Anurag at office"
+      },
+      "WAM5KDYBZ": {
+        "status": "office",
+        "note": "At office"
+      },
+      "U03HRQ036BD": {
+        "status": "office",
+        "note": "At office"
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      },
+      "U0900H3NUUT": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2026-01-21": {
+      "W4R4S9FS4": {
+        "status": "office",
+        "note": "At office"
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      },
+      "U0900H3NUUT": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2026-01-22": {
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      },
+      "U0900H3NUUT": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2026-01-23": {
+      "U03HRQ036BD": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "WAM5KDYBZ": {
+        "status": "wfh",
+        "note": "WFH Today (rain)"
+      },
+      "W4R4S9FS4": {
+        "status": "wfh",
+        "note": "WFH due to rains"
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      },
+      "U0900H3NUUT": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2026-01-27": {
+      "U03HRQ036BD": {
+        "status": "sick",
+        "note": "Taking sick leave, not feeling well"
+      },
+      "W4R4S9FS4": {
+        "status": "sick",
+        "note": "Out sick with stomach infection, PTO"
+      },
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "WFH Today"
+      },
+      "U0900H3NUUT": {
+        "status": "office",
+        "note": "Working from office"
+      },
+      "WAM5KDYBZ": {
+        "status": "office",
+        "note": "Working from office"
+      }
+    },
+    "2026-01-28": {
+      "W4R4S9FS4": {
+        "status": "sick",
+        "note": "Sick leave today"
+      },
+      "U03HRQ036BD": {
+        "status": "office",
+        "note": "At Office"
+      },
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "WFH Today"
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "U0900H3NUUT": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2026-01-29": {
+      "W4R4S9FS4": {
+        "status": "sick",
+        "note": "Sick leave, getting tests done"
+      },
+      "U03HRQ036BD": {
+        "status": "office",
+        "note": "At Office"
+      },
+      "WAM5KDYBZ": {
+        "status": "leave",
+        "note": "On leave 1st half, reaching office around 1"
+      },
+      "U0900H3NUUT": {
+        "status": "office",
+        "note": "At office"
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2026-01-30": {
+      "W4R4S9FS4": {
+        "status": "office",
+        "note": "At office"
+      },
+      "U03HRQ036BD": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "U0900H3NUUT": {
+        "status": "wfh",
+        "note": "Wfh today"
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2026-02-02": {
+      "W4R4S9FS4": {
+        "status": "office",
+        "note": "At office"
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      },
+      "U0900H3NUUT": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2026-02-03": {
+      "W010NNJV7S8": {
+        "status": "office",
+        "note": "WFO"
+      },
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      },
+      "U0900H3NUUT": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2026-02-04": {
+      "U03HRQ036BD": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "W4R4S9FS4": {
+        "status": "office",
+        "note": "At office"
+      },
+      "U0900H3NUUT": {
+        "status": "wfh",
+        "note": "Shoulder pain, WFH"
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2026-02-05": {
+      "U03HRQ036BD": {
+        "status": "office",
+        "note": "At Office"
+      },
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      },
+      "U0900H3NUUT": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2026-02-06": {
+      "W4R4S9FS4": {
+        "status": "office",
+        "note": "At office"
+      },
+      "U03HRQ036BD": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "U0900H3NUUT": {
+        "status": "leave",
+        "note": "On leave today"
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2026-02-09": {
+      "W4R4S9FS4": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "WFH today, feeling unwell"
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      },
+      "U0900H3NUUT": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2026-02-10": {
+      "U03HRQ036BD": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "still recovering"
+      },
+      "U0900H3NUUT": {
+        "status": "office",
+        "note": "At office"
+      },
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2026-02-11": {
+      "W4R4S9FS4": {
+        "status": "office",
+        "note": "At office"
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      },
+      "U0900H3NUUT": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2026-02-12": {
+      "U03HRQ036BD": {
+        "status": "office",
+        "note": "At Office"
+      },
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "WFH today (neck and back ache)"
+      },
+      "U0900H3NUUT": {
+        "status": "leave",
+        "note": "PTO today"
+      },
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2026-02-13": {
+      "W010NNJV7S8": {
+        "status": "office",
+        "note": "At office"
+      },
+      "U0900H3NUUT": {
+        "status": "office",
+        "note": "Working from office"
+      },
+      "U03HRQ036BD": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2026-02-16": {
+      "U03HRQ036BD": {
+        "status": "office",
+        "note": "At Office"
+      },
+      "W4R4S9FS4": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "WFH Today, wife to doc 2nd half"
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "U0900H3NUUT": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2026-02-17": {
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "WAM5KDYBZ": {
+        "status": "wfh",
+        "note": "WFH 1st half, away 1-2:15pm"
+      },
+      "U0900H3NUUT": {
+        "status": "office",
+        "note": "At office"
+      },
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2026-02-18": {
+      "U03HRQ036BD": {
+        "status": "office",
+        "note": "At office"
+      },
+      "W4R4S9FS4": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "WAM5KDYBZ": {
+        "status": "leave",
+        "note": "Not feeling well, leaving for day"
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      },
+      "U0900H3NUUT": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2026-02-19": {
+      "U03HRQ036BD": {
+        "status": "office",
+        "note": "At office"
+      },
+      "WAM5KDYBZ": {
+        "status": "leave",
+        "note": "Not feeling well, off 1st half"
+      },
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "WFH Today, doctor 2nd half"
+      },
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "U0900H3NUUT": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2026-02-20": {
+      "U03HRQ036BD": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "WAM5KDYBZ": {
+        "status": "sick",
+        "note": "Recovering, taking off today"
+      },
+      "W4R4S9FS4": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "U0900H3NUUT": {
+        "status": "office",
+        "note": "At office"
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2026-02-23": {
+      "U03HRQ036BD": {
+        "status": "office",
+        "note": "At Office"
+      },
+      "WAM5KDYBZ": {
+        "status": "office",
+        "note": "Running late, office around 12:30"
+      },
+      "W010NNJV7S8": {
+        "status": "sick",
+        "note": "Feeling unwell, PTO 1st half"
+      },
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "U0900H3NUUT": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2026-02-24": {
+      "U03HRQ036BD": {
+        "status": "office",
+        "note": "At Office"
+      },
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "WFH Today"
+      },
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "U0900H3NUUT": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2026-02-25": {
+      "U03HRQ036BD": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "U0900H3NUUT": {
+        "status": "office",
+        "note": "At office"
+      },
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2026-02-26": {
+      "U03HRQ036BD": {
+        "status": "office",
+        "note": "At Office"
+      },
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "W4R4S9FS4": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "U0900H3NUUT": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2026-02-27": {
+      "W010NNJV7S8": {
+        "status": "office",
+        "note": "At Office"
+      },
+      "WAM5KDYBZ": {
+        "status": "office",
+        "note": "WFH 1st half, at office 2nd half"
+      },
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      },
+      "U0900H3NUUT": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2026-03-02": {
+      "WAM5KDYBZ": {
+        "status": "office",
+        "note": "At office"
+      },
+      "U0900H3NUUT": {
+        "status": "wfh",
+        "note": "Wfh today"
+      },
+      "U03HRQ036BD": {
+        "status": "wfh",
+        "note": "Not feeling well, login late, WFH"
+      },
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2026-03-03": {
+      "U03HRQ036BD": {
+        "status": "wfh",
+        "note": "WFH"
+      },
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      },
+      "U0900H3NUUT": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2026-03-05": {
+      "U03HRQ036BD": {
+        "status": "office",
+        "note": "At Office"
+      },
+      "U0900H3NUUT": {
+        "status": "wfh",
+        "note": "Wfh today"
+      },
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2026-03-06": {
+      "U03HRQ036BD": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "W010NNJV7S8": {
+        "status": "office",
+        "note": "At Office"
+      },
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "U0900H3NUUT": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2026-03-09": {
+      "W4R4S9FS4": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "WFH this week, out of town"
+      },
+      "U03HRQ036BD": {
+        "status": "office",
+        "note": "At office"
+      },
+      "WAM5KDYBZ": {
+        "status": "leave",
+        "note": "On leave 1st half"
+      },
+      "U0900H3NUUT": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2026-03-10": {
+      "U0900H3NUUT": {
+        "status": "office",
+        "note": "At office"
+      },
+      "W4R4S9FS4": {
+        "status": "leave",
+        "note": "On PTO today"
+      },
+      "U03HRQ036BD": {
+        "status": "leave",
+        "note": "Taking half day PTO"
+      },
+      "WAM5KDYBZ": {
+        "status": "office",
+        "note": "WFH morning, office around 11"
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2026-03-11": {
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      },
+      "U0900H3NUUT": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2026-03-12": {
+      "U03HRQ036BD": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "WAM5KDYBZ": {
+        "status": "leave",
+        "note": "On leave 1st half"
+      },
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      },
+      "U0900H3NUUT": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2026-03-13": {
+      "U03HRQ036BD": {
+        "status": "wfh",
+        "note": "WFH"
+      },
+      "WAM5KDYBZ": {
+        "status": "wfh",
+        "note": "WFH Today"
+      },
+      "W4R4S9FS4": {
+        "status": "wfh",
+        "note": "WFH 1st half, at office post lunch"
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      },
+      "U0900H3NUUT": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2026-03-16": {
+      "U0900H3NUUT": {
+        "status": "office",
+        "note": "At office"
+      },
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "WFH Today"
+      },
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2026-03-17": {
+      "WAM5KDYBZ": {
+        "status": "wfh",
+        "note": "WFH 1st half, office 2nd half"
+      },
+      "W4R4S9FS4": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "W010NNJV7S8": {
+        "status": "office",
+        "note": "At Office"
+      },
+      "U0900H3NUUT": {
+        "status": "office",
+        "note": "At office"
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2026-03-18": {
+      "U0900H3NUUT": {
+        "status": "office",
+        "note": "At office"
+      },
+      "WAM5KDYBZ": {
+        "status": "wfh",
+        "note": "WFH 1st half, may go to office 2nd half"
+      },
+      "W4R4S9FS4": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2026-03-19": {
+      "W4R4S9FS4": {
+        "status": "office",
+        "note": "WFH till 2PM, office later"
+      },
+      "U03HRQ036BD": {
+        "status": "office",
+        "note": "At office"
+      },
+      "W010NNJV7S8": {
+        "status": "office",
+        "note": "At office"
+      },
+      "U0900H3NUUT": {
+        "status": "wfh",
+        "note": "Wfh today"
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2026-03-23": {
+      "U03HRQ036BD": {
+        "status": "office",
+        "note": "At Office"
+      },
+      "W4R4S9FS4": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "W010NNJV7S8": {
+        "status": "sick",
+        "note": "Sick leave, injured in football"
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "U0900H3NUUT": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2026-03-24": {
+      "U03HRQ036BD": {
+        "status": "office",
+        "note": "Stuck in traffic, late to office"
+      },
+      "W4R4S9FS4": {
+        "status": "office",
+        "note": "At office"
+      },
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "WFH Today, still recovering"
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "U0900H3NUUT": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2026-03-25": {
+      "U03HRQ036BD": {
+        "status": "office",
+        "note": "At Office"
+      },
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      },
+      "U0900H3NUUT": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2026-03-26": {
+      "W4R4S9FS4": {
+        "status": "office",
+        "note": "At office, enjoying alone"
+      },
+      "U0900H3NUUT": {
+        "status": "wfh",
+        "note": "Wfh today"
+      },
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "WFH today, out of office 2nd half"
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2026-03-27": {
+      "W4R4S9FS4": {
+        "status": "sick",
+        "note": "Sick leave today"
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      },
+      "U0900H3NUUT": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2026-03-30": {
+      "W4R4S9FS4": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "W010NNJV7S8": {
+        "status": "office",
+        "note": "at Office"
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      },
+      "U0900H3NUUT": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2026-03-31": {
+      "W4R4S9FS4": {
+        "status": "office",
+        "note": "At office"
+      },
+      "U03HRQ036BD": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      },
+      "U0900H3NUUT": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2026-04-01": {
+      "W4R4S9FS4": {
+        "status": "office",
+        "note": "At office"
+      },
+      "W010NNJV7S8": {
+        "status": "office",
+        "note": "At Office"
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      },
+      "U0900H3NUUT": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2026-04-02": {
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      },
+      "U0900H3NUUT": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2026-04-06": {
+      "U03HRQ036BD": {
+        "status": "office",
+        "note": "At office"
+      },
+      "W4R4S9FS4": {
+        "status": "wfh",
+        "note": "WFH 1st half, office post lunch"
+      },
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "WFH"
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "U0900H3NUUT": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2026-04-07": {
+      "W4R4S9FS4": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "WAM5KDYBZ": {
+        "status": "office",
+        "note": "At office"
+      },
+      "U0900H3NUUT": {
+        "status": "office",
+        "note": "At office"
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2026-04-08": {
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "U0900H3NUUT": {
+        "status": "sick",
+        "note": "Sick leave today"
+      },
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2026-04-09": {
+      "W4R4S9FS4": {
+        "status": "office",
+        "note": "At office"
+      },
+      "U03HRQ036BD": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      },
+      "U0900H3NUUT": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2026-04-10": {
+      "W010NNJV7S8": {
+        "status": "office",
+        "note": "At Office"
+      },
+      "WAM5KDYBZ": {
+        "status": "wfh",
+        "note": "WFH till 3pm"
+      },
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      },
+      "U0900H3NUUT": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2026-04-13": {
+      "U0900H3NUUT": {
+        "status": "office",
+        "note": "At office"
+      },
+      "U03HRQ036BD": {
+        "status": "sick",
+        "note": "Not feeling well, sick leave"
+      },
+      "WAM5KDYBZ": {
+        "status": "office",
+        "note": "Running errand, office around 12:30"
+      },
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2026-04-14": {
+      "WAM5KDYBZ": {
+        "status": "office",
+        "note": "At Office"
+      },
+      "W4R4S9FS4": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "U03HRQ036BD": {
+        "status": "wfh",
+        "note": "WFH (Khushwant advised stay home)"
+      },
+      "U0900H3NUUT": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2026-04-15": {
+      "U0900H3NUUT": {
+        "status": "office",
+        "note": "At office"
+      },
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2026-04-16": {
+      "W4R4S9FS4": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      },
+      "U0900H3NUUT": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2026-04-17": {
+      "U0900H3NUUT": {
+        "status": "wfh",
+        "note": "Wfh today"
+      },
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2026-04-20": {
+      "U03HRQ036BD": {
+        "status": "office",
+        "note": "At Office"
+      },
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "U0900H3NUUT": {
+        "status": "office",
+        "note": "Cancelled leave, at work"
+      },
+      "WAM5KDYBZ": {
+        "status": "leave",
+        "note": "Father in ICU, on-and-off this week"
+      },
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2026-04-21": {
+      "W010NNJV7S8": {
+        "status": "office",
+        "note": "At office"
+      },
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      },
+      "U0900H3NUUT": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2026-04-22": {
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      },
+      "U0900H3NUUT": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2026-04-23": {
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      },
+      "U0900H3NUUT": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2026-04-24": {
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      },
+      "U0900H3NUUT": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2026-04-27": {
+      "U03HRQ036BD": {
+        "status": "office",
+        "note": "At office"
+      },
+      "U0900H3NUUT": {
+        "status": "wfh",
+        "note": "WFH, suffering from migraine"
+      },
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2026-04-28": {
+      "U0900H3NUUT": {
+        "status": "office",
+        "note": "At office"
+      },
+      "W4R4S9FS4": {
+        "status": "office",
+        "note": "At office, joined a day earlier"
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2026-04-29": {
+      "U03HRQ036BD": {
+        "status": "leave",
+        "note": "On leave today"
+      },
+      "U0900H3NUUT": {
+        "status": "wfh",
+        "note": "wfh today"
+      },
+      "WAM5KDYBZ": {
+        "status": "office",
+        "note": "At Office"
+      },
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2026-04-30": {
+      "U03HRQ036BD": {
+        "status": "office",
+        "note": "At Office"
+      },
+      "WAM5KDYBZ": {
+        "status": "office",
+        "note": "At Office"
+      },
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "U0900H3NUUT": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2026-05-04": {
+      "U0900H3NUUT": {
+        "status": "wfh",
+        "note": "Wfh today"
+      },
+      "W4R4S9FS4": {
+        "status": "office",
+        "note": "At office"
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2026-05-05": {
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "U0900H3NUUT": {
+        "status": "office",
+        "note": "At office"
+      },
+      "U03HRQ036BD": {
+        "status": "leave",
+        "note": "On leave today"
+      },
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2026-05-06": {
+      "W010NNJV7S8": {
+        "status": "office",
+        "note": "At Office"
+      },
+      "U0900H3NUUT": {
+        "status": "office",
+        "note": "At office"
+      },
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2026-05-07": {
+      "U03HRQ036BD": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "W4R4S9FS4": {
+        "status": "office",
+        "note": "At office"
+      },
+      "WAM5KDYBZ": {
+        "status": "leave",
+        "note": "On leave, limited access"
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      },
+      "U0900H3NUUT": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2026-05-08": {
+      "W4R4S9FS4": {
+        "status": "office",
+        "note": "At office"
+      },
+      "U0900H3NUUT": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2026-05-11": {
+      "U0900H3NUUT": {
+        "status": "office",
+        "note": "At office"
+      },
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2026-05-12": {
+      "W4R4S9FS4": {
+        "status": "office",
+        "note": "At office"
+      },
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "U03HRQ036BD": {
+        "status": "leave",
+        "note": "On leave today"
+      },
+      "WAM5KDYBZ": {
+        "status": "wfh",
+        "note": "WFH till 4pm"
+      },
+      "U0900H3NUUT": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2026-05-13": {
+      "U0900H3NUUT": {
+        "status": "office",
+        "note": "At office"
+      },
+      "WAM5KDYBZ": {
+        "status": "wfh",
+        "note": "WFH, online 10:45-5:30"
+      },
+      "W4R4S9FS4": {
+        "status": "office",
+        "note": "At office"
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2026-05-14": {
+      "W4R4S9FS4": {
+        "status": "office",
+        "note": "At Maruti Gurgaon"
+      },
+      "W010NNJV7S8": {
+        "status": "office",
+        "note": "At Office"
+      },
+      "U0900H3NUUT": {
+        "status": "wfh",
+        "note": "Wfh today"
+      },
+      "WAM5KDYBZ": {
+        "status": "wfh",
+        "note": "WFH, online 11:30 onwards"
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2026-05-15": {
+      "W4R4S9FS4": {
+        "status": "office",
+        "note": "At office"
+      },
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      },
+      "U0900H3NUUT": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2026-05-18": {
+      "U03HRQ036BD": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "U0900H3NUUT": {
+        "status": "office",
+        "note": "At office"
+      },
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2026-05-19": {
+      "U03HRQ036BD": {
+        "status": "office",
+        "note": "At Office"
+      },
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "U0900H3NUUT": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2026-05-20": {
+      "U0900H3NUUT": {
+        "status": "office",
+        "note": "At office"
+      },
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2026-05-21": {
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "U0900H3NUUT": {
+        "status": "office",
+        "note": "At office"
+      },
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2026-05-22": {
+      "W4R4S9FS4": {
+        "status": "office",
+        "note": "Was at office in morning, WFH rest of day"
+      },
+      "W010NNJV7S8": {
+        "status": "sick",
+        "note": "Feeling unwell, taking rest of day off"
+      },
+      "WAM5KDYBZ": {
+        "status": "leave",
+        "note": "On Leave"
+      },
+      "U0900H3NUUT": {
+        "status": "wfh",
+        "note": "Wfh today"
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2026-05-25": {
+      "U03HRQ036BD": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "W4R4S9FS4": {
+        "status": "office",
+        "note": "At office"
+      },
+      "U0900H3NUUT": {
+        "status": "office",
+        "note": "At office"
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2026-05-26": {
+      "U03HRQ036BD": {
+        "status": "sick",
+        "note": "Not feeling well, sick leave"
+      },
+      "W4R4S9FS4": {
+        "status": "office",
+        "note": "At office"
+      },
+      "U0900H3NUUT": {
+        "status": "office",
+        "note": "At office"
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2026-05-28": {
+      "U0900H3NUUT": {
+        "status": "wfh",
+        "note": "Wfh today"
+      },
+      "W4R4S9FS4": {
+        "status": "office",
+        "note": "At office"
+      },
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "OOO 1st half, WFH 2nd half"
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2026-05-29": {
+      "U03HRQ036BD": {
+        "status": "leave",
+        "note": "On leave, rituals at home"
+      },
+      "U0900H3NUUT": {
+        "status": "wfh",
+        "note": "wfh today"
+      },
+      "W4R4S9FS4": {
+        "status": "office",
+        "note": "At office"
+      },
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "Feeling under the weather, WFH"
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2026-06-01": {
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      },
+      "U0900H3NUUT": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2026-06-02": {
+      "W4R4S9FS4": {
+        "status": "office",
+        "note": "At office"
+      },
+      "U0900H3NUUT": {
+        "status": "office",
+        "note": "At office"
+      },
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2026-06-03": {
+      "W4R4S9FS4": {
+        "status": "office",
+        "note": "At office"
+      },
+      "W010NNJV7S8": {
+        "status": "office",
+        "note": "At office"
+      },
+      "U0900H3NUUT": {
+        "status": "wfh",
+        "note": "Wfh today"
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2026-06-04": {
+      "W4R4S9FS4": {
+        "status": "office",
+        "note": "At office"
+      },
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "U0900H3NUUT": {
+        "status": "office",
+        "note": "At office"
+      },
+      "U03HRQ036BD": {
+        "status": "office",
+        "note": "Reaching office around 10:30"
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2026-06-05": {
+      "W4R4S9FS4": {
+        "status": "office",
+        "note": "At office"
+      },
+      "W010NNJV7S8": {
+        "status": "office",
+        "note": "At office"
+      },
+      "U03HRQ036BD": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "U0900H3NUUT": {
+        "status": "no_info",
+        "note": null
+      }
+    }
+  }
+}
