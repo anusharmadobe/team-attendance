@@ -302,7 +302,7 @@ tbody tr:last-child td{border-bottom:none}
   <div class="kpi-row" id="kpi-annual" style="margin-bottom:20px"></div>
   <div class="card-row">
     <div class="card"><h3>Individual office attendance</h3><div id="bar-person-a"></div></div>
-    <div class="card"><h3>Team attendance</h3><div id="bar-status-a"></div></div>
+    <div class="card"><h3>Team attendance <span style="font-weight:400;font-size:12px;color:var(--txm)">(person days)</span></h3><div id="bar-status-a"></div></div>
   </div>
   <div class="card" style="padding:16px">
     <div class="matrix-wrap"><table class="matrix-table" id="annual-matrix"></table></div>
@@ -324,7 +324,7 @@ tbody tr:last-child td{border-bottom:none}
       <div id="bar-person-m"></div>
     </div>
     <div class="card">
-      <h3>Team attendance</h3>
+      <h3>Team attendance <span style="font-weight:400;font-size:12px;color:var(--txm)">(person days)</span></h3>
       <div id="bar-status-m"></div>
     </div>
   </div>
@@ -349,7 +349,7 @@ tbody tr:last-child td{border-bottom:none}
       <div id="bar-person-w"></div>
     </div>
     <div class="card">
-      <h3>Team attendance</h3>
+      <h3>Team attendance <span style="font-weight:400;font-size:12px;color:var(--txm)">(person days)</span></h3>
       <div id="bar-status-w"></div>
     </div>
   </div>
@@ -654,21 +654,25 @@ function renderHome(){
 }
 
 // ═══════════════════════════════════════════════════════════════════════════
-// Fix 8: Shared "Team attendance" bar chart renderer
+// Shared "Team attendance (person days)" bar chart renderer
 // ═══════════════════════════════════════════════════════════════════════════
+// Bar width = the status's own business %:
+//   office/wfh/sick/leave → % of reported days (matches KPI numerically)
+//   no_info               → % of total person-days
+// Together office+wfh+sick+leave widths sum to 100% (they're the full reported breakdown).
+// no_info is a separate confidence bar on the same track scale.
 function renderAttendanceOverview(containerId, counts, totalRep){
   const el=document.getElementById(containerId);
   if(!el) return;
   const total=totalRep+(counts.no_info||0);
-  const mv=Math.max(...['office','wfh','sick','leave','no_info'].map(s=>counts[s]||0),1);
-  // Fix: wider val column (72px) to prevent wrapping; % shown for all incl. no_info
   el.innerHTML=['office','wfh','sick','leave','no_info'].map(s=>{
+    const cnt=counts[s]||0;
     const denom=s==='no_info'?total:totalRep;
-    const pct=denom>0?p(counts[s]||0,denom):0;
+    const pct=denom>0?p(cnt,denom):0; // business % — also drives bar width
     return`<div class="bar-item">
       <div class="bar-lbl">${SL[s]}</div>
-      <div class="bar-trk" style="max-width:200px"><div class="bar-fill" style="width:${Math.round((counts[s]||0)/mv*100)}%;background:${SC[s]}"></div></div>
-      <div class="bar-val" style="width:72px;white-space:nowrap">${counts[s]||0} <span style="color:var(--txm)">(${pct}%)</span></div>
+      <div class="bar-trk"><div class="bar-fill" style="width:${pct}%;background:${SC[s]}"></div></div>
+      <div class="bar-val" style="width:80px;white-space:nowrap;text-align:right">${cnt} <span style="color:var(--txm)">(${pct}%)</span></div>
     </div>`;
   }).join('');
 }
@@ -1112,11 +1116,8 @@ function renderAnnual(){
     <div class="bar-trk"><div class="bar-fill" style="width:${x.op}%;background:${barColor(x.op)}"></div></div>
     <div class="bar-val" style="color:${x.hasData?barColor(x.op):'var(--txm)'}">${x.hasData?x.op+'%':'—'}</div></div>`).join('');
 
-  const mv=Math.max(...['office','wfh','sick','leave','no_info'].map(s=>c[s]),1);
-  document.getElementById('bar-status-a').innerHTML=['office','wfh','sick','leave','no_info'].map(s=>`
-    <div class="bar-item"><div class="bar-lbl">${SL[s]}</div>
-    <div class="bar-trk"><div class="bar-fill" style="width:${p(c[s],mv)}%;background:${SC[s]}"></div></div>
-    <div class="bar-val">${c[s]}</div></div>`).join('');
+  // Use renderAttendanceOverview so Annual matches Monthly/Weekly layout exactly.
+  renderAttendanceOverview('bar-status-a', c, rep);
 
   // Annual matrix — one row per person, columns = months (not days, too many)
   // Show as monthly aggregated bars
