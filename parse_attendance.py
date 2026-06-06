@@ -360,22 +360,78 @@ def process(messages: list, start: date, end: date) -> dict:
     return dict(sorted(attendance.items()))
 
 
+def merge_seed(att_parsed: dict, seed_path: Path) -> dict:
+    """
+    Merge seed_attendance.py output into the parsed attendance dict.
+
+    Strategy:
+      - seed_attendance.py is the authoritative source for historical data
+        (Jan 2025 → the date when live fetch_slack.py pipeline went active).
+      - parse_attendance.py is authoritative for recent live data from Slack.
+      - For days where BOTH have a record, STATUS_PRIORITY decides — the
+        higher-priority status wins (office > wfh > sick > leave > no_info).
+      - This means a manually curated seed entry always beats a no_info,
+        and a Slack-parsed "office" beats a seeded "wfh" if someone corrected
+        via Slack after the seed was written.
+
+    Seed is only re-read if seed_attendance.py exists alongside this file.
+    If absent, parsed data is used as-is.
+    """
+    if not seed_path.exists():
+        return att_parsed
+
+    import importlib.util
+    spec = importlib.util.spec_from_file_location("seed_attendance", seed_path)
+    seed_mod = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(seed_mod)
+    att_seed = seed_mod.build()  # returns {date_str: {uid: {status, note}}}
+
+    # Merge: for each day/member in seed, apply to parsed dict with priority
+    merged = {k: dict(v) for k, v in att_parsed.items()}
+    for ds, day in att_seed.items():
+        merged.setdefault(ds, {})
+        for uid, rec in day.items():
+            existing_pri = STATUS_PRIORITY.get(
+                merged[ds].get(uid, {}).get("status", ""), 0)
+            new_pri = STATUS_PRIORITY.get(rec.get("status", ""), 0)
+            if new_pri > existing_pri:
+                merged[ds][uid] = rec
+
+    return dict(sorted(merged.items()))
+
+
 def run():
-    data_dir = Path(__file__).parent / "data"
-    raw_path = data_dir / "raw_messages.json"
-    out_path = data_dir / "attendance.json"
+    data_dir  = Path(__file__).parent / "data"
+    raw_path  = data_dir / "raw_messages.json"
+    seed_path = Path(__file__).parent / "seed_attendance.py"
+    out_path  = data_dir / "attendance.json"
 
     if not raw_path.exists():
-        print(f"ERROR: {raw_path} not found. Run fetch_slack.py first.")
+        print(f"ERROR: {raw_path} not found.\n"
+              f"  Run fetch_slack.py first, or use seed_attendance.py for\n"
+              f"  fully manual data entry.")
         return
 
     messages = json.loads(raw_path.read_text())
-    print(f"Loaded {len(messages)} messages")
+    print(f"Loaded {len(messages)} messages from raw_messages.json")
 
     start = date(2025, 1, 1)
     end   = date.today()
 
     att = process(messages, start, end)
+
+    # Merge seed data — seed fills historical gaps; parse data wins for recent
+    if seed_path.exists():
+        before = sum(
+            1 for day in att.values()
+            for rec in day.values() if rec["status"] != "no_info"
+        )
+        att = merge_seed(att, seed_path)
+        after = sum(
+            1 for day in att.values()
+            for rec in day.values() if rec["status"] != "no_info"
+        )
+        print(f"Merged seed data: {after - before} additional records resolved")
 
     output = {
         "generated_at": end.isoformat(),
@@ -385,7 +441,9 @@ def run():
     }
 
     out_path.write_text(json.dumps(output, indent=2, default=str))
-    print(f"Written {len(att)} days → {out_path}")
+    days = len(att)
+    records = sum(len(v) for v in att.values())
+    print(f"Written {days} days, {records} records → {out_path}")
 
 
 if __name__ == "__main__":
