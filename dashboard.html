@@ -177,6 +177,8 @@ tbody tr:last-child td{border-bottom:none}
 .leg{display:flex;gap:14px;flex-wrap:wrap;font-size:12px;color:var(--txs)}
 .leg span{display:flex;align-items:center;gap:5px}
 .ldot{width:9px;height:9px;border-radius:2px;flex-shrink:0}
+/* ── Weekly table min-width for mobile scroll ── */
+.tbl-weekly table{min-width:580px}
 /* ── Weekly nav ── */
 .wnav{display:flex;align-items:center;gap:10px;margin-bottom:14px;flex-wrap:wrap}
 .wnav button{background:var(--surf);border:1px solid var(--bdr2);color:var(--tx);
@@ -293,14 +295,14 @@ tbody tr:last-child td{border-bottom:none}
 
 <!-- ═══════════════════════════════════════ ANNUAL ═════════════════════ -->
 <div id="page-annual" class="page">
+  <div class="filt">
+    <label>Year</label><select id="ay" onchange="renderAnnual()"></select>
+    <label>Member</label><select id="am" onchange="renderAnnual()"></select>
+  </div>
   <div class="kpi-row" id="kpi-annual" style="margin-bottom:20px"></div>
   <div class="card-row">
     <div class="card"><h3>Individual office attendance</h3><div id="bar-person-a"></div></div>
     <div class="card"><h3>Team attendance</h3><div id="bar-status-a"></div></div>
-  </div>
-  <div class="filt">
-    <label>Year</label><select id="ay" onchange="renderAnnual()"></select>
-    <label>Member</label><select id="am" onchange="renderAnnual()"></select>
   </div>
   <div class="card" style="padding:16px">
     <div class="matrix-wrap"><table class="matrix-table" id="annual-matrix"></table></div>
@@ -338,7 +340,7 @@ tbody tr:last-child td{border-bottom:none}
     <span id="wk-label" style="font-weight:600"></span>
     <button onclick="wkNav(1)">Next ›</button>
     <label>Member</label><select id="wm" onchange="renderWeekly()"></select>
-    <button onclick="exportWeeklySummary()" style="margin-left:auto;background:var(--acc-bg);border:1px solid var(--acc);color:var(--acc);padding:5px 14px;border-radius:var(--r);cursor:pointer;font-size:12px">⬇ Copy Summary</button>
+    <button onclick="exportWeeklySummary()" title="Copies this week's plain-text attendance summary to your clipboard" style="margin-left:auto;background:var(--acc-bg);border:1px solid var(--acc);color:var(--acc);padding:5px 14px;border-radius:var(--r);cursor:pointer;font-size:12px">⬇ Copy Summary</button>
   </div>
   <div class="kpi-row" id="kpi-weekly" style="margin-bottom:16px"></div>
   <!-- Fix 8 + per-person: two-column layout for weekly -->
@@ -352,7 +354,7 @@ tbody tr:last-child td{border-bottom:none}
       <div id="bar-status-w"></div>
     </div>
   </div>
-  <div class="tbl-w">
+  <div class="tbl-w tbl-weekly">
     <table><thead id="wt-head"></thead><tbody id="wt-body"></tbody></table>
   </div>
 </div>
@@ -381,6 +383,7 @@ tbody tr:last-child td{border-bottom:none}
 </div>
 
 </div><!-- /wrap -->
+<div id="toast" style="position:fixed;bottom:24px;left:50%;transform:translateX(-50%);background:var(--g900);color:#fff;padding:10px 20px;border-radius:8px;font-size:13px;pointer-events:none;z-index:9998;opacity:0;transition:opacity .3s;white-space:nowrap"></div>
 <div id="tip"></div>
 
 <script>
@@ -389,6 +392,14 @@ const DAYS=['Mon','Tue','Wed','Thu','Fri'];
 const MONTHS=['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
 const SC={office:'#0E9F5C',wfh:'#0265DC',sick:'#D31420',leave:'#CE9500',no_info:'#C8C8C8'};
 const SL={office:'Office',wfh:'WFH',sick:'Sick',leave:'Leave',no_info:'No Info'};
+// Target-aware color helpers (office %)
+function barColor(pct){return pct>=60?'var(--c-off)':pct>=50?'var(--c-lve)':'var(--c-sck)';}
+function offColor(pct){return pct>=60?'var(--c-off)':pct>=50?'var(--c-lve)':'var(--c-sck)';}
+// No-status severity color (% of total person-days)
+function niColor(pct){return pct>50?'var(--c-sck)':pct>30?'var(--c-lve)':'var(--txm)';}
+// Toast notification
+function showToast(msg){const t=document.getElementById('toast');t.textContent=msg;t.style.opacity='1';
+  setTimeout(()=>t.style.opacity='0',2500);}
 
 let DATA=null, wkOff=0, drillId=null, drillPeriod='year', drillView='monthly';
 let drillFrom=null, drillTo=null;
@@ -756,7 +767,7 @@ function renderLineChart(containerId,year){
     <!-- 60% Target line -->
     <line x1="${ml}" y1="${targetY}" x2="${ml+pw}" y2="${targetY}"
           stroke="#CE9500" stroke-width="1.5" stroke-dasharray="6 3" opacity=".85"/>
-    <text x="${ml+pw+4}" y="${targetY+4}" font-size="10" fill="#CE9500" font-weight="600">60%</text>
+    <text x="${ml+pw-3}" y="${targetY-4}" text-anchor="end" font-size="10" fill="#CE9500" font-weight="600">Target 60%</text>
     <!-- Month labels -->
     ${data.map((d,i)=>`<text x="${xs(i)}" y="${H-3}" text-anchor="middle" font-size="10" fill="#979797">${d.lbl}</text>`).join('')}
     <!-- #6: Coverage % below month — color coded by confidence -->
@@ -1077,23 +1088,25 @@ function renderAnnual(){
     else Object.entries(att[d]).forEach(([id,r])=>{if(M[id])all.push(r);});});
   const c=cs(all),rep=all.length-c.no_info||1;
 
-  // Fix 7: Removed duplicate ⓘ note — use % as main value same as exec KPIs
-  // Fix 2 applied to Annual tab: show % as main value, person-days in subtitle
+  const aOp=p(c.office,rep),aNip=p(c.no_info,all.length);
   document.getElementById('kpi-annual').innerHTML=`
     <div class="kpi"><div class="kl">Person Days</div><div class="kv">${all.length}</div><div class="ks">${days.length} calendar working days</div></div>
-    <div class="kpi"><div class="kl">At Office</div><div class="kv" style="color:var(--c-off)">${p(c.office,rep)}%</div><div class="ks">${c.office} person-days</div></div>
+    <div class="kpi" title="Of days where status was posted — no_info NOT counted. Target: 60%"><div class="kl">At Office</div><div class="kv" style="color:${offColor(aOp)}">${aOp}%</div><div class="ks">${c.office} person-days · target 60%</div></div>
     <div class="kpi"><div class="kl">WFH</div><div class="kv" style="color:var(--c-wfh)">${p(c.wfh,rep)}%</div><div class="ks">${c.wfh} person-days</div></div>
     <div class="kpi"><div class="kl">Sick / PTO</div><div class="kv" style="color:var(--c-sck)">${p(c.sick+c.leave,rep)}%</div><div class="ks">${c.sick+c.leave} person-days</div></div>
-    <div class="kpi"><div class="kl">No Status</div><div class="kv" style="color:var(--txm)">${p(c.no_info,all.length)}%</div><div class="ks">${c.no_info} person-days</div></div>`;
+    <div class="kpi" title="Days with no status posted — data confidence gap${aNip>30?' · high rate may understate office %':''}"><div class="kl">No Status ${aNip>30?'⚠️':''}</div><div class="kv" style="color:${niColor(aNip)}">${aNip}%</div><div class="ks">${c.no_info} person-days</div></div>`;
 
   const pb=Object.entries(M).map(([id,m])=>{
-    const r=days.map(d=>att[d]?.[id]).filter(Boolean),cnt=cs(r),rp=r.length-cnt.no_info||1;
-    return{name:m.name.split(' ')[0],op:p(cnt.office,rp)};
-  }).filter(x=>x.op>0).sort((a,b)=>b.op-a.op);
+    const r=days.map(d=>att[d]?.[id]).filter(Boolean);
+    if(!r.length) return null;
+    const cnt=cs(r),rp=r.length-cnt.no_info;
+    const op2=rp>0?p(cnt.office,rp):0;
+    return{name:m.name.split(' ')[0],op:op2,hasData:rp>0};
+  }).filter(Boolean).sort((a,b)=>b.op-a.op);
   document.getElementById('bar-person-a').innerHTML=pb.map(x=>`
     <div class="bar-item"><div class="bar-lbl">${x.name}</div>
-    <div class="bar-trk"><div class="bar-fill" style="width:${x.op}%;background:var(--c-off)"></div></div>
-    <div class="bar-val">${x.op}%</div></div>`).join('');
+    <div class="bar-trk"><div class="bar-fill" style="width:${x.op}%;background:${barColor(x.op)}"></div></div>
+    <div class="bar-val" style="color:${x.hasData?barColor(x.op):'var(--txm)'}">${x.hasData?x.op+'%':'—'}</div></div>`).join('');
 
   const mv=Math.max(...['office','wfh','sick','leave','no_info'].map(s=>c[s]),1);
   document.getElementById('bar-status-a').innerHTML=['office','wfh','sick','leave','no_info'].map(s=>`
@@ -1139,12 +1152,13 @@ function renderMonthly(){
     else Object.entries(att[d]).forEach(([id,r])=>{if(M[id])all.push(r);});});
   const c=cs(all),rep=all.length-c.no_info||1;
 
+  const mOp=p(c.office,rep),mNip=p(c.no_info,all.length);
   document.getElementById('kpi-monthly').innerHTML=`
     <div class="kpi"><div class="kl">Person Days</div><div class="kv">${all.length}</div><div class="ks">${days.length} calendar working days</div></div>
-    <div class="kpi"><div class="kl">At Office</div><div class="kv" style="color:var(--c-off)">${p(c.office,rep)}%</div><div class="ks">${c.office} person-days</div></div>
+    <div class="kpi" title="Of days where status was posted — no_info NOT counted. Target: 60%"><div class="kl">At Office</div><div class="kv" style="color:${offColor(mOp)}">${mOp}%</div><div class="ks">${c.office} person-days · target 60%</div></div>
     <div class="kpi"><div class="kl">WFH</div><div class="kv" style="color:var(--c-wfh)">${p(c.wfh,rep)}%</div><div class="ks">${c.wfh} person-days</div></div>
     <div class="kpi"><div class="kl">Sick / PTO</div><div class="kv" style="color:var(--c-sck)">${p(c.sick+c.leave,rep)}%</div><div class="ks">${c.sick+c.leave} person-days</div></div>
-    <div class="kpi"><div class="kl">No Status</div><div class="kv" style="color:var(--txm)">${p(c.no_info,all.length)}%</div><div class="ks">${c.no_info} person-days</div></div>`;
+    <div class="kpi" title="Days with no status posted${mNip>30?' · high rate may understate office %':''}"><div class="kl">No Status ${mNip>30?'⚠️':''}</div><div class="kv" style="color:${niColor(mNip)}">${mNip}%</div><div class="ks">${c.no_info} person-days</div></div>`;
   // Fix 8: Team attendance + per-person chart (shows only for All members)
   renderAttendanceOverview('bar-status-m', c, rep);
   const personCardM=document.getElementById('person-card-m');
@@ -1152,16 +1166,18 @@ function renderMonthly(){
     if(personCardM) personCardM.style.display='none';
   } else {
     if(personCardM) personCardM.style.display='';
-    const personDataM=Object.entries(M).map(([id,m])=>{
+    const personDataM=Object.entries(M).map(([id,m2])=>{
       const precs=days.map(d=>att[d]?.[id]).filter(Boolean);
+      if(!precs.length) return null;
       const pcnt=cs(precs),prep=precs.length-pcnt.no_info;
-      return{name:m.name.split(' ')[0],op:prep>0?p(pcnt.office,prep):0,office:pcnt.office,rep:prep};
-    }).filter(x=>x.rep>0).sort((a,b)=>b.op-a.op);
+      const op2=prep>0?p(pcnt.office,prep):0;
+      return{name:m2.name.split(' ')[0],op:op2,hasData:prep>0};
+    }).filter(Boolean).sort((a,b)=>b.op-a.op);
     document.getElementById('bar-person-m').innerHTML=personDataM.map(x=>`
       <div class="bar-item">
         <div class="bar-lbl">${x.name}</div>
-        <div class="bar-trk"><div class="bar-fill" style="width:${x.op}%;background:var(--c-off)"></div></div>
-        <div class="bar-val">${x.op}%</div>
+        <div class="bar-trk"><div class="bar-fill" style="width:${x.op}%;background:${barColor(x.op)}"></div></div>
+        <div class="bar-val" style="color:${x.hasData?barColor(x.op):'var(--txm)'}">${x.hasData?x.op+'%':'—'}</div>
       </div>`).join('');
   }
 
@@ -1191,12 +1207,13 @@ function renderWeekly(){
     if(mem){if(att[d][mem])all.push(att[d][mem]);}
     else Object.entries(att[d]).forEach(([id,r])=>{if(M[id])all.push(r);});});
   const c=cs(all),wkRep=all.length-c.no_info||1;
+  const wOp=p(c.office,wkRep),wNip=p(c.no_info,all.length);
   document.getElementById('kpi-weekly').innerHTML=`
     <div class="kpi"><div class="kl">Person Days</div><div class="kv">${all.length}</div><div class="ks">5 calendar days</div></div>
-    <div class="kpi"><div class="kl">At Office</div><div class="kv" style="color:var(--c-off)">${p(c.office,wkRep)}%</div><div class="ks">${c.office} person-days</div></div>
+    <div class="kpi" title="Of days where status was posted — no_info NOT counted. Target: 60%"><div class="kl">At Office</div><div class="kv" style="color:${offColor(wOp)}">${wOp}%</div><div class="ks">${c.office} person-days · target 60%</div></div>
     <div class="kpi"><div class="kl">WFH</div><div class="kv" style="color:var(--c-wfh)">${p(c.wfh,wkRep)}%</div><div class="ks">${c.wfh} person-days</div></div>
     <div class="kpi"><div class="kl">Sick / PTO</div><div class="kv" style="color:var(--c-sck)">${p(c.sick+c.leave,wkRep)}%</div><div class="ks">${c.sick+c.leave} person-days</div></div>
-    <div class="kpi"><div class="kl">No Status</div><div class="kv" style="color:var(--txm)">${p(c.no_info,all.length)}%</div><div class="ks">${c.no_info} person-days</div></div>`;
+    <div class="kpi" title="Days with no status posted${wNip>30?' · high rate may understate office %':''}"><div class="kl">No Status ${wNip>30?'⚠️':''}</div><div class="kv" style="color:${niColor(wNip)}">${wNip}%</div><div class="ks">${c.no_info} person-days</div></div>`;
   // Fix 8: Team attendance + per-person chart (shows only for All members)
   renderAttendanceOverview('bar-status-w', c, wkRep);
   const personCardW=document.getElementById('person-card-w');
@@ -1204,16 +1221,18 @@ function renderWeekly(){
     if(personCardW) personCardW.style.display='none';
   } else {
     if(personCardW) personCardW.style.display='';
-    const personDataW=Object.entries(M).map(([id,m])=>{
+    const personDataW=Object.entries(M).map(([id,m2])=>{
       const wrecs=days.map(d=>att[d]?.[id]).filter(Boolean);
+      if(!wrecs.length) return null;
       const wcnt=cs(wrecs),wrep=wrecs.length-wcnt.no_info;
-      return{name:m.name.split(' ')[0],op:wrep>0?p(wcnt.office,wrep):0,office:wcnt.office,rep:wrep};
-    }).filter(x=>x.rep>0).sort((a,b)=>b.op-a.op);
+      const op2=wrep>0?p(wcnt.office,wrep):0;
+      return{name:m2.name.split(' ')[0],op:op2,hasData:wrep>0};
+    }).filter(Boolean).sort((a,b)=>b.op-a.op);
     document.getElementById('bar-person-w').innerHTML=personDataW.map(x=>`
       <div class="bar-item">
         <div class="bar-lbl">${x.name}</div>
-        <div class="bar-trk"><div class="bar-fill" style="width:${x.op}%;background:var(--c-off)"></div></div>
-        <div class="bar-val">${x.op}%</div>
+        <div class="bar-trk"><div class="bar-fill" style="width:${x.op}%;background:${barColor(x.op)}"></div></div>
+        <div class="bar-val" style="color:${x.hasData?barColor(x.op):'var(--txm)'}">${x.hasData?x.op+'%':'—'}</div>
       </div>`).join('');
   }
 
@@ -1297,7 +1316,7 @@ function _renderDayOfWeekChart(mid, days){
 // P3: Export / copy-to-clipboard weekly text summary
 // ═══════════════════════════════════════════════════════════════════════════
 function exportWeeklySummary(){
-  const days=wkDays(weekOffset);
+  const days=wkDays(wkOff);
   const att=DATA.attendance;const M=DATA.team_members;
   const lines=[`Team Attendance — Week of ${days[0]} to ${days[4]}\n`];
   Object.entries(M).forEach(([id,m])=>{
@@ -1310,8 +1329,12 @@ function exportWeeklySummary(){
   });
   lines.push('\nKey: O=Office  H=WFH  S=Sick  L=Leave  ?=No status posted');
   const text=lines.join('\n');
-  navigator.clipboard?.writeText(text).then(()=>alert('Weekly summary copied to clipboard!'))
-    .catch(()=>prompt('Copy the summary:', text));
+  if(navigator.clipboard){
+    navigator.clipboard.writeText(text).then(()=>showToast('✓ Weekly summary copied to clipboard'))
+      .catch(()=>{const ta=document.createElement('textarea');ta.value=text;document.body.appendChild(ta);ta.select();document.execCommand('copy');ta.remove();showToast('✓ Copied to clipboard');});
+  } else {
+    const ta=document.createElement('textarea');ta.value=text;document.body.appendChild(ta);ta.select();document.execCommand('copy');ta.remove();showToast('✓ Copied to clipboard');
+  }
 }
 
 // ═══════════════════════════════════════════════════════════════════════════
