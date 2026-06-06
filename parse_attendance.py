@@ -93,6 +93,13 @@ HOLIDAYS = {
 # e.g. "WFH at 9am" then "At office at 2pm" → office wins.
 STATUS_PRIORITY = {"office": 5, "wfh": 4, "sick": 3, "leave": 2, "no_info": 1}
 
+# ── Emoji reactions treated as "me too, same status" ──────────────────────────
+# When a team member reacts with one of these to a classified message,
+# they are recorded with the same status as the message sender.
+# Applies to office and wfh only — sick/leave reactions are too ambiguous.
+PLUS_ONE_EMOJIS = {"plus_one", "thumbsup", "+1"}
+PLUS_ONE_STATUSES = {"office", "wfh"}
+
 # ── Illness keywords ───────────────────────────────────────────────────────────
 # Match PERSONAL illness (not family member illness, which stays WFH).
 ILLNESS_KW = re.compile(
@@ -327,6 +334,20 @@ def process(messages: list, start: date, end: date) -> dict:
                 if is_member_active(other_uid, d):
                     _apply_status(attendance, d.isoformat(), other_uid, "office",
                                   f"[group mention] {text[:120]}")
+
+        # P0: +1 reactions — "me too, same status" for office and wfh messages
+        # e.g. Utkarsha posts "at office", Chris +1s → Chris also marked office
+        if status in PLUS_ONE_STATUSES:
+            sender_name = TEAM_MEMBERS.get(uid, {}).get("name", uid)
+            for reaction in msg.get("reactions", []):
+                if reaction.get("name") in PLUS_ONE_EMOJIS:
+                    for reactor_uid in reaction.get("users", []):
+                        if reactor_uid in TEAM_MEMBERS and reactor_uid != uid:
+                            if is_member_active(reactor_uid, d):
+                                _apply_status(
+                                    attendance, d.isoformat(), reactor_uid, status,
+                                    f"[+1 to {sender_name}] {text[:120]}"
+                                )
 
     # Fill no_info for all active members on all working days with no record
     for d in working_days(start, end):

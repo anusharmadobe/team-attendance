@@ -775,6 +775,8 @@ EVENTS = [
     ("2026-05-29", C,  "wfh",    "Feeling under the weather, WFH"),
 
     # ── June 2026 ─────────────────────────────────────────────────────────────
+    ("2026-06-01", U,  "office", "At office"),
+    ("2026-06-01", C,  "office", "+1 to Utkarsha (at office)"),
     ("2026-06-02", A,  "office", "At office"),
     ("2026-06-02", U,  "office", "At office"),
     ("2026-06-02", C,  "wfh",    "WFH today"),
