@@ -1,15 +1,29 @@
 name: Build & Deploy Dashboard
 
-# Triggers: every push to main (data refresh commits) + manual run
+# Triggers: every push to main (weekly/monthly data refresh commits) + manual run
 on:
   push:
     branches: [main]
   workflow_dispatch:
 
+# Required for GitHub Pages deployment
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Only one deployment at a time; don't cancel in-progress runs
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
-    name: Build dashboard → Deploy to Azure Static Web Apps
+    name: Build dashboard → Deploy to GitHub Pages
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
 
     steps:
       - name: Checkout repo
@@ -20,20 +34,17 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Build — bake attendance.json into dashboard HTML
+      - name: Build — bake attendance.json into dist/index.html
         run: python3 build.py
 
-      # ── Deploy to Azure Static Web Apps ──────────────────────────────────
-      # SETUP: Create an Azure Static Web App in portal.azure.com, connect it
-      # to this repo, then copy the generated deployment token and add it as a
-      # GitHub repo secret named AZURE_STATIC_WEB_APPS_API_TOKEN.
-      # (Azure does this automatically if you let it create the resource first.)
-      - name: Deploy to Azure Static Web Apps
-        uses: Azure/static-web-apps-deploy@v1
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload dist/ as Pages artifact
+        uses: actions/upload-pages-artifact@v3
         with:
-          azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN }}
-          repo_token: ${{ secrets.GITHUB_TOKEN }}
-          action: upload
-          app_location: dist        # build.py outputs here
-          output_location: ''       # no sub-folder inside dist
-          skip_app_build: true      # we already built above
+          path: dist
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
