@@ -6947,15 +6947,15 @@
         "status": "wfh",
         "note": "WFH today"
       },
+      "U0900H3NUUT": {
+        "status": "office",
+        "note": "+1 to Ruchita (At Office)"
+      },
       "W4R4S9FS4": {
-        "status": "no_info",
-        "note": null
+        "status": "office",
+        "note": "+1 to Ruchita (At Office)"
       },
       "WAM5KDYBZ": {
-        "status": "no_info",
-        "note": null
-      },
-      "U0900H3NUUT": {
         "status": "no_info",
         "note": null
       }
@@ -6965,19 +6965,19 @@
         "status": "office",
         "note": "At office"
       },
-      "W4R4S9FS4": {
-        "status": "no_info",
-        "note": null
-      },
-      "WAM5KDYBZ": {
-        "status": "no_info",
-        "note": null
-      },
       "W010NNJV7S8": {
-        "status": "no_info",
-        "note": null
+        "status": "wfh",
+        "note": "WFH - raining in Bangalore"
       },
       "U03HRQ036BD": {
+        "status": "office",
+        "note": "+1 to Utkarsha (At office)"
+      },
+      "W4R4S9FS4": {
+        "status": "office",
+        "note": "+1 to Utkarsha (At office)"
+      },
+      "WAM5KDYBZ": {
         "status": "no_info",
         "note": null
       }
@@ -6992,14 +6992,14 @@
         "note": "At office"
       },
       "W4R4S9FS4": {
-        "status": "no_info",
-        "note": null
-      },
-      "WAM5KDYBZ": {
-        "status": "no_info",
-        "note": null
+        "status": "office",
+        "note": "In office"
       },
       "U03HRQ036BD": {
+        "status": "wfh",
+        "note": "WFH today, logging late"
+      },
+      "WAM5KDYBZ": {
         "status": "no_info",
         "note": null
       }
@@ -7022,8 +7022,8 @@
         "note": "Wfh today"
       },
       "U03HRQ036BD": {
-        "status": "no_info",
-        "note": null
+        "status": "wfh",
+        "note": "+1 to Utkarsha (Wfh today)"
       }
     },
     "2026-05-25": {
@@ -7039,11 +7039,11 @@
         "status": "office",
         "note": "At office"
       },
-      "WAM5KDYBZ": {
-        "status": "no_info",
-        "note": null
-      },
       "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "+1 to Ruchita (WFH today)"
+      },
+      "WAM5KDYBZ": {
         "status": "no_info",
         "note": null
       }
@@ -7061,11 +7061,11 @@
         "status": "office",
         "note": "At office"
       },
-      "WAM5KDYBZ": {
-        "status": "no_info",
-        "note": null
-      },
       "W010NNJV7S8": {
+        "status": "office",
+        "note": "+1 to Anurag (At office)"
+      },
+      "WAM5KDYBZ": {
         "status": "no_info",
         "note": null
       }
@@ -7083,11 +7083,11 @@
         "status": "wfh",
         "note": "OOO 1st half, WFH 2nd half"
       },
-      "WAM5KDYBZ": {
-        "status": "no_info",
-        "note": null
-      },
       "U03HRQ036BD": {
+        "status": "leave",
+        "note": "Bereavement - grandmother passed away"
+      },
+      "WAM5KDYBZ": {
         "status": "no_info",
         "note": null
       }
@@ -7171,11 +7171,11 @@
         "status": "wfh",
         "note": "Wfh today"
       },
-      "WAM5KDYBZ": {
-        "status": "no_info",
-        "note": null
-      },
       "U03HRQ036BD": {
+        "status": "wfh",
+        "note": "+1 to Utkarsha (Wfh today)"
+      },
+      "WAM5KDYBZ": {
         "status": "no_info",
         "note": null
       }
@@ -7215,11 +7215,11 @@
         "status": "wfh",
         "note": "WFH today"
       },
-      "WAM5KDYBZ": {
-        "status": "no_info",
-        "note": null
-      },
       "U0900H3NUUT": {
+        "status": "wfh",
+        "note": "+1 to Ruchita (WFH today)"
+      },
+      "WAM5KDYBZ": {
         "status": "no_info",
         "note": null
       }

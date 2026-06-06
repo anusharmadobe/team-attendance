@@ -97,7 +97,7 @@ STATUS_PRIORITY = {"office": 5, "wfh": 4, "sick": 3, "leave": 2, "no_info": 1}
 # When a team member reacts with one of these to a classified message,
 # they are recorded with the same status as the message sender.
 # Applies to office and wfh only — sick/leave reactions are too ambiguous.
-PLUS_ONE_EMOJIS = {"plus_one", "thumbsup", "+1"}
+PLUS_ONE_EMOJIS = {"+1moji", "+1_sign", "plus_one", "thumbsup", "+1"}
 PLUS_ONE_STATUSES = {"office", "wfh"}
 
 # ── Illness keywords ───────────────────────────────────────────────────────────
