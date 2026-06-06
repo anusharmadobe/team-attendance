@@ -278,10 +278,10 @@ tbody tr:last-child td{border-bottom:none}
       <div class="filt" style="margin-bottom:0">
         <label>Period</label>
         <select id="mp-period" onchange="renderMemberCards()">
-          <option value="cur">This Month</option>
+          <option value="cur" selected>This Month</option>
           <option value="3m">Last 3 Months</option>
           <option value="6m">Last 6 Months</option>
-          <option value="year" selected>This Year</option>
+          <option value="year">This Year</option>
           <option value="all">All Time</option>
         </select>
       </div>
@@ -861,8 +861,8 @@ function renderMemberCards(){
     // P2: posting rate = % days where ANY status was posted (data confidence)
     const postRate=recs.length>0?p(rep,recs.length):0;
     const offRep=rep>0?p(c.office,rep):0;
-    const offClr=offRep>=60?'var(--c-off)':offRep>=30?'var(--c-lve)':'var(--c-sck)';
-    const postClr=postRate>=70?'var(--c-off)':postRate>=40?'var(--c-lve)':'var(--c-sck)';
+    const offClr=offRep>=60?'var(--c-off)':offRep>=50?'var(--c-lve)':'var(--c-sck)';
+    const postClr=postRate>=60?'var(--c-off)':postRate>=40?'var(--c-lve)':'var(--c-sck)';
 
     card.innerHTML=`<h4>${m.name}</h4>
       <div style="display:flex;gap:12px;margin-bottom:10px">
