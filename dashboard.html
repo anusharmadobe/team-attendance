@@ -235,9 +235,12 @@ tbody tr:last-child td{border-bottom:none}
       <h2>Executive Summary</h2>
       <div style="display:flex;align-items:center;gap:10px">
         <select id="exec-period" onchange="renderHome()" style="background:var(--surf2);border:1px solid var(--bdr2);color:var(--tx);padding:5px 10px;border-radius:var(--r);font-size:12px;outline:none;cursor:pointer">
-          <option value="cur" selected>Current Month</option>
-          <option value="year">Current Year</option>
+          <option value="cur" selected>This Month</option>
+          <option value="3m">Last 3 Months</option>
+          <option value="6m">Last 6 Months</option>
+          <option value="year">This Year</option>
           <option value="lastyear">Last Year</option>
+          <option value="all">All Time</option>
         </select>
         <span class="exec-badge" id="exec-badge">—</span>
       </div>
@@ -282,6 +285,7 @@ tbody tr:last-child td{border-bottom:none}
           <option value="3m">Last 3 Months</option>
           <option value="6m">Last 6 Months</option>
           <option value="year">This Year</option>
+          <option value="lastyear">Last Year</option>
           <option value="all">All Time</option>
         </select>
       </div>
@@ -436,13 +440,64 @@ function mStats(y,m){
   return{calDays,days:calDays,c,bp,total:all.length,rep,op:p(c.office,rep),wp:p(c.wfh,rep)};
 }
 
-// Period selector helper
+// rangeStats: like mStats but accepts arbitrary from/to date strings
+function rangeStats(f,t){
+  const att=DATA.attendance,M=DATA.team_members;
+  const days=Object.keys(att).filter(d=>d>=f&&d<=t).sort();
+  const all=[],bp={};
+  days.forEach(d=>{
+    if(!att[d])return;
+    Object.entries(att[d]).forEach(([id,r])=>{
+      if(!M[id])return;
+      all.push(r);
+      if(!bp[id])bp[id]={office:0,wfh:0,sick:0,leave:0,no_info:0};
+      bp[id][r.status]++;
+    });
+  });
+  const c=cs(all),rep=all.length-c.no_info||1;
+  return{calDays:days.length,days:days.length,c,bp,total:all.length,rep,op:p(c.office,rep),wp:p(c.wfh,rep)};
+}
+
+// Period selector helper — returns {f, t, cmpF, cmpT, label, type, chartY}
+// type: 'month' | 'range' | 'year' | 'all'
+// cmpF/cmpT: null when no meaningful prior period (all-time)
 function getExecPeriod(){
   const sel=document.getElementById('exec-period')?.value||'cur';
-  const ly=String(NOW.getFullYear()-1);
-  if(sel==='lastyear') return{y:ly,m:null,type:'year',label:ly,cmpY:String(NOW.getFullYear()-2),cmpM:null};
-  if(sel==='year')     return{y:CY,m:null,type:'year',label:CY,cmpY:ly,cmpM:null};
-  return{y:CY,m:CM,type:'month',label:`${MONTHS[NOW.getMonth()]} ${CY}`,cmpY:PM_Y,cmpM:PM};
+  const d=new Date(TODAY);
+  const ly=String(NOW.getFullYear()-1), lly=String(NOW.getFullYear()-2);
+
+  if(sel==='cur'){
+    // This month vs last month
+    const cmpEnd=new Date(d);cmpEnd.setDate(0); // last day of prev month
+    return{f:`${CY}-${CM}-01`,t:TODAY,
+           cmpF:`${PM_Y}-${PM}-01`,cmpT:_localDateStr(cmpEnd),
+           label:`${MONTHS[NOW.getMonth()]} ${CY}`,type:'month',chartY:CY};
+  }
+  if(sel==='3m'){
+    const s=new Date(d);s.setMonth(d.getMonth()-3);const f=_localDateStr(s);
+    const cmpE=new Date(s);cmpE.setDate(cmpE.getDate()-1);
+    const cmpS=new Date(s);cmpS.setMonth(s.getMonth()-3);
+    return{f,t:TODAY,cmpF:_localDateStr(cmpS),cmpT:_localDateStr(cmpE),
+           label:'Last 3 Months',type:'range',chartY:CY};
+  }
+  if(sel==='6m'){
+    const s=new Date(d);s.setMonth(d.getMonth()-6);const f=_localDateStr(s);
+    const cmpE=new Date(s);cmpE.setDate(cmpE.getDate()-1);
+    const cmpS=new Date(s);cmpS.setMonth(s.getMonth()-6);
+    return{f,t:TODAY,cmpF:_localDateStr(cmpS),cmpT:_localDateStr(cmpE),
+           label:'Last 6 Months',type:'range',chartY:CY};
+  }
+  if(sel==='year'){
+    return{f:`${CY}-01-01`,t:TODAY,cmpF:`${ly}-01-01`,cmpT:`${ly}-12-31`,
+           label:CY,type:'year',chartY:CY};
+  }
+  if(sel==='lastyear'){
+    return{f:`${ly}-01-01`,t:`${ly}-12-31`,cmpF:`${lly}-01-01`,cmpT:`${lly}-12-31`,
+           label:ly,type:'year',chartY:ly};
+  }
+  // all time — no prior period comparison
+  return{f:DATA.period.from,t:DATA.period.to,cmpF:null,cmpT:null,
+         label:'All Time',type:'all',chartY:CY};
 }
 function activeOn(d){const m=DATA.team_members;
   return Object.entries(m).filter(([,i])=>{
@@ -450,10 +505,12 @@ function activeOn(d){const m=DATA.team_members;
     return dt>=af&&dt<=at;});}
 function periodRange(key){
   const t=new Date(TODAY);
+  const ly=String(NOW.getFullYear()-1);
   if(key==='cur') return{f:`${CY}-${CM}-01`,t:TODAY};
   if(key==='3m'){const d=new Date(t);d.setMonth(t.getMonth()-3);return{f:_localDateStr(d),t:TODAY};}
   if(key==='6m'){const d=new Date(t);d.setMonth(t.getMonth()-6);return{f:_localDateStr(d),t:TODAY};}
   if(key==='year') return{f:`${CY}-01-01`,t:TODAY};
+  if(key==='lastyear') return{f:`${ly}-01-01`,t:`${ly}-12-31`};
   return{f:DATA.period.from,t:DATA.period.to};
 }
 function wkDays(off){const d=new Date(NOW),dw=(d.getDay()+6)%7;d.setDate(d.getDate()-dw+off*7);
@@ -498,27 +555,25 @@ function init(){
 // ═══════════════════════════════════════════════════════════════════════════
 function renderHome(){
   const ep=getExecPeriod();
-  const cur=(ep.type==='month')?mStats(ep.y,ep.m):mStats(ep.y,null);
-  const prv=(ep.cmpM)?mStats(ep.cmpY,ep.cmpM):mStats(ep.cmpY,null);
+  const cur=rangeStats(ep.f,ep.t);
+  const _emptyStats={op:0,wp:0,c:{office:0,wfh:0,sick:0,leave:0,no_info:0},total:0,rep:1,calDays:0,bp:{}};
+  const prv=ep.cmpF?rangeStats(ep.cmpF,ep.cmpT):_emptyStats;
   const M=DATA.team_members;
 
   document.getElementById('exec-badge').textContent=ep.label;
-  document.getElementById('lc-year-label').textContent=ep.y;
+  document.getElementById('lc-year-label').textContent=ep.chartY;
 
   // ── Person-days explained note ───────────────────────────────────────────
   // total = person-days = active_members × calendar_days.
   // office+wfh+sick+leave+no_info always = total (the correct cross-check)
-  const periodFrom=ep.m?`${ep.y}-${ep.m}-01`:`${ep.y}-01-01`;
-  const periodTo=ep.m?TODAY:ep.y===CY?TODAY:`${ep.y}-12-31`;
   const activeMems=Object.values(M).filter(m=>{
     const af=new Date(m.active_from);
     const at=m.active_to?new Date(m.active_to):new Date('2099-12-31');
-    return af<=new Date(periodTo)&&at>=new Date(periodFrom);
+    return af<=new Date(ep.t)&&at>=new Date(ep.f);
   });
   const nMem=activeMems.length;
   const checkTotal=cur.c.office+cur.c.wfh+cur.c.sick+cur.c.leave+cur.c.no_info;
-  document.getElementById('kpi-section-lbl').textContent=
-    ep.type==='month'?`${ep.label} · Attendance Stats`:`${ep.label} · Full Year Stats`;
+  document.getElementById('kpi-section-lbl').textContent=`${ep.label} · Attendance Stats`;
   const mathOK=checkTotal===cur.total;
   // Fix 3: Simplified note — just members + calendar days
   document.getElementById('kpi-note').textContent=`${nMem} members, ${cur.calDays} calendar days`;
@@ -561,7 +616,7 @@ function renderHome(){
 
   // ── Build insights: normal first, ⚠️ warnings at end ───────────────────
   const normal=[], warnings=[];
-  const cmpLabel=ep.type==='month'?'last month':ep.y===CY?'last year':'prior year';
+  const cmpLabel=ep.type==='month'?'last month':ep.type==='year'?'last year':ep.type==='all'?'—':'prior period';
 
   // Per-person stats — reported rate only; no_info never assumed absent
   const ranked=Object.entries(M).map(([id,m])=>{
@@ -577,8 +632,9 @@ function renderHome(){
   // 1. Office trend — reported rate only
   const odiff=cur.op-(prv.op||0);
   const oSign=odiff>0?`↑ Up ${odiff}%`:odiff<0?`↓ Down ${Math.abs(odiff)}%`:'→ Unchanged';
+  const trendSuffix=ep.cmpF?` (${oSign} vs ${cmpLabel})`:'';
   normal.push({icon:'📈',
-    text:`Office attendance ${oSign} vs ${cmpLabel} — ${cur.op}% of reported days (${cur.c.office}/${rep} days where status was posted)`});
+    text:`Office attendance: ${cur.op}% of reported days${trendSuffix} — ${cur.c.office} of ${rep} days posted`});
 
   // 2. Top office person (reported rate)
   const topOff=ranked.filter(x=>x.rp>0).sort((a,b)=>b.repOff-a.repOff)[0];
@@ -602,7 +658,7 @@ function renderHome(){
   if(awaySummary.length){
     normal.push({icon:'🏥',text:`Sick/Leave: ${cur.c.sick+cur.c.leave} days — ${awaySummary.join(', ')}`});
   } else {
-    normal.push({icon:'✅',text:`No sick leave or PTOs recorded this ${ep.type==='month'?'month':'period'}`});
+    normal.push({icon:'✅',text:`No sick leave or PTOs recorded (${ep.label})`});
   }
 
   // ⚠️ WARNING 1 — Below 3-day/week office target (60%) of REPORTED days
@@ -641,7 +697,7 @@ function renderHome(){
   renderTodayStrip();
 
   // ── Line chart — show year matching exec period ──────────────────────────
-  renderLineChart('lc-wrap', ep.y);
+  renderLineChart('lc-wrap', ep.chartY);
 
   // ── Member cards ─────────────────────────────────────────────────────────
   renderMemberCards();
