@@ -295,8 +295,8 @@ tbody tr:last-child td{border-bottom:none}
 <div id="page-annual" class="page">
   <div class="kpi-row" id="kpi-annual" style="margin-bottom:20px"></div>
   <div class="card-row">
-    <div class="card"><h3>Office % by Person</h3><div id="bar-person-a"></div></div>
-    <div class="card"><h3>Team Attendance Overview</h3><div id="bar-status-a"></div></div>
+    <div class="card"><h3>Individual office attendance</h3><div id="bar-person-a"></div></div>
+    <div class="card"><h3>Team attendance</h3><div id="bar-status-a"></div></div>
   </div>
   <div class="filt">
     <label>Year</label><select id="ay" onchange="renderAnnual()"></select>
@@ -318,11 +318,11 @@ tbody tr:last-child td{border-bottom:none}
   <!-- Fix 8 + per-person: two-column layout, person chart hides for individual selection -->
   <div class="card-row" style="margin-bottom:0">
     <div class="card" id="person-card-m">
-      <h3>Office % by Person</h3>
+      <h3>Individual office attendance</h3>
       <div id="bar-person-m"></div>
     </div>
     <div class="card">
-      <h3>Team Attendance Overview</h3>
+      <h3>Team attendance</h3>
       <div id="bar-status-m"></div>
     </div>
   </div>
@@ -344,11 +344,11 @@ tbody tr:last-child td{border-bottom:none}
   <!-- Fix 8 + per-person: two-column layout for weekly -->
   <div class="card-row" style="margin-bottom:0">
     <div class="card" id="person-card-w">
-      <h3>Office % by Person</h3>
+      <h3>Individual office attendance</h3>
       <div id="bar-person-w"></div>
     </div>
     <div class="card">
-      <h3>Team Attendance Overview</h3>
+      <h3>Team attendance</h3>
       <div id="bar-status-w"></div>
     </div>
   </div>
@@ -639,7 +639,7 @@ function renderHome(){
 }
 
 // ═══════════════════════════════════════════════════════════════════════════
-// Fix 8: Shared "Team Attendance Overview" bar chart renderer
+// Fix 8: Shared "Team attendance" bar chart renderer
 // ═══════════════════════════════════════════════════════════════════════════
 function renderAttendanceOverview(containerId, counts, totalRep){
   const el=document.getElementById(containerId);
@@ -1145,7 +1145,7 @@ function renderMonthly(){
     <div class="kpi"><div class="kl">WFH</div><div class="kv" style="color:var(--c-wfh)">${p(c.wfh,rep)}%</div><div class="ks">${c.wfh} person-days</div></div>
     <div class="kpi"><div class="kl">Sick / PTO</div><div class="kv" style="color:var(--c-sck)">${p(c.sick+c.leave,rep)}%</div><div class="ks">${c.sick+c.leave} person-days</div></div>
     <div class="kpi"><div class="kl">No Status</div><div class="kv" style="color:var(--txm)">${p(c.no_info,all.length)}%</div><div class="ks">${c.no_info} person-days</div></div>`;
-  // Fix 8: Team Attendance Overview + per-person chart (shows only for All members)
+  // Fix 8: Team attendance + per-person chart (shows only for All members)
   renderAttendanceOverview('bar-status-m', c, rep);
   const personCardM=document.getElementById('person-card-m');
   if(mem){
@@ -1197,7 +1197,7 @@ function renderWeekly(){
     <div class="kpi"><div class="kl">WFH</div><div class="kv" style="color:var(--c-wfh)">${p(c.wfh,wkRep)}%</div><div class="ks">${c.wfh} person-days</div></div>
     <div class="kpi"><div class="kl">Sick / PTO</div><div class="kv" style="color:var(--c-sck)">${p(c.sick+c.leave,wkRep)}%</div><div class="ks">${c.sick+c.leave} person-days</div></div>
     <div class="kpi"><div class="kl">No Status</div><div class="kv" style="color:var(--txm)">${p(c.no_info,all.length)}%</div><div class="ks">${c.no_info} person-days</div></div>`;
-  // Fix 8: Team Attendance Overview + per-person chart (shows only for All members)
+  // Fix 8: Team attendance + per-person chart (shows only for All members)
   renderAttendanceOverview('bar-status-w', c, wkRep);
   const personCardW=document.getElementById('person-card-w');
   if(mem){
