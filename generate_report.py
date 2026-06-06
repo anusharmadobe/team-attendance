@@ -38,6 +38,13 @@ def parse_period(args):
     elif args[0] == "month":
         first = date(today.year, today.month, 1)
         return first.isoformat(), today.isoformat(), f"{today.strftime('%B %Y')}"
+    elif args[0] == "last_week":
+        # Previous Mon–Fri (the week that just finished)
+        dow      = today.weekday()          # 0=Mon … 6=Sun
+        last_fri = today - timedelta(days=dow + 3)
+        last_mon = last_fri - timedelta(days=4)
+        return last_mon.isoformat(), last_fri.isoformat(), \
+               f"Week of {last_mon.strftime('%b %d')}–{last_fri.strftime('%b %d, %Y')}"
     elif args[0] == "last_month":
         if today.month == 1:
             ym, yy = 12, today.year - 1
