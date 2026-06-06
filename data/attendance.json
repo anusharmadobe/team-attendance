@@ -78,6 +78,12 @@
         "note": null
       }
     },
+    "2025-01-05": {
+      "WAM5KDYBZ": {
+        "status": "leave",
+        "note": "Khushwant will be on leave for next week."
+      }
+    },
     "2025-01-06": {
       "W4R4S9FS4": {
         "status": "no_info",
@@ -103,7 +109,7 @@
       },
       "U03HRQ036BD": {
         "status": "sick",
-        "note": "Sick leave, bad throat and fever"
+        "note": "Not feeling well. Taking sick leave today."
       },
       "W4R4S9FS4": {
         "status": "no_info",
@@ -115,10 +121,6 @@
       }
     },
     "2025-01-08": {
-      "U03HRQ036BD": {
-        "status": "wfh",
-        "note": "Will login around 11"
-      },
       "W4R4S9FS4": {
         "status": "no_info",
         "note": null
@@ -130,6 +132,10 @@
       "W010NNJV7S8": {
         "status": "no_info",
         "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "wfh",
+        "note": "Will login around 11"
       }
     },
     "2025-01-09": {
@@ -169,13 +175,13 @@
       }
     },
     "2025-01-13": {
-      "WAM5KDYBZ": {
-        "status": "office",
-        "note": "Working from office"
-      },
       "W010NNJV7S8": {
         "status": "wfh",
         "note": "Wfh today"
+      },
+      "WAM5KDYBZ": {
+        "status": "office",
+        "note": "Working from office"
       },
       "W4R4S9FS4": {
         "status": "no_info",
@@ -187,13 +193,13 @@
       }
     },
     "2025-01-14": {
+      "U03HRQ036BD": {
+        "status": "wfh",
+        "note": "WFH today."
+      },
       "W4R4S9FS4": {
         "status": "office",
         "note": "Morning meetings from home, then office post lunch"
-      },
-      "U03HRQ036BD": {
-        "status": "wfh",
-        "note": "WFH today"
       },
       "WAM5KDYBZ": {
         "status": "no_info",
@@ -205,13 +211,13 @@
       }
     },
     "2025-01-15": {
-      "W010NNJV7S8": {
-        "status": "wfh",
-        "note": "wfh today"
-      },
       "U03HRQ036BD": {
         "status": "wfh",
         "note": "WFH today"
+      },
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "wfh today"
       },
       "W4R4S9FS4": {
         "status": "no_info",
@@ -241,13 +247,13 @@
       }
     },
     "2025-01-17": {
-      "WAM5KDYBZ": {
-        "status": "wfh",
-        "note": "WFH Today"
-      },
       "W010NNJV7S8": {
         "status": "wfh",
-        "note": "Wife ill, WFH today"
+        "note": "Wife has fallen ill. so taking WFH today to care of her"
+      },
+      "WAM5KDYBZ": {
+        "status": "wfh",
+        "note": "WFH Today. Thanks!"
       },
       "W4R4S9FS4": {
         "status": "no_info",
@@ -331,13 +337,13 @@
       }
     },
     "2025-01-24": {
-      "WAM5KDYBZ": {
-        "status": "leave",
-        "note": "On leave till 2:30 pm"
-      },
       "U03HRQ036BD": {
         "status": "leave",
-        "note": "PTO today"
+        "note": "PTO today. Thanks"
+      },
+      "WAM5KDYBZ": {
+        "status": "leave",
+        "note": "On leave till 2:30 pm."
       },
       "W4R4S9FS4": {
         "status": "no_info",
@@ -385,13 +391,13 @@
       }
     },
     "2025-01-29": {
-      "W010NNJV7S8": {
-        "status": "wfh",
-        "note": "wfh today"
-      },
       "U03HRQ036BD": {
         "status": "wfh",
         "note": "WFH today"
+      },
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "wfh today"
       },
       "W4R4S9FS4": {
         "status": "no_info",
@@ -421,13 +427,13 @@
       }
     },
     "2025-01-31": {
+      "U03HRQ036BD": {
+        "status": "wfh",
+        "note": "WFH today."
+      },
       "W010NNJV7S8": {
         "status": "sick",
         "note": "Both me and wife unwell, taking PTO"
-      },
-      "U03HRQ036BD": {
-        "status": "wfh",
-        "note": "WFH today"
       },
       "W4R4S9FS4": {
         "status": "no_info",
@@ -457,17 +463,17 @@
       }
     },
     "2025-02-04": {
-      "W010NNJV7S8": {
+      "WAM5KDYBZ": {
         "status": "wfh",
-        "note": "wfh today"
+        "note": "Attending Morning Meetings from home, would leave for office after meetings."
       },
       "U03HRQ036BD": {
         "status": "wfh",
-        "note": "WFH, son's school admit card"
+        "note": "WFH today as have to go to son's school for board admit card."
       },
-      "WAM5KDYBZ": {
+      "W010NNJV7S8": {
         "status": "wfh",
-        "note": "Morning meetings from home, then office"
+        "note": "wfh today"
       },
       "W4R4S9FS4": {
         "status": "no_info",
@@ -477,7 +483,7 @@
     "2025-02-05": {
       "U03HRQ036BD": {
         "status": "wfh",
-        "note": "WFH due to Delhi elections"
+        "note": "WFH due to the Delhi elections. Will head out in the afternoon to cast my vote."
       },
       "WAM5KDYBZ": {
         "status": "wfh",
@@ -515,13 +521,13 @@
         "status": "wfh",
         "note": "WFH today"
       },
-      "WAM5KDYBZ": {
-        "status": "leave",
-        "note": "Away for first half"
-      },
       "W4R4S9FS4": {
         "status": "no_info",
         "note": null
+      },
+      "WAM5KDYBZ": {
+        "status": "leave",
+        "note": "Away for first half"
       },
       "W010NNJV7S8": {
         "status": "no_info",
@@ -547,13 +553,13 @@
       }
     },
     "2025-02-11": {
+      "U03HRQ036BD": {
+        "status": "wfh",
+        "note": "Hi team, I am not feeling well today, so working from home."
+      },
       "W010NNJV7S8": {
         "status": "wfh",
         "note": "wfh today, PTO in 2nd half"
-      },
-      "U03HRQ036BD": {
-        "status": "wfh",
-        "note": "Not feeling well, WFH"
       },
       "W4R4S9FS4": {
         "status": "no_info",
@@ -583,13 +589,13 @@
       }
     },
     "2025-02-13": {
-      "WAM5KDYBZ": {
-        "status": "sick",
-        "note": "Not feeling well, taking off"
-      },
       "W4R4S9FS4": {
         "status": "no_info",
         "note": null
+      },
+      "WAM5KDYBZ": {
+        "status": "sick",
+        "note": "Not feeling well, taking off"
       },
       "W010NNJV7S8": {
         "status": "no_info",
@@ -603,11 +609,11 @@
     "2025-02-14": {
       "U03HRQ036BD": {
         "status": "sick",
-        "note": "Sick leave today"
+        "note": "Hi team. Sick leave today, Thanks"
       },
       "WAM5KDYBZ": {
         "status": "wfh",
-        "note": "WFH today"
+        "note": "WFH today. Thanks!"
       },
       "W4R4S9FS4": {
         "status": "no_info",
@@ -620,8 +626,8 @@
     },
     "2025-02-17": {
       "WAM5KDYBZ": {
-        "status": "leave",
-        "note": "Severe headache, taking first half off"
+        "status": "sick",
+        "note": "I've had a severe headache since morning, so I'm taking the first half off. I'll resume work in the second half if I feel better"
       },
       "W4R4S9FS4": {
         "status": "no_info",
@@ -657,7 +663,7 @@
     "2025-02-19": {
       "W010NNJV7S8": {
         "status": "wfh",
-        "note": "wfh today"
+        "note": "wfh today. Will be away between 11:30 to 1:30"
       },
       "W4R4S9FS4": {
         "status": "no_info",
@@ -679,7 +685,7 @@
       },
       "W010NNJV7S8": {
         "status": "wfh",
-        "note": "wfh, severe back ache"
+        "note": "Hi team wfh today. have a severe back ache"
       },
       "W4R4S9FS4": {
         "status": "no_info",
@@ -691,13 +697,13 @@
       }
     },
     "2025-02-21": {
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "Extending wfh today as well. The back pain still remains. Doctor has prescribed rest till it glares out"
+      },
       "WAM5KDYBZ": {
         "status": "wfh",
         "note": "WFH Today"
-      },
-      "W010NNJV7S8": {
-        "status": "wfh",
-        "note": "Extending wfh, back pain"
       },
       "W4R4S9FS4": {
         "status": "no_info",
@@ -709,13 +715,13 @@
       }
     },
     "2025-02-24": {
-      "W010NNJV7S8": {
-        "status": "office",
-        "note": "At office (left early for physio)"
-      },
       "WAM5KDYBZ": {
         "status": "wfh",
-        "note": "WFH Today - daughter not well"
+        "note": "WFH Today - Elder daughter is not well, wife would need some help during the day. Thanks!"
+      },
+      "W010NNJV7S8": {
+        "status": "office",
+        "note": "Leaving for home now, to catch physio appointment"
       },
       "W4R4S9FS4": {
         "status": "no_info",
@@ -727,13 +733,13 @@
       }
     },
     "2025-02-25": {
-      "WAM5KDYBZ": {
-        "status": "wfh",
-        "note": "Morning meetings from home, then office"
-      },
       "W010NNJV7S8": {
         "status": "wfh",
-        "note": "wfh today, likely take off 2nd half"
+        "note": "wfh today. Likely to take off in the 2nd half"
+      },
+      "WAM5KDYBZ": {
+        "status": "wfh",
+        "note": "Would attend morning meetings from home before heading to office after 12:00 pm."
       },
       "W4R4S9FS4": {
         "status": "no_info",
@@ -747,15 +753,15 @@
     "2025-02-26": {
       "WAM5KDYBZ": {
         "status": "wfh",
-        "note": "WFH today"
+        "note": "WFH today. Thanks!"
+      },
+      "W4R4S9FS4": {
+        "status": "leave",
+        "note": "Team, Doctor has advised to remove right side wisdom tooth and one top molar today evening, so i might be on PTO tomorrow and day after for recovery."
       },
       "W010NNJV7S8": {
         "status": "office",
         "note": "In hospital, then to office"
-      },
-      "W4R4S9FS4": {
-        "status": "no_info",
-        "note": null
       },
       "U03HRQ036BD": {
         "status": "no_info",
@@ -782,16 +788,16 @@
     },
     "2025-02-28": {
       "WAM5KDYBZ": {
-        "status": "leave",
-        "note": "Taking leave, wife and kids ill"
-      },
-      "W010NNJV7S8": {
         "status": "wfh",
         "note": "Wfh today"
       },
       "W4R4S9FS4": {
         "status": "no_info",
         "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "Wfh today"
       },
       "U03HRQ036BD": {
         "status": "no_info",
@@ -855,19 +861,19 @@
     "2025-03-06": {
       "U03HRQ036BD": {
         "status": "wfh",
-        "note": "WFH today"
+        "note": "WFH today. Thanks"
       },
       "WAM5KDYBZ": {
         "status": "leave",
-        "note": "On leave for first half"
-      },
-      "W010NNJV7S8": {
-        "status": "sick",
-        "note": "Not feeling well, logging off"
+        "note": "On leave for the first half."
       },
       "W4R4S9FS4": {
         "status": "no_info",
         "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "sick",
+        "note": "Not feeling well, logging off"
       }
     },
     "2025-03-07": {
@@ -891,7 +897,7 @@
     "2025-03-10": {
       "U03HRQ036BD": {
         "status": "leave",
-        "note": "Leave today and tomorrow \u2013 son's exam"
+        "note": "Hi team, will be on leave today and tomorrow because of my son's exam."
       },
       "W4R4S9FS4": {
         "status": "no_info",
@@ -909,7 +915,7 @@
     "2025-03-11": {
       "U03HRQ036BD": {
         "status": "leave",
-        "note": "On leave \u2013 son's exam"
+        "note": "[multi-day] Hi team, will be on leave today and tomorrow because of my son's exam."
       },
       "W4R4S9FS4": {
         "status": "no_info",
@@ -925,13 +931,13 @@
       }
     },
     "2025-03-12": {
-      "U03HRQ036BD": {
-        "status": "wfh",
-        "note": "WFH today"
-      },
       "W010NNJV7S8": {
         "status": "wfh",
         "note": "wfh today"
+      },
+      "U03HRQ036BD": {
+        "status": "wfh",
+        "note": "Hi team, WFH today due to a family function in the evening. Thanks."
       },
       "W4R4S9FS4": {
         "status": "no_info",
@@ -999,7 +1005,7 @@
     "2025-03-19": {
       "U03HRQ036BD": {
         "status": "wfh",
-        "note": "WFH today"
+        "note": "WFH today. Thanks"
       },
       "W4R4S9FS4": {
         "status": "no_info",
@@ -1017,7 +1023,7 @@
     "2025-03-20": {
       "WAM5KDYBZ": {
         "status": "wfh",
-        "note": "Away 1st half, WFH 2nd half"
+        "note": "Away for the first half, would work from home for the 2nd half."
       },
       "W4R4S9FS4": {
         "status": "no_info",
@@ -1030,6 +1036,12 @@
       "U03HRQ036BD": {
         "status": "no_info",
         "note": null
+      }
+    },
+    "2025-03-21": {
+      "U03HRQ036BD": {
+        "status": "sick",
+        "note": "Hi team, I am having fever with the throat infection, so sick leave today. Thanks"
       }
     },
     "2025-03-24": {
@@ -1051,17 +1063,17 @@
       }
     },
     "2025-03-25": {
+      "WAM5KDYBZ": {
+        "status": "wfh",
+        "note": "WFH today. Thanks"
+      },
       "U03HRQ036BD": {
         "status": "wfh",
-        "note": "WFH today"
+        "note": "WFH today. Thanks"
       },
       "W010NNJV7S8": {
         "status": "wfh",
         "note": "wfh today"
-      },
-      "WAM5KDYBZ": {
-        "status": "wfh",
-        "note": "WFH today"
       },
       "W4R4S9FS4": {
         "status": "no_info",
@@ -1087,13 +1099,13 @@
       }
     },
     "2025-03-27": {
-      "W4R4S9FS4": {
-        "status": "office",
-        "note": "Back from Summit and sick leave, at office"
-      },
       "W010NNJV7S8": {
         "status": "wfh",
         "note": "wfh today"
+      },
+      "W4R4S9FS4": {
+        "status": "office",
+        "note": "Back from Summit and sick leave, at office"
       },
       "WAM5KDYBZ": {
         "status": "no_info",
@@ -1197,7 +1209,7 @@
     "2025-04-04": {
       "U03HRQ036BD": {
         "status": "wfh",
-        "note": "WFH today"
+        "note": "Hi team, WFH today"
       },
       "W010NNJV7S8": {
         "status": "wfh",
@@ -1205,7 +1217,7 @@
       },
       "WAM5KDYBZ": {
         "status": "sick",
-        "note": "Sore throat and feverish, taking day off"
+        "note": "I have a sore throat and feel feverish, so I'm taking the day off to rest."
       },
       "W4R4S9FS4": {
         "status": "no_info",
@@ -1215,11 +1227,11 @@
     "2025-04-07": {
       "U03HRQ036BD": {
         "status": "leave",
-        "note": "On PTO today"
+        "note": "Hi team, on PTO today"
       },
       "WAM5KDYBZ": {
         "status": "wfh",
-        "note": "Away 1st half, WFH 2nd half"
+        "note": "Khushwant is away for the first half, would work from home for 2nd half."
       },
       "W4R4S9FS4": {
         "status": "no_info",
@@ -1323,7 +1335,7 @@
     "2025-04-15": {
       "W010NNJV7S8": {
         "status": "wfh",
-        "note": "Wfh today, stepping out 2nd half"
+        "note": "Wfh today. Will be stepping out in the 2nd half"
       },
       "W4R4S9FS4": {
         "status": "no_info",
@@ -1341,7 +1353,7 @@
     "2025-04-16": {
       "WAM5KDYBZ": {
         "status": "leave",
-        "note": "On leave 16th and 17th April"
+        "note": "I am on leave on 16th and 17th of April."
       },
       "W4R4S9FS4": {
         "status": "no_info",
@@ -1357,17 +1369,17 @@
       }
     },
     "2025-04-17": {
-      "WAM5KDYBZ": {
-        "status": "leave",
-        "note": "On leave 16th and 17th April"
+      "U03HRQ036BD": {
+        "status": "wfh",
+        "note": "WFH today"
       },
       "W4R4S9FS4": {
         "status": "wfh",
         "note": "WFH today"
       },
-      "U03HRQ036BD": {
-        "status": "wfh",
-        "note": "WFH today"
+      "WAM5KDYBZ": {
+        "status": "leave",
+        "note": "On leave 16th and 17th April"
       },
       "W010NNJV7S8": {
         "status": "no_info",
@@ -1381,7 +1393,7 @@
       },
       "W010NNJV7S8": {
         "status": "wfh",
-        "note": "Feeling unwell, opting for wfh"
+        "note": "Feeling unwell. Opting for wfh today"
       },
       "W4R4S9FS4": {
         "status": "no_info",
@@ -1393,15 +1405,15 @@
       }
     },
     "2025-04-22": {
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "WFH for most of this week"
+      },
       "W4R4S9FS4": {
         "status": "no_info",
         "note": null
       },
       "WAM5KDYBZ": {
-        "status": "no_info",
-        "note": null
-      },
-      "W010NNJV7S8": {
         "status": "no_info",
         "note": null
       },
@@ -1411,33 +1423,33 @@
       }
     },
     "2025-04-23": {
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "[multi-day] WFH for most of this week"
+      },
       "U03HRQ036BD": {
         "status": "leave",
-        "note": "On PTO today"
+        "note": "On PTO today. Thanks"
       },
       "W4R4S9FS4": {
         "status": "no_info",
         "note": null
       },
       "WAM5KDYBZ": {
-        "status": "no_info",
-        "note": null
-      },
-      "W010NNJV7S8": {
         "status": "no_info",
         "note": null
       }
     },
     "2025-04-24": {
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "[multi-day] WFH for most of this week"
+      },
       "W4R4S9FS4": {
         "status": "no_info",
         "note": null
       },
       "WAM5KDYBZ": {
-        "status": "no_info",
-        "note": null
-      },
-      "W010NNJV7S8": {
         "status": "no_info",
         "note": null
       },
@@ -1447,6 +1459,10 @@
       }
     },
     "2025-04-25": {
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "[multi-day] WFH for most of this week"
+      },
       "W4R4S9FS4": {
         "status": "wfh",
         "note": "WFH today"
@@ -1454,10 +1470,6 @@
       "U03HRQ036BD": {
         "status": "wfh",
         "note": "WFH today"
-      },
-      "W010NNJV7S8": {
-        "status": "wfh",
-        "note": "Wfh today"
       },
       "WAM5KDYBZ": {
         "status": "office",
@@ -1501,13 +1513,13 @@
       }
     },
     "2025-04-30": {
-      "WAM5KDYBZ": {
-        "status": "wfh",
-        "note": "Leave 1st half, WFH 2nd half"
-      },
       "W4R4S9FS4": {
         "status": "no_info",
         "note": null
+      },
+      "WAM5KDYBZ": {
+        "status": "wfh",
+        "note": "Leave 1st half, WFH 2nd half"
       },
       "W010NNJV7S8": {
         "status": "no_info",
@@ -1537,17 +1549,17 @@
       }
     },
     "2025-05-05": {
-      "W4R4S9FS4": {
-        "status": "leave",
-        "note": "Away from office this week - mother hospitalized"
+      "U03HRQ036BD": {
+        "status": "wfh",
+        "note": "WFH today"
       },
       "W010NNJV7S8": {
         "status": "wfh",
         "note": "WFH today and tomorrow"
       },
-      "U03HRQ036BD": {
-        "status": "wfh",
-        "note": "WFH today"
+      "W4R4S9FS4": {
+        "status": "leave",
+        "note": "Away from office this week - mother hospitalized"
       },
       "WAM5KDYBZ": {
         "status": "no_info",
@@ -1555,15 +1567,15 @@
       }
     },
     "2025-05-06": {
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "[multi-day] WFH today and tomorrow"
+      },
       "W4R4S9FS4": {
         "status": "no_info",
         "note": null
       },
       "WAM5KDYBZ": {
-        "status": "no_info",
-        "note": null
-      },
-      "W010NNJV7S8": {
         "status": "no_info",
         "note": null
       },
@@ -1609,17 +1621,17 @@
       }
     },
     "2025-05-09": {
-      "W4R4S9FS4": {
-        "status": "leave",
-        "note": "Away from office this week - mother hospitalized"
+      "WAM5KDYBZ": {
+        "status": "wfh",
+        "note": "WFH Today"
       },
       "U03HRQ036BD": {
         "status": "wfh",
         "note": "WFH"
       },
-      "WAM5KDYBZ": {
-        "status": "wfh",
-        "note": "WFH Today"
+      "W4R4S9FS4": {
+        "status": "leave",
+        "note": "Away from office this week - mother hospitalized"
       },
       "W010NNJV7S8": {
         "status": "no_info",
@@ -1629,11 +1641,11 @@
     "2025-05-12": {
       "U03HRQ036BD": {
         "status": "sick",
-        "note": "Stomach infection, sick leave"
+        "note": "Not well. I am having stomach infection. Sick leave today."
       },
       "WAM5KDYBZ": {
         "status": "office",
-        "note": "Working from office"
+        "note": "Working from office, today!"
       },
       "W4R4S9FS4": {
         "status": "no_info",
@@ -1663,13 +1675,13 @@
       }
     },
     "2025-05-14": {
-      "W4R4S9FS4": {
-        "status": "office",
-        "note": "Joined office and clearing backlog"
-      },
       "W010NNJV7S8": {
         "status": "wfh",
         "note": "wfh today"
+      },
+      "W4R4S9FS4": {
+        "status": "office",
+        "note": "Joined office and clearing backlog"
       },
       "WAM5KDYBZ": {
         "status": "no_info",
@@ -1699,35 +1711,35 @@
       }
     },
     "2025-05-16": {
-      "U03HRQ036BD": {
-        "status": "wfh",
-        "note": "WFH"
-      },
       "W010NNJV7S8": {
         "status": "wfh",
         "note": "WFH today"
+      },
+      "U03HRQ036BD": {
+        "status": "wfh",
+        "note": "WFH"
       },
       "WAM5KDYBZ": {
         "status": "office",
         "note": "Working From Office"
       },
       "W4R4S9FS4": {
-        "status": "no_info",
-        "note": null
+        "status": "wfh",
+        "note": "WFH today"
       }
     },
     "2025-05-19": {
-      "WAM5KDYBZ": {
-        "status": "office",
-        "note": "Working From Office"
+      "W4R4S9FS4": {
+        "status": "wfh",
+        "note": "WFH today"
       },
       "W010NNJV7S8": {
         "status": "wfh",
         "note": "WFH Today"
       },
-      "W4R4S9FS4": {
-        "status": "wfh",
-        "note": "WFH today"
+      "WAM5KDYBZ": {
+        "status": "office",
+        "note": "Working From Office"
       },
       "U03HRQ036BD": {
         "status": "no_info",
@@ -1735,10 +1747,6 @@
       }
     },
     "2025-05-20": {
-      "W010NNJV7S8": {
-        "status": "wfh",
-        "note": "Raining in Bangalore, WFH"
-      },
       "W4R4S9FS4": {
         "status": "no_info",
         "note": null
@@ -1746,6 +1754,10 @@
       "WAM5KDYBZ": {
         "status": "no_info",
         "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "Raining in Bangalore, WFH"
       },
       "U03HRQ036BD": {
         "status": "no_info",
@@ -1755,7 +1767,7 @@
     "2025-05-21": {
       "U03HRQ036BD": {
         "status": "wfh",
-        "note": "WFH today, logging late"
+        "note": "Hi team, WFH today. I'll be logging late as I need to visit the bank."
       },
       "W4R4S9FS4": {
         "status": "office",
@@ -1773,7 +1785,7 @@
     "2025-05-22": {
       "W4R4S9FS4": {
         "status": "wfh",
-        "note": "WFH today, daughter not well"
+        "note": "WFH today. Daughter not well, have doc visit in morning."
       },
       "WAM5KDYBZ": {
         "status": "no_info",
@@ -1789,6 +1801,10 @@
       }
     },
     "2025-05-23": {
+      "WAM5KDYBZ": {
+        "status": "office",
+        "note": "Working from office"
+      },
       "U03HRQ036BD": {
         "status": "wfh",
         "note": "WFH today"
@@ -1800,10 +1816,6 @@
       "W010NNJV7S8": {
         "status": "wfh",
         "note": "WFH today"
-      },
-      "WAM5KDYBZ": {
-        "status": "wfh",
-        "note": "On leave 1st half, then office"
       }
     },
     "2025-05-26": {
@@ -1813,7 +1825,7 @@
       },
       "W010NNJV7S8": {
         "status": "wfh",
-        "note": "Feeling under the weather, WFH"
+        "note": "Feeling under the weather. WFH today"
       },
       "W4R4S9FS4": {
         "status": "wfh",
@@ -1843,10 +1855,6 @@
       }
     },
     "2025-05-28": {
-      "W010NNJV7S8": {
-        "status": "wfh",
-        "note": "WFH today, still recovering"
-      },
       "W4R4S9FS4": {
         "status": "no_info",
         "note": null
@@ -1854,6 +1862,10 @@
       "WAM5KDYBZ": {
         "status": "no_info",
         "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "WFH today, still recovering"
       },
       "U03HRQ036BD": {
         "status": "no_info",
@@ -1871,7 +1883,7 @@
       },
       "WAM5KDYBZ": {
         "status": "leave",
-        "note": "On leave for the first half"
+        "note": "I am on leave for the first half"
       },
       "W010NNJV7S8": {
         "status": "no_info",
@@ -1879,13 +1891,13 @@
       }
     },
     "2025-05-30": {
-      "WAM5KDYBZ": {
-        "status": "office",
-        "note": "Working from office"
-      },
       "U03HRQ036BD": {
         "status": "leave",
         "note": "PTO today"
+      },
+      "WAM5KDYBZ": {
+        "status": "office",
+        "note": "Working from office"
       },
       "W4R4S9FS4": {
         "status": "office",
@@ -1897,13 +1909,13 @@
       }
     },
     "2025-06-02": {
+      "WAM5KDYBZ": {
+        "status": "wfh",
+        "note": "WFH Today for first half, will be at office for 2nd half!"
+      },
       "W4R4S9FS4": {
         "status": "wfh",
         "note": "WFH today"
-      },
-      "WAM5KDYBZ": {
-        "status": "wfh",
-        "note": "WFH 1st half, office 2nd half"
       },
       "W010NNJV7S8": {
         "status": "no_info",
@@ -1915,13 +1927,13 @@
       }
     },
     "2025-06-03": {
-      "W4R4S9FS4": {
-        "status": "office",
-        "note": "In office"
-      },
       "W010NNJV7S8": {
         "status": "wfh",
         "note": "WFH today"
+      },
+      "W4R4S9FS4": {
+        "status": "office",
+        "note": "In office"
       },
       "WAM5KDYBZ": {
         "status": "no_info",
@@ -1935,7 +1947,7 @@
     "2025-06-04": {
       "U03HRQ036BD": {
         "status": "wfh",
-        "note": "WFH, late (son to doctor)"
+        "note": "WFH"
       },
       "WAM5KDYBZ": {
         "status": "office",
@@ -1951,35 +1963,35 @@
       }
     },
     "2025-06-05": {
-      "W4R4S9FS4": {
-        "status": "office",
-        "note": "at office"
-      },
       "W010NNJV7S8": {
-        "status": "wfh",
-        "note": "WFH today"
-      },
-      "U03HRQ036BD": {
         "status": "wfh",
         "note": "WFH today"
       },
       "WAM5KDYBZ": {
         "status": "leave",
-        "note": "On leave 1st half, WFH 2nd half"
-      }
-    },
-    "2025-06-06": {
-      "WAM5KDYBZ": {
-        "status": "office",
-        "note": "At Office"
+        "note": "I would be on leave for the first half of the day - would work from home in 2nd half."
       },
       "W4R4S9FS4": {
-        "status": "wfh",
-        "note": "WFH today"
+        "status": "office",
+        "note": "at office"
       },
       "U03HRQ036BD": {
         "status": "wfh",
         "note": "WFH today"
+      }
+    },
+    "2025-06-06": {
+      "U03HRQ036BD": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "W4R4S9FS4": {
+        "status": "wfh",
+        "note": "WFH today."
+      },
+      "WAM5KDYBZ": {
+        "status": "office",
+        "note": "At Office"
       },
       "W010NNJV7S8": {
         "status": "no_info",
@@ -1989,15 +2001,15 @@
     "2025-06-09": {
       "U03HRQ036BD": {
         "status": "leave",
-        "note": "On leave today, travelling"
-      },
-      "W4R4S9FS4": {
-        "status": "office",
-        "note": "At office"
+        "note": "On leave today- travelling."
       },
       "WAM5KDYBZ": {
         "status": "wfh",
         "note": "WFH - Punjab Today"
+      },
+      "W4R4S9FS4": {
+        "status": "office",
+        "note": "At office"
       },
       "W010NNJV7S8": {
         "status": "no_info",
@@ -2007,7 +2019,7 @@
     "2025-06-10": {
       "U03HRQ036BD": {
         "status": "wfh",
-        "note": "WFH due to cough and cold"
+        "note": "WFH today, due to cough and cold."
       },
       "WAM5KDYBZ": {
         "status": "wfh",
@@ -2023,10 +2035,6 @@
       }
     },
     "2025-06-11": {
-      "U03HRQ036BD": {
-        "status": "office",
-        "note": "Reaching late to office"
-      },
       "W4R4S9FS4": {
         "status": "no_info",
         "note": null
@@ -2038,16 +2046,20 @@
       "W010NNJV7S8": {
         "status": "no_info",
         "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "office",
+        "note": "Reaching late to office"
       }
     },
     "2025-06-12": {
-      "W4R4S9FS4": {
-        "status": "office",
-        "note": "at office"
-      },
       "W010NNJV7S8": {
         "status": "wfh",
         "note": "WFH today"
+      },
+      "W4R4S9FS4": {
+        "status": "office",
+        "note": "at office"
       },
       "WAM5KDYBZ": {
         "status": "no_info",
@@ -2065,7 +2077,7 @@
       },
       "W010NNJV7S8": {
         "status": "wfh",
-        "note": "Feeling unwell, taking wfh"
+        "note": "Feeling unwell. Taking wfh today"
       },
       "W4R4S9FS4": {
         "status": "wfh",
@@ -2101,7 +2113,7 @@
     "2025-06-17": {
       "U03HRQ036BD": {
         "status": "wfh",
-        "note": "WFH today, dropping son to airport"
+        "note": "WFH today, as I have to drop my son to the Airport in the evening."
       },
       "W010NNJV7S8": {
         "status": "wfh",
@@ -2123,7 +2135,7 @@
     "2025-06-18": {
       "WAM5KDYBZ": {
         "status": "leave",
-        "note": "On leave 2nd half"
+        "note": "I will be on leave for 2nd half of day, past 3:00 pm."
       },
       "W4R4S9FS4": {
         "status": "no_info",
@@ -2173,13 +2185,13 @@
         "status": "wfh",
         "note": "Wfh today"
       },
-      "WAM5KDYBZ": {
-        "status": "leave",
-        "note": "On leave 2nd half"
-      },
       "W4R4S9FS4": {
         "status": "no_info",
         "note": null
+      },
+      "WAM5KDYBZ": {
+        "status": "leave",
+        "note": "On leave 2nd half"
       },
       "W010NNJV7S8": {
         "status": "no_info",
@@ -2187,17 +2199,17 @@
       }
     },
     "2025-06-23": {
-      "W4R4S9FS4": {
-        "status": "office",
-        "note": "At office"
-      },
-      "WAM5KDYBZ": {
-        "status": "wfh",
-        "note": "WFh Today"
-      },
       "U0900H3NUUT": {
         "status": "wfh",
         "note": "Wfh today"
+      },
+      "WAM5KDYBZ": {
+        "status": "wfh",
+        "note": "WFH Today!"
+      },
+      "W4R4S9FS4": {
+        "status": "office",
+        "note": "At office"
       },
       "W010NNJV7S8": {
         "status": "no_info",
@@ -2215,11 +2227,11 @@
       },
       "W4R4S9FS4": {
         "status": "office",
-        "note": "Bhumika, Utkarsha and I at office"
+        "note": "Bhumika, Utkarsha and I working from office"
       },
       "U0900H3NUUT": {
         "status": "office",
-        "note": "At office (with Anurag)"
+        "note": "[group mention] Bhumika, Utkarsha and I working from office"
       },
       "WAM5KDYBZ": {
         "status": "no_info",
@@ -2231,11 +2243,11 @@
       }
     },
     "2025-06-25": {
-      "W4R4S9FS4": {
+      "W010NNJV7S8": {
         "status": "wfh",
         "note": "WFH today"
       },
-      "W010NNJV7S8": {
+      "W4R4S9FS4": {
         "status": "wfh",
         "note": "WFH today"
       },
@@ -2259,11 +2271,11 @@
       },
       "U03HRQ036BD": {
         "status": "office",
-        "note": "At office (with Anurag)"
+        "note": "[group mention] Ruchita, Utkarsha, Bhumika and I at office"
       },
       "U0900H3NUUT": {
         "status": "office",
-        "note": "At office (with Anurag)"
+        "note": "[group mention] Ruchita, Utkarsha, Bhumika and I at office"
       },
       "WAM5KDYBZ": {
         "status": "no_info",
@@ -2274,6 +2286,20 @@
         "note": null
       }
     },
+    "2025-06-27": {
+      "U03HRQ036BD": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "W4R4S9FS4": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "WFH Today"
+      }
+    },
     "2025-06-30": {
       "W4R4S9FS4": {
         "status": "wfh",
@@ -2281,7 +2307,7 @@
       },
       "WAM5KDYBZ": {
         "status": "wfh",
-        "note": "WFH 1st half, may visit office 2nd half"
+        "note": "WFH Today for first half, may visit office in 2nd half"
       },
       "W010NNJV7S8": {
         "status": "no_info",
@@ -2298,8 +2324,8 @@
     },
     "2025-07-01": {
       "W4R4S9FS4": {
-        "status": "no_info",
-        "note": null
+        "status": "office",
+        "note": "At office, working near open area, near stairs."
       },
       "WAM5KDYBZ": {
         "status": "no_info",
@@ -2319,13 +2345,13 @@
       }
     },
     "2025-07-02": {
-      "W4R4S9FS4": {
-        "status": "office",
-        "note": "At office"
-      },
       "W010NNJV7S8": {
         "status": "wfh",
         "note": "WFH today"
+      },
+      "W4R4S9FS4": {
+        "status": "office",
+        "note": "At office"
       },
       "WAM5KDYBZ": {
         "status": "no_info",
@@ -2341,15 +2367,11 @@
       }
     },
     "2025-07-03": {
-      "W010NNJV7S8": {
+      "U0900H3NUUT": {
         "status": "wfh",
         "note": "WFH today"
       },
       "U03HRQ036BD": {
-        "status": "wfh",
-        "note": "WFH today"
-      },
-      "U0900H3NUUT": {
         "status": "wfh",
         "note": "WFH today"
       },
@@ -2360,6 +2382,10 @@
       "WAM5KDYBZ": {
         "status": "no_info",
         "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "WFH today"
       }
     },
     "2025-07-04": {
@@ -2457,15 +2483,15 @@
       },
       "W4R4S9FS4": {
         "status": "office",
-        "note": "At office with Khushwant, Ruchita, Bhumika"
+        "note": "At office with Khushwant, Ruchita and Bhumika"
       },
       "WAM5KDYBZ": {
         "status": "office",
-        "note": "At office"
+        "note": "[group mention] At office with Khushwant, Ruchita and Bhumika"
       },
       "U03HRQ036BD": {
         "status": "office",
-        "note": "At office"
+        "note": "[group mention] At office with Khushwant, Ruchita and Bhumika"
       },
       "W010NNJV7S8": {
         "status": "no_info",
@@ -2473,13 +2499,13 @@
       }
     },
     "2025-07-11": {
-      "U0900H3NUUT": {
-        "status": "wfh",
-        "note": "Wfh"
-      },
       "U03HRQ036BD": {
         "status": "wfh",
         "note": "WFH"
+      },
+      "U0900H3NUUT": {
+        "status": "wfh",
+        "note": "Wfh"
       },
       "W4R4S9FS4": {
         "status": "no_info",
@@ -2561,10 +2587,6 @@
       }
     },
     "2025-07-17": {
-      "U0900H3NUUT": {
-        "status": "wfh",
-        "note": "Wfh today (inferred from no office message)"
-      },
       "W4R4S9FS4": {
         "status": "no_info",
         "note": null
@@ -2580,6 +2602,10 @@
       "U03HRQ036BD": {
         "status": "no_info",
         "note": null
+      },
+      "U0900H3NUUT": {
+        "status": "wfh",
+        "note": "Wfh today (inferred from no office message)"
       }
     },
     "2025-07-18": {
@@ -2632,12 +2658,12 @@
         "note": "WFH today"
       },
       "WAM5KDYBZ": {
-        "status": "wfh",
-        "note": "Away 1st half, at office 2nd half"
+        "status": "office",
+        "note": "At office now"
       },
       "W4R4S9FS4": {
         "status": "office",
-        "note": "At office, got late"
+        "note": "At office, got late. Daughter not well, kept up since 3 AM"
       },
       "U03HRQ036BD": {
         "status": "no_info",
@@ -2653,10 +2679,6 @@
         "status": "wfh",
         "note": "Wfh today"
       },
-      "W010NNJV7S8": {
-        "status": "leave",
-        "note": "Death in family, away 1st half"
-      },
       "W4R4S9FS4": {
         "status": "no_info",
         "note": null
@@ -2664,6 +2686,10 @@
       "WAM5KDYBZ": {
         "status": "no_info",
         "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "leave",
+        "note": "Death in family, away 1st half"
       },
       "U03HRQ036BD": {
         "status": "no_info",
@@ -2671,17 +2697,17 @@
       }
     },
     "2025-07-24": {
+      "WAM5KDYBZ": {
+        "status": "wfh",
+        "note": "WFH for the first half"
+      },
       "U03HRQ036BD": {
         "status": "office",
-        "note": "Back in office after a long gap"
+        "note": "Back in the office after a long gap, catching up on pending emails."
       },
       "W4R4S9FS4": {
         "status": "office",
         "note": "At office"
-      },
-      "WAM5KDYBZ": {
-        "status": "wfh",
-        "note": "WFH 1st half, running errand"
       },
       "W010NNJV7S8": {
         "status": "no_info",
@@ -2693,13 +2719,13 @@
       }
     },
     "2025-07-25": {
-      "U03HRQ036BD": {
-        "status": "wfh",
-        "note": "WFH"
-      },
       "U0900H3NUUT": {
         "status": "wfh",
         "note": "Wfh today"
+      },
+      "U03HRQ036BD": {
+        "status": "wfh",
+        "note": "WFH"
       },
       "W4R4S9FS4": {
         "status": "no_info",
@@ -2719,13 +2745,13 @@
         "status": "office",
         "note": "At office"
       },
-      "W010NNJV7S8": {
-        "status": "wfh",
-        "note": "Wfh, stepping out for personal work"
-      },
       "WAM5KDYBZ": {
         "status": "no_info",
         "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "Wfh, stepping out for personal work"
       },
       "U03HRQ036BD": {
         "status": "no_info",
@@ -2737,13 +2763,13 @@
       }
     },
     "2025-07-29": {
-      "W4R4S9FS4": {
-        "status": "office",
-        "note": "At office"
-      },
       "U0900H3NUUT": {
         "status": "office",
         "note": "Working from office"
+      },
+      "W4R4S9FS4": {
+        "status": "office",
+        "note": "At office"
       },
       "WAM5KDYBZ": {
         "status": "no_info",
@@ -2759,10 +2785,6 @@
       }
     },
     "2025-07-30": {
-      "U03HRQ036BD": {
-        "status": "office",
-        "note": "At office with Bhumika"
-      },
       "W4R4S9FS4": {
         "status": "wfh",
         "note": "WFH today"
@@ -2775,6 +2797,10 @@
         "status": "no_info",
         "note": null
       },
+      "U03HRQ036BD": {
+        "status": "office",
+        "note": "At office with Bhumika"
+      },
       "U0900H3NUUT": {
         "status": "no_info",
         "note": null
@@ -2783,7 +2809,7 @@
     "2025-07-31": {
       "W4R4S9FS4": {
         "status": "sick",
-        "note": "Got fever and cold, sick leave"
+        "note": "Got fever and cold. Sick leave today."
       },
       "U03HRQ036BD": {
         "status": "wfh",
@@ -2803,10 +2829,6 @@
       }
     },
     "2025-08-01": {
-      "W4R4S9FS4": {
-        "status": "office",
-        "note": "At office"
-      },
       "U03HRQ036BD": {
         "status": "wfh",
         "note": "WFH today"
@@ -2814,6 +2836,10 @@
       "WAM5KDYBZ": {
         "status": "leave",
         "note": "On leave Today"
+      },
+      "W4R4S9FS4": {
+        "status": "office",
+        "note": "At office"
       },
       "W010NNJV7S8": {
         "status": "no_info",
@@ -2825,17 +2851,13 @@
       }
     },
     "2025-08-04": {
-      "U03HRQ036BD": {
+      "W4R4S9FS4": {
         "status": "wfh",
         "note": "WFH today"
       },
       "WAM5KDYBZ": {
         "status": "wfh",
         "note": "WFH Today"
-      },
-      "W4R4S9FS4": {
-        "status": "wfh",
-        "note": "WFH today"
       },
       "U0900H3NUUT": {
         "status": "wfh",
@@ -2844,20 +2866,24 @@
       "W010NNJV7S8": {
         "status": "no_info",
         "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "wfh",
+        "note": "WFH today"
       }
     },
     "2025-08-05": {
-      "W4R4S9FS4": {
-        "status": "office",
-        "note": "At office"
-      },
       "U0900H3NUUT": {
         "status": "wfh",
         "note": "Wfh today"
       },
+      "W4R4S9FS4": {
+        "status": "office",
+        "note": "At office"
+      },
       "WAM5KDYBZ": {
         "status": "office",
-        "note": "At office now (running late)"
+        "note": "At office now"
       },
       "W010NNJV7S8": {
         "status": "no_info",
@@ -2869,41 +2895,41 @@
       }
     },
     "2025-08-06": {
-      "U03HRQ036BD": {
-        "status": "wfh",
-        "note": "WFH today"
-      },
       "W010NNJV7S8": {
         "status": "wfh",
         "note": "Wfh today"
       },
-      "W4R4S9FS4": {
-        "status": "office",
-        "note": "At office"
-      },
-      "WAM5KDYBZ": {
-        "status": "office",
-        "note": "At office"
+      "U03HRQ036BD": {
+        "status": "wfh",
+        "note": "WFH today"
       },
       "U0900H3NUUT": {
         "status": "wfh",
         "note": "wfh today"
-      }
-    },
-    "2025-08-07": {
-      "U03HRQ036BD": {
-        "status": "wfh",
-        "note": "WFH"
       },
       "W4R4S9FS4": {
-        "status": "wfh",
-        "note": "WFH today"
+        "status": "office",
+        "note": "At office"
       },
       "WAM5KDYBZ": {
         "status": "office",
         "note": "At office"
+      }
+    },
+    "2025-08-07": {
+      "W4R4S9FS4": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "U03HRQ036BD": {
+        "status": "wfh",
+        "note": "WFH"
       },
       "U0900H3NUUT": {
+        "status": "office",
+        "note": "At office"
+      },
+      "WAM5KDYBZ": {
         "status": "office",
         "note": "At office"
       },
@@ -2937,7 +2963,7 @@
     "2025-08-11": {
       "U03HRQ036BD": {
         "status": "sick",
-        "note": "Having high fever with body ache, on leave"
+        "note": "Having high fever with body ache. So taking leave today."
       },
       "W4R4S9FS4": {
         "status": "office",
@@ -2959,7 +2985,7 @@
     "2025-08-12": {
       "U03HRQ036BD": {
         "status": "sick",
-        "note": "Still down with viral, fever, sick leave"
+        "note": "Still down with viral. Having fever with body ache. Sick leave today."
       },
       "U0900H3NUUT": {
         "status": "wfh",
@@ -2967,18 +2993,26 @@
       },
       "W4R4S9FS4": {
         "status": "office",
-        "note": "Morning meetings from home, then office"
+        "note": "Morning meetings from home, then coming to office"
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
       },
       "W010NNJV7S8": {
         "status": "wfh",
         "note": "travelling back home, WFH"
-      },
-      "WAM5KDYBZ": {
-        "status": "no_info",
-        "note": null
       }
     },
     "2025-08-13": {
+      "U0900H3NUUT": {
+        "status": "wfh",
+        "note": "Wfh today"
+      },
+      "U03HRQ036BD": {
+        "status": "wfh",
+        "note": "WFH today as feeling weak due to viral."
+      },
       "W4R4S9FS4": {
         "status": "wfh",
         "note": "WFH today"
@@ -2986,32 +3020,20 @@
       "WAM5KDYBZ": {
         "status": "office",
         "note": "At office"
-      },
-      "U03HRQ036BD": {
-        "status": "wfh",
-        "note": "WFH, feeling weak due to viral"
       },
       "W010NNJV7S8": {
         "status": "office",
         "note": "Taking calls from home, travel to office later"
-      },
-      "U0900H3NUUT": {
-        "status": "wfh",
-        "note": "Wfh today"
       }
     },
     "2025-08-14": {
-      "W4R4S9FS4": {
-        "status": "office",
-        "note": "At office"
-      },
       "U03HRQ036BD": {
         "status": "wfh",
         "note": "WFH today"
       },
-      "U0900H3NUUT": {
-        "status": "wfh",
-        "note": "WFH Today"
+      "W4R4S9FS4": {
+        "status": "office",
+        "note": "At office."
       },
       "WAM5KDYBZ": {
         "status": "no_info",
@@ -3020,16 +3042,20 @@
       "W010NNJV7S8": {
         "status": "no_info",
         "note": null
+      },
+      "U0900H3NUUT": {
+        "status": "wfh",
+        "note": "WFH Today"
       }
     },
     "2025-08-18": {
+      "W4R4S9FS4": {
+        "status": "office",
+        "note": "At office"
+      },
       "U0900H3NUUT": {
         "status": "office",
         "note": "In office"
-      },
-      "W4R4S9FS4": {
-        "status": "wfh",
-        "note": "WFH today"
       },
       "WAM5KDYBZ": {
         "status": "no_info",
@@ -3047,7 +3073,7 @@
     "2025-08-19": {
       "W4R4S9FS4": {
         "status": "office",
-        "note": "Will be at office after morning meetings"
+        "note": "Will be at office after morning meetings."
       },
       "U0900H3NUUT": {
         "status": "wfh",
@@ -3067,21 +3093,21 @@
       }
     },
     "2025-08-20": {
-      "U0900H3NUUT": {
-        "status": "office",
-        "note": "At office"
-      },
-      "W4R4S9FS4": {
+      "WAM5KDYBZ": {
         "status": "wfh",
-        "note": "WFH today"
+        "note": "WFH Today"
       },
       "U03HRQ036BD": {
         "status": "wfh",
         "note": "WFH"
       },
-      "WAM5KDYBZ": {
+      "W4R4S9FS4": {
         "status": "wfh",
-        "note": "WFH Today"
+        "note": "WFH today"
+      },
+      "U0900H3NUUT": {
+        "status": "office",
+        "note": "At office"
       },
       "W010NNJV7S8": {
         "status": "no_info",
@@ -3110,14 +3136,32 @@
         "note": null
       }
     },
-    "2025-08-25": {
-      "W4R4S9FS4": {
+    "2025-08-22": {
+      "U03HRQ036BD": {
         "status": "wfh",
         "note": "WFH today"
       },
       "U0900H3NUUT": {
+        "status": "wfh",
+        "note": "wfh today!"
+      },
+      "W4R4S9FS4": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "WAM5KDYBZ": {
+        "status": "office",
+        "note": "At Office"
+      }
+    },
+    "2025-08-25": {
+      "U0900H3NUUT": {
         "status": "office",
         "note": "At office"
+      },
+      "W4R4S9FS4": {
+        "status": "wfh",
+        "note": "WFH today"
       },
       "WAM5KDYBZ": {
         "status": "no_info",
@@ -3133,11 +3177,7 @@
       }
     },
     "2025-08-26": {
-      "W4R4S9FS4": {
-        "status": "office",
-        "note": "At office (announced Aug 25 evening: 'Will be at office tomorrow')"
-      },
-      "WAM5KDYBZ": {
+      "U0900H3NUUT": {
         "status": "office",
         "note": "At office"
       },
@@ -3145,31 +3185,49 @@
         "status": "wfh",
         "note": "WFH today"
       },
-      "U0900H3NUUT": {
+      "WAM5KDYBZ": {
         "status": "office",
         "note": "At office"
+      },
+      "W4R4S9FS4": {
+        "status": "office",
+        "note": "At office (announced Aug 25 evening: 'Will be at office tomorrow')"
       },
       "U03HRQ036BD": {
         "status": "no_info",
         "note": null
       }
     },
-    "2025-08-28": {
-      "WAM5KDYBZ": {
+    "2025-08-27": {
+      "U03HRQ036BD": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "U0900H3NUUT": {
         "status": "office",
-        "note": "At office (running late)"
+        "note": "At office"
       },
       "W4R4S9FS4": {
         "status": "office",
-        "note": "At office"
+        "note": "at office"
+      }
+    },
+    "2025-08-28": {
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "WFH today"
       },
       "U0900H3NUUT": {
         "status": "wfh",
         "note": "Wfh today"
       },
-      "W010NNJV7S8": {
-        "status": "wfh",
-        "note": "WFH today"
+      "W4R4S9FS4": {
+        "status": "office",
+        "note": "At office"
+      },
+      "WAM5KDYBZ": {
+        "status": "office",
+        "note": "At office"
       },
       "U03HRQ036BD": {
         "status": "no_info",
@@ -3177,7 +3235,7 @@
       }
     },
     "2025-08-29": {
-      "U03HRQ036BD": {
+      "W4R4S9FS4": {
         "status": "wfh",
         "note": "WFH today"
       },
@@ -3185,9 +3243,9 @@
         "status": "wfh",
         "note": "Wfh today"
       },
-      "W4R4S9FS4": {
+      "U03HRQ036BD": {
         "status": "wfh",
-        "note": "WFH today"
+        "note": "WFH today!"
       },
       "WAM5KDYBZ": {
         "status": "no_info",
@@ -3205,7 +3263,7 @@
       },
       "U03HRQ036BD": {
         "status": "wfh",
-        "note": "WFH, not feeling well"
+        "note": "Good Morning, WFH today as not feeling well."
       },
       "U0900H3NUUT": {
         "status": "wfh",
@@ -3221,13 +3279,13 @@
       }
     },
     "2025-09-02": {
-      "W4R4S9FS4": {
-        "status": "office",
-        "note": "WFH morning, office at 12"
-      },
       "U0900H3NUUT": {
         "status": "wfh",
         "note": "Wfh today"
+      },
+      "W4R4S9FS4": {
+        "status": "office",
+        "note": "WFH morning, office at 12"
       },
       "WAM5KDYBZ": {
         "status": "no_info",
@@ -3243,6 +3301,14 @@
       }
     },
     "2025-09-03": {
+      "U03HRQ036BD": {
+        "status": "wfh",
+        "note": "Hi team, WFH today due to rain and the current Yamuna situation."
+      },
+      "U0900H3NUUT": {
+        "status": "office",
+        "note": "At office"
+      },
       "W4R4S9FS4": {
         "status": "office",
         "note": "at office since morning"
@@ -3251,43 +3317,39 @@
         "status": "office",
         "note": "At office since morning"
       },
-      "U0900H3NUUT": {
-        "status": "office",
-        "note": "At office"
-      },
-      "U03HRQ036BD": {
-        "status": "wfh",
-        "note": "WFH due to rain and Yamuna situation"
-      },
       "W010NNJV7S8": {
         "status": "no_info",
         "note": null
       }
     },
     "2025-09-04": {
-      "W4R4S9FS4": {
-        "status": "office",
-        "note": "at office"
+      "U03HRQ036BD": {
+        "status": "wfh",
+        "note": "Continuing WFH amid the current situation in Delhi."
       },
       "U0900H3NUUT": {
         "status": "office",
         "note": "At office"
       },
-      "W010NNJV7S8": {
-        "status": "wfh",
-        "note": "WFH today"
-      },
-      "U03HRQ036BD": {
-        "status": "wfh",
-        "note": "Continuing WFH, Delhi situation"
+      "W4R4S9FS4": {
+        "status": "office",
+        "note": "at office"
       },
       "WAM5KDYBZ": {
         "status": "no_info",
         "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "WFH today"
       }
     },
     "2025-09-05": {
-      "W4R4S9FS4": {
+      "WAM5KDYBZ": {
+        "status": "wfh",
+        "note": "WFH Today"
+      },
+      "U03HRQ036BD": {
         "status": "wfh",
         "note": "WFH today"
       },
@@ -3295,13 +3357,9 @@
         "status": "wfh",
         "note": "Wfh today"
       },
-      "U03HRQ036BD": {
+      "W4R4S9FS4": {
         "status": "wfh",
         "note": "WFH today"
-      },
-      "WAM5KDYBZ": {
-        "status": "wfh",
-        "note": "WFH Today"
       },
       "W010NNJV7S8": {
         "status": "no_info",
@@ -3309,6 +3367,14 @@
       }
     },
     "2025-09-08": {
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "WAM5KDYBZ": {
+        "status": "wfh",
+        "note": "Wife is bit down, taking her to doctor, shall WFH post hospital visit."
+      },
       "W4R4S9FS4": {
         "status": "wfh",
         "note": "WFH today"
@@ -3320,14 +3386,6 @@
       "U0900H3NUUT": {
         "status": "office",
         "note": "At office"
-      },
-      "WAM5KDYBZ": {
-        "status": "wfh",
-        "note": "Wife ill, taking her to doctor, WFH"
-      },
-      "W010NNJV7S8": {
-        "status": "wfh",
-        "note": "WFH today"
       }
     },
     "2025-09-09": {
@@ -3355,7 +3413,7 @@
     "2025-09-10": {
       "U03HRQ036BD": {
         "status": "wfh",
-        "note": "WFH today"
+        "note": "WFH today!"
       },
       "WAM5KDYBZ": {
         "status": "wfh",
@@ -3375,17 +3433,17 @@
       }
     },
     "2025-09-11": {
-      "U03HRQ036BD": {
-        "status": "office",
-        "note": "At office"
+      "W010NNJV7S8": {
+        "status": "sick",
+        "note": "Not feeling well. taking sick leave today"
       },
       "U0900H3NUUT": {
         "status": "wfh",
         "note": "Wfh today"
       },
-      "W010NNJV7S8": {
-        "status": "sick",
-        "note": "Not feeling well, sick leave"
+      "U03HRQ036BD": {
+        "status": "office",
+        "note": "At office"
       },
       "W4R4S9FS4": {
         "status": "no_info",
@@ -3397,21 +3455,21 @@
       }
     },
     "2025-09-12": {
-      "U03HRQ036BD": {
+      "WAM5KDYBZ": {
+        "status": "leave",
+        "note": "On leave for first half."
+      },
+      "W010NNJV7S8": {
         "status": "wfh",
-        "note": "WFH today"
+        "note": "WFH today. Still recovering"
       },
       "U0900H3NUUT": {
         "status": "wfh",
         "note": "Wfh today"
       },
-      "W010NNJV7S8": {
+      "U03HRQ036BD": {
         "status": "wfh",
-        "note": "WFH today, still recovering"
-      },
-      "WAM5KDYBZ": {
-        "status": "leave",
-        "note": "On leave for first half"
+        "note": "WFH today"
       },
       "W4R4S9FS4": {
         "status": "no_info",
@@ -3421,37 +3479,37 @@
     "2025-09-15": {
       "U03HRQ036BD": {
         "status": "wfh",
-        "note": "Stomach infection, prefer WFH"
-      },
-      "W4R4S9FS4": {
-        "status": "office",
-        "note": "At office"
+        "note": "Having some stomach infection, so would prefer WFH"
       },
       "W010NNJV7S8": {
         "status": "wfh",
         "note": "WFH Today"
       },
+      "W4R4S9FS4": {
+        "status": "office",
+        "note": "At office"
+      },
+      "WAM5KDYBZ": {
+        "status": "office",
+        "note": "At office"
+      },
       "U0900H3NUUT": {
         "status": "sick",
         "note": "Not feeling well, sick leave"
-      },
-      "WAM5KDYBZ": {
-        "status": "no_info",
-        "note": null
       }
     },
     "2025-09-16": {
-      "W4R4S9FS4": {
-        "status": "office",
-        "note": "WFH morning, at office around noon"
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "WFH today. Nursing a back issue, so avoiding travel."
       },
       "U0900H3NUUT": {
         "status": "office",
         "note": "At office"
       },
-      "W010NNJV7S8": {
-        "status": "wfh",
-        "note": "WFH today, nursing back issue"
+      "W4R4S9FS4": {
+        "status": "office",
+        "note": "WFH morning, at office around noon"
       },
       "WAM5KDYBZ": {
         "status": "office",
@@ -3463,17 +3521,13 @@
       }
     },
     "2025-09-17": {
-      "U03HRQ036BD": {
-        "status": "office",
-        "note": "Reaching late to office"
+      "U0900H3NUUT": {
+        "status": "wfh",
+        "note": "Wfh today"
       },
       "W4R4S9FS4": {
         "status": "office",
         "note": "at office since morning"
-      },
-      "U0900H3NUUT": {
-        "status": "wfh",
-        "note": "Wfh today"
       },
       "WAM5KDYBZ": {
         "status": "no_info",
@@ -3482,12 +3536,16 @@
       "W010NNJV7S8": {
         "status": "no_info",
         "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "office",
+        "note": "Reaching late to office"
       }
     },
     "2025-09-18": {
       "U03HRQ036BD": {
         "status": "wfh",
-        "note": "Travelling Ahmedabad, working remotely 19-26 Sep"
+        "note": "WFH today"
       },
       "W4R4S9FS4": {
         "status": "office",
@@ -3507,21 +3565,21 @@
       }
     },
     "2025-09-19": {
-      "W4R4S9FS4": {
-        "status": "wfh",
-        "note": "WFH, IIML interviews"
-      },
       "WAM5KDYBZ": {
         "status": "wfh",
         "note": "WFH Today"
       },
-      "U03HRQ036BD": {
+      "W4R4S9FS4": {
         "status": "wfh",
-        "note": "WFH remotely from Ahmedabad"
+        "note": "WFH today, Taking IIML interviews today."
       },
       "W010NNJV7S8": {
         "status": "no_info",
         "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "wfh",
+        "note": "WFH remotely from Ahmedabad"
       },
       "U0900H3NUUT": {
         "status": "no_info",
@@ -3529,17 +3587,17 @@
       }
     },
     "2025-09-22": {
-      "W4R4S9FS4": {
-        "status": "office",
-        "note": "At office"
+      "U03HRQ036BD": {
+        "status": "leave",
+        "note": "PTO today."
       },
       "U0900H3NUUT": {
         "status": "office",
         "note": "At office"
       },
-      "U03HRQ036BD": {
-        "status": "leave",
-        "note": "PTO today"
+      "W4R4S9FS4": {
+        "status": "office",
+        "note": "At office"
       },
       "WAM5KDYBZ": {
         "status": "no_info",
@@ -3555,11 +3613,11 @@
         "status": "wfh",
         "note": "WFH today"
       },
-      "U0900H3NUUT": {
-        "status": "wfh",
-        "note": "Wfh today"
-      },
       "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "U0900H3NUUT": {
         "status": "wfh",
         "note": "WFH today"
       },
@@ -3573,11 +3631,11 @@
       }
     },
     "2025-09-24": {
-      "W4R4S9FS4": {
+      "U0900H3NUUT": {
         "status": "office",
         "note": "At office"
       },
-      "U0900H3NUUT": {
+      "W4R4S9FS4": {
         "status": "office",
         "note": "At office"
       },
@@ -3595,6 +3653,14 @@
       }
     },
     "2025-09-25": {
+      "U0900H3NUUT": {
+        "status": "office",
+        "note": "At office"
+      },
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "Wfh today"
+      },
       "W4R4S9FS4": {
         "status": "office",
         "note": "At office"
@@ -3602,14 +3668,6 @@
       "WAM5KDYBZ": {
         "status": "wfh",
         "note": "WFH 1st half, then to office"
-      },
-      "W010NNJV7S8": {
-        "status": "wfh",
-        "note": "Wfh today"
-      },
-      "U0900H3NUUT": {
-        "status": "office",
-        "note": "At office"
       },
       "U03HRQ036BD": {
         "status": "no_info",
@@ -3639,21 +3697,21 @@
       }
     },
     "2025-09-29": {
-      "W4R4S9FS4": {
+      "U0900H3NUUT": {
         "status": "wfh",
-        "note": "WFH today"
+        "note": "Wfh today"
       },
       "WAM5KDYBZ": {
         "status": "leave",
         "note": "On Leave Today"
       },
-      "U0900H3NUUT": {
+      "W4R4S9FS4": {
         "status": "wfh",
-        "note": "Wfh today"
+        "note": "WFH today"
       },
       "U03HRQ036BD": {
         "status": "office",
-        "note": "At Office"
+        "note": "At Office."
       },
       "W010NNJV7S8": {
         "status": "no_info",
@@ -3661,21 +3719,21 @@
       }
     },
     "2025-09-30": {
-      "W4R4S9FS4": {
-        "status": "office",
-        "note": "At office"
-      },
-      "U03HRQ036BD": {
-        "status": "office",
-        "note": "Reaching late (emergency with pet)"
-      },
       "W010NNJV7S8": {
         "status": "wfh",
         "note": "Wfh today"
       },
+      "W4R4S9FS4": {
+        "status": "office",
+        "note": "At office"
+      },
       "WAM5KDYBZ": {
         "status": "no_info",
         "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "office",
+        "note": "Reaching late (emergency with pet)"
       },
       "U0900H3NUUT": {
         "status": "no_info",
@@ -3685,19 +3743,19 @@
     "2025-10-01": {
       "U03HRQ036BD": {
         "status": "office",
-        "note": "At office"
+        "note": "At office."
       },
       "U0900H3NUUT": {
         "status": "office",
         "note": "At office"
       },
-      "W010NNJV7S8": {
-        "status": "wfh",
-        "note": "Wfh today"
-      },
       "W4R4S9FS4": {
         "status": "wfh",
         "note": "WFH today"
+      },
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "Wfh today"
       },
       "WAM5KDYBZ": {
         "status": "wfh",
@@ -3727,17 +3785,17 @@
       }
     },
     "2025-10-06": {
-      "W4R4S9FS4": {
-        "status": "office",
-        "note": "At office"
+      "U03HRQ036BD": {
+        "status": "wfh",
+        "note": "WFH today."
       },
       "U0900H3NUUT": {
         "status": "office",
         "note": "At office"
       },
-      "U03HRQ036BD": {
-        "status": "wfh",
-        "note": "WFH today"
+      "W4R4S9FS4": {
+        "status": "office",
+        "note": "At office."
       },
       "WAM5KDYBZ": {
         "status": "no_info",
@@ -3771,13 +3829,13 @@
       }
     },
     "2025-10-08": {
-      "U03HRQ036BD": {
-        "status": "office",
-        "note": "At Office"
-      },
       "U0900H3NUUT": {
         "status": "wfh",
         "note": "Wfh today"
+      },
+      "U03HRQ036BD": {
+        "status": "office",
+        "note": "At Office!"
       },
       "W4R4S9FS4": {
         "status": "no_info",
@@ -3793,6 +3851,10 @@
       }
     },
     "2025-10-09": {
+      "U03HRQ036BD": {
+        "status": "office",
+        "note": "At Office"
+      },
       "W4R4S9FS4": {
         "status": "no_info",
         "note": null
@@ -3802,10 +3864,6 @@
         "note": null
       },
       "W010NNJV7S8": {
-        "status": "no_info",
-        "note": null
-      },
-      "U03HRQ036BD": {
         "status": "no_info",
         "note": null
       },
@@ -3859,13 +3917,13 @@
       }
     },
     "2025-10-14": {
-      "W4R4S9FS4": {
-        "status": "office",
-        "note": "At office"
-      },
       "W010NNJV7S8": {
         "status": "wfh",
         "note": "WFH today"
+      },
+      "W4R4S9FS4": {
+        "status": "office",
+        "note": "At office"
       },
       "WAM5KDYBZ": {
         "status": "no_info",
@@ -3903,21 +3961,21 @@
       }
     },
     "2025-10-16": {
-      "WAM5KDYBZ": {
-        "status": "office",
-        "note": "At Office"
-      },
-      "W010NNJV7S8": {
+      "U03HRQ036BD": {
         "status": "wfh",
-        "note": "wfh today"
+        "note": "WFH"
       },
       "U0900H3NUUT": {
         "status": "wfh",
         "note": "Wfh today"
       },
-      "U03HRQ036BD": {
+      "W010NNJV7S8": {
         "status": "wfh",
-        "note": "WFH"
+        "note": "wfh today"
+      },
+      "WAM5KDYBZ": {
+        "status": "office",
+        "note": "At Office"
       },
       "W4R4S9FS4": {
         "status": "no_info",
@@ -3925,13 +3983,13 @@
       }
     },
     "2025-10-17": {
-      "U03HRQ036BD": {
-        "status": "wfh",
-        "note": "WFH today"
-      },
       "U0900H3NUUT": {
         "status": "wfh",
         "note": "Wfh today"
+      },
+      "U03HRQ036BD": {
+        "status": "wfh",
+        "note": "WFH today!"
       },
       "W4R4S9FS4": {
         "status": "no_info",
@@ -3944,6 +4002,12 @@
       "W010NNJV7S8": {
         "status": "no_info",
         "note": null
+      }
+    },
+    "2025-10-20": {
+      "W4R4S9FS4": {
+        "status": "wfh",
+        "note": "WFH today"
       }
     },
     "2025-10-21": {
@@ -3991,21 +4055,21 @@
       }
     },
     "2025-10-23": {
-      "W4R4S9FS4": {
-        "status": "office",
-        "note": "At office"
-      },
-      "W010NNJV7S8": {
+      "U03HRQ036BD": {
         "status": "wfh",
-        "note": "Wfh today"
+        "note": "WFH today"
       },
       "U0900H3NUUT": {
         "status": "wfh",
         "note": "Wfh today"
       },
-      "U03HRQ036BD": {
+      "W010NNJV7S8": {
         "status": "wfh",
-        "note": "WFH today"
+        "note": "Wfh today"
+      },
+      "W4R4S9FS4": {
+        "status": "office",
+        "note": "At office"
       },
       "WAM5KDYBZ": {
         "status": "no_info",
@@ -4013,13 +4077,13 @@
       }
     },
     "2025-10-24": {
-      "WAM5KDYBZ": {
-        "status": "office",
-        "note": "At Office"
-      },
       "W4R4S9FS4": {
         "status": "wfh",
         "note": "WFH today"
+      },
+      "WAM5KDYBZ": {
+        "status": "office",
+        "note": "At Office"
       },
       "W010NNJV7S8": {
         "status": "no_info",
@@ -4035,25 +4099,25 @@
       }
     },
     "2025-10-27": {
-      "WAM5KDYBZ": {
-        "status": "office",
-        "note": "At office"
+      "U0900H3NUUT": {
+        "status": "wfh",
+        "note": "Hi team, experiencing back pain, so I'll be on wfh for today"
       },
       "W010NNJV7S8": {
         "status": "wfh",
         "note": "wfh today"
       },
-      "U0900H3NUUT": {
-        "status": "wfh",
-        "note": "Experiencing back pain, WFH"
-      },
-      "U03HRQ036BD": {
+      "WAM5KDYBZ": {
         "status": "office",
-        "note": "Reaching late to office"
+        "note": "At office"
       },
       "W4R4S9FS4": {
         "status": "no_info",
         "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "office",
+        "note": "Reaching late to office"
       }
     },
     "2025-10-28": {
@@ -4103,7 +4167,7 @@
     "2025-10-30": {
       "U03HRQ036BD": {
         "status": "wfh",
-        "note": "Unexpected guests, WFH"
+        "note": "Got some unexpected guests at my place so WFH today."
       },
       "W4R4S9FS4": {
         "status": "no_info",
@@ -4122,14 +4186,24 @@
         "note": null
       }
     },
-    "2025-11-03": {
+    "2025-10-31": {
       "U03HRQ036BD": {
-        "status": "office",
-        "note": "At Office"
+        "status": "wfh",
+        "note": "WFH today"
       },
+      "W4R4S9FS4": {
+        "status": "office",
+        "note": "At office"
+      }
+    },
+    "2025-11-03": {
       "W4R4S9FS4": {
         "status": "wfh",
         "note": "WFH today"
+      },
+      "U03HRQ036BD": {
+        "status": "office",
+        "note": "At Office"
       },
       "WAM5KDYBZ": {
         "status": "no_info",
@@ -4145,13 +4219,13 @@
       }
     },
     "2025-11-04": {
-      "W010NNJV7S8": {
-        "status": "wfh",
-        "note": "WFH today"
-      },
       "U0900H3NUUT": {
         "status": "office",
         "note": "At office"
+      },
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "WFH today"
       },
       "W4R4S9FS4": {
         "status": "no_info",
@@ -4167,13 +4241,13 @@
       }
     },
     "2025-11-06": {
-      "W4R4S9FS4": {
-        "status": "office",
-        "note": "At Mumbai with customers"
-      },
       "U0900H3NUUT": {
         "status": "wfh",
         "note": "Wfh today"
+      },
+      "W4R4S9FS4": {
+        "status": "office",
+        "note": "At Mumbai with customers"
       },
       "WAM5KDYBZ": {
         "status": "no_info",
@@ -4189,13 +4263,13 @@
       }
     },
     "2025-11-07": {
-      "W4R4S9FS4": {
-        "status": "office",
-        "note": "At office"
-      },
       "U03HRQ036BD": {
         "status": "wfh",
         "note": "WFH today"
+      },
+      "W4R4S9FS4": {
+        "status": "office",
+        "note": "At office"
       },
       "WAM5KDYBZ": {
         "status": "no_info",
@@ -4211,13 +4285,13 @@
       }
     },
     "2025-11-10": {
+      "U03HRQ036BD": {
+        "status": "wfh",
+        "note": "Hi team, WFH today."
+      },
       "W4R4S9FS4": {
         "status": "office",
         "note": "At office"
-      },
-      "U03HRQ036BD": {
-        "status": "wfh",
-        "note": "WFH today"
       },
       "WAM5KDYBZ": {
         "status": "no_info",
@@ -4233,17 +4307,17 @@
       }
     },
     "2025-11-11": {
-      "W010NNJV7S8": {
+      "W4R4S9FS4": {
         "status": "wfh",
-        "note": "WFH today"
+        "note": "Death in extended family, WFH today to babysit daughter."
       },
       "U0900H3NUUT": {
         "status": "office",
         "note": "At office"
       },
-      "W4R4S9FS4": {
+      "W010NNJV7S8": {
         "status": "wfh",
-        "note": "Death in extended family, WFH to babysit"
+        "note": "WFH today"
       },
       "WAM5KDYBZ": {
         "status": "no_info",
@@ -4279,7 +4353,7 @@
     "2025-11-13": {
       "U0900H3NUUT": {
         "status": "wfh",
-        "note": "Migraine pain, WFH"
+        "note": "Hi team, experiencing migraine pain, I'll be working from home today"
       },
       "W4R4S9FS4": {
         "status": "no_info",
@@ -4389,15 +4463,15 @@
     "2025-11-20": {
       "U03HRQ036BD": {
         "status": "wfh",
-        "note": "WFH today"
-      },
-      "WAM5KDYBZ": {
-        "status": "wfh",
-        "note": "WFH 1st half"
+        "note": "WFH today!"
       },
       "W4R4S9FS4": {
         "status": "wfh",
         "note": "Will come to office 2nd half"
+      },
+      "WAM5KDYBZ": {
+        "status": "wfh",
+        "note": "WFH 1st half"
       },
       "W010NNJV7S8": {
         "status": "no_info",
@@ -4453,17 +4527,17 @@
       }
     },
     "2025-11-25": {
-      "U03HRQ036BD": {
-        "status": "office",
-        "note": "At office"
-      },
       "WAM5KDYBZ": {
         "status": "leave",
-        "note": "On leave first half"
+        "note": "On leave for first half"
+      },
+      "U03HRQ036BD": {
+        "status": "office",
+        "note": "At office!"
       },
       "W4R4S9FS4": {
         "status": "leave",
-        "note": "On leave 1st half, taking care of daughter"
+        "note": "On leave for 1st half, taking care of daughter. Extending to full day."
       },
       "W010NNJV7S8": {
         "status": "no_info",
@@ -4477,7 +4551,7 @@
     "2025-11-26": {
       "U03HRQ036BD": {
         "status": "wfh",
-        "note": "Not feeling well, WFH"
+        "note": "Not feeling well WFH today"
       },
       "W4R4S9FS4": {
         "status": "no_info",
@@ -4497,13 +4571,13 @@
       }
     },
     "2025-11-27": {
-      "W010NNJV7S8": {
-        "status": "wfh",
-        "note": "wfh today"
-      },
       "WAM5KDYBZ": {
         "status": "leave",
         "note": "Khushwant is on Leave"
+      },
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "wfh today"
       },
       "W4R4S9FS4": {
         "status": "no_info",
@@ -4543,11 +4617,11 @@
     "2025-12-01": {
       "U03HRQ036BD": {
         "status": "leave",
-        "note": "On PTO today and tomorrow"
+        "note": "Hi team, I will on PTO today and tomorrow."
       },
       "U0900H3NUUT": {
         "status": "wfh",
-        "note": "Not feeling well, WFH"
+        "note": "Hi team, I'm not feeling well today, so I'll be working from home."
       },
       "WAM5KDYBZ": {
         "status": "office",
@@ -4563,17 +4637,17 @@
       }
     },
     "2025-12-02": {
-      "W4R4S9FS4": {
-        "status": "office",
-        "note": "At office"
+      "U03HRQ036BD": {
+        "status": "leave",
+        "note": "[multi-day] Hi team, I will on PTO today and tomorrow."
       },
       "U0900H3NUUT": {
         "status": "wfh",
         "note": "Wfh today"
       },
-      "U03HRQ036BD": {
-        "status": "leave",
-        "note": "On PTO (day 2)"
+      "W4R4S9FS4": {
+        "status": "office",
+        "note": "At office"
       },
       "WAM5KDYBZ": {
         "status": "no_info",
@@ -4609,29 +4683,29 @@
     "2025-12-04": {
       "U03HRQ036BD": {
         "status": "wfh",
-        "note": "Husband and son not well, WFH"
+        "note": "Husband and son both are feeling under the weather, so WFH today!"
+      },
+      "U0900H3NUUT": {
+        "status": "wfh",
+        "note": "Feel unwell with a fever today, prefer working from home."
       },
       "W010NNJV7S8": {
         "status": "wfh",
         "note": "WFH today"
       },
       "W4R4S9FS4": {
-        "status": "wfh",
-        "note": "WFH today"
-      },
-      "U0900H3NUUT": {
-        "status": "wfh",
-        "note": "Fever, prefer WFH"
+        "status": "office",
+        "note": "Khushwant and Anurag at office"
       },
       "WAM5KDYBZ": {
-        "status": "no_info",
-        "note": null
+        "status": "office",
+        "note": "[group mention] Khushwant and Anurag at office"
       }
     },
     "2025-12-05": {
       "U03HRQ036BD": {
         "status": "wfh",
-        "note": "WFH today"
+        "note": "WFH today!"
       },
       "W4R4S9FS4": {
         "status": "no_info",
@@ -4673,13 +4747,13 @@
       }
     },
     "2025-12-09": {
+      "WAM5KDYBZ": {
+        "status": "leave",
+        "note": "Khushwant on leave for the first half"
+      },
       "U0900H3NUUT": {
         "status": "wfh",
         "note": "wfh today"
-      },
-      "WAM5KDYBZ": {
-        "status": "leave",
-        "note": "On leave first half"
       },
       "W4R4S9FS4": {
         "status": "no_info",
@@ -4761,21 +4835,21 @@
       }
     },
     "2025-12-15": {
+      "U0900H3NUUT": {
+        "status": "wfh",
+        "note": "Recovering, wfh"
+      },
       "W4R4S9FS4": {
         "status": "office",
         "note": "Ruchita, Khushwant, Anurag at office"
       },
       "WAM5KDYBZ": {
         "status": "office",
-        "note": "At office (with Anurag)"
+        "note": "[group mention] Ruchita, Khushwant, Anurag at office"
       },
       "U03HRQ036BD": {
         "status": "office",
-        "note": "At office (with Anurag)"
-      },
-      "U0900H3NUUT": {
-        "status": "wfh",
-        "note": "Recovering, wfh"
+        "note": "[group mention] Ruchita, Khushwant, Anurag at office"
       },
       "W010NNJV7S8": {
         "status": "no_info",
@@ -4809,13 +4883,13 @@
         "status": "sick",
         "note": "On sick leave"
       },
-      "WAM5KDYBZ": {
-        "status": "leave",
-        "note": "On leave second half"
-      },
       "W4R4S9FS4": {
         "status": "no_info",
         "note": null
+      },
+      "WAM5KDYBZ": {
+        "status": "leave",
+        "note": "On leave second half"
       },
       "W010NNJV7S8": {
         "status": "no_info",
@@ -4853,17 +4927,17 @@
         "status": "wfh",
         "note": "WFH today"
       },
-      "WAM5KDYBZ": {
+      "U0900H3NUUT": {
         "status": "wfh",
-        "note": "WFH Today"
+        "note": "Wfh today"
       },
       "U03HRQ036BD": {
         "status": "wfh",
         "note": "WFH today"
       },
-      "U0900H3NUUT": {
+      "WAM5KDYBZ": {
         "status": "wfh",
-        "note": "Wfh today"
+        "note": "WFH Today"
       },
       "W010NNJV7S8": {
         "status": "no_info",
@@ -4893,13 +4967,13 @@
       }
     },
     "2025-12-23": {
-      "WAM5KDYBZ": {
-        "status": "office",
-        "note": "At office"
-      },
       "U0900H3NUUT": {
         "status": "wfh",
         "note": "Wfh today"
+      },
+      "WAM5KDYBZ": {
+        "status": "office",
+        "note": "At office"
       },
       "W4R4S9FS4": {
         "status": "no_info",
@@ -4919,13 +4993,13 @@
         "status": "leave",
         "note": "PTO today"
       },
-      "WAM5KDYBZ": {
-        "status": "leave",
-        "note": "PTO Today"
-      },
       "W4R4S9FS4": {
         "status": "no_info",
         "note": null
+      },
+      "WAM5KDYBZ": {
+        "status": "leave",
+        "note": "PTO Today"
       },
       "W010NNJV7S8": {
         "status": "no_info",
@@ -5007,10 +5081,6 @@
         "status": "office",
         "note": "At Office"
       },
-      "U0900H3NUUT": {
-        "status": "wfh",
-        "note": "Working from home today"
-      },
       "W4R4S9FS4": {
         "status": "no_info",
         "note": null
@@ -5022,6 +5092,10 @@
       "U03HRQ036BD": {
         "status": "no_info",
         "note": null
+      },
+      "U0900H3NUUT": {
+        "status": "wfh",
+        "note": "Working from home today"
       }
     },
     "2026-01-09": {
@@ -5051,13 +5125,13 @@
         "status": "office",
         "note": "At office"
       },
-      "WAM5KDYBZ": {
-        "status": "wfh",
-        "note": "Working in patches from home"
-      },
       "W4R4S9FS4": {
         "status": "wfh",
         "note": "WFH today"
+      },
+      "WAM5KDYBZ": {
+        "status": "wfh",
+        "note": "Working in patches from home"
       },
       "W010NNJV7S8": {
         "status": "no_info",
@@ -5073,13 +5147,13 @@
         "status": "wfh",
         "note": "WFH today"
       },
-      "WAM5KDYBZ": {
-        "status": "leave",
-        "note": "Filling leave for today"
-      },
       "W4R4S9FS4": {
         "status": "no_info",
         "note": null
+      },
+      "WAM5KDYBZ": {
+        "status": "leave",
+        "note": "Filling leave for today"
       },
       "U03HRQ036BD": {
         "status": "no_info",
@@ -5091,13 +5165,13 @@
       }
     },
     "2026-01-14": {
-      "U03HRQ036BD": {
-        "status": "office",
-        "note": "At Office"
-      },
       "WAM5KDYBZ": {
         "status": "office",
-        "note": "Late, picking daughter from school"
+        "note": "I will reach office by 12:30 pm. I need to visit Sehaj's school at 11:30 AM."
+      },
+      "U03HRQ036BD": {
+        "status": "office",
+        "note": "At Office!"
       },
       "W4R4S9FS4": {
         "status": "no_info",
@@ -5121,13 +5195,13 @@
         "status": "sick",
         "note": "On Sick leave today"
       },
+      "U0900H3NUUT": {
+        "status": "wfh",
+        "note": "I'll be working from home today."
+      },
       "WAM5KDYBZ": {
         "status": "office",
         "note": "I am at office"
-      },
-      "U0900H3NUUT": {
-        "status": "wfh",
-        "note": "WFH, mandatory session 2-5pm"
       },
       "W010NNJV7S8": {
         "status": "leave",
@@ -5135,13 +5209,13 @@
       }
     },
     "2026-01-16": {
-      "WAM5KDYBZ": {
-        "status": "wfh",
-        "note": "WFH, taking care of daughter"
-      },
       "W4R4S9FS4": {
         "status": "office",
         "note": "At office"
+      },
+      "WAM5KDYBZ": {
+        "status": "wfh",
+        "note": "WFH today - need to take care of illahi..."
       },
       "W010NNJV7S8": {
         "status": "no_info",
@@ -5157,21 +5231,21 @@
       }
     },
     "2026-01-19": {
-      "WAM5KDYBZ": {
-        "status": "office",
-        "note": "At office"
-      },
-      "W4R4S9FS4": {
+      "U03HRQ036BD": {
         "status": "wfh",
-        "note": "WFH today"
+        "note": "WFH today - Feeling under the weather"
       },
       "U0900H3NUUT": {
         "status": "wfh",
         "note": "Wfh (Menstrual discomfort)"
       },
-      "U03HRQ036BD": {
+      "W4R4S9FS4": {
         "status": "wfh",
-        "note": "WFH, feeling under the weather"
+        "note": "WFH today"
+      },
+      "WAM5KDYBZ": {
+        "status": "office",
+        "note": "At office"
       },
       "W010NNJV7S8": {
         "status": "no_info",
@@ -5181,15 +5255,15 @@
     "2026-01-20": {
       "W4R4S9FS4": {
         "status": "office",
-        "note": "Ruchita, Khushwant, Anurag at office"
+        "note": "Ruchita, Khushwant and Anurag at office!"
       },
       "WAM5KDYBZ": {
         "status": "office",
-        "note": "At office"
+        "note": "[group mention] Ruchita, Khushwant and Anurag at office!"
       },
       "U03HRQ036BD": {
         "status": "office",
-        "note": "At office"
+        "note": "[group mention] Ruchita, Khushwant and Anurag at office!"
       },
       "W010NNJV7S8": {
         "status": "no_info",
@@ -5251,7 +5325,7 @@
       },
       "WAM5KDYBZ": {
         "status": "wfh",
-        "note": "WFH Today (rain)"
+        "note": "Forced to drop plans to go to office, WFH Today"
       },
       "W4R4S9FS4": {
         "status": "wfh",
@@ -5267,23 +5341,23 @@
       }
     },
     "2026-01-27": {
-      "U03HRQ036BD": {
-        "status": "sick",
-        "note": "Taking sick leave, not feeling well"
-      },
       "W4R4S9FS4": {
         "status": "sick",
-        "note": "Out sick with stomach infection, PTO"
+        "note": "Out sick with stomach infection, PTO today."
+      },
+      "U03HRQ036BD": {
+        "status": "wfh",
+        "note": "WFH today"
       },
       "W010NNJV7S8": {
         "status": "wfh",
         "note": "WFH Today"
       },
-      "U0900H3NUUT": {
+      "WAM5KDYBZ": {
         "status": "office",
         "note": "Working from office"
       },
-      "WAM5KDYBZ": {
+      "U0900H3NUUT": {
         "status": "office",
         "note": "Working from office"
       }
@@ -5295,7 +5369,7 @@
       },
       "U03HRQ036BD": {
         "status": "office",
-        "note": "At Office"
+        "note": "At Office!"
       },
       "W010NNJV7S8": {
         "status": "wfh",
@@ -5313,15 +5387,15 @@
     "2026-01-29": {
       "W4R4S9FS4": {
         "status": "sick",
-        "note": "Sick leave, getting tests done"
+        "note": "Sick leave today, getting few tests done"
       },
       "U03HRQ036BD": {
         "status": "office",
-        "note": "At Office"
+        "note": "At Office !"
       },
       "WAM5KDYBZ": {
         "status": "leave",
-        "note": "On leave 1st half, reaching office around 1"
+        "note": "On leave for the first half... shall reach office around 1:00"
       },
       "U0900H3NUUT": {
         "status": "office",
@@ -5333,21 +5407,21 @@
       }
     },
     "2026-01-30": {
-      "W4R4S9FS4": {
-        "status": "office",
-        "note": "At office"
-      },
       "U03HRQ036BD": {
         "status": "wfh",
         "note": "WFH today"
+      },
+      "WAM5KDYBZ": {
+        "status": "office",
+        "note": "Shall reach office around 12:00. Need to run an errand in the morning"
       },
       "U0900H3NUUT": {
         "status": "wfh",
         "note": "Wfh today"
       },
-      "WAM5KDYBZ": {
-        "status": "no_info",
-        "note": null
+      "W4R4S9FS4": {
+        "status": "office",
+        "note": "At office"
       },
       "W010NNJV7S8": {
         "status": "no_info",
@@ -5377,10 +5451,6 @@
       }
     },
     "2026-02-03": {
-      "W010NNJV7S8": {
-        "status": "office",
-        "note": "WFO"
-      },
       "W4R4S9FS4": {
         "status": "no_info",
         "note": null
@@ -5388,6 +5458,10 @@
       "WAM5KDYBZ": {
         "status": "no_info",
         "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "office",
+        "note": "WFO"
       },
       "U03HRQ036BD": {
         "status": "no_info",
@@ -5403,13 +5477,13 @@
         "status": "wfh",
         "note": "WFH today"
       },
+      "U0900H3NUUT": {
+        "status": "wfh",
+        "note": "Suffering from shoulder pain, will be working from home today"
+      },
       "W4R4S9FS4": {
         "status": "office",
         "note": "At office"
-      },
-      "U0900H3NUUT": {
-        "status": "wfh",
-        "note": "Shoulder pain, WFH"
       },
       "WAM5KDYBZ": {
         "status": "no_info",
@@ -5443,17 +5517,13 @@
       }
     },
     "2026-02-06": {
-      "W4R4S9FS4": {
-        "status": "office",
-        "note": "At office"
-      },
       "U03HRQ036BD": {
         "status": "wfh",
         "note": "WFH today"
       },
-      "U0900H3NUUT": {
-        "status": "leave",
-        "note": "On leave today"
+      "W4R4S9FS4": {
+        "status": "office",
+        "note": "At office"
       },
       "WAM5KDYBZ": {
         "status": "no_info",
@@ -5462,16 +5532,20 @@
       "W010NNJV7S8": {
         "status": "no_info",
         "note": null
+      },
+      "U0900H3NUUT": {
+        "status": "leave",
+        "note": "On leave today"
       }
     },
     "2026-02-09": {
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "WFH today. feeling unwell"
+      },
       "W4R4S9FS4": {
         "status": "wfh",
         "note": "WFH today"
-      },
-      "W010NNJV7S8": {
-        "status": "wfh",
-        "note": "WFH today, feeling unwell"
       },
       "WAM5KDYBZ": {
         "status": "no_info",
@@ -5489,11 +5563,7 @@
     "2026-02-10": {
       "U03HRQ036BD": {
         "status": "wfh",
-        "note": "WFH today"
-      },
-      "W010NNJV7S8": {
-        "status": "wfh",
-        "note": "still recovering"
+        "note": "WFH today!"
       },
       "U0900H3NUUT": {
         "status": "office",
@@ -5506,6 +5576,10 @@
       "WAM5KDYBZ": {
         "status": "no_info",
         "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "still recovering"
       }
     },
     "2026-02-11": {
@@ -5531,17 +5605,13 @@
       }
     },
     "2026-02-12": {
-      "U03HRQ036BD": {
-        "status": "office",
-        "note": "At Office"
-      },
       "W010NNJV7S8": {
         "status": "wfh",
         "note": "WFH today (neck and back ache)"
       },
-      "U0900H3NUUT": {
-        "status": "leave",
-        "note": "PTO today"
+      "U03HRQ036BD": {
+        "status": "office",
+        "note": "At Office!"
       },
       "W4R4S9FS4": {
         "status": "no_info",
@@ -5550,9 +5620,17 @@
       "WAM5KDYBZ": {
         "status": "no_info",
         "note": null
+      },
+      "U0900H3NUUT": {
+        "status": "leave",
+        "note": "PTO today"
       }
     },
     "2026-02-13": {
+      "U03HRQ036BD": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
       "W010NNJV7S8": {
         "status": "office",
         "note": "At office"
@@ -5560,10 +5638,6 @@
       "U0900H3NUUT": {
         "status": "office",
         "note": "Working from office"
-      },
-      "U03HRQ036BD": {
-        "status": "wfh",
-        "note": "WFH today"
       },
       "W4R4S9FS4": {
         "status": "no_info",
@@ -5577,15 +5651,15 @@
     "2026-02-16": {
       "U03HRQ036BD": {
         "status": "office",
-        "note": "At Office"
+        "note": "At Office!"
+      },
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "WFH Today. Will be stepping out in the 2nd half to take wife to doc"
       },
       "W4R4S9FS4": {
         "status": "wfh",
         "note": "WFH today"
-      },
-      "W010NNJV7S8": {
-        "status": "wfh",
-        "note": "WFH Today, wife to doc 2nd half"
       },
       "WAM5KDYBZ": {
         "status": "no_info",
@@ -5597,17 +5671,17 @@
       }
     },
     "2026-02-17": {
-      "W010NNJV7S8": {
-        "status": "wfh",
-        "note": "WFH today"
-      },
       "WAM5KDYBZ": {
-        "status": "wfh",
-        "note": "WFH 1st half, away 1-2:15pm"
+        "status": "office",
+        "note": "At Office Now"
       },
       "U0900H3NUUT": {
         "status": "office",
         "note": "At office"
+      },
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "WFH today"
       },
       "W4R4S9FS4": {
         "status": "no_info",
@@ -5619,9 +5693,13 @@
       }
     },
     "2026-02-18": {
+      "U0900H3NUUT": {
+        "status": "sick",
+        "note": "On leave today. Suffering from fever and body aches"
+      },
       "U03HRQ036BD": {
         "status": "office",
-        "note": "At office"
+        "note": "At office!"
       },
       "W4R4S9FS4": {
         "status": "wfh",
@@ -5634,24 +5712,20 @@
       "W010NNJV7S8": {
         "status": "no_info",
         "note": null
-      },
-      "U0900H3NUUT": {
-        "status": "no_info",
-        "note": null
       }
     },
     "2026-02-19": {
       "U03HRQ036BD": {
         "status": "office",
-        "note": "At office"
+        "note": "At office!"
       },
       "WAM5KDYBZ": {
-        "status": "leave",
-        "note": "Not feeling well, off 1st half"
+        "status": "sick",
+        "note": "Not feeling well... taking off for first half"
       },
       "W010NNJV7S8": {
         "status": "wfh",
-        "note": "WFH Today, doctor 2nd half"
+        "note": "WFH Today. will be stepping out in the 2nd half for doc appointment"
       },
       "W4R4S9FS4": {
         "status": "no_info",
@@ -5667,17 +5741,17 @@
         "status": "wfh",
         "note": "WFH today"
       },
-      "WAM5KDYBZ": {
-        "status": "sick",
-        "note": "Recovering, taking off today"
+      "U0900H3NUUT": {
+        "status": "office",
+        "note": "At office"
       },
       "W4R4S9FS4": {
         "status": "wfh",
         "note": "WFH today"
       },
-      "U0900H3NUUT": {
-        "status": "office",
-        "note": "At office"
+      "WAM5KDYBZ": {
+        "status": "sick",
+        "note": "Recovering, taking off today"
       },
       "W010NNJV7S8": {
         "status": "no_info",
@@ -5687,19 +5761,19 @@
     "2026-02-23": {
       "U03HRQ036BD": {
         "status": "office",
-        "note": "At Office"
+        "note": "At Office!"
       },
       "WAM5KDYBZ": {
         "status": "office",
-        "note": "Running late, office around 12:30"
-      },
-      "W010NNJV7S8": {
-        "status": "sick",
-        "note": "Feeling unwell, PTO 1st half"
+        "note": "Shall reach office around 12:30 pm"
       },
       "W4R4S9FS4": {
         "status": "no_info",
         "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "sick",
+        "note": "Feeling unwell, PTO 1st half"
       },
       "U0900H3NUUT": {
         "status": "no_info",
@@ -5751,13 +5825,13 @@
       }
     },
     "2026-02-26": {
-      "U03HRQ036BD": {
-        "status": "office",
-        "note": "At Office"
-      },
       "W010NNJV7S8": {
         "status": "wfh",
         "note": "WFH today"
+      },
+      "U03HRQ036BD": {
+        "status": "office",
+        "note": "At Office!"
       },
       "W4R4S9FS4": {
         "status": "wfh",
@@ -5779,7 +5853,7 @@
       },
       "WAM5KDYBZ": {
         "status": "office",
-        "note": "WFH 1st half, at office 2nd half"
+        "note": "At Office"
       },
       "W4R4S9FS4": {
         "status": "no_info",
@@ -5795,17 +5869,17 @@
       }
     },
     "2026-03-02": {
-      "WAM5KDYBZ": {
-        "status": "office",
-        "note": "At office"
+      "U03HRQ036BD": {
+        "status": "wfh",
+        "note": "Not feeling well today. I'll log in late around 11 and work from home."
       },
       "U0900H3NUUT": {
         "status": "wfh",
         "note": "Wfh today"
       },
-      "U03HRQ036BD": {
-        "status": "wfh",
-        "note": "Not feeling well, login late, WFH"
+      "WAM5KDYBZ": {
+        "status": "office",
+        "note": "At office"
       },
       "W4R4S9FS4": {
         "status": "no_info",
@@ -5839,13 +5913,13 @@
       }
     },
     "2026-03-05": {
-      "U03HRQ036BD": {
-        "status": "office",
-        "note": "At Office"
-      },
       "U0900H3NUUT": {
         "status": "wfh",
         "note": "Wfh today"
+      },
+      "U03HRQ036BD": {
+        "status": "office",
+        "note": "At Office!"
       },
       "W4R4S9FS4": {
         "status": "no_info",
@@ -5883,21 +5957,21 @@
       }
     },
     "2026-03-09": {
-      "W4R4S9FS4": {
-        "status": "wfh",
-        "note": "WFH today"
-      },
-      "W010NNJV7S8": {
-        "status": "wfh",
-        "note": "WFH this week, out of town"
+      "WAM5KDYBZ": {
+        "status": "leave",
+        "note": "Khushwant is on leave for first half, won't have access to emails and slack."
       },
       "U03HRQ036BD": {
         "status": "office",
         "note": "At office"
       },
-      "WAM5KDYBZ": {
-        "status": "leave",
-        "note": "On leave 1st half"
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "WFH this week. Out of town"
+      },
+      "W4R4S9FS4": {
+        "status": "wfh",
+        "note": "WFH today."
       },
       "U0900H3NUUT": {
         "status": "no_info",
@@ -5905,13 +5979,17 @@
       }
     },
     "2026-03-10": {
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "[multi-day] WFH this week. Out of town"
+      },
       "U0900H3NUUT": {
         "status": "office",
         "note": "At office"
       },
       "W4R4S9FS4": {
         "status": "leave",
-        "note": "On PTO today"
+        "note": "on PTO today, something needs attention at home."
       },
       "U03HRQ036BD": {
         "status": "leave",
@@ -5920,22 +5998,18 @@
       "WAM5KDYBZ": {
         "status": "office",
         "note": "WFH morning, office around 11"
-      },
-      "W010NNJV7S8": {
-        "status": "no_info",
-        "note": null
       }
     },
     "2026-03-11": {
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "[multi-day] WFH this week. Out of town"
+      },
       "W4R4S9FS4": {
         "status": "no_info",
         "note": null
       },
       "WAM5KDYBZ": {
-        "status": "no_info",
-        "note": null
-      },
-      "W010NNJV7S8": {
         "status": "no_info",
         "note": null
       },
@@ -5949,19 +6023,19 @@
       }
     },
     "2026-03-12": {
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "[multi-day] WFH this week. Out of town"
+      },
+      "WAM5KDYBZ": {
+        "status": "leave",
+        "note": "Khushwant is on leave for first half."
+      },
       "U03HRQ036BD": {
         "status": "wfh",
         "note": "WFH today"
       },
-      "WAM5KDYBZ": {
-        "status": "leave",
-        "note": "On leave 1st half"
-      },
       "W4R4S9FS4": {
-        "status": "no_info",
-        "note": null
-      },
-      "W010NNJV7S8": {
         "status": "no_info",
         "note": null
       },
@@ -5971,21 +6045,21 @@
       }
     },
     "2026-03-13": {
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "[multi-day] WFH this week. Out of town"
+      },
       "U03HRQ036BD": {
         "status": "wfh",
         "note": "WFH"
-      },
-      "WAM5KDYBZ": {
-        "status": "wfh",
-        "note": "WFH Today"
       },
       "W4R4S9FS4": {
         "status": "wfh",
         "note": "WFH 1st half, at office post lunch"
       },
-      "W010NNJV7S8": {
-        "status": "no_info",
-        "note": null
+      "WAM5KDYBZ": {
+        "status": "wfh",
+        "note": "WFH Today"
       },
       "U0900H3NUUT": {
         "status": "no_info",
@@ -5993,13 +6067,13 @@
       }
     },
     "2026-03-16": {
-      "U0900H3NUUT": {
-        "status": "office",
-        "note": "At office"
-      },
       "W010NNJV7S8": {
         "status": "wfh",
         "note": "WFH Today"
+      },
+      "U0900H3NUUT": {
+        "status": "office",
+        "note": "At office"
       },
       "W4R4S9FS4": {
         "status": "no_info",
@@ -6015,15 +6089,15 @@
       }
     },
     "2026-03-17": {
-      "WAM5KDYBZ": {
-        "status": "wfh",
-        "note": "WFH 1st half, office 2nd half"
+      "W010NNJV7S8": {
+        "status": "office",
+        "note": "At Office"
       },
       "W4R4S9FS4": {
-        "status": "wfh",
-        "note": "WFH today"
+        "status": "office",
+        "note": "At office"
       },
-      "W010NNJV7S8": {
+      "WAM5KDYBZ": {
         "status": "office",
         "note": "At Office"
       },
@@ -6037,17 +6111,17 @@
       }
     },
     "2026-03-18": {
-      "U0900H3NUUT": {
-        "status": "office",
-        "note": "At office"
-      },
-      "WAM5KDYBZ": {
-        "status": "wfh",
-        "note": "WFH 1st half, may go to office 2nd half"
-      },
       "W4R4S9FS4": {
         "status": "wfh",
         "note": "WFH today"
+      },
+      "WAM5KDYBZ": {
+        "status": "wfh",
+        "note": "WFH for first half, may go to office for 2nd half."
+      },
+      "U0900H3NUUT": {
+        "status": "office",
+        "note": "At office"
       },
       "W010NNJV7S8": {
         "status": "no_info",
@@ -6059,14 +6133,6 @@
       }
     },
     "2026-03-19": {
-      "W4R4S9FS4": {
-        "status": "office",
-        "note": "WFH till 2PM, office later"
-      },
-      "U03HRQ036BD": {
-        "status": "office",
-        "note": "At office"
-      },
       "W010NNJV7S8": {
         "status": "office",
         "note": "At office"
@@ -6075,23 +6141,31 @@
         "status": "wfh",
         "note": "Wfh today"
       },
+      "W4R4S9FS4": {
+        "status": "office",
+        "note": "At office"
+      },
       "WAM5KDYBZ": {
-        "status": "no_info",
-        "note": null
+        "status": "office",
+        "note": "At Office Since Morning"
+      },
+      "U03HRQ036BD": {
+        "status": "office",
+        "note": "At office"
       }
     },
     "2026-03-23": {
+      "W010NNJV7S8": {
+        "status": "sick",
+        "note": "Sick leave today. got injured in football yesterday."
+      },
       "U03HRQ036BD": {
         "status": "office",
-        "note": "At Office"
+        "note": "At Office!"
       },
       "W4R4S9FS4": {
         "status": "wfh",
         "note": "WFH today"
-      },
-      "W010NNJV7S8": {
-        "status": "sick",
-        "note": "Sick leave, injured in football"
       },
       "WAM5KDYBZ": {
         "status": "no_info",
@@ -6103,21 +6177,21 @@
       }
     },
     "2026-03-24": {
-      "U03HRQ036BD": {
-        "status": "office",
-        "note": "Stuck in traffic, late to office"
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "WFH Today. Still recovering"
       },
       "W4R4S9FS4": {
         "status": "office",
         "note": "At office"
       },
-      "W010NNJV7S8": {
-        "status": "wfh",
-        "note": "WFH Today, still recovering"
-      },
       "WAM5KDYBZ": {
         "status": "no_info",
         "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "office",
+        "note": "Stuck in traffic, late to office"
       },
       "U0900H3NUUT": {
         "status": "no_info",
@@ -6127,7 +6201,7 @@
     "2026-03-25": {
       "U03HRQ036BD": {
         "status": "office",
-        "note": "At Office"
+        "note": "At Office!"
       },
       "W4R4S9FS4": {
         "status": "no_info",
@@ -6147,17 +6221,17 @@
       }
     },
     "2026-03-26": {
-      "W4R4S9FS4": {
-        "status": "office",
-        "note": "At office, enjoying alone"
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "WFH today. Will be out of office in the second half (from 12pm)"
       },
       "U0900H3NUUT": {
         "status": "wfh",
         "note": "Wfh today"
       },
-      "W010NNJV7S8": {
-        "status": "wfh",
-        "note": "WFH today, out of office 2nd half"
+      "W4R4S9FS4": {
+        "status": "office",
+        "note": "At office, enjoying alone"
       },
       "WAM5KDYBZ": {
         "status": "no_info",
@@ -6191,13 +6265,13 @@
       }
     },
     "2026-03-30": {
-      "W4R4S9FS4": {
-        "status": "wfh",
-        "note": "WFH today"
-      },
       "W010NNJV7S8": {
         "status": "office",
         "note": "at Office"
+      },
+      "W4R4S9FS4": {
+        "status": "wfh",
+        "note": "WFH today"
       },
       "WAM5KDYBZ": {
         "status": "no_info",
@@ -6213,13 +6287,13 @@
       }
     },
     "2026-03-31": {
-      "W4R4S9FS4": {
-        "status": "office",
-        "note": "At office"
-      },
       "U03HRQ036BD": {
         "status": "wfh",
         "note": "WFH today"
+      },
+      "W4R4S9FS4": {
+        "status": "office",
+        "note": "At office"
       },
       "WAM5KDYBZ": {
         "status": "no_info",
@@ -6235,13 +6309,13 @@
       }
     },
     "2026-04-01": {
-      "W4R4S9FS4": {
-        "status": "office",
-        "note": "At office"
-      },
       "W010NNJV7S8": {
         "status": "office",
         "note": "At Office"
+      },
+      "W4R4S9FS4": {
+        "status": "office",
+        "note": "At office"
       },
       "WAM5KDYBZ": {
         "status": "no_info",
@@ -6281,19 +6355,19 @@
     "2026-04-06": {
       "U03HRQ036BD": {
         "status": "office",
-        "note": "At office"
+        "note": "At office!"
       },
       "W4R4S9FS4": {
         "status": "wfh",
-        "note": "WFH 1st half, office post lunch"
-      },
-      "W010NNJV7S8": {
-        "status": "wfh",
-        "note": "WFH"
+        "note": "WFH 1st half, at office post lunch"
       },
       "WAM5KDYBZ": {
         "status": "no_info",
         "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "WFH"
       },
       "U0900H3NUUT": {
         "status": "no_info",
@@ -6302,14 +6376,10 @@
     },
     "2026-04-07": {
       "W4R4S9FS4": {
-        "status": "wfh",
-        "note": "WFH today"
+        "status": "office",
+        "note": "At office since 1 PM"
       },
       "WAM5KDYBZ": {
-        "status": "office",
-        "note": "At office"
-      },
-      "U0900H3NUUT": {
         "status": "office",
         "note": "At office"
       },
@@ -6320,16 +6390,20 @@
       "U03HRQ036BD": {
         "status": "no_info",
         "note": null
+      },
+      "U0900H3NUUT": {
+        "status": "office",
+        "note": "At office"
       }
     },
     "2026-04-08": {
-      "W010NNJV7S8": {
-        "status": "wfh",
-        "note": "WFH today"
-      },
       "U0900H3NUUT": {
         "status": "sick",
         "note": "Sick leave today"
+      },
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "WFH today"
       },
       "W4R4S9FS4": {
         "status": "no_info",
@@ -6345,17 +6419,17 @@
       }
     },
     "2026-04-09": {
-      "W4R4S9FS4": {
-        "status": "office",
-        "note": "At office"
-      },
       "U03HRQ036BD": {
         "status": "wfh",
         "note": "WFH today"
       },
       "WAM5KDYBZ": {
-        "status": "no_info",
-        "note": null
+        "status": "office",
+        "note": "Shall reach office around 12:00"
+      },
+      "W4R4S9FS4": {
+        "status": "office",
+        "note": "At office"
       },
       "W010NNJV7S8": {
         "status": "no_info",
@@ -6367,13 +6441,13 @@
       }
     },
     "2026-04-10": {
+      "WAM5KDYBZ": {
+        "status": "wfh",
+        "note": "WFH till 3:00 pm. Shall be away for evening after 3:00 pm"
+      },
       "W010NNJV7S8": {
         "status": "office",
         "note": "At Office"
-      },
-      "WAM5KDYBZ": {
-        "status": "wfh",
-        "note": "WFH till 3pm"
       },
       "W4R4S9FS4": {
         "status": "no_info",
@@ -6389,21 +6463,21 @@
       }
     },
     "2026-04-13": {
+      "U03HRQ036BD": {
+        "status": "sick",
+        "note": "Hi team, not feeling well. Sick leave today."
+      },
       "U0900H3NUUT": {
         "status": "office",
         "note": "At office"
       },
-      "U03HRQ036BD": {
-        "status": "sick",
-        "note": "Not feeling well, sick leave"
+      "W4R4S9FS4": {
+        "status": "office",
+        "note": "Will be at office post lunch"
       },
       "WAM5KDYBZ": {
         "status": "office",
         "note": "Running errand, office around 12:30"
-      },
-      "W4R4S9FS4": {
-        "status": "no_info",
-        "note": null
       },
       "W010NNJV7S8": {
         "status": "no_info",
@@ -6411,17 +6485,17 @@
       }
     },
     "2026-04-14": {
-      "WAM5KDYBZ": {
-        "status": "office",
-        "note": "At Office"
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "WFH today"
       },
       "W4R4S9FS4": {
         "status": "wfh",
         "note": "WFH today"
       },
-      "W010NNJV7S8": {
-        "status": "wfh",
-        "note": "WFH today"
+      "WAM5KDYBZ": {
+        "status": "office",
+        "note": "At Office"
       },
       "U03HRQ036BD": {
         "status": "wfh",
@@ -6499,31 +6573,31 @@
       }
     },
     "2026-04-20": {
-      "U03HRQ036BD": {
-        "status": "office",
-        "note": "At Office"
-      },
       "W010NNJV7S8": {
         "status": "wfh",
         "note": "WFH today"
       },
-      "U0900H3NUUT": {
-        "status": "office",
-        "note": "Cancelled leave, at work"
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
       },
       "WAM5KDYBZ": {
         "status": "leave",
         "note": "Father in ICU, on-and-off this week"
       },
-      "W4R4S9FS4": {
-        "status": "no_info",
-        "note": null
+      "U03HRQ036BD": {
+        "status": "office",
+        "note": "At Office"
+      },
+      "U0900H3NUUT": {
+        "status": "office",
+        "note": "Cancelled leave, at work"
       }
     },
     "2026-04-21": {
       "W010NNJV7S8": {
         "status": "office",
-        "note": "At office"
+        "note": "At office (missed updating in the morning)"
       },
       "W4R4S9FS4": {
         "status": "no_info",
@@ -6609,13 +6683,13 @@
       }
     },
     "2026-04-27": {
+      "U0900H3NUUT": {
+        "status": "wfh",
+        "note": "Hi team, will be working from home today as suffering from migraine"
+      },
       "U03HRQ036BD": {
         "status": "office",
         "note": "At office"
-      },
-      "U0900H3NUUT": {
-        "status": "wfh",
-        "note": "WFH, suffering from migraine"
       },
       "W4R4S9FS4": {
         "status": "no_info",
@@ -6637,7 +6711,7 @@
       },
       "W4R4S9FS4": {
         "status": "office",
-        "note": "At office, joined a day earlier"
+        "note": "At office, joined a day earlier."
       },
       "WAM5KDYBZ": {
         "status": "no_info",
@@ -6675,17 +6749,17 @@
       }
     },
     "2026-04-30": {
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
       "U03HRQ036BD": {
         "status": "office",
-        "note": "At Office"
+        "note": "At Office!"
       },
       "WAM5KDYBZ": {
         "status": "office",
         "note": "At Office"
-      },
-      "W010NNJV7S8": {
-        "status": "wfh",
-        "note": "WFH today"
       },
       "W4R4S9FS4": {
         "status": "no_info",
@@ -6719,17 +6793,17 @@
       }
     },
     "2026-05-05": {
-      "W010NNJV7S8": {
-        "status": "wfh",
-        "note": "WFH today"
+      "U03HRQ036BD": {
+        "status": "leave",
+        "note": "On leave today."
       },
       "U0900H3NUUT": {
         "status": "office",
         "note": "At office"
       },
-      "U03HRQ036BD": {
-        "status": "leave",
-        "note": "On leave today"
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "WFH today"
       },
       "W4R4S9FS4": {
         "status": "no_info",
@@ -6741,13 +6815,13 @@
       }
     },
     "2026-05-06": {
-      "W010NNJV7S8": {
-        "status": "office",
-        "note": "At Office"
-      },
       "U0900H3NUUT": {
         "status": "office",
         "note": "At office"
+      },
+      "W010NNJV7S8": {
+        "status": "office",
+        "note": "At Office"
       },
       "W4R4S9FS4": {
         "status": "no_info",
@@ -6785,13 +6859,13 @@
       }
     },
     "2026-05-08": {
-      "W4R4S9FS4": {
-        "status": "office",
-        "note": "At office"
-      },
       "U0900H3NUUT": {
         "status": "wfh",
         "note": "WFH today"
+      },
+      "W4R4S9FS4": {
+        "status": "office",
+        "note": "At office"
       },
       "WAM5KDYBZ": {
         "status": "no_info",
@@ -6829,21 +6903,21 @@
       }
     },
     "2026-05-12": {
-      "W4R4S9FS4": {
-        "status": "office",
-        "note": "At office"
-      },
       "W010NNJV7S8": {
         "status": "wfh",
         "note": "WFH today"
       },
-      "U03HRQ036BD": {
-        "status": "leave",
-        "note": "On leave today"
+      "W4R4S9FS4": {
+        "status": "office",
+        "note": "At office"
       },
       "WAM5KDYBZ": {
         "status": "wfh",
         "note": "WFH till 4pm"
+      },
+      "U03HRQ036BD": {
+        "status": "leave",
+        "note": "On leave today"
       },
       "U0900H3NUUT": {
         "status": "no_info",
@@ -6857,7 +6931,7 @@
       },
       "WAM5KDYBZ": {
         "status": "wfh",
-        "note": "WFH, online 10:45-5:30"
+        "note": "WFH - online between 10:45 am - 5:30 pm"
       },
       "W4R4S9FS4": {
         "status": "office",
@@ -6873,17 +6947,17 @@
       }
     },
     "2026-05-14": {
-      "W4R4S9FS4": {
-        "status": "office",
-        "note": "At Maruti Gurgaon"
+      "U0900H3NUUT": {
+        "status": "wfh",
+        "note": "Wfh today"
       },
       "W010NNJV7S8": {
         "status": "office",
         "note": "At Office"
       },
-      "U0900H3NUUT": {
-        "status": "wfh",
-        "note": "Wfh today"
+      "W4R4S9FS4": {
+        "status": "office",
+        "note": "At Maruti Gurgaon today"
       },
       "WAM5KDYBZ": {
         "status": "wfh",
@@ -6895,13 +6969,13 @@
       }
     },
     "2026-05-15": {
-      "W4R4S9FS4": {
-        "status": "office",
-        "note": "At office"
-      },
       "W010NNJV7S8": {
         "status": "wfh",
         "note": "WFH today"
+      },
+      "W4R4S9FS4": {
+        "status": "office",
+        "note": "At office"
       },
       "WAM5KDYBZ": {
         "status": "no_info",
@@ -6919,7 +6993,7 @@
     "2026-05-18": {
       "U03HRQ036BD": {
         "status": "wfh",
-        "note": "WFH today"
+        "note": "Hi team, WFH today"
       },
       "U0900H3NUUT": {
         "status": "office",
@@ -6941,15 +7015,11 @@
     "2026-05-19": {
       "U03HRQ036BD": {
         "status": "office",
-        "note": "At Office"
+        "note": "At Office!"
       },
       "W010NNJV7S8": {
         "status": "wfh",
         "note": "WFH today"
-      },
-      "U0900H3NUUT": {
-        "status": "office",
-        "note": "+1 to Ruchita (At Office)"
       },
       "W4R4S9FS4": {
         "status": "office",
@@ -6958,12 +7028,24 @@
       "WAM5KDYBZ": {
         "status": "no_info",
         "note": null
+      },
+      "U0900H3NUUT": {
+        "status": "office",
+        "note": "+1 to Ruchita (At Office)"
       }
     },
     "2026-05-20": {
       "U0900H3NUUT": {
         "status": "office",
         "note": "At office"
+      },
+      "W4R4S9FS4": {
+        "status": "office",
+        "note": "+1 to Utkarsha (At office)"
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
       },
       "W010NNJV7S8": {
         "status": "wfh",
@@ -6972,54 +7054,46 @@
       "U03HRQ036BD": {
         "status": "office",
         "note": "+1 to Utkarsha (At office)"
-      },
-      "W4R4S9FS4": {
-        "status": "office",
-        "note": "+1 to Utkarsha (At office)"
-      },
-      "WAM5KDYBZ": {
-        "status": "no_info",
-        "note": null
       }
     },
     "2026-05-21": {
-      "W010NNJV7S8": {
-        "status": "wfh",
-        "note": "WFH today"
-      },
       "U0900H3NUUT": {
         "status": "office",
         "note": "At office"
+      },
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "WFH today"
       },
       "W4R4S9FS4": {
         "status": "office",
         "note": "In office"
       },
-      "U03HRQ036BD": {
-        "status": "wfh",
-        "note": "WFH today, logging late"
-      },
       "WAM5KDYBZ": {
         "status": "no_info",
         "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "wfh",
+        "note": "WFH today, logging late"
       }
     },
     "2026-05-22": {
+      "U0900H3NUUT": {
+        "status": "wfh",
+        "note": "Wfh today"
+      },
       "W4R4S9FS4": {
         "status": "office",
         "note": "Was at office in morning, WFH rest of day"
-      },
-      "W010NNJV7S8": {
-        "status": "sick",
-        "note": "Feeling unwell, taking rest of day off"
       },
       "WAM5KDYBZ": {
         "status": "leave",
         "note": "On Leave"
       },
-      "U0900H3NUUT": {
-        "status": "wfh",
-        "note": "Wfh today"
+      "W010NNJV7S8": {
+        "status": "sick",
+        "note": "Feeling unwell, taking rest of day off"
       },
       "U03HRQ036BD": {
         "status": "wfh",
@@ -7031,46 +7105,50 @@
         "status": "wfh",
         "note": "WFH today"
       },
-      "W4R4S9FS4": {
-        "status": "office",
-        "note": "At office"
-      },
       "U0900H3NUUT": {
         "status": "office",
         "note": "At office"
       },
-      "W010NNJV7S8": {
-        "status": "wfh",
-        "note": "+1 to Ruchita (WFH today)"
+      "W4R4S9FS4": {
+        "status": "office",
+        "note": "At office"
       },
       "WAM5KDYBZ": {
         "status": "no_info",
         "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "+1 to Ruchita (WFH today)"
       }
     },
     "2026-05-26": {
       "U03HRQ036BD": {
         "status": "sick",
-        "note": "Not feeling well, sick leave"
-      },
-      "W4R4S9FS4": {
-        "status": "office",
-        "note": "At office"
+        "note": "Hi team, I am not feeling well today. Taking sick leave today."
       },
       "U0900H3NUUT": {
         "status": "office",
         "note": "At office"
       },
-      "W010NNJV7S8": {
+      "W4R4S9FS4": {
         "status": "office",
-        "note": "+1 to Anurag (At office)"
+        "note": "At office"
       },
       "WAM5KDYBZ": {
         "status": "no_info",
         "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "office",
+        "note": "+1 to Anurag (At office)"
       }
     },
     "2026-05-28": {
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "OOO in the first half. Will continue to WFH in the 2nd half"
+      },
       "U0900H3NUUT": {
         "status": "wfh",
         "note": "Wfh today"
@@ -7079,23 +7157,19 @@
         "status": "office",
         "note": "At office"
       },
-      "W010NNJV7S8": {
-        "status": "wfh",
-        "note": "OOO 1st half, WFH 2nd half"
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
       },
       "U03HRQ036BD": {
         "status": "leave",
         "note": "Bereavement - grandmother passed away"
-      },
-      "WAM5KDYBZ": {
-        "status": "no_info",
-        "note": null
       }
     },
     "2026-05-29": {
       "U03HRQ036BD": {
         "status": "leave",
-        "note": "On leave, rituals at home"
+        "note": "Hi team, have some rituals at home. Will be on leave today."
       },
       "U0900H3NUUT": {
         "status": "wfh",
@@ -7105,13 +7179,13 @@
         "status": "office",
         "note": "At office"
       },
-      "W010NNJV7S8": {
-        "status": "wfh",
-        "note": "Feeling under the weather, WFH"
-      },
       "WAM5KDYBZ": {
         "status": "no_info",
         "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "Feeling under the weather, WFH"
       }
     },
     "2026-06-01": {
@@ -7119,10 +7193,6 @@
         "status": "office",
         "note": "At office"
       },
-      "W010NNJV7S8": {
-        "status": "office",
-        "note": "+1 to Utkarsha (at office)"
-      },
       "W4R4S9FS4": {
         "status": "no_info",
         "note": null
@@ -7131,23 +7201,27 @@
         "status": "no_info",
         "note": null
       },
+      "W010NNJV7S8": {
+        "status": "office",
+        "note": "+1 to Utkarsha (at office)"
+      },
       "U03HRQ036BD": {
         "status": "no_info",
         "note": null
       }
     },
     "2026-06-02": {
-      "W4R4S9FS4": {
-        "status": "office",
-        "note": "At office"
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "WFH today"
       },
       "U0900H3NUUT": {
         "status": "office",
         "note": "At office"
       },
-      "W010NNJV7S8": {
-        "status": "wfh",
-        "note": "WFH today"
+      "W4R4S9FS4": {
+        "status": "office",
+        "note": "At office"
       },
       "WAM5KDYBZ": {
         "status": "no_info",
@@ -7159,10 +7233,6 @@
       }
     },
     "2026-06-03": {
-      "W4R4S9FS4": {
-        "status": "office",
-        "note": "At office"
-      },
       "W010NNJV7S8": {
         "status": "office",
         "note": "At office"
@@ -7171,31 +7241,35 @@
         "status": "wfh",
         "note": "Wfh today"
       },
-      "U03HRQ036BD": {
-        "status": "wfh",
-        "note": "+1 to Utkarsha (Wfh today)"
-      },
-      "WAM5KDYBZ": {
-        "status": "no_info",
-        "note": null
-      }
-    },
-    "2026-06-04": {
       "W4R4S9FS4": {
         "status": "office",
         "note": "At office"
       },
-      "W010NNJV7S8": {
-        "status": "wfh",
-        "note": "WFH today"
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
       },
+      "U03HRQ036BD": {
+        "status": "wfh",
+        "note": "+1 to Utkarsha (Wfh today)"
+      }
+    },
+    "2026-06-04": {
       "U0900H3NUUT": {
         "status": "office",
         "note": "At office"
       },
       "U03HRQ036BD": {
         "status": "office",
-        "note": "Reaching office around 10:30"
+        "note": "Hi team, will be reaching office around 10:30."
+      },
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "W4R4S9FS4": {
+        "status": "office",
+        "note": "Was at office"
       },
       "WAM5KDYBZ": {
         "status": "no_info",
@@ -7203,25 +7277,25 @@
       }
     },
     "2026-06-05": {
-      "W4R4S9FS4": {
-        "status": "office",
-        "note": "At office"
+      "U03HRQ036BD": {
+        "status": "wfh",
+        "note": "WFH today"
       },
       "W010NNJV7S8": {
         "status": "office",
         "note": "At office"
       },
-      "U03HRQ036BD": {
-        "status": "wfh",
-        "note": "WFH today"
-      },
-      "U0900H3NUUT": {
-        "status": "wfh",
-        "note": "+1 to Ruchita (WFH today)"
+      "W4R4S9FS4": {
+        "status": "office",
+        "note": "At office"
       },
       "WAM5KDYBZ": {
         "status": "no_info",
         "note": null
+      },
+      "U0900H3NUUT": {
+        "status": "wfh",
+        "note": "+1 to Ruchita (WFH today)"
       }
     }
   }
