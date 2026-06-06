@@ -161,7 +161,7 @@ nav button.active{color:var(--acc);border-bottom-color:var(--acc)}
 .bar-lbl{width:110px;font-size:12px;color:var(--txs);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .bar-trk{flex:1;height:7px;background:var(--g200);border-radius:4px;overflow:hidden}
 .bar-fill{height:100%;border-radius:4px}
-.bar-val{width:36px;text-align:right;font-size:12px;color:var(--txm)}
+.bar-val{width:90px;white-space:nowrap;text-align:right;font-size:12px;color:var(--txm)}
 /* ── Table ── */
 .tbl-w{overflow-x:auto;border:1px solid var(--bdr);border-radius:var(--rl)}
 table{width:100%;border-collapse:collapse;font-size:13px}
@@ -300,10 +300,8 @@ tbody tr:last-child td{border-bottom:none}
     <label>Member</label><select id="am" onchange="renderAnnual()"></select>
   </div>
   <div class="kpi-row" id="kpi-annual" style="margin-bottom:20px"></div>
-  <div class="card-row">
-    <div class="card"><h3>Individual office attendance</h3><div id="bar-person-a"></div></div>
-    <div class="card"><h3>Team attendance <span style="font-weight:400;font-size:12px;color:var(--txm)">(person days)</span></h3><div id="bar-status-a"></div></div>
-  </div>
+  <div class="card"><h3>Individual office attendance</h3><div id="bar-person-a"></div></div>
+  <div class="card"><h3>Team attendance <span style="font-weight:400;font-size:12px;color:var(--txm)">(person days)</span></h3><div id="bar-status-a"></div></div>
   <div class="card" style="padding:16px">
     <div class="matrix-wrap"><table class="matrix-table" id="annual-matrix"></table></div>
   </div>
@@ -317,16 +315,13 @@ tbody tr:last-child td{border-bottom:none}
     <label>Member</label><select id="mmm" onchange="renderMonthly()"></select>
   </div>
   <div class="kpi-row" id="kpi-monthly" style="margin-bottom:20px"></div>
-  <!-- Fix 8 + per-person: two-column layout, person chart hides for individual selection -->
-  <div class="card-row" style="margin-bottom:0">
-    <div class="card" id="person-card-m">
-      <h3>Individual office attendance</h3>
-      <div id="bar-person-m"></div>
-    </div>
-    <div class="card">
-      <h3>Team attendance <span style="font-weight:400;font-size:12px;color:var(--txm)">(person days)</span></h3>
-      <div id="bar-status-m"></div>
-    </div>
+  <div class="card" id="person-card-m">
+    <h3>Individual office attendance</h3>
+    <div id="bar-person-m"></div>
+  </div>
+  <div class="card">
+    <h3>Team attendance <span style="font-weight:400;font-size:12px;color:var(--txm)">(person days)</span></h3>
+    <div id="bar-status-m"></div>
   </div>
   <div class="tbl-w" style="max-height:500px;overflow-y:auto">
     <table><thead id="mt-head"></thead><tbody id="mt-body"></tbody></table>
@@ -342,16 +337,13 @@ tbody tr:last-child td{border-bottom:none}
     <label>Member</label><select id="wm" onchange="renderWeekly()"></select>
   </div>
   <div class="kpi-row" id="kpi-weekly" style="margin-bottom:16px"></div>
-  <!-- Fix 8 + per-person: two-column layout for weekly -->
-  <div class="card-row" style="margin-bottom:0">
-    <div class="card" id="person-card-w">
-      <h3>Individual office attendance</h3>
-      <div id="bar-person-w"></div>
-    </div>
-    <div class="card">
-      <h3>Team attendance <span style="font-weight:400;font-size:12px;color:var(--txm)">(person days)</span></h3>
-      <div id="bar-status-w"></div>
-    </div>
+  <div class="card" id="person-card-w">
+    <h3>Individual office attendance</h3>
+    <div id="bar-person-w"></div>
+  </div>
+  <div class="card">
+    <h3>Team attendance <span style="font-weight:400;font-size:12px;color:var(--txm)">(person days)</span></h3>
+    <div id="bar-status-w"></div>
   </div>
   <div class="tbl-w tbl-weekly">
     <table><thead id="wt-head"></thead><tbody id="wt-body"></tbody></table>
@@ -672,7 +664,7 @@ function renderAttendanceOverview(containerId, counts, totalRep){
     return`<div class="bar-item">
       <div class="bar-lbl">${SL[s]}</div>
       <div class="bar-trk"><div class="bar-fill" style="width:${pct}%;background:${SC[s]}"></div></div>
-      <div class="bar-val" style="width:80px;white-space:nowrap;text-align:right">${cnt} <span style="color:var(--txm)">(${pct}%)</span></div>
+      <div class="bar-val">${pct}% <span style="color:var(--txm)">(${cnt}d)</span></div>
     </div>`;
   }).join('');
 }
@@ -1109,12 +1101,12 @@ function renderAnnual(){
     if(!r.length) return null;
     const cnt=cs(r),rp=r.length-cnt.no_info;
     const op2=rp>0?p(cnt.office,rp):0;
-    return{name:m.name.split(' ')[0],op:op2,hasData:rp>0};
+    return{name:m.name.split(' ')[0],op:op2,hasData:rp>0,officeCnt:cnt.office};
   }).filter(Boolean).sort((a,b)=>b.op-a.op);
   document.getElementById('bar-person-a').innerHTML=pb.map(x=>`
     <div class="bar-item"><div class="bar-lbl">${x.name}</div>
     <div class="bar-trk"><div class="bar-fill" style="width:${x.op}%;background:${barColor(x.op)}"></div></div>
-    <div class="bar-val" style="color:${x.hasData?barColor(x.op):'var(--txm)'}">${x.hasData?x.op+'%':'—'}</div></div>`).join('');
+    <div class="bar-val" style="color:${x.hasData?barColor(x.op):'var(--txm)'}">${x.hasData?x.op+'% ('+x.officeCnt+'d)':'—'}</div></div>`).join('');
 
   // Use renderAttendanceOverview so Annual matches Monthly/Weekly layout exactly.
   renderAttendanceOverview('bar-status-a', c, rep);
@@ -1176,13 +1168,13 @@ function renderMonthly(){
       if(!precs.length) return null;
       const pcnt=cs(precs),prep=precs.length-pcnt.no_info;
       const op2=prep>0?p(pcnt.office,prep):0;
-      return{name:m2.name.split(' ')[0],op:op2,hasData:prep>0};
+      return{name:m2.name.split(' ')[0],op:op2,hasData:prep>0,officeCnt:pcnt.office};
     }).filter(Boolean).sort((a,b)=>b.op-a.op);
     document.getElementById('bar-person-m').innerHTML=personDataM.map(x=>`
       <div class="bar-item">
         <div class="bar-lbl">${x.name}</div>
         <div class="bar-trk"><div class="bar-fill" style="width:${x.op}%;background:${barColor(x.op)}"></div></div>
-        <div class="bar-val" style="color:${x.hasData?barColor(x.op):'var(--txm)'}">${x.hasData?x.op+'%':'—'}</div>
+        <div class="bar-val" style="color:${x.hasData?barColor(x.op):'var(--txm)'}">${x.hasData?x.op+'% ('+x.officeCnt+'d)':'—'}</div>
       </div>`).join('');
   }
 
@@ -1231,13 +1223,13 @@ function renderWeekly(){
       if(!wrecs.length) return null;
       const wcnt=cs(wrecs),wrep=wrecs.length-wcnt.no_info;
       const op2=wrep>0?p(wcnt.office,wrep):0;
-      return{name:m2.name.split(' ')[0],op:op2,hasData:wrep>0};
+      return{name:m2.name.split(' ')[0],op:op2,hasData:wrep>0,officeCnt:wcnt.office};
     }).filter(Boolean).sort((a,b)=>b.op-a.op);
     document.getElementById('bar-person-w').innerHTML=personDataW.map(x=>`
       <div class="bar-item">
         <div class="bar-lbl">${x.name}</div>
         <div class="bar-trk"><div class="bar-fill" style="width:${x.op}%;background:${barColor(x.op)}"></div></div>
-        <div class="bar-val" style="color:${x.hasData?barColor(x.op):'var(--txm)'}">${x.hasData?x.op+'%':'—'}</div>
+        <div class="bar-val" style="color:${x.hasData?barColor(x.op):'var(--txm)'}">${x.hasData?x.op+'% ('+x.officeCnt+'d)':'—'}</div>
       </div>`).join('');
   }
 
