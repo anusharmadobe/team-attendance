@@ -485,8 +485,10 @@ function init(){
   const mo=`<option value="">All members</option>`+Object.entries(M).map(([id,m])=>`<option value="${id}">${m.name}</option>`).join('');
   ['am','mmm','wm','lm'].forEach(id=>document.getElementById(id).innerHTML=mo);
 
-  document.getElementById('lf').value=period.from;
-  document.getElementById('lt').value=period.to;
+  // Default log view to current week (Mon–Fri)
+  const _logWk=wkDays(0);
+  document.getElementById('lf').value=_logWk[0];
+  document.getElementById('lt').value=_logWk[4];
 
   renderHome();renderAnnual();renderMonthly();renderWeekly();renderLog();
 }
