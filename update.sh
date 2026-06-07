@@ -1,30 +1,37 @@
 #!/bin/bash
 # ─────────────────────────────────────────────────────────────────────────────
-# update.sh — weekly attendance update script
+# update.sh — manual one-shot attendance refresh
 #
-# Run manually:           ./update.sh
-# Add to crontab (Mondays 9 AM):
-#   crontab -e
-#   0 9 * * 1 cd "/Users/anusharm/learn/ClaudeCode/Team attendance" && ./update.sh >> logs/update.log 2>&1
+# For scheduled automated runs, use the Claude Scheduled Tasks instead:
+#   team-attendance-weekly-refresh   (every Monday 9:30 AM IST)
+#   team-attendance-monthly-report   (1st of every month 9:30 AM IST)
+#
+# Those tasks auto-fetch new Slack messages via MCP, parse, report, and push.
+#
+# This script only re-parses existing data (no Slack fetch). To do an
+# incremental Slack fetch manually, open Claude Code and ask it to run the
+# incremental fetch pipeline (see docs/AUTOMATION.md → Manual refresh).
 # ─────────────────────────────────────────────────────────────────────────────
 set -e
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 cd "$SCRIPT_DIR"
 
 echo "──────────────────────────────────────────────────────"
-echo "  Team Attendance Update  $(date '+%Y-%m-%d %H:%M')"
+echo "  Team Attendance Refresh  $(date '+%Y-%m-%d %H:%M')"
 echo "──────────────────────────────────────────────────────"
 
 # Create logs dir
 mkdir -p logs
 
-# Step 1: Fetch new Slack messages
-echo "→ Fetching new Slack messages..."
-python3 fetch_slack.py
-
-# Step 2: Re-process into attendance.json
-echo "→ Processing attendance data..."
+# Re-parse existing raw_messages.json + merge seed data → attendance.json
+echo "→ Parsing attendance data (raw_messages.json + seed)..."
 python3 parse_attendance.py
 
-echo "✅  Done. Open dashboard.html to view updated data."
+# Build the dashboard locally (optional preview)
+echo "→ Building dashboard..."
+python3 build.py
+
+echo ""
+echo "✅  Done. Preview: python3 -m http.server 8899 --directory dist"
+echo "    Push:    git add data/attendance.json data/raw_messages.json && git commit -m 'data: manual refresh' && git push origin main"
 echo ""

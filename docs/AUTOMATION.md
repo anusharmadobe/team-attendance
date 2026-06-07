@@ -2,36 +2,36 @@
 
 ## Overview
 
-Two types of automation are active:
+Two types of automation keep everything running — no manual steps required.
 
 | Layer | What | How |
 |---|---|---|
-| **Local** | Weekly data refresh + Slack reports | Claude Scheduled Tasks (runs on your machine) |
-| **Cloud** | Dashboard rebuild + deploy | GitHub Actions (runs on push) |
+| **Local** | Weekly Slack fetch + attendance parse + reports | Claude Scheduled Tasks (runs on your machine) |
+| **Cloud** | Dashboard rebuild + deploy to GitHub Pages | GitHub Actions (triggers on every push) |
 
 ---
 
 ## Local automation — Claude Scheduled Tasks
 
+Both tasks are **fully automated**. They fetch new Slack messages automatically, regenerate attendance data, post reports to Slack, and push to git — no manual input needed.
+
 ### Weekly task: `team-attendance-weekly-refresh`
 
-**When:** Every Monday at 9:30 AM IST (assumes machine is on)  
-**What it does:**
-1. Runs `seed_attendance.py` to rebuild `attendance.json` from the curated EVENTS list
-2. Generates 3 reports: last week, current month, current year
-3. Posts all 3 reports to Slack channel `C08T43UHK9D`
-4. Commits `data/attendance.json` and pushes to `main` — triggering a live dashboard rebuild
-
-**Skill file:** `~/.claude/scheduled-tasks/team-attendance-weekly-refresh/SKILL.md`
+**When:** Every Monday at 9:30 AM IST  
+**What it does (in order):**
+1. **Fetches new Slack messages** since the last stored timestamp using `slack_read_channel` MCP (incremental — only new messages, with +1moji reaction users populated via `slack_get_reactions`)
+2. Appends new records to `data/raw_messages.json` via `incremental_fetch.py`
+3. Runs `parse_attendance.py` → merges Slack history + seed data → `data/attendance.json`
+4. Generates 3 reports: last week, current month, current year
+5. Posts all 3 reports to Slack channel `C08T43UHK9D`
+6. Commits `data/attendance.json` + `data/raw_messages.json` and pushes to `main` → triggers live dashboard rebuild
 
 ### Monthly task: `team-attendance-monthly-report`
 
 **When:** 1st of every month at 9:30 AM IST  
-**What it does:** Same as weekly task — runs seed, generates 3 reports, posts to Slack, pushes to git
+**What it does:** Identical to the weekly task above — full fetch, parse, report, push.
 
-**Skill file:** `~/.claude/scheduled-tasks/team-attendance-monthly-report/SKILL.md`
-
-> **Note:** Before this runs, you must have updated `seed_attendance.py` with the latest attendance data for the period. The scheduled task re-runs the seed script but does not fetch live Slack data automatically — it works from what's in EVENTS.
+> **No manual seed updates needed.** The tasks fetch fresh data from Slack automatically every week.
 
 ---
 
@@ -45,9 +45,9 @@ Two types of automation are active:
 **Steps:**
 1. Check out the repo
 2. Set up Python 3.11
-3. Run `python3 build.py` → produces `dist/index.html` (JSON inlined)
+3. Run `python3 build.py` → produces `dist/index.html` (attendance.json inlined)
 4. Upload `dist/` as a GitHub Pages artifact
-5. Deploy artifact to `https://anusharmadobe.github.io/team-attendance/`
+5. Deploy to `https://anusharmadobe.github.io/team-attendance/`
 
 **Time to live:** ~2 minutes from push to updated dashboard
 
@@ -57,26 +57,25 @@ Two types of automation are active:
 
 ---
 
-## Manual triggers
-
-### Refresh data and reports right now
+## Manual refresh (if needed)
 
 ```bash
 cd "/Users/anusharm/learn/ClaudeCode/Team attendance"
 
-# 1. Update attendance data
-python3 seed_attendance.py
+# 1. Get cutoff timestamp and fetch new messages via Claude Code + Slack MCP
+#    (run this in a Claude Code session — it uses the Slack MCP directly)
+python3 incremental_fetch.py --cutoff
+# Then ask Claude to: fetch slack_read_channel C043FKMNUNM oldest=<cutoff> detailed
+# and run: python3 incremental_fetch.py --append-file /tmp/new_slack_records.json
 
-# 2. Generate reports (optional — just prints to stdout)
-python3 generate_report.py last_week
-python3 generate_report.py month
-python3 generate_report.py year
+# 2. Regenerate attendance
+python3 parse_attendance.py
 
-# 3. Build the dashboard
+# 3. Build dashboard locally
 python3 build.py
 
-# 4. Commit and deploy
-git add data/attendance.json
+# 4. Commit and push
+git add data/attendance.json data/raw_messages.json
 git commit -m "data: manual refresh $(date +%Y-%m-%d)"
 git push origin main
 ```
@@ -91,18 +90,35 @@ python3 -m http.server 8899 --directory dist
 
 ---
 
+## Data pipeline
+
+```
+Slack channel #aemforms-india-pm-chl-design
+        ↓  (slack_read_channel MCP, incremental)
+data/raw_messages.json   ←  incremental_fetch.py --append-file
+        ↓
+parse_attendance.py  ←  also reads seed_attendance.py via merge_seed()
+        ↓
+data/attendance.json
+        ↓  (git push → GitHub Actions)
+dist/index.html  →  https://anusharmadobe.github.io/team-attendance/
+```
+
+---
+
 ## Authentication
 
 ### Git push
-The scheduled task uses `gh auth token --hostname github.com --user anusharmadobe` to embed an auth token in the remote URL temporarily, then resets the remote to the clean HTTPS URL. If this fails:
-
+Scheduled tasks use `gh auth token --hostname github.com --user anusharmadobe`. If it fails:
 ```bash
-gh auth login        # authenticate with GitHub
-gh auth setup-git    # configure git credential helper
+TOKEN=$(gh auth token --hostname github.com --user anusharmadobe)
+git remote set-url origin "https://anusharmadobe:$TOKEN@github.com/anusharmadobe/team-attendance.git"
+git push origin main
+git remote set-url origin "https://github.com/anusharmadobe/team-attendance.git"
 ```
 
 ### Slack
-The Slack MCP is used directly by the scheduled task. No token management needed — it uses your existing Claude Code Slack integration.
+Slack MCP is used directly — no token management needed.
 
 ---
 
@@ -111,39 +127,31 @@ The Slack MCP is used directly by the scheduled task. No token management needed
 | Problem | Check |
 |---|---|
 | Scheduled task didn't run | Was your machine on and Claude Code running at 9:30 AM IST? |
-| Git push failed: auth error | Run `gh auth setup-git` then retry manually |
+| Git push failed: auth error | See auth command above |
 | GitHub Actions failed | Check Actions tab in the repo; usually a `build.py` import error |
 | Dashboard shows stale data | Check if latest commit contains updated `data/attendance.json` |
 | Slack message not sent | Verify Slack MCP is connected in Claude Code settings |
-| Wrong date range in report | Check the `last_week` date math — `today.weekday() + 3` gives days back to last Friday |
+| incremental_fetch.py returns 0 records | Check `oldest` param — data may already be current |
 
 ---
 
 ## Concurrency
 
-GitHub Actions uses `concurrency: group: pages` so overlapping deployments (e.g. rapid pushes) cancel the in-flight job and run the latest. There will never be two simultaneous deployments.
+GitHub Actions uses `concurrency: group: pages` — overlapping deployments cancel the in-flight job and run the latest. Never two simultaneous deployments.
 
 ---
 
 ## Adding a new team member
 
-1. Add them to the `MEMBERS` dict in `seed_attendance.py` and `parse_attendance.py`:
+1. Add to `TEAM_MEMBERS` in `parse_attendance.py` and `MEMBER_NAMES` if needed:
    ```python
-   "WXXXXXX": {
-       "name": "First Last",
-       "username": "flast",
-       "active_from": "2026-07-01",
-       "active_to": None,
-       "role": "PM"
-   }
+   "WXXXXXX": {"name": "First Last", "username": "flast", "active_from": "2026-07-01", "active_to": None, "role": "PM"}
    ```
-2. Add them to `README.md` → Active team members table
-3. Re-run `seed_attendance.py` — their days prior to `active_from` won't appear; from `active_from` onward they get `no_info` for any day not explicitly listed in EVENTS
-4. Add historical EVENTS entries if you have Slack data for their past days
-5. Commit and push
+2. Add to `README.md` → Active team members table
+3. Run `python3 parse_attendance.py` — they'll have `no_info` from `active_from` onward for any unrecorded days
+4. Commit and push
 
 ## Removing a team member (departure)
 
-1. Set `active_to` to their last working day in `MEMBERS` (do NOT delete the entry — historical data must stay)
-2. The dashboard will stop showing them in new periods; historical periods still show them correctly
-3. Re-run `seed_attendance.py`, commit, and push
+1. Set `active_to` to their last working day in `TEAM_MEMBERS` (do NOT delete — historical data must stay)
+2. Run `python3 parse_attendance.py`, commit, and push
