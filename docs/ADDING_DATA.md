@@ -1,12 +1,27 @@
 # Adding Attendance Data
 
-## How data gets into the system
+## Two-track data strategy
 
-All attendance records live in `seed_attendance.py` as a Python list called `EVENTS`. Every week (or more frequently if needed), you add new entries to this list and re-run the seed script to regenerate `data/attendance.json`.
+The system combines two sources. `parse_attendance.py` is always the command that produces `attendance.json` — it reads both sources and merges them automatically (higher priority status wins).
+
+| Track | File | Role |
+|---|---|---|
+| **Slack history** | `data/raw_messages.json` | Full channel history Jan 2025–present, fetched via Slack MCP. Re-run `populate_raw.py` for a full backfill. |
+| **Manual seed** | `seed_attendance.py` EVENTS | Your weekly additions. `parse_attendance.py` merges this automatically via `merge_seed()`. |
+
+**Normal weekly flow:** Add entries to `seed_attendance.py` → run `parse_attendance.py` → done. No need to run `seed_attendance.py` directly.
+
+**Periodic backfill** (every few months, or when a new member joins): Run `populate_raw.py` to re-fetch the full Slack channel history via MCP, then `parse_attendance.py`.
 
 ---
 
-## Step 1 — Read the Slack channel
+## Weekly workflow — adding new data
+
+Every week, add recent Slack posts to `seed_attendance.py` EVENTS. The scheduled task (every Monday 9:30 AM IST) will pick them up automatically.
+
+---
+
+## Step 1 — Read the Slack channel (weekly)
 
 Open **#aemforms-india-pm-chl-design** on Slack and scroll back to the dates you need to add.
 
@@ -96,19 +111,21 @@ Do **not** add any entries for that date. The seed script skips public holidays 
 
 ---
 
-## Step 4 — Re-run the seed script
+## Step 4 — Regenerate attendance.json
 
 ```bash
 cd "/Users/anusharm/learn/ClaudeCode/Team attendance"
-python3 seed_attendance.py
+python3 parse_attendance.py
 ```
 
-Expected output:
+Expected output (numbers grow over time):
 ```
-Written 260 days, 1300 records to data/attendance.json
+Loaded 816 messages from raw_messages.json
+Merged seed data: XX additional records resolved
+Written 354 days, 1638 records → data/attendance.json
 ```
 
-(Numbers will vary; just confirm no errors and the count is roughly `working_days × 5`.)
+`parse_attendance.py` reads `data/raw_messages.json` (full Slack history) **and** automatically merges your new `seed_attendance.py` entries — you do not need to run `seed_attendance.py` directly.
 
 ---
 
@@ -131,6 +148,9 @@ git add data/attendance.json seed_attendance.py
 git commit -m "data: add attendance for week of YYYY-MM-DD"
 git push origin main
 ```
+
+> **Auth note:** If push fails, use:
+> `TOKEN=$(gh auth token --hostname github.com --user anusharmadobe) && git remote set-url origin "https://anusharmadobe:$TOKEN@github.com/anusharmadobe/team-attendance.git" && git push origin main`
 
 GitHub Actions will rebuild and redeploy the live dashboard within ~2 minutes.
 
