@@ -296,8 +296,16 @@ def _apply_status(attendance, ds, uid, status, note):
 
 # ── Main processing ───────────────────────────────────────────────────────────
 
-def process(messages: list, start: date, end: date) -> dict:
+def process(messages: list, start: date, end: date) -> tuple:
+    """
+    Returns (attendance_dict, unclassified_list).
+
+    unclassified_list contains records for team-member messages that had text
+    but no classification matched — these may need manual review / seed entry.
+    Thread replies are excluded (they're rarely status posts).
+    """
     attendance: dict[str, dict] = {}
+    unclassified: list = []
 
     for msg in messages:
         uid = msg.get("user", "")
@@ -309,12 +317,21 @@ def process(messages: list, start: date, end: date) -> dict:
         d = ts_to_date(ts)
         if not (start <= d <= end):
             continue
-        text = msg.get("text", "")
+        text = msg.get("text", "").strip()
         if not text:
             continue
 
         result = classify(text)
         if not result[0]:
+            # Track unclassified messages (top-level posts only, min 5 chars)
+            if not msg.get("is_reply", False) and len(text) >= 5:
+                unclassified.append({
+                    "date": d.isoformat(),
+                    "user_id": uid,
+                    "name": TEAM_MEMBERS[uid]["name"],
+                    "text": text[:300],
+                    "ts": ts,
+                })
             continue
         status, extra_days = result
 
@@ -357,7 +374,7 @@ def process(messages: list, start: date, end: date) -> dict:
             if is_member_active(mid, d) and mid not in attendance[ds]:
                 attendance[ds][mid] = {"status": "no_info", "note": None}
 
-    return dict(sorted(attendance.items()))
+    return dict(sorted(attendance.items())), unclassified
 
 
 def merge_seed(att_parsed: dict, seed_path: Path) -> dict:
@@ -418,7 +435,7 @@ def run():
     start = date(2025, 1, 1)
     end   = date.today()
 
-    att = process(messages, start, end)
+    att, unclassified = process(messages, start, end)
 
     # Merge seed data — seed fills historical gaps; parse data wins for recent
     if seed_path.exists():
@@ -444,6 +461,19 @@ def run():
     days = len(att)
     records = sum(len(v) for v in att.values())
     print(f"Written {days} days, {records} records → {out_path}")
+
+    # Write unclassified.json — messages from team members the parser couldn't classify
+    unclassified_path = data_dir / "unclassified.json"
+    unclassified_path.write_text(json.dumps(unclassified, indent=2, ensure_ascii=False))
+    cutoff_14d = (end - timedelta(days=14)).isoformat()
+    recent_unclassified = [u for u in unclassified if u["date"] >= cutoff_14d]
+    if recent_unclassified:
+        print(f"⚠️  {len(recent_unclassified)} unclassified message(s) in last 14 days "
+              f"({len(unclassified)} total) — see data/unclassified.json")
+    elif unclassified:
+        print(f"ℹ️  {len(unclassified)} historical unclassified messages (none in last 14 days)")
+    else:
+        print("✅  No unclassified messages")
 
 
 if __name__ == "__main__":
