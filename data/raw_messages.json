@@ -910,7 +910,9 @@
       {
         "name": "+1moji",
         "count": 1,
-        "users": []
+        "users": [
+          "W010NNJV7S8"
+        ]
       }
     ]
   },
@@ -1015,7 +1017,9 @@
       {
         "name": "+1moji",
         "count": 1,
-        "users": []
+        "users": [
+          "U03HRQ036BD"
+        ]
       }
     ]
   },
@@ -1264,7 +1268,9 @@
       {
         "name": "+1moji",
         "count": 1,
-        "users": []
+        "users": [
+          "U03HRQ036BD"
+        ]
       }
     ]
   },
@@ -1342,7 +1348,9 @@
       {
         "name": "+1moji",
         "count": 1,
-        "users": []
+        "users": [
+          "U03HRQ036BD"
+        ]
       }
     ]
   },
@@ -1452,13 +1460,7 @@
     "thread_ts": null,
     "is_reply": false,
     "reply_count": 0,
-    "reactions": [
-      {
-        "name": "+1moji",
-        "count": 1,
-        "users": []
-      }
-    ]
+    "reactions": []
   },
   {
     "ts": "1749530194",
@@ -1507,7 +1509,9 @@
       {
         "name": "+1moji",
         "count": 1,
-        "users": []
+        "users": [
+          "U03HRQ036BD"
+        ]
       }
     ]
   },
@@ -1684,7 +1688,10 @@
       {
         "name": "+1moji",
         "count": 2,
-        "users": []
+        "users": [
+          "U03HRQ036BD",
+          "W010NNJV7S8"
+        ]
       }
     ]
   },
@@ -1708,7 +1715,9 @@
       {
         "name": "+1moji",
         "count": 1,
-        "users": []
+        "users": [
+          "W010NNJV7S8"
+        ]
       }
     ]
   },
@@ -2200,7 +2209,9 @@
       {
         "name": "+1moji",
         "count": 1,
-        "users": []
+        "users": [
+          "U03HRQ036BD"
+        ]
       }
     ]
   },
@@ -2310,13 +2321,7 @@
     "thread_ts": null,
     "is_reply": false,
     "reply_count": 0,
-    "reactions": [
-      {
-        "name": "+1moji",
-        "count": 1,
-        "users": []
-      }
-    ]
+    "reactions": []
   },
   {
     "ts": "1754283500",
@@ -2329,7 +2334,9 @@
       {
         "name": "+1moji",
         "count": 1,
-        "users": []
+        "users": [
+          "U03HRQ036BD"
+        ]
       }
     ]
   },
@@ -2749,7 +2756,11 @@
       {
         "name": "+1moji",
         "count": 3,
-        "users": []
+        "users": [
+          "U03HRQ036BD",
+          "W4R4S9FS4",
+          "WAM5KDYBZ"
+        ]
       }
     ]
   },
@@ -2809,7 +2820,9 @@
       {
         "name": "+1moji",
         "count": 1,
-        "users": []
+        "users": [
+          "U03HRQ036BD"
+        ]
       }
     ]
   },
@@ -2842,7 +2855,10 @@
       {
         "name": "+1moji",
         "count": 2,
-        "users": []
+        "users": [
+          "U03HRQ036BD",
+          "W4R4S9FS4"
+        ]
       }
     ]
   },
@@ -2893,7 +2909,10 @@
       {
         "name": "+1moji",
         "count": 2,
-        "users": []
+        "users": [
+          "U08HVLWG1UM",
+          "WAM5KDYBZ"
+        ]
       }
     ]
   },
@@ -2926,7 +2945,9 @@
       {
         "name": "+1moji",
         "count": 1,
-        "users": []
+        "users": [
+          "U08HVLWG1UM"
+        ]
       }
     ]
   },
