@@ -935,6 +935,23 @@ def build():
 
 def main():
     data_dir = Path(__file__).parent / "data"
+    raw_path = data_dir / "raw_messages.json"
+
+    # Safety guard: if raw_messages.json exists, running this script standalone
+    # would OVERWRITE attendance.json and discard all Slack history attribution.
+    # Use parse_attendance.py instead — it merges both sources automatically.
+    if raw_path.exists():
+        print("⚠️  WARNING: raw_messages.json exists.")
+        print("   Running seed_attendance.py standalone would OVERWRITE attendance.json")
+        print("   and lose all Slack history data from raw_messages.json.")
+        print("")
+        print("   Use this instead:")
+        print("     python3 parse_attendance.py")
+        print("")
+        print("   This merges raw_messages.json + seed_attendance.py EVENTS automatically.")
+        print("   Aborting.")
+        raise SystemExit(1)
+
     data_dir.mkdir(exist_ok=True)
     att = build()
     output = {
