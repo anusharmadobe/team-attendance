@@ -3617,19 +3617,19 @@
         "status": "office",
         "note": "In the office"
       },
+      "U03HRQ036BD": {
+        "status": "office",
+        "note": "[+1 to Bhumika Yadav] In the office"
+      },
+      "W010NNJV7S8": {
+        "status": "office",
+        "note": "[+1 to Bhumika Yadav] In the office"
+      },
       "U0900H3NUUT": {
         "status": "office",
         "note": "In office"
       },
       "WAM5KDYBZ": {
-        "status": "no_info",
-        "note": null
-      },
-      "W010NNJV7S8": {
-        "status": "no_info",
-        "note": null
-      },
-      "U03HRQ036BD": {
         "status": "no_info",
         "note": null
       }
@@ -3639,15 +3639,15 @@
         "status": "office",
         "note": "Will be at office after morning meetings."
       },
+      "W010NNJV7S8": {
+        "status": "office",
+        "note": "[+1 to Anurag Sharma] Will be at office after morning meetings."
+      },
       "U0900H3NUUT": {
         "status": "wfh",
         "note": "wfh today"
       },
       "WAM5KDYBZ": {
-        "status": "no_info",
-        "note": null
-      },
-      "W010NNJV7S8": {
         "status": "no_info",
         "note": null
       },
@@ -4029,19 +4029,19 @@
         "status": "office",
         "note": "At Office"
       },
+      "U03HRQ036BD": {
+        "status": "office",
+        "note": "[+1 to Bhumika Yadav] At Office"
+      },
       "W4R4S9FS4": {
-        "status": "leave",
-        "note": "Will be on PTO tomorrow, daughter fever"
+        "status": "office",
+        "note": "[+1 to Bhumika Yadav] At Office"
       },
       "WAM5KDYBZ": {
         "status": "no_info",
         "note": null
       },
       "W010NNJV7S8": {
-        "status": "no_info",
-        "note": null
-      },
-      "U03HRQ036BD": {
         "status": "no_info",
         "note": null
       },
@@ -4275,11 +4275,11 @@
         "status": "office",
         "note": "At office"
       },
-      "WAM5KDYBZ": {
-        "status": "no_info",
-        "note": null
-      },
       "W010NNJV7S8": {
+        "status": "office",
+        "note": "[+1 to Anurag Sharma] At office"
+      },
+      "WAM5KDYBZ": {
         "status": "no_info",
         "note": null
       }
@@ -4315,6 +4315,14 @@
         "status": "office",
         "note": "At office"
       },
+      "WAM5KDYBZ": {
+        "status": "office",
+        "note": "[+1 to Utkarsha Sharma] At office"
+      },
+      "W010NNJV7S8": {
+        "status": "office",
+        "note": "[+1 to Utkarsha Sharma] At office"
+      },
       "U08HVLWG1UM": {
         "status": "office",
         "note": "At office"
@@ -4322,14 +4330,6 @@
       "W4R4S9FS4": {
         "status": "office",
         "note": "At office"
-      },
-      "WAM5KDYBZ": {
-        "status": "no_info",
-        "note": null
-      },
-      "W010NNJV7S8": {
-        "status": "no_info",
-        "note": null
       },
       "U03HRQ036BD": {
         "status": "no_info",
@@ -4531,13 +4531,13 @@
         "status": "office",
         "note": "At office."
       },
-      "WAM5KDYBZ": {
-        "status": "no_info",
-        "note": null
-      },
       "W010NNJV7S8": {
-        "status": "no_info",
-        "note": null
+        "status": "office",
+        "note": "[+1 to Anurag Sharma] At office."
+      },
+      "WAM5KDYBZ": {
+        "status": "office",
+        "note": "[+1 to Anurag Sharma] At office."
       },
       "U08HVLWG1UM": {
         "status": "no_info",
@@ -4549,23 +4549,23 @@
         "status": "office",
         "note": "At office"
       },
-      "W4R4S9FS4": {
-        "status": "no_info",
-        "note": null
-      },
-      "WAM5KDYBZ": {
-        "status": "no_info",
-        "note": null
-      },
       "W010NNJV7S8": {
-        "status": "no_info",
-        "note": null
+        "status": "office",
+        "note": "[+1 to Bhumika Yadav] At office"
       },
       "U03HRQ036BD": {
-        "status": "no_info",
-        "note": null
+        "status": "office",
+        "note": "[+1 to Bhumika Yadav] At office"
       },
       "U0900H3NUUT": {
+        "status": "office",
+        "note": "[+1 to Bhumika Yadav] At office"
+      },
+      "W4R4S9FS4": {
+        "status": "office",
+        "note": "[+1 to Bhumika Yadav] At office"
+      },
+      "WAM5KDYBZ": {
         "status": "no_info",
         "note": null
       }
@@ -4579,19 +4579,19 @@
         "status": "office",
         "note": "At Office!"
       },
-      "W4R4S9FS4": {
-        "status": "no_info",
-        "note": null
-      },
-      "WAM5KDYBZ": {
-        "status": "no_info",
-        "note": null
-      },
       "W010NNJV7S8": {
-        "status": "no_info",
-        "note": null
+        "status": "office",
+        "note": "[+1 to Ruchita Srivastava] At Office!"
       },
       "U08HVLWG1UM": {
+        "status": "office",
+        "note": "[+1 to Ruchita Srivastava] At Office!"
+      },
+      "W4R4S9FS4": {
+        "status": "office",
+        "note": "[+1 to Ruchita Srivastava] At Office!"
+      },
+      "WAM5KDYBZ": {
         "status": "no_info",
         "note": null
       }
@@ -4601,23 +4601,23 @@
         "status": "office",
         "note": "At Office"
       },
+      "U08HVLWG1UM": {
+        "status": "office",
+        "note": "[+1 to Ruchita Srivastava] At Office"
+      },
+      "U0900H3NUUT": {
+        "status": "office",
+        "note": "[+1 to Ruchita Srivastava] At Office"
+      },
       "W4R4S9FS4": {
-        "status": "no_info",
-        "note": null
+        "status": "office",
+        "note": "[+1 to Ruchita Srivastava] At Office"
       },
       "WAM5KDYBZ": {
         "status": "no_info",
         "note": null
       },
       "W010NNJV7S8": {
-        "status": "no_info",
-        "note": null
-      },
-      "U0900H3NUUT": {
-        "status": "no_info",
-        "note": null
-      },
-      "U08HVLWG1UM": {
         "status": "no_info",
         "note": null
       }
@@ -4705,13 +4705,13 @@
         "status": "office",
         "note": "At office"
       },
-      "WAM5KDYBZ": {
-        "status": "no_info",
-        "note": null
-      },
       "W010NNJV7S8": {
-        "status": "no_info",
-        "note": null
+        "status": "office",
+        "note": "[+1 to Anurag Sharma] At office"
+      },
+      "WAM5KDYBZ": {
+        "status": "office",
+        "note": "[+1 to Anurag Sharma] At office"
       },
       "U03HRQ036BD": {
         "status": "no_info",
@@ -4787,17 +4787,17 @@
         "status": "wfh",
         "note": "WFH today"
       },
-      "WAM5KDYBZ": {
-        "status": "holiday",
-        "note": "Diwali"
-      },
       "W010NNJV7S8": {
-        "status": "holiday",
-        "note": "Diwali"
+        "status": "wfh",
+        "note": "[+1 to Anurag Sharma] WFH today"
       },
       "U03HRQ036BD": {
-        "status": "holiday",
-        "note": "Diwali"
+        "status": "wfh",
+        "note": "[+1 to Anurag Sharma] WFH today"
+      },
+      "WAM5KDYBZ": {
+        "status": "wfh",
+        "note": "[+1 to Anurag Sharma] WFH today"
       },
       "U0900H3NUUT": {
         "status": "holiday",
@@ -4878,14 +4878,22 @@
         "note": "At office"
       },
       "WAM5KDYBZ": {
-        "status": "no_info",
-        "note": null
+        "status": "office",
+        "note": "[+1 to Anurag Sharma] At office"
       }
     },
     "2025-10-24": {
       "U08HVLWG1UM": {
         "status": "wfh",
         "note": "WFH today"
+      },
+      "U03HRQ036BD": {
+        "status": "wfh",
+        "note": "[+1 to Bhumika Yadav] WFH today"
+      },
+      "U0900H3NUUT": {
+        "status": "wfh",
+        "note": "[+1 to Bhumika Yadav] WFH today"
       },
       "W4R4S9FS4": {
         "status": "wfh",
@@ -4896,14 +4904,6 @@
         "note": "At Office"
       },
       "W010NNJV7S8": {
-        "status": "no_info",
-        "note": null
-      },
-      "U03HRQ036BD": {
-        "status": "no_info",
-        "note": null
-      },
-      "U0900H3NUUT": {
         "status": "no_info",
         "note": null
       }
@@ -4921,23 +4921,31 @@
         "status": "office",
         "note": "At office"
       },
+      "U08HVLWG1UM": {
+        "status": "office",
+        "note": "[+1 to Khushwant Singh] At office"
+      },
       "W4R4S9FS4": {
-        "status": "no_info",
-        "note": null
+        "status": "office",
+        "note": "[+1 to Khushwant Singh] At office"
       },
       "U03HRQ036BD": {
         "status": "office",
         "note": "Reaching late to office"
-      },
-      "U08HVLWG1UM": {
-        "status": "no_info",
-        "note": null
       }
     },
     "2025-10-28": {
       "WAM5KDYBZ": {
         "status": "office",
         "note": "At office"
+      },
+      "U08HVLWG1UM": {
+        "status": "office",
+        "note": "[+1 to Khushwant Singh] At office"
+      },
+      "U0900H3NUUT": {
+        "status": "office",
+        "note": "[+1 to Khushwant Singh] At office"
       },
       "W4R4S9FS4": {
         "status": "no_info",
@@ -4948,14 +4956,6 @@
         "note": null
       },
       "U03HRQ036BD": {
-        "status": "no_info",
-        "note": null
-      },
-      "U0900H3NUUT": {
-        "status": "no_info",
-        "note": null
-      },
-      "U08HVLWG1UM": {
         "status": "no_info",
         "note": null
       }
@@ -4965,23 +4965,23 @@
         "status": "office",
         "note": "At office"
       },
-      "W4R4S9FS4": {
-        "status": "no_info",
-        "note": null
-      },
-      "WAM5KDYBZ": {
-        "status": "no_info",
-        "note": null
-      },
-      "W010NNJV7S8": {
-        "status": "no_info",
-        "note": null
+      "U08HVLWG1UM": {
+        "status": "office",
+        "note": "[+1 to Utkarsha Sharma] At office"
       },
       "U03HRQ036BD": {
-        "status": "no_info",
-        "note": null
+        "status": "office",
+        "note": "[+1 to Utkarsha Sharma] At office"
       },
-      "U08HVLWG1UM": {
+      "WAM5KDYBZ": {
+        "status": "office",
+        "note": "[+1 to Utkarsha Sharma] At office"
+      },
+      "W4R4S9FS4": {
+        "status": "office",
+        "note": "[+1 to Utkarsha Sharma] At office"
+      },
+      "W010NNJV7S8": {
         "status": "no_info",
         "note": null
       }
@@ -4995,19 +4995,19 @@
         "status": "office",
         "note": "At Office"
       },
+      "U0900H3NUUT": {
+        "status": "office",
+        "note": "[+1 to Bhumika Yadav] At Office"
+      },
       "W4R4S9FS4": {
-        "status": "no_info",
-        "note": null
+        "status": "office",
+        "note": "[+1 to Bhumika Yadav] At Office"
       },
       "WAM5KDYBZ": {
         "status": "no_info",
         "note": null
       },
       "W010NNJV7S8": {
-        "status": "no_info",
-        "note": null
-      },
-      "U0900H3NUUT": {
         "status": "no_info",
         "note": null
       }
@@ -5021,21 +5021,21 @@
         "status": "wfh",
         "note": "WFH today"
       },
+      "U0900H3NUUT": {
+        "status": "wfh",
+        "note": "[+1 to Bhumika Yadav] WFH today"
+      },
+      "WAM5KDYBZ": {
+        "status": "wfh",
+        "note": "[+1 to Bhumika Yadav] WFH today"
+      },
       "W4R4S9FS4": {
         "status": "office",
         "note": "At office"
       },
-      "WAM5KDYBZ": {
-        "status": "holiday",
-        "note": "Adobe Wellbeing Day"
-      },
       "W010NNJV7S8": {
-        "status": "holiday",
-        "note": "Adobe Wellbeing Day"
-      },
-      "U0900H3NUUT": {
-        "status": "holiday",
-        "note": "Adobe Wellbeing Day"
+        "status": "office",
+        "note": "[+1 to Anurag Sharma] At office"
       }
     },
     "2025-11-03": {
@@ -5051,15 +5051,15 @@
         "status": "office",
         "note": "At Office"
       },
-      "WAM5KDYBZ": {
-        "status": "no_info",
-        "note": null
+      "U0900H3NUUT": {
+        "status": "office",
+        "note": "[+1 to Ruchita Srivastava] At Office"
       },
       "W010NNJV7S8": {
-        "status": "no_info",
-        "note": null
+        "status": "office",
+        "note": "[+1 to Ruchita Srivastava] At Office"
       },
-      "U0900H3NUUT": {
+      "WAM5KDYBZ": {
         "status": "no_info",
         "note": null
       }
@@ -5069,23 +5069,23 @@
         "status": "office",
         "note": "At office"
       },
+      "U08HVLWG1UM": {
+        "status": "office",
+        "note": "[+1 to Utkarsha Sharma] At office"
+      },
+      "W4R4S9FS4": {
+        "status": "office",
+        "note": "[+1 to Utkarsha Sharma] At office"
+      },
+      "U03HRQ036BD": {
+        "status": "office",
+        "note": "[+1 to Utkarsha Sharma] At office"
+      },
       "W010NNJV7S8": {
         "status": "wfh",
         "note": "WFH today"
       },
-      "W4R4S9FS4": {
-        "status": "no_info",
-        "note": null
-      },
       "WAM5KDYBZ": {
-        "status": "no_info",
-        "note": null
-      },
-      "U03HRQ036BD": {
-        "status": "no_info",
-        "note": null
-      },
-      "U08HVLWG1UM": {
         "status": "no_info",
         "note": null
       }
@@ -5121,6 +5121,10 @@
         "status": "wfh",
         "note": "Wfh today"
       },
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "[+1 to Utkarsha Sharma] Wfh today"
+      },
       "U08HVLWG1UM": {
         "status": "office",
         "note": "At Office"
@@ -5130,10 +5134,6 @@
         "note": "At Mumbai with customers"
       },
       "WAM5KDYBZ": {
-        "status": "no_info",
-        "note": null
-      },
-      "W010NNJV7S8": {
         "status": "no_info",
         "note": null
       },
@@ -5147,6 +5147,14 @@
         "status": "wfh",
         "note": "WFH today"
       },
+      "U0900H3NUUT": {
+        "status": "wfh",
+        "note": "[+1 to Ruchita Srivastava] WFH today"
+      },
+      "WAM5KDYBZ": {
+        "status": "wfh",
+        "note": "[+1 to Ruchita Srivastava] WFH today"
+      },
       "U08HVLWG1UM": {
         "status": "wfh",
         "note": "WFH today"
@@ -5155,15 +5163,7 @@
         "status": "office",
         "note": "At office"
       },
-      "WAM5KDYBZ": {
-        "status": "no_info",
-        "note": null
-      },
       "W010NNJV7S8": {
-        "status": "no_info",
-        "note": null
-      },
-      "U0900H3NUUT": {
         "status": "no_info",
         "note": null
       }
@@ -5173,25 +5173,25 @@
         "status": "wfh",
         "note": "Hi team, WFH today."
       },
+      "U0900H3NUUT": {
+        "status": "wfh",
+        "note": "[+1 to Ruchita Srivastava] Hi team, WFH today."
+      },
       "W4R4S9FS4": {
         "status": "office",
         "note": "At office"
       },
+      "W010NNJV7S8": {
+        "status": "office",
+        "note": "[+1 to Anurag Sharma] At office"
+      },
+      "WAM5KDYBZ": {
+        "status": "office",
+        "note": "[+1 to Anurag Sharma] At office"
+      },
       "U08HVLWG1UM": {
         "status": "office",
         "note": "At Office"
-      },
-      "WAM5KDYBZ": {
-        "status": "no_info",
-        "note": null
-      },
-      "W010NNJV7S8": {
-        "status": "no_info",
-        "note": null
-      },
-      "U0900H3NUUT": {
-        "status": "no_info",
-        "note": null
       }
     },
     "2025-11-11": {
@@ -5203,21 +5203,21 @@
         "status": "office",
         "note": "At office"
       },
+      "U08HVLWG1UM": {
+        "status": "office",
+        "note": "[+1 to Utkarsha Sharma] At office"
+      },
+      "U03HRQ036BD": {
+        "status": "office",
+        "note": "[+1 to Utkarsha Sharma] At office"
+      },
+      "WAM5KDYBZ": {
+        "status": "office",
+        "note": "[+1 to Utkarsha Sharma] At office"
+      },
       "W010NNJV7S8": {
         "status": "wfh",
         "note": "WFH today"
-      },
-      "WAM5KDYBZ": {
-        "status": "no_info",
-        "note": null
-      },
-      "U03HRQ036BD": {
-        "status": "no_info",
-        "note": null
-      },
-      "U08HVLWG1UM": {
-        "status": "no_info",
-        "note": null
       }
     },
     "2025-11-12": {
@@ -5225,25 +5225,25 @@
         "status": "office",
         "note": "At Office"
       },
+      "WAM5KDYBZ": {
+        "status": "office",
+        "note": "[+1 to Ruchita Srivastava] At Office"
+      },
+      "U08HVLWG1UM": {
+        "status": "office",
+        "note": "[+1 to Ruchita Srivastava] At Office"
+      },
+      "W010NNJV7S8": {
+        "status": "office",
+        "note": "[+1 to Ruchita Srivastava] At Office"
+      },
+      "U0900H3NUUT": {
+        "status": "office",
+        "note": "[+1 to Ruchita Srivastava] At Office"
+      },
       "W4R4S9FS4": {
         "status": "wfh",
         "note": "WFH today"
-      },
-      "WAM5KDYBZ": {
-        "status": "no_info",
-        "note": null
-      },
-      "W010NNJV7S8": {
-        "status": "no_info",
-        "note": null
-      },
-      "U0900H3NUUT": {
-        "status": "no_info",
-        "note": null
-      },
-      "U08HVLWG1UM": {
-        "status": "no_info",
-        "note": null
       }
     },
     "2025-11-13": {
@@ -5255,19 +5255,19 @@
         "status": "office",
         "note": "At Office"
       },
+      "U03HRQ036BD": {
+        "status": "office",
+        "note": "[+1 to Bhumika Yadav] At Office"
+      },
       "W4R4S9FS4": {
-        "status": "no_info",
-        "note": null
+        "status": "office",
+        "note": "[+1 to Bhumika Yadav] At Office"
       },
       "WAM5KDYBZ": {
-        "status": "no_info",
-        "note": null
+        "status": "office",
+        "note": "[+1 to Bhumika Yadav] At Office"
       },
       "W010NNJV7S8": {
-        "status": "no_info",
-        "note": null
-      },
-      "U03HRQ036BD": {
         "status": "no_info",
         "note": null
       }
@@ -5277,23 +5277,23 @@
         "status": "wfh",
         "note": "WFH today"
       },
+      "U0900H3NUUT": {
+        "status": "wfh",
+        "note": "[+1 to Ruchita Srivastava] WFH today"
+      },
+      "W4R4S9FS4": {
+        "status": "wfh",
+        "note": "[+1 to Ruchita Srivastava] WFH today"
+      },
       "U08HVLWG1UM": {
         "status": "leave",
         "note": "Hi team, taking leave for today."
-      },
-      "W4R4S9FS4": {
-        "status": "no_info",
-        "note": null
       },
       "WAM5KDYBZ": {
         "status": "no_info",
         "note": null
       },
       "W010NNJV7S8": {
-        "status": "no_info",
-        "note": null
-      },
-      "U0900H3NUUT": {
         "status": "no_info",
         "note": null
       }
@@ -5333,19 +5333,19 @@
         "status": "office",
         "note": "At office"
       },
+      "U08HVLWG1UM": {
+        "status": "office",
+        "note": "[+1 to Anurag Sharma] At office"
+      },
+      "U0900H3NUUT": {
+        "status": "office",
+        "note": "[+1 to Anurag Sharma] At office"
+      },
       "W010NNJV7S8": {
         "status": "no_info",
         "note": null
       },
       "U03HRQ036BD": {
-        "status": "no_info",
-        "note": null
-      },
-      "U0900H3NUUT": {
-        "status": "no_info",
-        "note": null
-      },
-      "U08HVLWG1UM": {
         "status": "no_info",
         "note": null
       }
@@ -5355,13 +5355,13 @@
         "status": "wfh",
         "note": "WFH today"
       },
+      "W4R4S9FS4": {
+        "status": "wfh",
+        "note": "[+1 to Bhumika Yadav] WFH today"
+      },
       "U0900H3NUUT": {
         "status": "office",
         "note": "At office"
-      },
-      "W4R4S9FS4": {
-        "status": "no_info",
-        "note": null
       },
       "WAM5KDYBZ": {
         "status": "no_info",
@@ -5381,6 +5381,14 @@
         "status": "wfh",
         "note": "WFH today!"
       },
+      "U08HVLWG1UM": {
+        "status": "wfh",
+        "note": "[+1 to Ruchita Srivastava] WFH today!"
+      },
+      "U0900H3NUUT": {
+        "status": "wfh",
+        "note": "[+1 to Ruchita Srivastava] WFH today!"
+      },
       "W4R4S9FS4": {
         "status": "wfh",
         "note": "Will come to office 2nd half"
@@ -5392,20 +5400,20 @@
       "W010NNJV7S8": {
         "status": "no_info",
         "note": null
-      },
-      "U0900H3NUUT": {
-        "status": "no_info",
-        "note": null
-      },
-      "U08HVLWG1UM": {
-        "status": "no_info",
-        "note": null
       }
     },
     "2025-11-21": {
       "U08HVLWG1UM": {
         "status": "wfh",
         "note": "WFH today"
+      },
+      "U0900H3NUUT": {
+        "status": "wfh",
+        "note": "[+1 to Bhumika Yadav] WFH today"
+      },
+      "U03HRQ036BD": {
+        "status": "wfh",
+        "note": "[+1 to Bhumika Yadav] WFH today"
       },
       "W010NNJV7S8": {
         "status": "office",
@@ -5416,14 +5424,6 @@
         "note": "Working from Office"
       },
       "W4R4S9FS4": {
-        "status": "no_info",
-        "note": null
-      },
-      "U03HRQ036BD": {
-        "status": "no_info",
-        "note": null
-      },
-      "U0900H3NUUT": {
         "status": "no_info",
         "note": null
       }
@@ -5437,6 +5437,14 @@
         "status": "office",
         "note": "At Office"
       },
+      "U0900H3NUUT": {
+        "status": "office",
+        "note": "[+1 to Bhumika Yadav] At Office"
+      },
+      "U03HRQ036BD": {
+        "status": "office",
+        "note": "[+1 to Bhumika Yadav] At Office"
+      },
       "W4R4S9FS4": {
         "status": "wfh",
         "note": "WFH today"
@@ -5444,38 +5452,30 @@
       "W010NNJV7S8": {
         "status": "no_info",
         "note": null
-      },
-      "U03HRQ036BD": {
-        "status": "no_info",
-        "note": null
-      },
-      "U0900H3NUUT": {
-        "status": "no_info",
-        "note": null
       }
     },
     "2025-11-25": {
       "WAM5KDYBZ": {
-        "status": "leave",
-        "note": "On leave for first half"
+        "status": "office",
+        "note": "[+1 to Ruchita Srivastava] At office!"
       },
       "U03HRQ036BD": {
         "status": "office",
         "note": "At office!"
+      },
+      "U08HVLWG1UM": {
+        "status": "office",
+        "note": "[+1 to Ruchita Srivastava] At office!"
+      },
+      "U0900H3NUUT": {
+        "status": "office",
+        "note": "[+1 to Ruchita Srivastava] At office!"
       },
       "W4R4S9FS4": {
         "status": "leave",
         "note": "On leave for 1st half, taking care of daughter. Extending to full day."
       },
       "W010NNJV7S8": {
-        "status": "no_info",
-        "note": null
-      },
-      "U0900H3NUUT": {
-        "status": "no_info",
-        "note": null
-      },
-      "U08HVLWG1UM": {
         "status": "no_info",
         "note": null
       }
@@ -5489,19 +5489,19 @@
         "status": "office",
         "note": "At Office"
       },
-      "W4R4S9FS4": {
-        "status": "no_info",
-        "note": null
-      },
       "WAM5KDYBZ": {
-        "status": "no_info",
-        "note": null
-      },
-      "W010NNJV7S8": {
-        "status": "no_info",
-        "note": null
+        "status": "office",
+        "note": "[+1 to Bhumika Yadav] At Office"
       },
       "U0900H3NUUT": {
+        "status": "office",
+        "note": "[+1 to Bhumika Yadav] At Office"
+      },
+      "W4R4S9FS4": {
+        "status": "office",
+        "note": "[+1 to Bhumika Yadav] At Office"
+      },
+      "W010NNJV7S8": {
         "status": "no_info",
         "note": null
       }
@@ -5515,27 +5515,35 @@
         "status": "office",
         "note": "At Office"
       },
+      "W4R4S9FS4": {
+        "status": "office",
+        "note": "[+1 to Bhumika Yadav] At Office"
+      },
+      "U03HRQ036BD": {
+        "status": "office",
+        "note": "[+1 to Bhumika Yadav] At Office"
+      },
+      "U0900H3NUUT": {
+        "status": "office",
+        "note": "[+1 to Bhumika Yadav] At Office"
+      },
       "W010NNJV7S8": {
         "status": "wfh",
         "note": "wfh today"
-      },
-      "W4R4S9FS4": {
-        "status": "no_info",
-        "note": null
-      },
-      "U03HRQ036BD": {
-        "status": "no_info",
-        "note": null
-      },
-      "U0900H3NUUT": {
-        "status": "no_info",
-        "note": null
       }
     },
     "2025-11-28": {
       "U03HRQ036BD": {
         "status": "wfh",
         "note": "WFH"
+      },
+      "U0900H3NUUT": {
+        "status": "wfh",
+        "note": "[+1 to Ruchita Srivastava] WFH"
+      },
+      "U08HVLWG1UM": {
+        "status": "wfh",
+        "note": "[+1 to Ruchita Srivastava] WFH"
       },
       "W4R4S9FS4": {
         "status": "no_info",
@@ -5546,14 +5554,6 @@
         "note": null
       },
       "W010NNJV7S8": {
-        "status": "no_info",
-        "note": null
-      },
-      "U0900H3NUUT": {
-        "status": "no_info",
-        "note": null
-      },
-      "U08HVLWG1UM": {
         "status": "no_info",
         "note": null
       }
@@ -5567,6 +5567,10 @@
         "status": "wfh",
         "note": "WFH today, not feeling well."
       },
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "[+1 to Bhumika Yadav] WFH today, not feeling well."
+      },
       "U0900H3NUUT": {
         "status": "wfh",
         "note": "Hi team, I'm not feeling well today, so I'll be working from home."
@@ -5576,10 +5580,6 @@
         "note": "At office"
       },
       "W4R4S9FS4": {
-        "status": "no_info",
-        "note": null
-      },
-      "W010NNJV7S8": {
         "status": "no_info",
         "note": null
       }
@@ -5597,11 +5597,11 @@
         "status": "office",
         "note": "At office"
       },
-      "WAM5KDYBZ": {
-        "status": "no_info",
-        "note": null
-      },
       "W010NNJV7S8": {
+        "status": "office",
+        "note": "[+1 to Anurag Sharma] At office"
+      },
+      "WAM5KDYBZ": {
         "status": "no_info",
         "note": null
       },
@@ -5671,19 +5671,19 @@
         "status": "wfh",
         "note": "WFH today"
       },
+      "U0900H3NUUT": {
+        "status": "wfh",
+        "note": "[+1 to Bhumika Yadav] WFH today"
+      },
       "W4R4S9FS4": {
-        "status": "no_info",
-        "note": null
+        "status": "wfh",
+        "note": "[+1 to Bhumika Yadav] WFH today"
       },
       "WAM5KDYBZ": {
         "status": "no_info",
         "note": null
       },
       "W010NNJV7S8": {
-        "status": "no_info",
-        "note": null
-      },
-      "U0900H3NUUT": {
         "status": "no_info",
         "note": null
       }
@@ -5693,19 +5693,19 @@
         "status": "office",
         "note": "At Office"
       },
-      "W4R4S9FS4": {
-        "status": "no_info",
-        "note": null
+      "U03HRQ036BD": {
+        "status": "office",
+        "note": "[+1 to Bhumika Yadav] At Office"
       },
       "WAM5KDYBZ": {
-        "status": "no_info",
-        "note": null
+        "status": "office",
+        "note": "[+1 to Bhumika Yadav] At Office"
       },
       "W010NNJV7S8": {
-        "status": "no_info",
-        "note": null
+        "status": "office",
+        "note": "[+1 to Bhumika Yadav] At Office"
       },
-      "U03HRQ036BD": {
+      "W4R4S9FS4": {
         "status": "no_info",
         "note": null
       },
@@ -5723,19 +5723,19 @@
         "status": "wfh",
         "note": "wfh today"
       },
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "[+1 to Utkarsha Sharma] wfh today"
+      },
       "U08HVLWG1UM": {
         "status": "office",
         "note": "At office"
       },
-      "W4R4S9FS4": {
-        "status": "no_info",
-        "note": null
-      },
-      "W010NNJV7S8": {
-        "status": "no_info",
-        "note": null
-      },
       "U03HRQ036BD": {
+        "status": "office",
+        "note": "[+1 to Bhumika Yadav] At office"
+      },
+      "W4R4S9FS4": {
         "status": "no_info",
         "note": null
       }
@@ -5753,15 +5753,15 @@
         "status": "office",
         "note": "At office"
       },
+      "U0900H3NUUT": {
+        "status": "office",
+        "note": "[+1 to Anurag Sharma] At office"
+      },
       "W010NNJV7S8": {
         "status": "no_info",
         "note": null
       },
       "U03HRQ036BD": {
-        "status": "no_info",
-        "note": null
-      },
-      "U0900H3NUUT": {
         "status": "no_info",
         "note": null
       }
@@ -5777,7 +5777,7 @@
       },
       "W4R4S9FS4": {
         "status": "office",
-        "note": "At office"
+        "note": "[+1 to Utkarsha Sharma] At office"
       },
       "WAM5KDYBZ": {
         "status": "no_info",
@@ -5801,6 +5801,10 @@
         "status": "wfh",
         "note": "WFH today"
       },
+      "U03HRQ036BD": {
+        "status": "wfh",
+        "note": "[+1 to Bhumika Yadav] WFH today"
+      },
       "W4R4S9FS4": {
         "status": "no_info",
         "note": null
@@ -5810,10 +5814,6 @@
         "note": null
       },
       "W010NNJV7S8": {
-        "status": "no_info",
-        "note": null
-      },
-      "U03HRQ036BD": {
         "status": "no_info",
         "note": null
       }
@@ -5857,15 +5857,15 @@
         "status": "office",
         "note": "At office"
       },
+      "U03HRQ036BD": {
+        "status": "office",
+        "note": "[+1 to Anurag Sharma] At office"
+      },
       "WAM5KDYBZ": {
-        "status": "no_info",
-        "note": null
+        "status": "office",
+        "note": "[+1 to Anurag Sharma] At office"
       },
       "W010NNJV7S8": {
-        "status": "no_info",
-        "note": null
-      },
-      "U03HRQ036BD": {
         "status": "no_info",
         "note": null
       }
@@ -5874,6 +5874,10 @@
       "U08HVLWG1UM": {
         "status": "wfh",
         "note": "WFH today"
+      },
+      "U03HRQ036BD": {
+        "status": "wfh",
+        "note": "[+1 to Bhumika Yadav] WFH today"
       },
       "U0900H3NUUT": {
         "status": "sick",
@@ -5888,10 +5892,6 @@
         "note": "On leave second half"
       },
       "W010NNJV7S8": {
-        "status": "no_info",
-        "note": null
-      },
-      "U03HRQ036BD": {
         "status": "no_info",
         "note": null
       }
@@ -5953,23 +5953,23 @@
         "status": "office",
         "note": "At Office"
       },
+      "U0900H3NUUT": {
+        "status": "office",
+        "note": "[+1 to Bhumika Yadav] At Office"
+      },
+      "W4R4S9FS4": {
+        "status": "office",
+        "note": "[+1 to Bhumika Yadav] At Office"
+      },
       "U03HRQ036BD": {
         "status": "wfh",
         "note": "WFH"
       },
-      "W4R4S9FS4": {
-        "status": "no_info",
-        "note": null
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "[+1 to Ruchita Srivastava] WFH"
       },
       "WAM5KDYBZ": {
-        "status": "no_info",
-        "note": null
-      },
-      "W010NNJV7S8": {
-        "status": "no_info",
-        "note": null
-      },
-      "U0900H3NUUT": {
         "status": "no_info",
         "note": null
       }
@@ -5979,25 +5979,25 @@
         "status": "wfh",
         "note": "Wfh today"
       },
+      "U03HRQ036BD": {
+        "status": "wfh",
+        "note": "[+1 to Utkarsha Sharma] Wfh today"
+      },
+      "U08HVLWG1UM": {
+        "status": "wfh",
+        "note": "[+1 to Utkarsha Sharma] Wfh today"
+      },
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "[+1 to Utkarsha Sharma] Wfh today"
+      },
       "WAM5KDYBZ": {
         "status": "office",
         "note": "At office"
       },
       "W4R4S9FS4": {
-        "status": "no_info",
-        "note": null
-      },
-      "W010NNJV7S8": {
-        "status": "no_info",
-        "note": null
-      },
-      "U03HRQ036BD": {
-        "status": "no_info",
-        "note": null
-      },
-      "U08HVLWG1UM": {
-        "status": "no_info",
-        "note": null
+        "status": "office",
+        "note": "[+1 to Khushwant Singh] At office"
       }
     },
     "2025-12-24": {
@@ -6213,25 +6213,25 @@
         "status": "office",
         "note": "At office"
       },
+      "W010NNJV7S8": {
+        "status": "office",
+        "note": "[+1 to Ruchita Srivastava] At office"
+      },
+      "U0900H3NUUT": {
+        "status": "office",
+        "note": "[+1 to Ruchita Srivastava] At office"
+      },
+      "U08HVLWG1UM": {
+        "status": "office",
+        "note": "[+1 to Ruchita Srivastava] At office"
+      },
+      "WAM5KDYBZ": {
+        "status": "office",
+        "note": "[+1 to Ruchita Srivastava] At office"
+      },
       "W4R4S9FS4": {
         "status": "wfh",
         "note": "WFH today"
-      },
-      "WAM5KDYBZ": {
-        "status": "no_info",
-        "note": null
-      },
-      "W010NNJV7S8": {
-        "status": "no_info",
-        "note": null
-      },
-      "U0900H3NUUT": {
-        "status": "no_info",
-        "note": null
-      },
-      "U08HVLWG1UM": {
-        "status": "no_info",
-        "note": null
       }
     },
     "2026-01-06": {
@@ -6240,8 +6240,12 @@
         "note": "At Office"
       },
       "W4R4S9FS4": {
-        "status": "no_info",
-        "note": null
+        "status": "office",
+        "note": "[+1 to Bhumika Yadav] At Office"
+      },
+      "U0900H3NUUT": {
+        "status": "office",
+        "note": "[+1 to Bhumika Yadav] At Office"
       },
       "WAM5KDYBZ": {
         "status": "no_info",
@@ -6252,10 +6256,6 @@
         "note": null
       },
       "U03HRQ036BD": {
-        "status": "no_info",
-        "note": null
-      },
-      "U0900H3NUUT": {
         "status": "no_info",
         "note": null
       }
@@ -6292,20 +6292,20 @@
         "note": "At Office"
       },
       "W4R4S9FS4": {
-        "status": "no_info",
-        "note": null
-      },
-      "W010NNJV7S8": {
-        "status": "no_info",
-        "note": null
-      },
-      "U03HRQ036BD": {
-        "status": "no_info",
-        "note": null
+        "status": "office",
+        "note": "[+1 to Khushwant Singh] At Office"
       },
       "U0900H3NUUT": {
         "status": "wfh",
         "note": "Working from home today"
+      },
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "[+1 to Utkarsha Sharma] Working from home today"
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
       },
       "U08HVLWG1UM": {
         "status": "no_info",
@@ -6317,25 +6317,25 @@
         "status": "wfh",
         "note": "WFH Today"
       },
+      "U0900H3NUUT": {
+        "status": "wfh",
+        "note": "[+1 to Bhumika Yadav] WFH Today"
+      },
+      "U03HRQ036BD": {
+        "status": "wfh",
+        "note": "[+1 to Bhumika Yadav] WFH Today"
+      },
+      "W4R4S9FS4": {
+        "status": "wfh",
+        "note": "[+1 to Bhumika Yadav] WFH Today"
+      },
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "[+1 to Bhumika Yadav] WFH Today"
+      },
       "WAM5KDYBZ": {
         "status": "wfh",
         "note": "WFH Today"
-      },
-      "W4R4S9FS4": {
-        "status": "no_info",
-        "note": null
-      },
-      "W010NNJV7S8": {
-        "status": "no_info",
-        "note": null
-      },
-      "U03HRQ036BD": {
-        "status": "no_info",
-        "note": null
-      },
-      "U0900H3NUUT": {
-        "status": "no_info",
-        "note": null
       }
     },
     "2026-01-12": {
@@ -6343,25 +6343,25 @@
         "status": "office",
         "note": "At office"
       },
+      "U08HVLWG1UM": {
+        "status": "office",
+        "note": "[+1 to Ruchita Srivastava] At office"
+      },
+      "W010NNJV7S8": {
+        "status": "office",
+        "note": "[+1 to Ruchita Srivastava] At office"
+      },
       "W4R4S9FS4": {
         "status": "wfh",
         "note": "WFH today"
       },
+      "U0900H3NUUT": {
+        "status": "wfh",
+        "note": "[+1 to Anurag Sharma] WFH today"
+      },
       "WAM5KDYBZ": {
         "status": "wfh",
-        "note": "Working in patches from home"
-      },
-      "W010NNJV7S8": {
-        "status": "no_info",
-        "note": null
-      },
-      "U0900H3NUUT": {
-        "status": "no_info",
-        "note": null
-      },
-      "U08HVLWG1UM": {
-        "status": "no_info",
-        "note": null
+        "note": "[+1 to Anurag Sharma] WFH today"
       }
     },
     "2026-01-13": {
@@ -6369,23 +6369,23 @@
         "status": "office",
         "note": "At office"
       },
+      "U0900H3NUUT": {
+        "status": "office",
+        "note": "[+1 to Bhumika Yadav] At office"
+      },
+      "W4R4S9FS4": {
+        "status": "office",
+        "note": "[+1 to Bhumika Yadav] At office"
+      },
       "W010NNJV7S8": {
         "status": "wfh",
         "note": "WFH today"
-      },
-      "W4R4S9FS4": {
-        "status": "no_info",
-        "note": null
       },
       "WAM5KDYBZ": {
         "status": "leave",
         "note": "Filling leave for today"
       },
       "U03HRQ036BD": {
-        "status": "no_info",
-        "note": null
-      },
-      "U0900H3NUUT": {
         "status": "no_info",
         "note": null
       }
@@ -6399,27 +6399,31 @@
         "status": "office",
         "note": "At Office!"
       },
-      "W4R4S9FS4": {
-        "status": "no_info",
-        "note": null
-      },
-      "W010NNJV7S8": {
-        "status": "no_info",
-        "note": null
+      "U08HVLWG1UM": {
+        "status": "office",
+        "note": "[+1 to Ruchita Srivastava] At Office!"
       },
       "U0900H3NUUT": {
-        "status": "no_info",
-        "note": null
+        "status": "office",
+        "note": "[+1 to Ruchita Srivastava] At Office!"
       },
-      "U08HVLWG1UM": {
-        "status": "no_info",
-        "note": null
+      "W4R4S9FS4": {
+        "status": "office",
+        "note": "[+1 to Ruchita Srivastava] At Office!"
+      },
+      "W010NNJV7S8": {
+        "status": "office",
+        "note": "[+1 to Ruchita Srivastava] At Office!"
       }
     },
     "2026-01-15": {
       "U03HRQ036BD": {
         "status": "wfh",
         "note": "WFH today"
+      },
+      "U08HVLWG1UM": {
+        "status": "wfh",
+        "note": "[+1 to Ruchita Srivastava] WFH today"
       },
       "W4R4S9FS4": {
         "status": "sick",
@@ -6436,16 +6440,20 @@
       "W010NNJV7S8": {
         "status": "leave",
         "note": "Holiday in Bangalore for Sankranti & Pongal"
-      },
-      "U08HVLWG1UM": {
-        "status": "no_info",
-        "note": null
       }
     },
     "2026-01-16": {
       "U08HVLWG1UM": {
         "status": "wfh",
         "note": "WFH today"
+      },
+      "U0900H3NUUT": {
+        "status": "wfh",
+        "note": "[+1 to Bhumika Yadav] WFH today"
+      },
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "[+1 to Bhumika Yadav] WFH today"
       },
       "W4R4S9FS4": {
         "status": "office",
@@ -6455,15 +6463,7 @@
         "status": "wfh",
         "note": "WFH today - need to take care of illahi..."
       },
-      "W010NNJV7S8": {
-        "status": "no_info",
-        "note": null
-      },
       "U03HRQ036BD": {
-        "status": "no_info",
-        "note": null
-      },
-      "U0900H3NUUT": {
         "status": "no_info",
         "note": null
       }
@@ -6499,6 +6499,10 @@
         "status": "wfh",
         "note": "WFH today"
       },
+      "U0900H3NUUT": {
+        "status": "wfh",
+        "note": "[+1 to Bhumika Yadav] WFH today"
+      },
       "W4R4S9FS4": {
         "status": "office",
         "note": "Ruchita, Khushwant and Anurag at office!"
@@ -6514,10 +6518,6 @@
       "W010NNJV7S8": {
         "status": "no_info",
         "note": null
-      },
-      "U0900H3NUUT": {
-        "status": "no_info",
-        "note": null
       }
     },
     "2026-01-21": {
@@ -6530,18 +6530,18 @@
         "note": "At office"
       },
       "WAM5KDYBZ": {
-        "status": "no_info",
-        "note": null
-      },
-      "W010NNJV7S8": {
-        "status": "no_info",
-        "note": null
-      },
-      "U03HRQ036BD": {
-        "status": "no_info",
-        "note": null
+        "status": "office",
+        "note": "[+1 to Anurag Sharma] At office"
       },
       "U0900H3NUUT": {
+        "status": "office",
+        "note": "[+1 to Anurag Sharma] At office"
+      },
+      "U03HRQ036BD": {
+        "status": "office",
+        "note": "[+1 to Anurag Sharma] At office"
+      },
+      "W010NNJV7S8": {
         "status": "no_info",
         "note": null
       }
@@ -6552,22 +6552,22 @@
         "note": "At Office"
       },
       "W4R4S9FS4": {
-        "status": "no_info",
-        "note": null
+        "status": "office",
+        "note": "[+1 to Bhumika Yadav] At Office"
+      },
+      "U0900H3NUUT": {
+        "status": "office",
+        "note": "[+1 to Bhumika Yadav] At Office"
       },
       "WAM5KDYBZ": {
-        "status": "no_info",
-        "note": null
+        "status": "office",
+        "note": "[+1 to Bhumika Yadav] At Office"
       },
       "W010NNJV7S8": {
         "status": "no_info",
         "note": null
       },
       "U03HRQ036BD": {
-        "status": "no_info",
-        "note": null
-      },
-      "U0900H3NUUT": {
         "status": "no_info",
         "note": null
       }
@@ -6577,23 +6577,23 @@
         "status": "wfh",
         "note": "WFH today"
       },
+      "U08HVLWG1UM": {
+        "status": "wfh",
+        "note": "[+1 to Ruchita Srivastava] WFH today"
+      },
       "WAM5KDYBZ": {
         "status": "wfh",
         "note": "Forced to drop plans to go to office, WFH Today"
+      },
+      "U0900H3NUUT": {
+        "status": "wfh",
+        "note": "[+1 to Khushwant Singh] Forced to drop plans to go to office, WFH Today"
       },
       "W4R4S9FS4": {
         "status": "wfh",
         "note": "WFH due to rains"
       },
       "W010NNJV7S8": {
-        "status": "no_info",
-        "note": null
-      },
-      "U0900H3NUUT": {
-        "status": "no_info",
-        "note": null
-      },
-      "U08HVLWG1UM": {
         "status": "no_info",
         "note": null
       }
@@ -6663,17 +6663,17 @@
         "status": "office",
         "note": "At Office!"
       },
+      "WAM5KDYBZ": {
+        "status": "office",
+        "note": "[+1 to Ruchita Srivastava] At Office!"
+      },
+      "U0900H3NUUT": {
+        "status": "office",
+        "note": "[+1 to Ruchita Srivastava] At Office!"
+      },
       "W010NNJV7S8": {
         "status": "wfh",
         "note": "WFH Today"
-      },
-      "WAM5KDYBZ": {
-        "status": "no_info",
-        "note": null
-      },
-      "U0900H3NUUT": {
-        "status": "no_info",
-        "note": null
       }
     },
     "2026-01-29": {
@@ -6686,16 +6686,16 @@
         "note": "At Office !"
       },
       "WAM5KDYBZ": {
-        "status": "leave",
-        "note": "On leave for the first half... shall reach office around 1:00"
+        "status": "office",
+        "note": "[+1 to Utkarsha Sharma] At office"
       },
       "U0900H3NUUT": {
         "status": "office",
         "note": "At office"
       },
       "W010NNJV7S8": {
-        "status": "no_info",
-        "note": null
+        "status": "office",
+        "note": "[+1 to Utkarsha Sharma] At office"
       },
       "U08HVLWG1UM": {
         "status": "no_info",
@@ -6706,6 +6706,10 @@
       "U03HRQ036BD": {
         "status": "wfh",
         "note": "WFH today"
+      },
+      "U08HVLWG1UM": {
+        "status": "wfh",
+        "note": "[+1 to Ruchita Srivastava] WFH today"
       },
       "WAM5KDYBZ": {
         "status": "office",
@@ -6720,18 +6724,22 @@
         "note": "At office"
       },
       "W010NNJV7S8": {
-        "status": "no_info",
-        "note": null
-      },
-      "U08HVLWG1UM": {
-        "status": "no_info",
-        "note": null
+        "status": "office",
+        "note": "[+1 to Anurag Sharma] At office"
       }
     },
     "2026-02-02": {
       "U08HVLWG1UM": {
         "status": "wfh",
         "note": "WFH today"
+      },
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "[+1 to Bhumika Yadav] WFH today"
+      },
+      "U0900H3NUUT": {
+        "status": "wfh",
+        "note": "[+1 to Bhumika Yadav] WFH today"
       },
       "W4R4S9FS4": {
         "status": "office",
@@ -6741,37 +6749,29 @@
         "status": "no_info",
         "note": null
       },
-      "W010NNJV7S8": {
-        "status": "no_info",
-        "note": null
-      },
       "U03HRQ036BD": {
-        "status": "no_info",
-        "note": null
-      },
-      "U0900H3NUUT": {
         "status": "no_info",
         "note": null
       }
     },
     "2026-02-03": {
-      "W4R4S9FS4": {
-        "status": "no_info",
-        "note": null
-      },
-      "WAM5KDYBZ": {
-        "status": "no_info",
-        "note": null
-      },
       "W010NNJV7S8": {
         "status": "office",
         "note": "WFO"
       },
       "U03HRQ036BD": {
-        "status": "no_info",
-        "note": null
+        "status": "office",
+        "note": "[+1 to Chris J] WFO"
       },
       "U0900H3NUUT": {
+        "status": "office",
+        "note": "[+1 to Chris J] WFO"
+      },
+      "W4R4S9FS4": {
+        "status": "office",
+        "note": "[+1 to Chris J] WFO"
+      },
+      "WAM5KDYBZ": {
         "status": "no_info",
         "note": null
       },
@@ -6789,6 +6789,10 @@
         "status": "wfh",
         "note": "WFH today"
       },
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "[+1 to Ruchita Srivastava] WFH today"
+      },
       "U0900H3NUUT": {
         "status": "wfh",
         "note": "Suffering from shoulder pain, will be working from home today"
@@ -6798,12 +6802,8 @@
         "note": "At office"
       },
       "WAM5KDYBZ": {
-        "status": "no_info",
-        "note": null
-      },
-      "W010NNJV7S8": {
-        "status": "no_info",
-        "note": null
+        "status": "office",
+        "note": "[+1 to Anurag Sharma] At office"
       }
     },
     "2026-02-05": {
@@ -6811,21 +6811,21 @@
         "status": "office",
         "note": "At Office"
       },
+      "W4R4S9FS4": {
+        "status": "office",
+        "note": "[+1 to Ruchita Srivastava] At Office"
+      },
+      "WAM5KDYBZ": {
+        "status": "office",
+        "note": "[+1 to Ruchita Srivastava] At Office"
+      },
+      "W010NNJV7S8": {
+        "status": "office",
+        "note": "[+1 to Ruchita Srivastava] At Office"
+      },
       "U08HVLWG1UM": {
         "status": "leave",
         "note": "First half on leave"
-      },
-      "W4R4S9FS4": {
-        "status": "no_info",
-        "note": null
-      },
-      "WAM5KDYBZ": {
-        "status": "no_info",
-        "note": null
-      },
-      "W010NNJV7S8": {
-        "status": "no_info",
-        "note": null
       },
       "U0900H3NUUT": {
         "status": "no_info",
@@ -6837,31 +6837,43 @@
         "status": "wfh",
         "note": "WFH today"
       },
+      "U08HVLWG1UM": {
+        "status": "wfh",
+        "note": "[+1 to Ruchita Srivastava] WFH today"
+      },
       "W4R4S9FS4": {
         "status": "office",
         "note": "At office"
       },
-      "WAM5KDYBZ": {
-        "status": "no_info",
-        "note": null
-      },
       "W010NNJV7S8": {
-        "status": "no_info",
-        "note": null
+        "status": "office",
+        "note": "[+1 to Anurag Sharma] At office"
+      },
+      "WAM5KDYBZ": {
+        "status": "office",
+        "note": "[+1 to Anurag Sharma] At office"
       },
       "U0900H3NUUT": {
         "status": "leave",
         "note": "On leave today"
-      },
-      "U08HVLWG1UM": {
-        "status": "no_info",
-        "note": null
       }
     },
     "2026-02-09": {
       "U08HVLWG1UM": {
         "status": "office",
         "note": "At office"
+      },
+      "U0900H3NUUT": {
+        "status": "office",
+        "note": "[+1 to Bhumika Yadav] At office"
+      },
+      "U03HRQ036BD": {
+        "status": "office",
+        "note": "[+1 to Bhumika Yadav] At office"
+      },
+      "WAM5KDYBZ": {
+        "status": "office",
+        "note": "[+1 to Bhumika Yadav] At office"
       },
       "W010NNJV7S8": {
         "status": "wfh",
@@ -6870,18 +6882,6 @@
       "W4R4S9FS4": {
         "status": "wfh",
         "note": "WFH today"
-      },
-      "WAM5KDYBZ": {
-        "status": "no_info",
-        "note": null
-      },
-      "U03HRQ036BD": {
-        "status": "no_info",
-        "note": null
-      },
-      "U0900H3NUUT": {
-        "status": "no_info",
-        "note": null
       }
     },
     "2026-02-10": {
@@ -6889,23 +6889,23 @@
         "status": "wfh",
         "note": "WFH today!"
       },
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "[+1 to Ruchita Srivastava] WFH today!"
+      },
       "U0900H3NUUT": {
         "status": "office",
         "note": "At office"
       },
+      "U08HVLWG1UM": {
+        "status": "office",
+        "note": "[+1 to Utkarsha Sharma] At office"
+      },
       "W4R4S9FS4": {
-        "status": "no_info",
-        "note": null
+        "status": "office",
+        "note": "[+1 to Utkarsha Sharma] At office"
       },
       "WAM5KDYBZ": {
-        "status": "no_info",
-        "note": null
-      },
-      "W010NNJV7S8": {
-        "status": "wfh",
-        "note": "still recovering"
-      },
-      "U08HVLWG1UM": {
         "status": "no_info",
         "note": null
       }
@@ -6915,19 +6915,19 @@
         "status": "office",
         "note": "At office"
       },
-      "WAM5KDYBZ": {
-        "status": "no_info",
-        "note": null
-      },
       "W010NNJV7S8": {
-        "status": "no_info",
-        "note": null
+        "status": "office",
+        "note": "[+1 to Anurag Sharma] At office"
       },
       "U03HRQ036BD": {
-        "status": "no_info",
-        "note": null
+        "status": "office",
+        "note": "[+1 to Anurag Sharma] At office"
       },
       "U0900H3NUUT": {
+        "status": "office",
+        "note": "[+1 to Anurag Sharma] At office"
+      },
+      "WAM5KDYBZ": {
         "status": "no_info",
         "note": null
       },
@@ -6945,21 +6945,21 @@
         "status": "office",
         "note": "At Office!"
       },
+      "U08HVLWG1UM": {
+        "status": "office",
+        "note": "[+1 to Ruchita Srivastava] At Office!"
+      },
       "W4R4S9FS4": {
-        "status": "no_info",
-        "note": null
+        "status": "office",
+        "note": "[+1 to Ruchita Srivastava] At Office!"
       },
       "WAM5KDYBZ": {
-        "status": "no_info",
-        "note": null
+        "status": "office",
+        "note": "[+1 to Ruchita Srivastava] At Office!"
       },
       "U0900H3NUUT": {
         "status": "leave",
         "note": "PTO today"
-      },
-      "U08HVLWG1UM": {
-        "status": "no_info",
-        "note": null
       }
     },
     "2026-02-13": {
@@ -6975,15 +6975,15 @@
         "status": "office",
         "note": "Working from office"
       },
-      "W4R4S9FS4": {
-        "status": "no_info",
-        "note": null
+      "U08HVLWG1UM": {
+        "status": "office",
+        "note": "[+1 to Utkarsha Sharma] Working from office"
       },
       "WAM5KDYBZ": {
-        "status": "no_info",
-        "note": null
+        "status": "office",
+        "note": "[+1 to Utkarsha Sharma] Working from office"
       },
-      "U08HVLWG1UM": {
+      "W4R4S9FS4": {
         "status": "no_info",
         "note": null
       }
@@ -6993,6 +6993,18 @@
         "status": "office",
         "note": "At Office!"
       },
+      "U08HVLWG1UM": {
+        "status": "office",
+        "note": "[+1 to Ruchita Srivastava] At Office!"
+      },
+      "U0900H3NUUT": {
+        "status": "office",
+        "note": "[+1 to Ruchita Srivastava] At Office!"
+      },
+      "WAM5KDYBZ": {
+        "status": "office",
+        "note": "[+1 to Ruchita Srivastava] At Office!"
+      },
       "W010NNJV7S8": {
         "status": "wfh",
         "note": "WFH Today. Will be stepping out in the 2nd half to take wife to doc"
@@ -7000,18 +7012,6 @@
       "W4R4S9FS4": {
         "status": "wfh",
         "note": "WFH today"
-      },
-      "WAM5KDYBZ": {
-        "status": "no_info",
-        "note": null
-      },
-      "U0900H3NUUT": {
-        "status": "no_info",
-        "note": null
-      },
-      "U08HVLWG1UM": {
-        "status": "no_info",
-        "note": null
       }
     },
     "2026-02-17": {
@@ -7023,17 +7023,17 @@
         "status": "office",
         "note": "At office"
       },
+      "U03HRQ036BD": {
+        "status": "office",
+        "note": "[+1 to Utkarsha Sharma] At office"
+      },
+      "W4R4S9FS4": {
+        "status": "office",
+        "note": "[+1 to Utkarsha Sharma] At office"
+      },
       "W010NNJV7S8": {
         "status": "wfh",
         "note": "WFH today"
-      },
-      "W4R4S9FS4": {
-        "status": "no_info",
-        "note": null
-      },
-      "U03HRQ036BD": {
-        "status": "no_info",
-        "note": null
       },
       "U08HVLWG1UM": {
         "status": "no_info",
@@ -7049,6 +7049,14 @@
         "status": "office",
         "note": "At office!"
       },
+      "U08HVLWG1UM": {
+        "status": "office",
+        "note": "[+1 to Ruchita Srivastava] At office!"
+      },
+      "W010NNJV7S8": {
+        "status": "office",
+        "note": "[+1 to Ruchita Srivastava] At office!"
+      },
       "W4R4S9FS4": {
         "status": "wfh",
         "note": "WFH today"
@@ -7056,20 +7064,24 @@
       "WAM5KDYBZ": {
         "status": "leave",
         "note": "Not feeling well, leaving for day"
-      },
-      "W010NNJV7S8": {
-        "status": "no_info",
-        "note": null
-      },
-      "U08HVLWG1UM": {
-        "status": "no_info",
-        "note": null
       }
     },
     "2026-02-19": {
       "U03HRQ036BD": {
         "status": "office",
         "note": "At office!"
+      },
+      "U08HVLWG1UM": {
+        "status": "office",
+        "note": "[+1 to Ruchita Srivastava] At office!"
+      },
+      "W4R4S9FS4": {
+        "status": "office",
+        "note": "[+1 to Ruchita Srivastava] At office!"
+      },
+      "U0900H3NUUT": {
+        "status": "office",
+        "note": "[+1 to Ruchita Srivastava] At office!"
       },
       "WAM5KDYBZ": {
         "status": "sick",
@@ -7078,18 +7090,6 @@
       "W010NNJV7S8": {
         "status": "wfh",
         "note": "WFH Today. will be stepping out in the 2nd half for doc appointment"
-      },
-      "W4R4S9FS4": {
-        "status": "no_info",
-        "note": null
-      },
-      "U0900H3NUUT": {
-        "status": "no_info",
-        "note": null
-      },
-      "U08HVLWG1UM": {
-        "status": "no_info",
-        "note": null
       }
     },
     "2026-02-20": {
@@ -7101,17 +7101,17 @@
         "status": "office",
         "note": "At office"
       },
+      "W010NNJV7S8": {
+        "status": "office",
+        "note": "[+1 to Utkarsha Sharma] At office"
+      },
       "W4R4S9FS4": {
-        "status": "wfh",
-        "note": "WFH today"
+        "status": "office",
+        "note": "[+1 to Utkarsha Sharma] At office"
       },
       "WAM5KDYBZ": {
         "status": "sick",
         "note": "Recovering, taking off today"
-      },
-      "W010NNJV7S8": {
-        "status": "no_info",
-        "note": null
       },
       "U08HVLWG1UM": {
         "status": "no_info",
@@ -7123,25 +7123,25 @@
         "status": "office",
         "note": "At Office!"
       },
-      "WAM5KDYBZ": {
+      "U08HVLWG1UM": {
         "status": "office",
-        "note": "Shall reach office around 12:30 pm"
+        "note": "[+1 to Ruchita Srivastava] At Office!"
       },
       "W4R4S9FS4": {
-        "status": "no_info",
-        "note": null
+        "status": "office",
+        "note": "[+1 to Ruchita Srivastava] At Office!"
+      },
+      "U0900H3NUUT": {
+        "status": "office",
+        "note": "[+1 to Ruchita Srivastava] At Office!"
+      },
+      "WAM5KDYBZ": {
+        "status": "office",
+        "note": "[+1 to Ruchita Srivastava] At Office!"
       },
       "W010NNJV7S8": {
         "status": "sick",
         "note": "Feeling unwell, PTO 1st half"
-      },
-      "U0900H3NUUT": {
-        "status": "no_info",
-        "note": null
-      },
-      "U08HVLWG1UM": {
-        "status": "no_info",
-        "note": null
       }
     },
     "2026-02-24": {
@@ -7149,23 +7149,23 @@
         "status": "office",
         "note": "At Office"
       },
+      "U0900H3NUUT": {
+        "status": "office",
+        "note": "[+1 to Ruchita Srivastava] At Office"
+      },
+      "U08HVLWG1UM": {
+        "status": "office",
+        "note": "[+1 to Ruchita Srivastava] At Office"
+      },
+      "W4R4S9FS4": {
+        "status": "office",
+        "note": "[+1 to Ruchita Srivastava] At Office"
+      },
       "W010NNJV7S8": {
         "status": "wfh",
         "note": "WFH Today"
       },
-      "W4R4S9FS4": {
-        "status": "no_info",
-        "note": null
-      },
       "WAM5KDYBZ": {
-        "status": "no_info",
-        "note": null
-      },
-      "U0900H3NUUT": {
-        "status": "no_info",
-        "note": null
-      },
-      "U08HVLWG1UM": {
         "status": "no_info",
         "note": null
       }
@@ -7175,23 +7175,23 @@
         "status": "wfh",
         "note": "WFH today"
       },
+      "U08HVLWG1UM": {
+        "status": "wfh",
+        "note": "[+1 to Ruchita Srivastava] WFH today"
+      },
       "U0900H3NUUT": {
         "status": "office",
         "note": "At office"
       },
+      "W010NNJV7S8": {
+        "status": "office",
+        "note": "[+1 to Utkarsha Sharma] At office"
+      },
       "W4R4S9FS4": {
-        "status": "no_info",
-        "note": null
+        "status": "office",
+        "note": "[+1 to Utkarsha Sharma] At office"
       },
       "WAM5KDYBZ": {
-        "status": "no_info",
-        "note": null
-      },
-      "W010NNJV7S8": {
-        "status": "no_info",
-        "note": null
-      },
-      "U08HVLWG1UM": {
         "status": "no_info",
         "note": null
       }
@@ -7209,15 +7209,15 @@
         "status": "office",
         "note": "At Office!"
       },
+      "U0900H3NUUT": {
+        "status": "office",
+        "note": "[+1 to Ruchita Srivastava] At Office!"
+      },
       "W4R4S9FS4": {
         "status": "wfh",
         "note": "WFH today"
       },
       "WAM5KDYBZ": {
-        "status": "no_info",
-        "note": null
-      },
-      "U0900H3NUUT": {
         "status": "no_info",
         "note": null
       }
@@ -7227,6 +7227,18 @@
         "status": "wfh",
         "note": "WFH today"
       },
+      "U03HRQ036BD": {
+        "status": "wfh",
+        "note": "[+1 to Bhumika Yadav] WFH today"
+      },
+      "U0900H3NUUT": {
+        "status": "wfh",
+        "note": "[+1 to Bhumika Yadav] WFH today"
+      },
+      "W4R4S9FS4": {
+        "status": "wfh",
+        "note": "[+1 to Bhumika Yadav] WFH today"
+      },
       "W010NNJV7S8": {
         "status": "office",
         "note": "At Office"
@@ -7234,18 +7246,6 @@
       "WAM5KDYBZ": {
         "status": "office",
         "note": "At Office"
-      },
-      "W4R4S9FS4": {
-        "status": "no_info",
-        "note": null
-      },
-      "U03HRQ036BD": {
-        "status": "no_info",
-        "note": null
-      },
-      "U0900H3NUUT": {
-        "status": "no_info",
-        "note": null
       }
     },
     "2026-03-02": {
@@ -7258,8 +7258,8 @@
         "note": "Wfh today"
       },
       "U08HVLWG1UM": {
-        "status": "wfh",
-        "note": "Hi team, I'll wfh for this week as I'm at In law's home for Holi."
+        "status": "office",
+        "note": "[+1 to Khushwant Singh] At office"
       },
       "WAM5KDYBZ": {
         "status": "office",
@@ -7283,15 +7283,15 @@
         "status": "wfh",
         "note": "WFH"
       },
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "[+1 to Ruchita Srivastava] WFH"
+      },
       "W4R4S9FS4": {
-        "status": "no_info",
-        "note": null
+        "status": "wfh",
+        "note": "[+1 to Ruchita Srivastava] WFH"
       },
       "WAM5KDYBZ": {
-        "status": "no_info",
-        "note": null
-      },
-      "W010NNJV7S8": {
         "status": "no_info",
         "note": null
       },
@@ -7335,19 +7335,19 @@
         "status": "wfh",
         "note": "Wfh today"
       },
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "[+1 to Utkarsha Sharma] Wfh today"
+      },
+      "W4R4S9FS4": {
+        "status": "wfh",
+        "note": "[+1 to Utkarsha Sharma] Wfh today"
+      },
       "U03HRQ036BD": {
         "status": "office",
         "note": "At Office!"
       },
-      "W4R4S9FS4": {
-        "status": "no_info",
-        "note": null
-      },
       "WAM5KDYBZ": {
-        "status": "no_info",
-        "note": null
-      },
-      "W010NNJV7S8": {
         "status": "no_info",
         "note": null
       }
@@ -7366,8 +7366,8 @@
         "note": "At Office"
       },
       "W4R4S9FS4": {
-        "status": "no_info",
-        "note": null
+        "status": "wfh",
+        "note": "[+1 to Ruchita Srivastava] WFH today"
       },
       "WAM5KDYBZ": {
         "status": "no_info",
@@ -7387,6 +7387,10 @@
         "status": "office",
         "note": "At office"
       },
+      "U0900H3NUUT": {
+        "status": "office",
+        "note": "[+1 to Ruchita Srivastava] At office"
+      },
       "W010NNJV7S8": {
         "status": "wfh",
         "note": "WFH this week. Out of town"
@@ -7394,10 +7398,6 @@
       "W4R4S9FS4": {
         "status": "wfh",
         "note": "WFH today."
-      },
-      "U0900H3NUUT": {
-        "status": "no_info",
-        "note": null
       },
       "U08HVLWG1UM": {
         "status": "no_info",
@@ -7413,6 +7413,10 @@
         "status": "office",
         "note": "At office"
       },
+      "U08HVLWG1UM": {
+        "status": "office",
+        "note": "[+1 to Utkarsha Sharma] At office"
+      },
       "W4R4S9FS4": {
         "status": "leave",
         "note": "on PTO today, something needs attention at home."
@@ -7424,10 +7428,6 @@
       "WAM5KDYBZ": {
         "status": "office",
         "note": "WFH morning, office around 11"
-      },
-      "U08HVLWG1UM": {
-        "status": "no_info",
-        "note": null
       }
     },
     "2026-03-11": {
@@ -7439,15 +7439,15 @@
         "status": "wfh",
         "note": "WFH Today"
       },
-      "W4R4S9FS4": {
-        "status": "no_info",
-        "note": null
+      "U03HRQ036BD": {
+        "status": "wfh",
+        "note": "[+1 to Bhumika Yadav] WFH Today"
       },
       "WAM5KDYBZ": {
-        "status": "no_info",
-        "note": null
+        "status": "wfh",
+        "note": "[+1 to Bhumika Yadav] WFH Today"
       },
-      "U03HRQ036BD": {
+      "W4R4S9FS4": {
         "status": "no_info",
         "note": null
       },
@@ -7469,17 +7469,17 @@
         "status": "wfh",
         "note": "WFH today"
       },
+      "U0900H3NUUT": {
+        "status": "wfh",
+        "note": "[+1 to Ruchita Srivastava] WFH today"
+      },
+      "W4R4S9FS4": {
+        "status": "wfh",
+        "note": "[+1 to Ruchita Srivastava] WFH today"
+      },
       "U08HVLWG1UM": {
         "status": "office",
         "note": "At Office"
-      },
-      "W4R4S9FS4": {
-        "status": "no_info",
-        "note": null
-      },
-      "U0900H3NUUT": {
-        "status": "no_info",
-        "note": null
       }
     },
     "2026-03-13": {
@@ -7499,13 +7499,13 @@
         "status": "wfh",
         "note": "WFH 1st half, at office post lunch"
       },
+      "U0900H3NUUT": {
+        "status": "wfh",
+        "note": "[+1 to Anurag Sharma] WFH 1st half, at office post lunch"
+      },
       "WAM5KDYBZ": {
         "status": "wfh",
         "note": "WFH Today"
-      },
-      "U0900H3NUUT": {
-        "status": "no_info",
-        "note": null
       }
     },
     "2026-03-16": {
@@ -7517,19 +7517,19 @@
         "status": "office",
         "note": "At office"
       },
-      "W4R4S9FS4": {
-        "status": "no_info",
-        "note": null
+      "U08HVLWG1UM": {
+        "status": "office",
+        "note": "[+1 to Utkarsha Sharma] At office"
       },
       "WAM5KDYBZ": {
-        "status": "no_info",
-        "note": null
+        "status": "office",
+        "note": "[+1 to Utkarsha Sharma] At office"
+      },
+      "W4R4S9FS4": {
+        "status": "office",
+        "note": "[+1 to Utkarsha Sharma] At office"
       },
       "U03HRQ036BD": {
-        "status": "no_info",
-        "note": null
-      },
-      "U08HVLWG1UM": {
         "status": "no_info",
         "note": null
       }
@@ -7573,13 +7573,13 @@
         "status": "wfh",
         "note": "WFH for first half, may go to office for 2nd half."
       },
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "[+1 to Khushwant Singh] WFH for first half, may go to office for 2nd half."
+      },
       "U0900H3NUUT": {
         "status": "office",
         "note": "At office"
-      },
-      "W010NNJV7S8": {
-        "status": "no_info",
-        "note": null
       },
       "U03HRQ036BD": {
         "status": "no_info",
@@ -7647,21 +7647,21 @@
         "status": "office",
         "note": "At Office!"
       },
+      "U0900H3NUUT": {
+        "status": "office",
+        "note": "[+1 to Ruchita Srivastava] At Office!"
+      },
+      "U08HVLWG1UM": {
+        "status": "office",
+        "note": "[+1 to Ruchita Srivastava] At Office!"
+      },
+      "WAM5KDYBZ": {
+        "status": "office",
+        "note": "[+1 to Ruchita Srivastava] At Office!"
+      },
       "W4R4S9FS4": {
         "status": "wfh",
         "note": "WFH today"
-      },
-      "WAM5KDYBZ": {
-        "status": "no_info",
-        "note": null
-      },
-      "U0900H3NUUT": {
-        "status": "no_info",
-        "note": null
-      },
-      "U08HVLWG1UM": {
-        "status": "no_info",
-        "note": null
       }
     },
     "2026-03-24": {
@@ -7674,8 +7674,8 @@
         "note": "At office"
       },
       "WAM5KDYBZ": {
-        "status": "no_info",
-        "note": null
+        "status": "office",
+        "note": "[+1 to Anurag Sharma] At office"
       },
       "U03HRQ036BD": {
         "status": "office",
@@ -7695,23 +7695,23 @@
         "status": "office",
         "note": "At Office!"
       },
-      "W4R4S9FS4": {
-        "status": "no_info",
-        "note": null
-      },
-      "WAM5KDYBZ": {
-        "status": "no_info",
-        "note": null
-      },
-      "W010NNJV7S8": {
-        "status": "no_info",
-        "note": null
-      },
       "U0900H3NUUT": {
-        "status": "no_info",
-        "note": null
+        "status": "office",
+        "note": "[+1 to Ruchita Srivastava] At Office!"
       },
       "U08HVLWG1UM": {
+        "status": "office",
+        "note": "[+1 to Ruchita Srivastava] At Office!"
+      },
+      "W010NNJV7S8": {
+        "status": "office",
+        "note": "[+1 to Ruchita Srivastava] At Office!"
+      },
+      "W4R4S9FS4": {
+        "status": "office",
+        "note": "[+1 to Ruchita Srivastava] At Office!"
+      },
+      "WAM5KDYBZ": {
         "status": "no_info",
         "note": null
       }
@@ -7725,19 +7725,19 @@
         "status": "wfh",
         "note": "WFH today"
       },
+      "U03HRQ036BD": {
+        "status": "wfh",
+        "note": "[+1 to Bhumika Yadav] WFH today"
+      },
       "U0900H3NUUT": {
         "status": "wfh",
-        "note": "Wfh today"
+        "note": "[+1 to Bhumika Yadav] WFH today"
       },
       "W4R4S9FS4": {
         "status": "office",
         "note": "At office, enjoying alone"
       },
       "WAM5KDYBZ": {
-        "status": "no_info",
-        "note": null
-      },
-      "U03HRQ036BD": {
         "status": "no_info",
         "note": null
       }
@@ -7747,6 +7747,14 @@
         "status": "wfh",
         "note": "wfh today"
       },
+      "U0900H3NUUT": {
+        "status": "wfh",
+        "note": "[+1 to Bhumika Yadav] wfh today"
+      },
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "[+1 to Bhumika Yadav] wfh today"
+      },
       "W4R4S9FS4": {
         "status": "sick",
         "note": "Sick leave today"
@@ -7755,15 +7763,7 @@
         "status": "no_info",
         "note": null
       },
-      "W010NNJV7S8": {
-        "status": "no_info",
-        "note": null
-      },
       "U03HRQ036BD": {
-        "status": "no_info",
-        "note": null
-      },
-      "U0900H3NUUT": {
         "status": "no_info",
         "note": null
       }
@@ -7772,6 +7772,10 @@
       "W010NNJV7S8": {
         "status": "office",
         "note": "at Office"
+      },
+      "U0900H3NUUT": {
+        "status": "office",
+        "note": "[+1 to Chris J] at Office"
       },
       "W4R4S9FS4": {
         "status": "wfh",
@@ -7782,10 +7786,6 @@
         "note": null
       },
       "U03HRQ036BD": {
-        "status": "no_info",
-        "note": null
-      },
-      "U0900H3NUUT": {
         "status": "no_info",
         "note": null
       },
@@ -7799,6 +7799,14 @@
         "status": "wfh",
         "note": "WFH today"
       },
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "[+1 to Ruchita Srivastava] WFH today"
+      },
+      "U0900H3NUUT": {
+        "status": "wfh",
+        "note": "[+1 to Ruchita Srivastava] WFH today"
+      },
       "U08HVLWG1UM": {
         "status": "office",
         "note": "At Office"
@@ -7808,14 +7816,6 @@
         "note": "At office"
       },
       "WAM5KDYBZ": {
-        "status": "no_info",
-        "note": null
-      },
-      "W010NNJV7S8": {
-        "status": "no_info",
-        "note": null
-      },
-      "U0900H3NUUT": {
         "status": "no_info",
         "note": null
       }
@@ -8163,6 +8163,14 @@
         "status": "wfh",
         "note": "WFH today"
       },
+      "U08HVLWG1UM": {
+        "status": "wfh",
+        "note": "[+1 to Chris J] WFH today"
+      },
+      "U0900H3NUUT": {
+        "status": "office",
+        "note": "Cancelled leave, at work"
+      },
       "W4R4S9FS4": {
         "status": "no_info",
         "note": null
@@ -8174,14 +8182,6 @@
       "U03HRQ036BD": {
         "status": "office",
         "note": "At Office"
-      },
-      "U0900H3NUUT": {
-        "status": "office",
-        "note": "Cancelled leave, at work"
-      },
-      "U08HVLWG1UM": {
-        "status": "no_info",
-        "note": null
       }
     },
     "2026-04-21": {
@@ -8453,13 +8453,13 @@
         "status": "office",
         "note": "At office"
       },
+      "W4R4S9FS4": {
+        "status": "office",
+        "note": "[+1 to Utkarsha Sharma] At office"
+      },
       "W010NNJV7S8": {
         "status": "wfh",
         "note": "WFH today"
-      },
-      "W4R4S9FS4": {
-        "status": "no_info",
-        "note": null
       },
       "WAM5KDYBZ": {
         "status": "no_info",
@@ -8475,19 +8475,19 @@
         "status": "office",
         "note": "At office"
       },
+      "U03HRQ036BD": {
+        "status": "office",
+        "note": "[+1 to Utkarsha Sharma] At office"
+      },
+      "W4R4S9FS4": {
+        "status": "office",
+        "note": "[+1 to Utkarsha Sharma] At office"
+      },
       "W010NNJV7S8": {
         "status": "office",
         "note": "At Office"
       },
-      "W4R4S9FS4": {
-        "status": "no_info",
-        "note": null
-      },
       "WAM5KDYBZ": {
-        "status": "no_info",
-        "note": null
-      },
-      "U03HRQ036BD": {
         "status": "no_info",
         "note": null
       },
@@ -8505,13 +8505,13 @@
         "status": "office",
         "note": "At office"
       },
+      "W010NNJV7S8": {
+        "status": "office",
+        "note": "[+1 to Anurag Sharma] At office"
+      },
       "WAM5KDYBZ": {
         "status": "leave",
         "note": "On leave, limited access"
-      },
-      "W010NNJV7S8": {
-        "status": "no_info",
-        "note": null
       },
       "U0900H3NUUT": {
         "status": "no_info",
@@ -8527,19 +8527,19 @@
         "status": "wfh",
         "note": "WFH today"
       },
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "[+1 to Utkarsha Sharma] WFH today"
+      },
       "W4R4S9FS4": {
         "status": "office",
         "note": "At office"
       },
-      "WAM5KDYBZ": {
-        "status": "no_info",
-        "note": null
-      },
-      "W010NNJV7S8": {
-        "status": "no_info",
-        "note": null
-      },
       "U03HRQ036BD": {
+        "status": "office",
+        "note": "[+1 to Anurag Sharma] At office"
+      },
+      "WAM5KDYBZ": {
         "status": "no_info",
         "note": null
       },
@@ -8553,15 +8553,15 @@
         "status": "office",
         "note": "At office"
       },
+      "W010NNJV7S8": {
+        "status": "office",
+        "note": "[+1 to Utkarsha Sharma] At office"
+      },
       "W4R4S9FS4": {
         "status": "no_info",
         "note": null
       },
       "WAM5KDYBZ": {
-        "status": "no_info",
-        "note": null
-      },
-      "W010NNJV7S8": {
         "status": "no_info",
         "note": null
       },
@@ -8579,6 +8579,10 @@
         "status": "wfh",
         "note": "WFH today"
       },
+      "U03HRQ036BD": {
+        "status": "wfh",
+        "note": "[+1 to Chris J] WFH today"
+      },
       "W4R4S9FS4": {
         "status": "office",
         "note": "At office"
@@ -8586,10 +8590,6 @@
       "WAM5KDYBZ": {
         "status": "wfh",
         "note": "WFH till 4pm"
-      },
-      "U03HRQ036BD": {
-        "status": "leave",
-        "note": "On leave today"
       },
       "U0900H3NUUT": {
         "status": "no_info",
@@ -8609,13 +8609,13 @@
         "status": "wfh",
         "note": "WFH - online between 10:45 am - 5:30 pm"
       },
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "[+1 to Khushwant Singh] WFH - online between 10:45 am - 5:30 pm"
+      },
       "W4R4S9FS4": {
         "status": "office",
         "note": "At office"
-      },
-      "W010NNJV7S8": {
-        "status": "no_info",
-        "note": null
       },
       "U03HRQ036BD": {
         "status": "no_info",
@@ -8631,6 +8631,10 @@
         "status": "wfh",
         "note": "Wfh today"
       },
+      "U03HRQ036BD": {
+        "status": "wfh",
+        "note": "[+1 to Utkarsha Sharma] Wfh today"
+      },
       "W010NNJV7S8": {
         "status": "office",
         "note": "At Office"
@@ -8643,10 +8647,6 @@
         "status": "wfh",
         "note": "WFH, online 11:30 onwards"
       },
-      "U03HRQ036BD": {
-        "status": "no_info",
-        "note": null
-      },
       "U08HVLWG1UM": {
         "status": "no_info",
         "note": null
@@ -8657,19 +8657,19 @@
         "status": "wfh",
         "note": "WFH today"
       },
+      "U03HRQ036BD": {
+        "status": "wfh",
+        "note": "[+1 to Chris J] WFH today"
+      },
+      "U0900H3NUUT": {
+        "status": "wfh",
+        "note": "[+1 to Chris J] WFH today"
+      },
       "W4R4S9FS4": {
         "status": "office",
         "note": "At office"
       },
       "WAM5KDYBZ": {
-        "status": "no_info",
-        "note": null
-      },
-      "U03HRQ036BD": {
-        "status": "no_info",
-        "note": null
-      },
-      "U0900H3NUUT": {
         "status": "no_info",
         "note": null
       },
@@ -8688,12 +8688,12 @@
         "note": "At office"
       },
       "W4R4S9FS4": {
-        "status": "no_info",
-        "note": null
+        "status": "office",
+        "note": "[+1 to Utkarsha Sharma] At office"
       },
       "WAM5KDYBZ": {
-        "status": "no_info",
-        "note": null
+        "status": "office",
+        "note": "[+1 to Utkarsha Sharma] At office"
       },
       "W010NNJV7S8": {
         "status": "no_info",
@@ -8709,21 +8709,21 @@
         "status": "office",
         "note": "At Office!"
       },
+      "U0900H3NUUT": {
+        "status": "office",
+        "note": "[+1 to Ruchita Srivastava] At Office!"
+      },
+      "W4R4S9FS4": {
+        "status": "office",
+        "note": "[+1 to Ruchita Srivastava] At Office!"
+      },
       "W010NNJV7S8": {
         "status": "wfh",
         "note": "WFH today"
       },
-      "W4R4S9FS4": {
-        "status": "office",
-        "note": "+1 to Ruchita (At Office)"
-      },
       "WAM5KDYBZ": {
         "status": "no_info",
         "note": null
-      },
-      "U0900H3NUUT": {
-        "status": "office",
-        "note": "+1 to Ruchita (At Office)"
       },
       "U08HVLWG1UM": {
         "status": "no_info",
@@ -8735,21 +8735,21 @@
         "status": "office",
         "note": "At office"
       },
+      "U03HRQ036BD": {
+        "status": "office",
+        "note": "[+1 to Utkarsha Sharma] At office"
+      },
+      "W010NNJV7S8": {
+        "status": "office",
+        "note": "[+1 to Utkarsha Sharma] At office"
+      },
       "W4R4S9FS4": {
         "status": "office",
-        "note": "+1 to Utkarsha (At office)"
+        "note": "[+1 to Utkarsha Sharma] At office"
       },
       "WAM5KDYBZ": {
         "status": "no_info",
         "note": null
-      },
-      "W010NNJV7S8": {
-        "status": "wfh",
-        "note": "WFH - raining in Bangalore"
-      },
-      "U03HRQ036BD": {
-        "status": "office",
-        "note": "+1 to Utkarsha (At office)"
       },
       "U08HVLWG1UM": {
         "status": "no_info",
@@ -8787,6 +8787,10 @@
         "status": "wfh",
         "note": "Wfh today"
       },
+      "U03HRQ036BD": {
+        "status": "wfh",
+        "note": "[+1 to Utkarsha Sharma] Wfh today"
+      },
       "W4R4S9FS4": {
         "status": "office",
         "note": "Was at office in morning, WFH rest of day"
@@ -8799,10 +8803,6 @@
         "status": "sick",
         "note": "Feeling unwell, taking rest of day off"
       },
-      "U03HRQ036BD": {
-        "status": "wfh",
-        "note": "+1 to Utkarsha (Wfh today)"
-      },
       "U08HVLWG1UM": {
         "status": "no_info",
         "note": null
@@ -8812,6 +8812,10 @@
       "U03HRQ036BD": {
         "status": "wfh",
         "note": "WFH today"
+      },
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "[+1 to Ruchita Srivastava] WFH today"
       },
       "U0900H3NUUT": {
         "status": "office",
@@ -8824,10 +8828,6 @@
       "WAM5KDYBZ": {
         "status": "no_info",
         "note": null
-      },
-      "W010NNJV7S8": {
-        "status": "wfh",
-        "note": "+1 to Ruchita (WFH today)"
       },
       "U08HVLWG1UM": {
         "status": "no_info",
@@ -8847,13 +8847,13 @@
         "status": "office",
         "note": "At office"
       },
+      "W010NNJV7S8": {
+        "status": "office",
+        "note": "[+1 to Anurag Sharma] At office"
+      },
       "WAM5KDYBZ": {
         "status": "no_info",
         "note": null
-      },
-      "W010NNJV7S8": {
-        "status": "office",
-        "note": "+1 to Anurag (At office)"
       },
       "U08HVLWG1UM": {
         "status": "no_info",
@@ -8943,6 +8943,10 @@
         "status": "office",
         "note": "At office"
       },
+      "W010NNJV7S8": {
+        "status": "office",
+        "note": "[+1 to Utkarsha Sharma] At office"
+      },
       "W4R4S9FS4": {
         "status": "no_info",
         "note": null
@@ -8950,10 +8954,6 @@
       "WAM5KDYBZ": {
         "status": "no_info",
         "note": null
-      },
-      "W010NNJV7S8": {
-        "status": "office",
-        "note": "+1 to Utkarsha (at office)"
       },
       "U03HRQ036BD": {
         "status": "no_info",
@@ -8991,6 +8991,10 @@
         "status": "wfh",
         "note": "Wfh today"
       },
+      "U03HRQ036BD": {
+        "status": "wfh",
+        "note": "[+1 to Utkarsha Sharma] Wfh today"
+      },
       "W4R4S9FS4": {
         "status": "office",
         "note": "At office"
@@ -8998,10 +9002,6 @@
       "WAM5KDYBZ": {
         "status": "no_info",
         "note": null
-      },
-      "U03HRQ036BD": {
-        "status": "wfh",
-        "note": "+1 to Utkarsha (Wfh today)"
       }
     },
     "2026-06-04": {
@@ -9031,6 +9031,10 @@
         "status": "wfh",
         "note": "WFH today"
       },
+      "U0900H3NUUT": {
+        "status": "wfh",
+        "note": "[+1 to Ruchita Srivastava] WFH today"
+      },
       "W010NNJV7S8": {
         "status": "office",
         "note": "At office"
@@ -9042,10 +9046,6 @@
       "WAM5KDYBZ": {
         "status": "no_info",
         "note": null
-      },
-      "U0900H3NUUT": {
-        "status": "wfh",
-        "note": "+1 to Ruchita (WFH today)"
       }
     },
     "2026-06-08": {

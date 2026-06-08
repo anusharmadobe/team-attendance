@@ -158,6 +158,7 @@ RULES = [
     # ── Office (explicit + official travel + leaving-office context) ──────────
     ("office", [
         # Standard "at office" variants
+        r"\bwfo\b",             # WFO = working from office
         r"at (?:the )?office",
         r"in (?:the )?office",
         r"working from office",
