@@ -3168,8 +3168,8 @@
     },
     "2025-07-24": {
       "WAM5KDYBZ": {
-        "status": "wfh",
-        "note": "WFH for the first half"
+        "status": "office",
+        "note": "[+1 to Ruchita Srivastava] Back in the office after a long gap, catching up on pending emails."
       },
       "U03HRQ036BD": {
         "status": "office",
@@ -3227,19 +3227,19 @@
         "status": "office",
         "note": "[+1 to Anurag Sharma] At office"
       },
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "Wfh. Stepping out for a few hours for some personal work"
+      },
+      "U08HVLWG1UM": {
+        "status": "wfh",
+        "note": "[+1 to Chris J] Wfh. Stepping out for a few hours for some personal work"
+      },
       "WAM5KDYBZ": {
         "status": "no_info",
         "note": null
       },
-      "W010NNJV7S8": {
-        "status": "wfh",
-        "note": "Wfh, stepping out for personal work"
-      },
       "U0900H3NUUT": {
-        "status": "no_info",
-        "note": null
-      },
-      "U08HVLWG1UM": {
         "status": "no_info",
         "note": null
       }
@@ -4939,6 +4939,10 @@
         "status": "office",
         "note": "At office"
       },
+      "W4R4S9FS4": {
+        "status": "office",
+        "note": "[+1 to Khushwant Singh] At office"
+      },
       "U08HVLWG1UM": {
         "status": "office",
         "note": "[+1 to Khushwant Singh] At office"
@@ -4946,10 +4950,6 @@
       "U0900H3NUUT": {
         "status": "office",
         "note": "[+1 to Khushwant Singh] At office"
-      },
-      "W4R4S9FS4": {
-        "status": "no_info",
-        "note": null
       },
       "W010NNJV7S8": {
         "status": "no_info",
@@ -5364,8 +5364,8 @@
         "note": "At office"
       },
       "WAM5KDYBZ": {
-        "status": "no_info",
-        "note": null
+        "status": "office",
+        "note": "[+1 to Utkarsha Sharma] At office"
       },
       "W010NNJV7S8": {
         "status": "no_info",

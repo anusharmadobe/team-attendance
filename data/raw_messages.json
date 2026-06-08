@@ -2160,7 +2160,22 @@
     "thread_ts": null,
     "is_reply": false,
     "reply_count": 0,
-    "reactions": []
+    "reactions": [
+      {
+        "name": "+1",
+        "count": 1,
+        "users": [
+          "WAM5KDYBZ"
+        ]
+      },
+      {
+        "name": "welcome-1",
+        "count": 1,
+        "users": [
+          "W4R4S9FS4"
+        ]
+      }
+    ]
   },
   {
     "ts": "1753337608",
@@ -2211,6 +2226,23 @@
         "count": 1,
         "users": [
           "U03HRQ036BD"
+        ]
+      }
+    ]
+  },
+  {
+    "ts": "1753682872.699719",
+    "user": "W010NNJV7S8",
+    "text": "Wfh. Stepping out for a few hours for some personal work",
+    "thread_ts": "1753682872.699719",
+    "is_reply": false,
+    "reply_count": 1,
+    "reactions": [
+      {
+        "name": "+1",
+        "count": 1,
+        "users": [
+          "U08HVLWG1UM"
         ]
       }
     ]
@@ -4268,6 +4300,13 @@
     "reply_count": 0,
     "reactions": [
       {
+        "name": "+1_number",
+        "count": 1,
+        "users": [
+          "W4R4S9FS4"
+        ]
+      },
+      {
         "name": "+1moji",
         "count": 2,
         "users": [
@@ -4728,7 +4767,15 @@
     "thread_ts": null,
     "is_reply": false,
     "reply_count": 0,
-    "reactions": []
+    "reactions": [
+      {
+        "name": "+1_number",
+        "count": 1,
+        "users": [
+          "WAM5KDYBZ"
+        ]
+      }
+    ]
   },
   {
     "ts": "1763606758",
@@ -5570,6 +5617,23 @@
     ]
   },
   {
+    "ts": "1767853421",
+    "user": "U0900H3NUUT",
+    "text": "Working from home today",
+    "thread_ts": null,
+    "is_reply": false,
+    "reply_count": 0,
+    "reactions": [
+      {
+        "name": "+1_sign",
+        "count": 1,
+        "users": [
+          "W010NNJV7S8"
+        ]
+      }
+    ]
+  },
+  {
     "ts": "1767928813",
     "user": "U08HVLWG1UM",
     "text": "WFH Today",
@@ -5621,6 +5685,24 @@
         "users": [
           "U08HVLWG1UM",
           "W010NNJV7S8"
+        ]
+      }
+    ]
+  },
+  {
+    "ts": "1768198151",
+    "user": "W4R4S9FS4",
+    "text": "WFH today",
+    "thread_ts": null,
+    "is_reply": false,
+    "reply_count": 0,
+    "reactions": [
+      {
+        "name": "+1moji",
+        "count": 2,
+        "users": [
+          "U0900H3NUUT",
+          "WAM5KDYBZ"
         ]
       }
     ]
@@ -8958,40 +9040,5 @@
     "is_reply": false,
     "reply_count": 0,
     "reactions": []
-  },
-  {
-    "ts": "1767853421",
-    "user": "U0900H3NUUT",
-    "text": "Working from home today",
-    "thread_ts": null,
-    "is_reply": false,
-    "reply_count": 0,
-    "reactions": [
-      {
-        "name": "+1_sign",
-        "count": 1,
-        "users": [
-          "W010NNJV7S8"
-        ]
-      }
-    ]
-  },
-  {
-    "ts": "1768198151",
-    "user": "W4R4S9FS4",
-    "text": "WFH today",
-    "thread_ts": null,
-    "is_reply": false,
-    "reply_count": 0,
-    "reactions": [
-      {
-        "name": "+1moji",
-        "count": 2,
-        "users": [
-          "U0900H3NUUT",
-          "WAM5KDYBZ"
-        ]
-      }
-    ]
   }
 ]
