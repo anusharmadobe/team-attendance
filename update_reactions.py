@@ -1,10 +1,30 @@
 #!/usr/bin/env python3
 """
-update_reactions.py — patches raw_messages.json with authoritative reaction data
-collected via systematic Slack re-fetch (Jan 2025 – Jun 2026).
+update_reactions.py — ONE-TIME PATCH SCRIPT (DO NOT RE-RUN)
+============================================================
+This script was used once (Jun 2026 data audit) to backfill reaction data
+for messages from Aug 2025 – Jun 2026. It contains HARDCODED reactions
+captured at a point in time and will OVERWRITE current live reactions with
+stale data if run again.
 
-Run: python3 update_reactions.py
+Reaction data is now kept current by the weekly scheduled task (Step 0b),
+which calls slack_get_reactions via MCP for every team-member message and
+every message with stored reactions. There is NO need to run this script.
+
+If you genuinely need to re-patch a specific message, edit the REACTIONS dict
+carefully and test on a copy of raw_messages.json first.
+
+DANGER: Running this will silently corrupt reaction attribution for all 18 months.
 """
+import sys
+# Hard guard — abort unless the user explicitly passes --force
+if "--force" not in sys.argv:
+    print("❌  ABORTED: update_reactions.py is a one-time legacy patch script.")
+    print("   Reactions are managed by the weekly scheduled task (Step 0b).")
+    print("   Re-running this will OVERWRITE live reactions with stale hardcoded data.")
+    print("   If you really need to run it, pass --force.")
+    sys.exit(1)
+
 import json, os
 
 DATA_FILE = os.path.join(os.path.dirname(__file__), "data", "raw_messages.json")
