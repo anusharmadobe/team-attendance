@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-06-07",
+  "generated_at": "2026-06-08",
   "period": {
     "from": "2025-01-01",
-    "to": "2026-06-07"
+    "to": "2026-06-08"
   },
   "team_members": {
     "W4R4S9FS4": {
@@ -7300,6 +7300,28 @@
       "U0900H3NUUT": {
         "status": "wfh",
         "note": "+1 to Ruchita (WFH today)"
+      }
+    },
+    "2026-06-08": {
+      "U03HRQ036BD": {
+        "status": "sick",
+        "note": "Hi team, having severe migraine today. Sick leave today. Thanks :pray:"
+      },
+      "U0900H3NUUT": {
+        "status": "office",
+        "note": "At office"
+      },
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "WFH today"
+      },
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
       }
     }
   }
