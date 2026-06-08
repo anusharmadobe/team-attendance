@@ -22,9 +22,12 @@ TEAM_MEMBERS = {
     "W010NNJV7S8":{"name": "Chris J",           "username": "macman",    "active_from": "2025-01-01", "active_to": None,         "role": "PM"},
     "U03HRQ036BD":{"name": "Ruchita Srivastava","username": "ruchitas",  "active_from": "2025-01-01", "active_to": None,         "role": "Technical Writer"},
     "U0900H3NUUT":{"name": "Utkarsha Sharma",   "username": "utkarshas", "active_from": "2025-06-16", "active_to": None,         "role": "Designer"},
-    # Removed: Ajit Sharma (left Apr 2025), Ashish Alex (left Jul 2025),
-    #          Bhumika Yadav (left May 2026), Tanya Khetrapal (observer, 0 records),
-    #          Satyam Jha (intern, left May 2026)
+    # Former members — kept so their messages are classified and +1 reactions
+    # to their posts correctly attribute to current team members.
+    "U08HVLWG1UM":{"name": "Bhumika Yadav",     "username": "bhumikay",  "active_from": "2025-04-01", "active_to": "2026-05-31", "role": "PM"},
+    # Removed (no messages / observer only): Ajit Sharma (left Apr 2025),
+    #   Ashish Alex (left Jul 2025), Tanya Khetrapal (observer, 0 records),
+    #   Satyam Jha (intern, left May 2026)
 }
 
 # ── Name → member ID for multi-person attribution ─────────────────────────────

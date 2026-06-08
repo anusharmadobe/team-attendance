@@ -6513,7 +6513,16 @@
     "thread_ts": null,
     "is_reply": false,
     "reply_count": 0,
-    "reactions": []
+    "reactions": [
+      {
+        "name": "+1moji",
+        "count": 2,
+        "users": [
+          "U03HRQ036BD",
+          "U0900H3NUUT"
+        ]
+      }
+    ]
   },
   {
     "ts": "1775016746",
@@ -6531,7 +6540,16 @@
     "thread_ts": null,
     "is_reply": false,
     "reply_count": 0,
-    "reactions": []
+    "reactions": [
+      {
+        "name": "+1moji",
+        "count": 2,
+        "users": [
+          "U0900H3NUUT",
+          "U03HRQ036BD"
+        ]
+      }
+    ]
   },
   {
     "ts": "1775105381",
@@ -6549,7 +6567,17 @@
     "thread_ts": null,
     "is_reply": false,
     "reply_count": 0,
-    "reactions": []
+    "reactions": [
+      {
+        "name": "+1moji",
+        "count": 3,
+        "users": [
+          "U0900H3NUUT",
+          "U08HVLWG1UM",
+          "WAM5KDYBZ"
+        ]
+      }
+    ]
   },
   {
     "ts": "1775448881",
@@ -6567,7 +6595,15 @@
     "thread_ts": null,
     "is_reply": false,
     "reply_count": 0,
-    "reactions": []
+    "reactions": [
+      {
+        "name": "+1moji",
+        "count": 1,
+        "users": [
+          "U03HRQ036BD"
+        ]
+      }
+    ]
   },
   {
     "ts": "1775534842",
@@ -6576,7 +6612,15 @@
     "thread_ts": null,
     "is_reply": false,
     "reply_count": 0,
-    "reactions": []
+    "reactions": [
+      {
+        "name": "+1moji",
+        "count": 1,
+        "users": [
+          "U0900H3NUUT"
+        ]
+      }
+    ]
   },
   {
     "ts": "1775542589",
@@ -6585,7 +6629,15 @@
     "thread_ts": null,
     "is_reply": false,
     "reply_count": 0,
-    "reactions": []
+    "reactions": [
+      {
+        "name": "+1_sign",
+        "count": 1,
+        "users": [
+          "W010NNJV7S8"
+        ]
+      }
+    ]
   },
   {
     "ts": "1775552984",
@@ -6639,7 +6691,16 @@
     "thread_ts": null,
     "is_reply": false,
     "reply_count": 0,
-    "reactions": []
+    "reactions": [
+      {
+        "name": "+1moji",
+        "count": 2,
+        "users": [
+          "U0900H3NUUT",
+          "W010NNJV7S8"
+        ]
+      }
+    ]
   },
   {
     "ts": "1775711481",
@@ -6675,7 +6736,16 @@
     "thread_ts": null,
     "is_reply": false,
     "reply_count": 0,
-    "reactions": []
+    "reactions": [
+      {
+        "name": "+1moji",
+        "count": 2,
+        "users": [
+          "U03HRQ036BD",
+          "U0900H3NUUT"
+        ]
+      }
+    ]
   },
   {
     "ts": "1775802227",
@@ -6702,7 +6772,15 @@
     "thread_ts": null,
     "is_reply": false,
     "reply_count": 0,
-    "reactions": []
+    "reactions": [
+      {
+        "name": "+1_sign",
+        "count": 1,
+        "users": [
+          "W010NNJV7S8"
+        ]
+      }
+    ]
   },
   {
     "ts": "1776052055",
@@ -6738,7 +6816,17 @@
     "thread_ts": null,
     "is_reply": false,
     "reply_count": 0,
-    "reactions": []
+    "reactions": [
+      {
+        "name": "+1moji",
+        "count": 3,
+        "users": [
+          "U08HVLWG1UM",
+          "U03HRQ036BD",
+          "U0900H3NUUT"
+        ]
+      }
+    ]
   },
   {
     "ts": "1776145791",
@@ -6756,7 +6844,19 @@
     "thread_ts": null,
     "is_reply": false,
     "reply_count": 0,
-    "reactions": []
+    "reactions": [
+      {
+        "name": "+1moji",
+        "count": 5,
+        "users": [
+          "U03HRQ036BD",
+          "W010NNJV7S8",
+          "W4R4S9FS4",
+          "U08HVLWG1UM",
+          "WAM5KDYBZ"
+        ]
+      }
+    ]
   },
   {
     "ts": "1776312753",
@@ -6765,7 +6865,15 @@
     "thread_ts": null,
     "is_reply": false,
     "reply_count": 0,
-    "reactions": []
+    "reactions": [
+      {
+        "name": "+1_sign",
+        "count": 1,
+        "users": [
+          "W010NNJV7S8"
+        ]
+      }
+    ]
   },
   {
     "ts": "1776398888",
@@ -6774,7 +6882,17 @@
     "thread_ts": null,
     "is_reply": false,
     "reply_count": 0,
-    "reactions": []
+    "reactions": [
+      {
+        "name": "+1moji",
+        "count": 3,
+        "users": [
+          "U08HVLWG1UM",
+          "U03HRQ036BD",
+          "U0AKAJDDJHH"
+        ]
+      }
+    ]
   },
   {
     "ts": "1776654952",
@@ -6810,7 +6928,16 @@
     "thread_ts": null,
     "is_reply": false,
     "reply_count": 0,
-    "reactions": []
+    "reactions": [
+      {
+        "name": "+1_sign",
+        "count": 2,
+        "users": [
+          "U03HRQ036BD",
+          "U0900H3NUUT"
+        ]
+      }
+    ]
   },
   {
     "ts": "1776765752",
@@ -6828,7 +6955,16 @@
     "thread_ts": null,
     "is_reply": false,
     "reply_count": 0,
-    "reactions": []
+    "reactions": [
+      {
+        "name": "+1moji",
+        "count": 2,
+        "users": [
+          "U0900H3NUUT",
+          "U03HRQ036BD"
+        ]
+      }
+    ]
   },
   {
     "ts": "1776914151",
@@ -6837,7 +6973,17 @@
     "thread_ts": null,
     "is_reply": false,
     "reply_count": 0,
-    "reactions": []
+    "reactions": [
+      {
+        "name": "+1moji",
+        "count": 3,
+        "users": [
+          "U08HVLWG1UM",
+          "U03HRQ036BD",
+          "U0900H3NUUT"
+        ]
+      }
+    ]
   },
   {
     "ts": "1777256375",
@@ -6864,7 +7010,15 @@
     "thread_ts": null,
     "is_reply": false,
     "reply_count": 0,
-    "reactions": []
+    "reactions": [
+      {
+        "name": "+1moji",
+        "count": 1,
+        "users": [
+          "U0AKAJDDJHH"
+        ]
+      }
+    ]
   },
   {
     "ts": "1777347892",
@@ -6882,7 +7036,15 @@
     "thread_ts": null,
     "is_reply": false,
     "reply_count": 0,
-    "reactions": []
+    "reactions": [
+      {
+        "name": "+1moji",
+        "count": 1,
+        "users": [
+          "U03HRQ036BD"
+        ]
+      }
+    ]
   },
   {
     "ts": "1777357393",
@@ -6909,7 +7071,16 @@
     "thread_ts": null,
     "is_reply": false,
     "reply_count": 0,
-    "reactions": []
+    "reactions": [
+      {
+        "name": "+1moji",
+        "count": 2,
+        "users": [
+          "U08HVLWG1UM",
+          "W010NNJV7S8"
+        ]
+      }
+    ]
   },
   {
     "ts": "1777437735",
@@ -6918,7 +7089,15 @@
     "thread_ts": null,
     "is_reply": false,
     "reply_count": 0,
-    "reactions": []
+    "reactions": [
+      {
+        "name": "+1moji",
+        "count": 1,
+        "users": [
+          "W4R4S9FS4"
+        ]
+      }
+    ]
   },
   {
     "ts": "1777521954",
@@ -6927,7 +7106,17 @@
     "thread_ts": null,
     "is_reply": false,
     "reply_count": 0,
-    "reactions": []
+    "reactions": [
+      {
+        "name": "+1moji",
+        "count": 3,
+        "users": [
+          "W4R4S9FS4",
+          "U0900H3NUUT",
+          "U08HVLWG1UM"
+        ]
+      }
+    ]
   },
   {
     "ts": "1777525047",
