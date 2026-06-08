@@ -91,6 +91,7 @@ nav button.active{color:var(--acc);border-bottom-color:var(--acc)}
 .badge-sick{background:var(--c-sck-bg);color:var(--c-sck)}
 .badge-leave{background:var(--c-lve-bg);color:var(--c-lve)}
 .badge-no_info{background:var(--c-nil-bg);color:var(--txm)}
+.badge-holiday{background:#EEF2FF;color:#6366F1}
 /* ── Line chart ── */
 .lc-wrap{overflow:hidden}
 .lc-legend{display:flex;gap:20px;justify-content:flex-start;margin-top:8px;font-size:12px;color:var(--txs)}
@@ -111,6 +112,7 @@ nav button.active{color:var(--acc);border-bottom-color:var(--acc)}
 .mcell[data-s="sick"]{background:var(--c-sck)}
 .mcell[data-s="leave"]{background:var(--c-lve)}
 .mcell[data-s="no_info"]{background:var(--g200);border:1px dashed var(--g400)}
+.mcell[data-s="holiday"]{background:#C7D2FE;border:1px solid #818CF8;opacity:.75}
 /* ── Member cards ── */
 .m-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:14px;margin-bottom:16px}
 .mcard{background:var(--surf);border:1px solid var(--bdr);border-radius:var(--rl);
@@ -365,6 +367,7 @@ tbody tr:last-child td{border-bottom:none}
       <option value="wfh">WFH</option>
       <option value="sick">Sick</option>
       <option value="leave">Leave</option>
+      <option value="holiday">Holiday</option>
       <option value="no_info">No Info</option>
     </select>
     <label>From</label><input type="date" id="lf" onchange="renderLog()">
@@ -385,8 +388,8 @@ tbody tr:last-child td{border-bottom:none}
 // ═════════════════════════════════════════════════════════════════════════
 const DAYS=['Mon','Tue','Wed','Thu','Fri'];
 const MONTHS=['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
-const SC={office:'#0E9F5C',wfh:'#0265DC',sick:'#D31420',leave:'#CE9500',no_info:'#C8C8C8'};
-const SL={office:'Office',wfh:'WFH',sick:'Sick',leave:'Leave',no_info:'No Info'};
+const SC={office:'#0E9F5C',wfh:'#0265DC',sick:'#D31420',leave:'#CE9500',holiday:'#6366F1',no_info:'#C8C8C8'};
+const SL={office:'Office',wfh:'WFH',sick:'Sick',leave:'Leave',holiday:'Holiday',no_info:'No Info'};
 // Target-aware color helpers (office %)
 function barColor(pct){return pct>=60?'var(--c-off)':pct>=50?'var(--c-lve)':'var(--c-sck)';}
 function offColor(pct){return pct>=60?'var(--c-off)':pct>=50?'var(--c-lve)':'var(--c-sck)';}
@@ -413,7 +416,7 @@ const PM=String(PM_N).padStart(2,'0');
 
 // ── helpers ──────────────────────────────────────────────────────────────
 function p(n,t){return t?Math.round(n/t*100):0}
-function cs(recs){const c={office:0,wfh:0,sick:0,leave:0,no_info:0};
+function cs(recs){const c={office:0,wfh:0,sick:0,leave:0,holiday:0,no_info:0};
   (recs||[]).forEach(r=>{if(r&&c[r.status]!==undefined)c[r.status]++;});return c;}
 function badge(s){return`<span class="badge badge-${s}">${SL[s]||s}</span>`}
 
@@ -428,15 +431,15 @@ function mStats(y,m){
     Object.entries(att[d]).forEach(([id,r])=>{
       if(!M[id])return;                     // ← skip removed members
       all.push(r);
-      if(!bp[id])bp[id]={office:0,wfh:0,sick:0,leave:0,no_info:0};
+      if(!bp[id])bp[id]={office:0,wfh:0,sick:0,leave:0,holiday:0,no_info:0};
       bp[id][r.status]++;
     });
   });
-  const c=cs(all),rep=all.length-c.no_info||1;
+  const c=cs(all),rep=all.length-c.no_info-c.holiday||1;
   // calDays = unique calendar working days in period
   const calDays=days.length;
   // activeMemberDays = total possible person-days (each active member × each working day)
-  // This is what office+wfh+sick+leave+no_info sums to — NOT calendar days
+  // This is what office+wfh+sick+leave+holiday+no_info sums to — NOT calendar days
   return{calDays,days:calDays,c,bp,total:all.length,rep,op:p(c.office,rep),wp:p(c.wfh,rep)};
 }
 
@@ -450,11 +453,11 @@ function rangeStats(f,t){
     Object.entries(att[d]).forEach(([id,r])=>{
       if(!M[id])return;
       all.push(r);
-      if(!bp[id])bp[id]={office:0,wfh:0,sick:0,leave:0,no_info:0};
+      if(!bp[id])bp[id]={office:0,wfh:0,sick:0,leave:0,holiday:0,no_info:0};
       bp[id][r.status]++;
     });
   });
-  const c=cs(all),rep=all.length-c.no_info||1;
+  const c=cs(all),rep=all.length-c.no_info-c.holiday||1;
   return{calDays:days.length,days:days.length,c,bp,total:all.length,rep,op:p(c.office,rep),wp:p(c.wfh,rep)};
 }
 
@@ -556,7 +559,7 @@ function init(){
 function renderHome(){
   const ep=getExecPeriod();
   const cur=rangeStats(ep.f,ep.t);
-  const _emptyStats={op:0,wp:0,c:{office:0,wfh:0,sick:0,leave:0,no_info:0},total:0,rep:1,calDays:0,bp:{}};
+  const _emptyStats={op:0,wp:0,c:{office:0,wfh:0,sick:0,leave:0,holiday:0,no_info:0},total:0,rep:1,calDays:0,bp:{}};
   const prv=ep.cmpF?rangeStats(ep.cmpF,ep.cmpT):_emptyStats;
   const M=DATA.team_members;
 
@@ -572,7 +575,7 @@ function renderHome(){
     return af<=new Date(ep.t)&&at>=new Date(ep.f);
   });
   const nMem=activeMems.length;
-  const checkTotal=cur.c.office+cur.c.wfh+cur.c.sick+cur.c.leave+cur.c.no_info;
+  const checkTotal=cur.c.office+cur.c.wfh+cur.c.sick+cur.c.leave+cur.c.holiday+cur.c.no_info;
   document.getElementById('kpi-section-lbl').textContent=`${ep.label} · Attendance Stats`;
   const mathOK=checkTotal===cur.total;
   // Fix 3: Simplified note — just members + calendar days
@@ -610,7 +613,7 @@ function renderHome(){
     </div>
     <div class="kpi" title="Days with no status posted — location unknown">
       <div class="kl">No Status ⚠️</div>
-      <div class="kv" style="color:var(--txm)">${p(cur.c.no_info,cur.total)}%</div>
+      <div class="kv" style="color:var(--txm)">${p(cur.c.no_info,cur.total-cur.c.holiday)}%</div>
       <div class="ks">${cur.c.no_info} person-days</div>
     </div>`;
 
@@ -620,13 +623,13 @@ function renderHome(){
 
   // Per-person stats — reported rate only; no_info never assumed absent
   const ranked=Object.entries(M).map(([id,m])=>{
-    const bp=cur.bp[id]||{office:0,wfh:0,sick:0,leave:0,no_info:0};
+    const bp=cur.bp[id]||{office:0,wfh:0,sick:0,leave:0,holiday:0,no_info:0};
     const rp=bp.office+bp.wfh+bp.sick+bp.leave;
-    const tot=rp+(bp.no_info||0);
+    const tot=rp+(bp.no_info||0);           // working days only (excludes holidays)
     const repOff=rp>0?p(bp.office,rp):0;   // % of reported days at office
-    const postRate=tot>0?p(rp,tot):0;       // % of days where any status was posted
+    const postRate=tot>0?p(rp,tot):0;       // % of working days where any status was posted
     return{name:m.name.split(' ')[0],id,office:bp.office,wfh:bp.wfh,sick:bp.sick,leave:bp.leave,
-           rp,noInfo:bp.no_info||0,tot,repOff,postRate};
+           holiday:bp.holiday||0,rp,noInfo:bp.no_info||0,tot,repOff,postRate};
   }).filter(x=>x.tot>0);
 
   // 1. Office trend — reported rate only
@@ -714,11 +717,15 @@ function renderHome(){
 function renderAttendanceOverview(containerId, counts, totalRep){
   const el=document.getElementById(containerId);
   if(!el) return;
-  const total=totalRep+(counts.no_info||0);
-  el.innerHTML=['office','wfh','sick','leave','no_info'].map(s=>{
+  // totalRep = office+wfh+sick+leave (reported working days)
+  // working days total = totalRep + no_info; holidays are separate
+  const workingTotal=totalRep+(counts.no_info||0);
+  el.innerHTML=['office','wfh','sick','leave','no_info','holiday'].map(s=>{
     const cnt=counts[s]||0;
-    const denom=s==='no_info'?total:totalRep;
-    const pct=denom>0?p(cnt,denom):0; // business % — also drives bar width
+    if(!cnt) return '';
+    // office/wfh/sick/leave: % of reported working days; no_info: % of working days; holiday: absolute
+    const denom=s==='no_info'?workingTotal:s==='holiday'?workingTotal+cnt:totalRep;
+    const pct=denom>0?p(cnt,denom):0;
     return`<div class="bar-item">
       <div class="bar-lbl">${SL[s]}</div>
       <div class="bar-trk"><div class="bar-fill" style="width:${pct}%;background:${SC[s]}"></div></div>
@@ -732,7 +739,7 @@ function renderAttendanceOverview(containerId, counts, totalRep){
 // ═══════════════════════════════════════════════════════════════════════════
 function renderTodayStrip(){
   const M=DATA.team_members,todayData=DATA.attendance[TODAY]||{};
-  const groups={office:[],wfh:[],sick:[],leave:[],no_info:[]};
+  const groups={office:[],wfh:[],sick:[],leave:[],holiday:[],no_info:[]};
   const DOW=['Sun','Mon','Tue','Wed','Thu','Fri','Sat'][new Date(TODAY).getDay()];
   const strip=document.getElementById('today-strip');
   // Weekend — no attendance tracked
@@ -740,10 +747,10 @@ function renderTodayStrip(){
     if(strip) strip.textContent=`${DOW} ${TODAY}  ·  Weekend — attendance not tracked`;
     return;
   }
-  // Holiday — also no tracking
-  const HOLIDAYS_JS=new Set(DATA.attendance?Object.keys(DATA.attendance):[]); // working days
-  if(!HOLIDAYS_JS.has(TODAY)){
-    if(strip) strip.textContent=`${DOW} ${TODAY}  ·  Public holiday — attendance not tracked`;
+  // Holiday detection: if today's records all have status=holiday, show holiday banner
+  const todayHoliday=DATA.holidays?.[TODAY];
+  if(todayHoliday){
+    if(strip) strip.textContent=`${DOW} ${TODAY}  ·  🏖️ ${todayHoliday} — public holiday`;
     return;
   }
 
@@ -752,12 +759,12 @@ function renderTodayStrip(){
     const at=m.active_to?new Date(m.active_to):new Date('2099-12-31');
     if(new Date(TODAY)<af||new Date(TODAY)>at) return;
     const s=todayData[id]?.status||'no_info';
-    groups[s].push(m.name.split(' ')[0]);
+    if(groups[s]) groups[s].push(m.name.split(' ')[0]);
   });
 
-  const icon={office:'🏢',wfh:'🏠',sick:'🏥',leave:'📅',no_info:'❓'};
-  const lbl={office:'Office',wfh:'WFH',sick:'Sick',leave:'Leave',no_info:'No Status'};
-  const parts=['office','wfh','sick','leave','no_info']
+  const icon={office:'🏢',wfh:'🏠',sick:'🏥',leave:'📅',holiday:'🏖️',no_info:'❓'};
+  const lbl={office:'Office',wfh:'WFH',sick:'Sick',leave:'Leave',holiday:'Holiday',no_info:'No Status'};
+  const parts=['office','wfh','sick','leave','holiday','no_info']
     .filter(s=>groups[s].length>0)
     .map(s=>`${icon[s]} ${groups[s].join(', ')}`);
 
@@ -911,13 +918,14 @@ function renderMemberCards(){
   sortedMembers.forEach(([id,m])=>{
     const recs=days.map(d=>att[d]?.[id]).filter(Boolean);
     if(!recs.length) return;
-    const c=cs(recs),rep=recs.length-c.no_info;
-    if(!rep&&!c.no_info) return;
+    const c=cs(recs),rep=recs.length-c.no_info-c.holiday;
+    if(!rep&&!c.no_info&&!c.holiday) return;
     const card=document.createElement('div');
     card.className='mcard'+(id===drillId?' sel':'');
     // Fix 5: Remove role/title text from cards
-    // P2: posting rate = % days where ANY status was posted (data confidence)
-    const postRate=recs.length>0?p(rep,recs.length):0;
+    // P2: posting rate = % working days where ANY status was posted (data confidence)
+    const workDays=recs.length-c.holiday;
+    const postRate=workDays>0?p(rep,workDays):0;
     const offRep=rep>0?p(c.office,rep):0;
     const offClr=offRep>=60?'var(--c-off)':offRep>=50?'var(--c-lve)':'var(--c-sck)';
     const postClr=postRate>=60?'var(--c-off)':postRate>=40?'var(--c-lve)':'var(--c-sck)';
@@ -940,10 +948,16 @@ function renderMemberCards(){
           <div class="mt"><div class="mf" style="width:${p(c[s],rep||1)}%;background:${SC[s]}"></div></div>
           <span class="mv">${c[s]}</span>
         </div>`).join('')}
-      <div class="mbar" style="opacity:.6" title="Days with no status posted — unknown location; do not assume absent">
+      ${c.holiday?`<div class="mbar" style="opacity:.6" title="Public holidays in this period">
+        <span class="md" style="background:#6366F1"></span>
+        <span class="ml">Holidays</span>
+        <div class="mt"><div class="mf" style="width:${p(c.holiday,recs.length)}%;background:#6366F1"></div></div>
+        <span class="mv">${c.holiday}</span>
+      </div>`:''}
+      <div class="mbar" style="opacity:.6" title="Working days with no status posted — unknown location">
         <span class="md" style="background:var(--c-nil)"></span>
         <span class="ml">No Status</span>
-        <div class="mt"><div class="mf" style="width:${p(c.no_info,recs.length)}%;background:var(--c-nil)"></div></div>
+        <div class="mt"><div class="mf" style="width:${p(c.no_info,workDays||1)}%;background:var(--c-nil)"></div></div>
         <span class="mv">${c.no_info}</span>
       </div>`;
     card.onclick=()=>toggleDrill(id,m);
@@ -1020,12 +1034,12 @@ function renderDrillChart(mid,from,to){
   const groups={};
 
   if(drillView==='monthly'){
-    days.forEach(d=>{const k=d.slice(0,7);if(!groups[k])groups[k]={lbl:MONTHS[parseInt(d.slice(5,7))-1]+' '+d.slice(2,4),office:0,wfh:0,sick:0,leave:0,no_info:0};
+    days.forEach(d=>{const k=d.slice(0,7);if(!groups[k])groups[k]={lbl:MONTHS[parseInt(d.slice(5,7))-1]+' '+d.slice(2,4),office:0,wfh:0,sick:0,leave:0,holiday:0,no_info:0};
       const r=att[d]?.[mid];if(r)groups[k][r.status]++;});
   } else {
     days.forEach(d=>{const dt=new Date(d+'T12:00:00'),dw=(dt.getDay()+6)%7;const mon=new Date(dt);mon.setDate(dt.getDate()-dw);
       const k=_localDateStr(mon);
-      if(!groups[k])groups[k]={lbl:'W'+_localDateStr(mon).slice(5),office:0,wfh:0,sick:0,leave:0,no_info:0};
+      if(!groups[k])groups[k]={lbl:'W'+_localDateStr(mon).slice(5),office:0,wfh:0,sick:0,leave:0,holiday:0,no_info:0};
       const r=att[d]?.[mid];if(r)groups[k][r.status]++;});
   }
 
@@ -1034,9 +1048,9 @@ function renderDrillChart(mid,from,to){
 
   const W=560,H=140,ml=30,mr=10,mt=8,mb=28,pw=W-ml-mr,ph=H-mt-mb;
   const n=gArr.length,bw=Math.max(6,Math.min(40,(pw/n)*.7)),gap=pw/n;
-  const maxDay=Math.max(...gArr.map(([,v])=>v.office+v.wfh+v.sick+v.leave+v.no_info),1);
+  const maxDay=Math.max(...gArr.map(([,v])=>v.office+v.wfh+v.sick+v.leave+v.holiday+v.no_info),1);
   const ys=v=>mt+ph*(1-v/maxDay);
-  const segs=['office','wfh','sick','leave','no_info'];
+  const segs=['office','wfh','sick','leave','holiday','no_info'];
 
   let bars='';
   gArr.forEach(([,g],i)=>{
@@ -1055,7 +1069,7 @@ function renderDrillChart(mid,from,to){
   const grid=yticks.map(v=>`<line x1="${ml}" y1="${ys(v)}" x2="${ml+pw}" y2="${ys(v)}" stroke="#EAEAEA" stroke-width="1"/>
     <text x="${ml-3}" y="${ys(v)+4}" text-anchor="end" font-size="9" fill="#979797">${v}d</text>`).join('');
 
-  const legend=['office','wfh','sick','leave'].map(s=>
+  const legend=['office','wfh','sick','leave','holiday'].map(s=>
     `<span style="display:inline-flex;align-items:center;gap:5px;font-size:11px;color:var(--txs)"><span style="width:10px;height:10px;background:${SC[s]};border-radius:2px;display:inline-block"></span>${SL[s]}</span>`).join('');
 
   document.getElementById('drill-chart').innerHTML=`
@@ -1064,11 +1078,12 @@ function renderDrillChart(mid,from,to){
 
   // Stats row
   const allRecs=days.map(d=>att[d]?.[mid]).filter(Boolean);
-  const tc=cs(allRecs);const trep=allRecs.length-tc.no_info||1;
-  const postRateDrill=allRecs.length>0?p(trep,allRecs.length):0;
+  const tc=cs(allRecs);const trep=allRecs.length-tc.no_info-tc.holiday||1;
+  const workDays=allRecs.length-tc.holiday;
+  const postRateDrill=workDays>0?p(trep,workDays):0;
   const offRateDrill=trep>0?p(tc.office,trep):0;
   document.getElementById('drill-stats').innerHTML=`
-    <div class="ds" title="${tc.office}/${trep} reported days">
+    <div class="ds" title="${tc.office}/${trep} reported working days">
       <div class="dl">Office</div>
       <div class="dv" style="color:var(--c-off)">${tc.office}</div>
       <div style="font-size:10px;color:var(--txm)">${offRateDrill}% of reported</div>
@@ -1077,12 +1092,13 @@ function renderDrillChart(mid,from,to){
       <div style="font-size:10px;color:var(--txm)">${p(tc.wfh,trep)}% of reported</div></div>
     <div class="ds"><div class="dl">Sick</div><div class="dv" style="color:var(--c-sck)">${tc.sick}</div></div>
     <div class="ds"><div class="dl">Leave</div><div class="dv" style="color:var(--c-lve)">${tc.leave}</div></div>
+    ${tc.holiday?`<div class="ds"><div class="dl">Holidays</div><div class="dv" style="color:var(--c-hol,#6366F1)">${tc.holiday}</div></div>`:''}
     <div class="ds" title="Days with no status — unknown; do not assume absent">
       <div class="dl">No Status</div>
       <div class="dv" style="color:var(--txm)">${tc.no_info}</div>
-      <div style="font-size:10px;color:var(--txm)">${p(tc.no_info,allRecs.length)}% of all days</div>
+      <div style="font-size:10px;color:var(--txm)">${p(tc.no_info,workDays)}% of working days</div>
     </div>
-    <div class="ds" title="% of days where any status was posted (data confidence)">
+    <div class="ds" title="% of working days where any status was posted (data confidence)">
       <div class="dl">Posted</div>
       <div class="dv" style="color:${postRateDrill>=70?'var(--c-off)':postRateDrill>=40?'var(--c-lve)':'var(--c-sck)'}">${postRateDrill}%</div>
       <div style="font-size:10px;color:var(--txm)">status coverage</div>
@@ -1144,9 +1160,9 @@ function renderAnnual(){
   const all=[];days.forEach(d=>{if(!att[d])return;
     if(mem){if(att[d][mem])all.push(att[d][mem]);}
     else Object.entries(att[d]).forEach(([id,r])=>{if(M[id])all.push(r);});});
-  const c=cs(all),rep=all.length-c.no_info||1;
+  const c=cs(all),rep=all.length-c.no_info-c.holiday||1;
 
-  const aOp=p(c.office,rep),aNip=p(c.no_info,all.length);
+  const aOp=p(c.office,rep),aNip=p(c.no_info,all.length-c.holiday);
   document.getElementById('kpi-annual').innerHTML=`
     <div class="kpi"><div class="kl">Person Days</div><div class="kv">${all.length}</div><div class="ks">${days.length} calendar working days</div></div>
     <div class="kpi" title="Of days where status was posted — no_info NOT counted. Target: 60%"><div class="kl">At Office</div><div class="kv" style="color:${offColor(aOp)}">${aOp}%</div><div class="ks">${c.office} person-days · target 60%</div></div>
@@ -1157,7 +1173,7 @@ function renderAnnual(){
   const pb=Object.entries(M).map(([id,m])=>{
     const r=days.map(d=>att[d]?.[id]).filter(Boolean);
     if(!r.length) return null;
-    const cnt=cs(r),rp=r.length-cnt.no_info;
+    const cnt=cs(r),rp=r.length-cnt.no_info-cnt.holiday;
     const op2=rp>0?p(cnt.office,rp):0;
     return{name:m.name.split(' ')[0],op:op2,hasData:rp>0,officeCnt:cnt.office};
   }).filter(Boolean).sort((a,b)=>b.op-a.op);
@@ -1205,9 +1221,9 @@ function renderMonthly(){
   const all=[];days.forEach(d=>{if(!att[d])return;
     if(mem){if(att[d][mem])all.push(att[d][mem]);}
     else Object.entries(att[d]).forEach(([id,r])=>{if(M[id])all.push(r);});});
-  const c=cs(all),rep=all.length-c.no_info||1;
+  const c=cs(all),rep=all.length-c.no_info-c.holiday||1;
 
-  const mOp=p(c.office,rep),mNip=p(c.no_info,all.length);
+  const mOp=p(c.office,rep),mNip=p(c.no_info,all.length-c.holiday);
   document.getElementById('kpi-monthly').innerHTML=`
     <div class="kpi"><div class="kl">Person Days</div><div class="kv">${all.length}</div><div class="ks">${days.length} calendar working days</div></div>
     <div class="kpi" title="Of days where status was posted — no_info NOT counted. Target: 60%"><div class="kl">At Office</div><div class="kv" style="color:${offColor(mOp)}">${mOp}%</div><div class="ks">${c.office} person-days · target 60%</div></div>
@@ -1224,7 +1240,7 @@ function renderMonthly(){
     const personDataM=Object.entries(M).map(([id,m2])=>{
       const precs=days.map(d=>att[d]?.[id]).filter(Boolean);
       if(!precs.length) return null;
-      const pcnt=cs(precs),prep=precs.length-pcnt.no_info;
+      const pcnt=cs(precs),prep=precs.length-pcnt.no_info-pcnt.holiday;
       const op2=prep>0?p(pcnt.office,prep):0;
       return{name:m2.name.split(' ')[0],op:op2,hasData:prep>0,officeCnt:pcnt.office};
     }).filter(Boolean).sort((a,b)=>b.op-a.op);
@@ -1261,8 +1277,8 @@ function renderWeekly(){
   const all=[];days.forEach(d=>{if(!att[d])return;
     if(mem){if(att[d][mem])all.push(att[d][mem]);}
     else Object.entries(att[d]).forEach(([id,r])=>{if(M[id])all.push(r);});});
-  const c=cs(all),wkRep=all.length-c.no_info||1;
-  const wOp=p(c.office,wkRep),wNip=p(c.no_info,all.length);
+  const c=cs(all),wkRep=all.length-c.no_info-c.holiday||1;
+  const wOp=p(c.office,wkRep),wNip=p(c.no_info,all.length-c.holiday);
   document.getElementById('kpi-weekly').innerHTML=`
     <div class="kpi"><div class="kl">Person Days</div><div class="kv">${all.length}</div><div class="ks">5 calendar days</div></div>
     <div class="kpi" title="Of days where status was posted — no_info NOT counted. Target: 60%"><div class="kl">At Office</div><div class="kv" style="color:${offColor(wOp)}">${wOp}%</div><div class="ks">${c.office} person-days · target 60%</div></div>
@@ -1279,7 +1295,7 @@ function renderWeekly(){
     const personDataW=Object.entries(M).map(([id,m2])=>{
       const wrecs=days.map(d=>att[d]?.[id]).filter(Boolean);
       if(!wrecs.length) return null;
-      const wcnt=cs(wrecs),wrep=wrecs.length-wcnt.no_info;
+      const wcnt=cs(wrecs),wrep=wrecs.length-wcnt.no_info-wcnt.holiday;
       const op2=wrep>0?p(wcnt.office,wrep):0;
       return{name:m2.name.split(' ')[0],op:op2,hasData:wrep>0,officeCnt:wcnt.office};
     }).filter(Boolean).sort((a,b)=>b.op-a.op);

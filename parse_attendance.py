@@ -43,58 +43,61 @@ MEMBER_NAMES = {
 SKIP_USERS = {"USLACKBOT", "U08DY9ATQ4X", "U093GDFNJ84", "U0B0UCDC72T",
               "U0ACD3LLF5K", "U08TFBARPQC"}  # bots / integrations
 
-# ── Confirmed Indian public holidays (national, from channel/bot data) ────────
-HOLIDAYS = {
-    # ── 2025 (est. from Adobe 2026 PDF pattern; Independence Day + Gandhi Jayanti confirmed) ──
-    "2025-01-01",  # New Year's Day
-    "2025-03-14",  # Holi [est]
-    "2025-03-21",  # Global Wellbeing Day [est]
-    "2025-04-18",  # Good Friday [est]
-    "2025-05-01",  # Labour Day
-    "2025-06-27",  # Global Wellbeing Day [est — Q2]
-    "2025-08-15",  # Independence Day ← confirmed
-    "2025-08-22",  # Global Wellbeing Day [est — Q3, same pattern as 2026 Aug 21]
-    "2025-08-27",  # Ganesh Chaturthi [est]
-    "2025-10-02",  # Gandhi Jayanti ← confirmed
-    "2025-10-20",  # Deepavali [est]
-    "2025-10-31",  # Global Wellbeing Day [est]
-    "2025-11-05",  # Guru Nanak's Birthday [est]
-    "2025-12-24",  # Winter shutdown
-    "2025-12-25",  # Winter shutdown
-    "2025-12-26",  # Winter shutdown
-    "2025-12-29",  # Winter shutdown
-    "2025-12-30",  # Winter shutdown
-    "2025-12-31",  # Winter shutdown
-    # ── 2026 — from official Adobe Global Holidays PDF (pages 47–49) ──────────
-    "2026-01-01",  # New Year's Day
-    "2026-01-26",  # Republic Day
-    "2026-03-04",  # Holi
-    "2026-03-20",  # Global Wellbeing Day
-    "2026-04-03",  # Good Friday
-    "2026-05-01",  # Labour Day
-    "2026-05-27",  # Eid al-Adha / Bakri Id (CORRECTED — PDF says May 27, not May 28)
-    "2026-06-29",  # Global Wellbeing Day
-    "2026-08-21",  # Global Wellbeing Day
-    "2026-09-14",  # Ganesh Chaturthi
-    "2026-10-02",  # Gandhi Jayanti
-    "2026-10-20",  # Dussehra
-    "2026-10-30",  # Global Wellbeing Day
-    "2026-11-09",  # Deepavali / Govardhan Puja
-    "2026-11-24",  # Guru Nanak's Birthday (Noida; +Chris 1-day negligible)
-    "2026-12-24",  # Christmas Eve / Winter shutdown
-    "2026-12-25",  # Christmas Day / Winter shutdown
-    "2026-12-28",  # Winter shutdown
-    "2026-12-29",  # Winter shutdown
-    "2026-12-30",  # Winter shutdown
-    "2026-12-31",  # Winter shutdown
+# ── Confirmed Indian public holidays → maps date to holiday name ─────────────
+# 2025: national holidays confirmed; Adobe Wellbeing Days estimated from 2026 pattern.
+# 2026: from official Adobe Global Holidays PDF (pages 47–49).
+# Bangalore-specific holidays (e.g. Chris) are seeded individually; not here.
+# Republic Day 2025 (Jan 26) falls on a Sunday → already a weekend, not listed.
+HOLIDAYS: dict[str, str] = {
+    # ── 2025 ──────────────────────────────────────────────────────────────────
+    "2025-01-01": "New Year's Day",
+    "2025-03-14": "Holi",
+    "2025-03-21": "Adobe Wellbeing Day",
+    "2025-04-14": "Dr. Ambedkar Jayanti",
+    "2025-04-18": "Good Friday",
+    "2025-05-01": "Labour Day",
+    "2025-06-27": "Adobe Wellbeing Day",
+    "2025-08-15": "Independence Day",
+    "2025-08-22": "Adobe Wellbeing Day",
+    "2025-08-27": "Ganesh Chaturthi",
+    "2025-10-02": "Gandhi Jayanti",
+    "2025-10-20": "Diwali",
+    "2025-10-31": "Adobe Wellbeing Day",
+    "2025-11-05": "Guru Nanak Jayanti",
+    "2025-12-24": "Winter Shutdown",
+    "2025-12-25": "Winter Shutdown",
+    "2025-12-26": "Winter Shutdown",
+    "2025-12-29": "Winter Shutdown",
+    "2025-12-30": "Winter Shutdown",
+    "2025-12-31": "Winter Shutdown",
+    # ── 2026 — from official Adobe Global Holidays PDF ──────────────────────
+    "2026-01-01": "New Year's Day",
+    "2026-01-26": "Republic Day",
+    "2026-03-04": "Holi",
+    "2026-03-20": "Adobe Wellbeing Day",
+    "2026-04-03": "Good Friday",
+    "2026-05-01": "Labour Day",
+    "2026-05-27": "Eid al-Adha",
+    "2026-06-29": "Adobe Wellbeing Day",
+    "2026-08-21": "Adobe Wellbeing Day",
+    "2026-09-14": "Ganesh Chaturthi",
+    "2026-10-02": "Gandhi Jayanti",
+    "2026-10-20": "Dussehra",
+    "2026-10-30": "Adobe Wellbeing Day",
+    "2026-11-09": "Diwali",
+    "2026-11-24": "Guru Nanak Jayanti",
+    "2026-12-24": "Winter Shutdown",
+    "2026-12-25": "Winter Shutdown",
+    "2026-12-28": "Winter Shutdown",
+    "2026-12-29": "Winter Shutdown",
+    "2026-12-30": "Winter Shutdown",
+    "2026-12-31": "Winter Shutdown",
 }
-# Bangalore-specific holidays (Chris): kept as "leave" in seed data; not removed
-# from working_days() to avoid affecting Delhi/Noida members.
 
 # ── Status correction priority ─────────────────────────────────────────────────
 # If multiple messages exist for same person/day, higher priority wins.
 # e.g. "WFH at 9am" then "At office at 2pm" → office wins.
-STATUS_PRIORITY = {"office": 5, "wfh": 4, "sick": 3, "leave": 2, "no_info": 1}
+STATUS_PRIORITY = {"office": 5, "wfh": 4, "sick": 3, "leave": 2, "holiday": 1, "no_info": 0}
 
 # ── Emoji reactions treated as "me too, same status" ──────────────────────────
 # When a team member reacts with one of these to a classified message,
@@ -369,13 +372,21 @@ def process(messages: list, start: date, end: date) -> tuple:
                                     f"[+1 to {sender_name}] {text[:120]}"
                                 )
 
-    # Fill no_info for all active members on all working days with no record
-    for d in working_days(start, end):
-        ds = d.isoformat()
-        attendance.setdefault(ds, {})
-        for mid in TEAM_MEMBERS:
-            if is_member_active(mid, d) and mid not in attendance[ds]:
-                attendance[ds][mid] = {"status": "no_info", "note": None}
+    # Fill holiday / no_info for all active members on all weekdays with no record.
+    # Holidays get their proper name in the note; working days get no_info.
+    cur = start
+    while cur <= end:
+        if cur.weekday() < 5:  # Monday–Friday only
+            ds = cur.isoformat()
+            attendance.setdefault(ds, {})
+            holiday_name = HOLIDAYS.get(ds)  # None if not a holiday
+            for mid in TEAM_MEMBERS:
+                if is_member_active(mid, cur) and mid not in attendance[ds]:
+                    if holiday_name:
+                        attendance[ds][mid] = {"status": "holiday", "note": holiday_name}
+                    else:
+                        attendance[ds][mid] = {"status": "no_info", "note": None}
+        cur += timedelta(days=1)
 
     return dict(sorted(attendance.items())), unclassified
 
@@ -457,6 +468,7 @@ def run():
         "generated_at": end.isoformat(),
         "period": {"from": start.isoformat(), "to": end.isoformat()},
         "team_members": TEAM_MEMBERS,
+        "holidays": HOLIDAYS,  # date → holiday name; used by dashboard today-strip
         "attendance": att,
     }
 

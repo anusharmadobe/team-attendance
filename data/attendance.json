@@ -48,7 +48,68 @@
       "role": "PM"
     }
   },
+  "holidays": {
+    "2025-01-01": "New Year's Day",
+    "2025-03-14": "Holi",
+    "2025-03-21": "Adobe Wellbeing Day",
+    "2025-04-14": "Dr. Ambedkar Jayanti",
+    "2025-04-18": "Good Friday",
+    "2025-05-01": "Labour Day",
+    "2025-06-27": "Adobe Wellbeing Day",
+    "2025-08-15": "Independence Day",
+    "2025-08-22": "Adobe Wellbeing Day",
+    "2025-08-27": "Ganesh Chaturthi",
+    "2025-10-02": "Gandhi Jayanti",
+    "2025-10-20": "Diwali",
+    "2025-10-31": "Adobe Wellbeing Day",
+    "2025-11-05": "Guru Nanak Jayanti",
+    "2025-12-24": "Winter Shutdown",
+    "2025-12-25": "Winter Shutdown",
+    "2025-12-26": "Winter Shutdown",
+    "2025-12-29": "Winter Shutdown",
+    "2025-12-30": "Winter Shutdown",
+    "2025-12-31": "Winter Shutdown",
+    "2026-01-01": "New Year's Day",
+    "2026-01-26": "Republic Day",
+    "2026-03-04": "Holi",
+    "2026-03-20": "Adobe Wellbeing Day",
+    "2026-04-03": "Good Friday",
+    "2026-05-01": "Labour Day",
+    "2026-05-27": "Eid al-Adha",
+    "2026-06-29": "Adobe Wellbeing Day",
+    "2026-08-21": "Adobe Wellbeing Day",
+    "2026-09-14": "Ganesh Chaturthi",
+    "2026-10-02": "Gandhi Jayanti",
+    "2026-10-20": "Dussehra",
+    "2026-10-30": "Adobe Wellbeing Day",
+    "2026-11-09": "Diwali",
+    "2026-11-24": "Guru Nanak Jayanti",
+    "2026-12-24": "Winter Shutdown",
+    "2026-12-25": "Winter Shutdown",
+    "2026-12-28": "Winter Shutdown",
+    "2026-12-29": "Winter Shutdown",
+    "2026-12-30": "Winter Shutdown",
+    "2026-12-31": "Winter Shutdown"
+  },
   "attendance": {
+    "2025-01-01": {
+      "W4R4S9FS4": {
+        "status": "holiday",
+        "note": "New Year's Day"
+      },
+      "WAM5KDYBZ": {
+        "status": "holiday",
+        "note": "New Year's Day"
+      },
+      "W010NNJV7S8": {
+        "status": "holiday",
+        "note": "New Year's Day"
+      },
+      "U03HRQ036BD": {
+        "status": "holiday",
+        "note": "New Year's Day"
+      }
+    },
     "2025-01-02": {
       "W4R4S9FS4": {
         "status": "no_info",
@@ -973,6 +1034,24 @@
         "note": null
       }
     },
+    "2025-03-14": {
+      "W4R4S9FS4": {
+        "status": "holiday",
+        "note": "Holi"
+      },
+      "WAM5KDYBZ": {
+        "status": "holiday",
+        "note": "Holi"
+      },
+      "W010NNJV7S8": {
+        "status": "holiday",
+        "note": "Holi"
+      },
+      "U03HRQ036BD": {
+        "status": "holiday",
+        "note": "Holi"
+      }
+    },
     "2025-03-17": {
       "W4R4S9FS4": {
         "status": "no_info",
@@ -1049,6 +1128,18 @@
       "U03HRQ036BD": {
         "status": "sick",
         "note": "Hi team, I am having fever with the throat infection, so sick leave today. Thanks"
+      },
+      "W4R4S9FS4": {
+        "status": "holiday",
+        "note": "Adobe Wellbeing Day"
+      },
+      "WAM5KDYBZ": {
+        "status": "holiday",
+        "note": "Adobe Wellbeing Day"
+      },
+      "W010NNJV7S8": {
+        "status": "holiday",
+        "note": "Adobe Wellbeing Day"
       }
     },
     "2025-03-24": {
@@ -1359,24 +1450,24 @@
     },
     "2025-04-14": {
       "W4R4S9FS4": {
-        "status": "no_info",
-        "note": null
+        "status": "holiday",
+        "note": "Dr. Ambedkar Jayanti"
       },
       "WAM5KDYBZ": {
-        "status": "no_info",
-        "note": null
+        "status": "holiday",
+        "note": "Dr. Ambedkar Jayanti"
       },
       "W010NNJV7S8": {
-        "status": "no_info",
-        "note": null
+        "status": "holiday",
+        "note": "Dr. Ambedkar Jayanti"
       },
       "U03HRQ036BD": {
-        "status": "no_info",
-        "note": null
+        "status": "holiday",
+        "note": "Dr. Ambedkar Jayanti"
       },
       "U08HVLWG1UM": {
-        "status": "no_info",
-        "note": null
+        "status": "holiday",
+        "note": "Dr. Ambedkar Jayanti"
       }
     },
     "2025-04-15": {
@@ -1443,6 +1534,28 @@
       "U08HVLWG1UM": {
         "status": "no_info",
         "note": null
+      }
+    },
+    "2025-04-18": {
+      "W4R4S9FS4": {
+        "status": "holiday",
+        "note": "Good Friday"
+      },
+      "WAM5KDYBZ": {
+        "status": "holiday",
+        "note": "Good Friday"
+      },
+      "W010NNJV7S8": {
+        "status": "holiday",
+        "note": "Good Friday"
+      },
+      "U03HRQ036BD": {
+        "status": "holiday",
+        "note": "Good Friday"
+      },
+      "U08HVLWG1UM": {
+        "status": "holiday",
+        "note": "Good Friday"
       }
     },
     "2025-04-21": {
@@ -1619,6 +1732,28 @@
       "U08HVLWG1UM": {
         "status": "no_info",
         "note": null
+      }
+    },
+    "2025-05-01": {
+      "W4R4S9FS4": {
+        "status": "holiday",
+        "note": "Labour Day"
+      },
+      "WAM5KDYBZ": {
+        "status": "holiday",
+        "note": "Labour Day"
+      },
+      "W010NNJV7S8": {
+        "status": "holiday",
+        "note": "Labour Day"
+      },
+      "U03HRQ036BD": {
+        "status": "holiday",
+        "note": "Labour Day"
+      },
+      "U08HVLWG1UM": {
+        "status": "holiday",
+        "note": "Labour Day"
       }
     },
     "2025-05-02": {
@@ -2553,6 +2688,14 @@
       "W010NNJV7S8": {
         "status": "wfh",
         "note": "WFH Today"
+      },
+      "WAM5KDYBZ": {
+        "status": "holiday",
+        "note": "Adobe Wellbeing Day"
+      },
+      "U0900H3NUUT": {
+        "status": "holiday",
+        "note": "Adobe Wellbeing Day"
       }
     },
     "2025-06-30": {
@@ -3439,6 +3582,32 @@
         "note": "WFH Today"
       }
     },
+    "2025-08-15": {
+      "W4R4S9FS4": {
+        "status": "holiday",
+        "note": "Independence Day"
+      },
+      "WAM5KDYBZ": {
+        "status": "holiday",
+        "note": "Independence Day"
+      },
+      "W010NNJV7S8": {
+        "status": "holiday",
+        "note": "Independence Day"
+      },
+      "U03HRQ036BD": {
+        "status": "holiday",
+        "note": "Independence Day"
+      },
+      "U0900H3NUUT": {
+        "status": "holiday",
+        "note": "Independence Day"
+      },
+      "U08HVLWG1UM": {
+        "status": "holiday",
+        "note": "Independence Day"
+      }
+    },
     "2025-08-18": {
       "W4R4S9FS4": {
         "status": "office",
@@ -3563,6 +3732,10 @@
       "WAM5KDYBZ": {
         "status": "office",
         "note": "At Office"
+      },
+      "W010NNJV7S8": {
+        "status": "holiday",
+        "note": "Adobe Wellbeing Day"
       }
     },
     "2025-08-25": {
@@ -3637,6 +3810,10 @@
       "WAM5KDYBZ": {
         "status": "office",
         "note": "[+1 to Anurag Sharma] at office"
+      },
+      "W010NNJV7S8": {
+        "status": "holiday",
+        "note": "Ganesh Chaturthi"
       }
     },
     "2025-08-28": {
@@ -4289,6 +4466,32 @@
         "note": "WFH Today"
       }
     },
+    "2025-10-02": {
+      "W4R4S9FS4": {
+        "status": "holiday",
+        "note": "Gandhi Jayanti"
+      },
+      "WAM5KDYBZ": {
+        "status": "holiday",
+        "note": "Gandhi Jayanti"
+      },
+      "W010NNJV7S8": {
+        "status": "holiday",
+        "note": "Gandhi Jayanti"
+      },
+      "U03HRQ036BD": {
+        "status": "holiday",
+        "note": "Gandhi Jayanti"
+      },
+      "U0900H3NUUT": {
+        "status": "holiday",
+        "note": "Gandhi Jayanti"
+      },
+      "U08HVLWG1UM": {
+        "status": "holiday",
+        "note": "Gandhi Jayanti"
+      }
+    },
     "2025-10-03": {
       "W4R4S9FS4": {
         "status": "no_info",
@@ -4583,6 +4786,22 @@
       "W4R4S9FS4": {
         "status": "wfh",
         "note": "WFH today"
+      },
+      "WAM5KDYBZ": {
+        "status": "holiday",
+        "note": "Diwali"
+      },
+      "W010NNJV7S8": {
+        "status": "holiday",
+        "note": "Diwali"
+      },
+      "U03HRQ036BD": {
+        "status": "holiday",
+        "note": "Diwali"
+      },
+      "U0900H3NUUT": {
+        "status": "holiday",
+        "note": "Diwali"
       }
     },
     "2025-10-21": {
@@ -4805,6 +5024,18 @@
       "W4R4S9FS4": {
         "status": "office",
         "note": "At office"
+      },
+      "WAM5KDYBZ": {
+        "status": "holiday",
+        "note": "Adobe Wellbeing Day"
+      },
+      "W010NNJV7S8": {
+        "status": "holiday",
+        "note": "Adobe Wellbeing Day"
+      },
+      "U0900H3NUUT": {
+        "status": "holiday",
+        "note": "Adobe Wellbeing Day"
       }
     },
     "2025-11-03": {
@@ -4857,6 +5088,32 @@
       "U08HVLWG1UM": {
         "status": "no_info",
         "note": null
+      }
+    },
+    "2025-11-05": {
+      "W4R4S9FS4": {
+        "status": "holiday",
+        "note": "Guru Nanak Jayanti"
+      },
+      "WAM5KDYBZ": {
+        "status": "holiday",
+        "note": "Guru Nanak Jayanti"
+      },
+      "W010NNJV7S8": {
+        "status": "holiday",
+        "note": "Guru Nanak Jayanti"
+      },
+      "U03HRQ036BD": {
+        "status": "holiday",
+        "note": "Guru Nanak Jayanti"
+      },
+      "U0900H3NUUT": {
+        "status": "holiday",
+        "note": "Guru Nanak Jayanti"
+      },
+      "U08HVLWG1UM": {
+        "status": "holiday",
+        "note": "Guru Nanak Jayanti"
       }
     },
     "2025-11-06": {
@@ -5743,6 +6000,188 @@
         "note": null
       }
     },
+    "2025-12-24": {
+      "W4R4S9FS4": {
+        "status": "holiday",
+        "note": "Winter Shutdown"
+      },
+      "WAM5KDYBZ": {
+        "status": "holiday",
+        "note": "Winter Shutdown"
+      },
+      "W010NNJV7S8": {
+        "status": "holiday",
+        "note": "Winter Shutdown"
+      },
+      "U03HRQ036BD": {
+        "status": "holiday",
+        "note": "Winter Shutdown"
+      },
+      "U0900H3NUUT": {
+        "status": "holiday",
+        "note": "Winter Shutdown"
+      },
+      "U08HVLWG1UM": {
+        "status": "holiday",
+        "note": "Winter Shutdown"
+      }
+    },
+    "2025-12-25": {
+      "W4R4S9FS4": {
+        "status": "holiday",
+        "note": "Winter Shutdown"
+      },
+      "WAM5KDYBZ": {
+        "status": "holiday",
+        "note": "Winter Shutdown"
+      },
+      "W010NNJV7S8": {
+        "status": "holiday",
+        "note": "Winter Shutdown"
+      },
+      "U03HRQ036BD": {
+        "status": "holiday",
+        "note": "Winter Shutdown"
+      },
+      "U0900H3NUUT": {
+        "status": "holiday",
+        "note": "Winter Shutdown"
+      },
+      "U08HVLWG1UM": {
+        "status": "holiday",
+        "note": "Winter Shutdown"
+      }
+    },
+    "2025-12-26": {
+      "W4R4S9FS4": {
+        "status": "holiday",
+        "note": "Winter Shutdown"
+      },
+      "WAM5KDYBZ": {
+        "status": "holiday",
+        "note": "Winter Shutdown"
+      },
+      "W010NNJV7S8": {
+        "status": "holiday",
+        "note": "Winter Shutdown"
+      },
+      "U03HRQ036BD": {
+        "status": "holiday",
+        "note": "Winter Shutdown"
+      },
+      "U0900H3NUUT": {
+        "status": "holiday",
+        "note": "Winter Shutdown"
+      },
+      "U08HVLWG1UM": {
+        "status": "holiday",
+        "note": "Winter Shutdown"
+      }
+    },
+    "2025-12-29": {
+      "W4R4S9FS4": {
+        "status": "holiday",
+        "note": "Winter Shutdown"
+      },
+      "WAM5KDYBZ": {
+        "status": "holiday",
+        "note": "Winter Shutdown"
+      },
+      "W010NNJV7S8": {
+        "status": "holiday",
+        "note": "Winter Shutdown"
+      },
+      "U03HRQ036BD": {
+        "status": "holiday",
+        "note": "Winter Shutdown"
+      },
+      "U0900H3NUUT": {
+        "status": "holiday",
+        "note": "Winter Shutdown"
+      },
+      "U08HVLWG1UM": {
+        "status": "holiday",
+        "note": "Winter Shutdown"
+      }
+    },
+    "2025-12-30": {
+      "W4R4S9FS4": {
+        "status": "holiday",
+        "note": "Winter Shutdown"
+      },
+      "WAM5KDYBZ": {
+        "status": "holiday",
+        "note": "Winter Shutdown"
+      },
+      "W010NNJV7S8": {
+        "status": "holiday",
+        "note": "Winter Shutdown"
+      },
+      "U03HRQ036BD": {
+        "status": "holiday",
+        "note": "Winter Shutdown"
+      },
+      "U0900H3NUUT": {
+        "status": "holiday",
+        "note": "Winter Shutdown"
+      },
+      "U08HVLWG1UM": {
+        "status": "holiday",
+        "note": "Winter Shutdown"
+      }
+    },
+    "2025-12-31": {
+      "W4R4S9FS4": {
+        "status": "holiday",
+        "note": "Winter Shutdown"
+      },
+      "WAM5KDYBZ": {
+        "status": "holiday",
+        "note": "Winter Shutdown"
+      },
+      "W010NNJV7S8": {
+        "status": "holiday",
+        "note": "Winter Shutdown"
+      },
+      "U03HRQ036BD": {
+        "status": "holiday",
+        "note": "Winter Shutdown"
+      },
+      "U0900H3NUUT": {
+        "status": "holiday",
+        "note": "Winter Shutdown"
+      },
+      "U08HVLWG1UM": {
+        "status": "holiday",
+        "note": "Winter Shutdown"
+      }
+    },
+    "2026-01-01": {
+      "W4R4S9FS4": {
+        "status": "holiday",
+        "note": "New Year's Day"
+      },
+      "WAM5KDYBZ": {
+        "status": "holiday",
+        "note": "New Year's Day"
+      },
+      "W010NNJV7S8": {
+        "status": "holiday",
+        "note": "New Year's Day"
+      },
+      "U03HRQ036BD": {
+        "status": "holiday",
+        "note": "New Year's Day"
+      },
+      "U0900H3NUUT": {
+        "status": "holiday",
+        "note": "New Year's Day"
+      },
+      "U08HVLWG1UM": {
+        "status": "holiday",
+        "note": "New Year's Day"
+      }
+    },
     "2026-01-02": {
       "U03HRQ036BD": {
         "status": "leave",
@@ -6157,6 +6596,32 @@
       "U08HVLWG1UM": {
         "status": "no_info",
         "note": null
+      }
+    },
+    "2026-01-26": {
+      "W4R4S9FS4": {
+        "status": "holiday",
+        "note": "Republic Day"
+      },
+      "WAM5KDYBZ": {
+        "status": "holiday",
+        "note": "Republic Day"
+      },
+      "W010NNJV7S8": {
+        "status": "holiday",
+        "note": "Republic Day"
+      },
+      "U03HRQ036BD": {
+        "status": "holiday",
+        "note": "Republic Day"
+      },
+      "U0900H3NUUT": {
+        "status": "holiday",
+        "note": "Republic Day"
+      },
+      "U08HVLWG1UM": {
+        "status": "holiday",
+        "note": "Republic Day"
       }
     },
     "2026-01-27": {
@@ -6835,6 +7300,32 @@
         "note": null
       }
     },
+    "2026-03-04": {
+      "W4R4S9FS4": {
+        "status": "holiday",
+        "note": "Holi"
+      },
+      "WAM5KDYBZ": {
+        "status": "holiday",
+        "note": "Holi"
+      },
+      "W010NNJV7S8": {
+        "status": "holiday",
+        "note": "Holi"
+      },
+      "U03HRQ036BD": {
+        "status": "holiday",
+        "note": "Holi"
+      },
+      "U0900H3NUUT": {
+        "status": "holiday",
+        "note": "Holi"
+      },
+      "U08HVLWG1UM": {
+        "status": "holiday",
+        "note": "Holi"
+      }
+    },
     "2026-03-05": {
       "U08HVLWG1UM": {
         "status": "wfh",
@@ -7121,6 +7612,32 @@
         "note": "At office"
       }
     },
+    "2026-03-20": {
+      "W4R4S9FS4": {
+        "status": "holiday",
+        "note": "Adobe Wellbeing Day"
+      },
+      "WAM5KDYBZ": {
+        "status": "holiday",
+        "note": "Adobe Wellbeing Day"
+      },
+      "W010NNJV7S8": {
+        "status": "holiday",
+        "note": "Adobe Wellbeing Day"
+      },
+      "U03HRQ036BD": {
+        "status": "holiday",
+        "note": "Adobe Wellbeing Day"
+      },
+      "U0900H3NUUT": {
+        "status": "holiday",
+        "note": "Adobe Wellbeing Day"
+      },
+      "U08HVLWG1UM": {
+        "status": "holiday",
+        "note": "Adobe Wellbeing Day"
+      }
+    },
     "2026-03-23": {
       "W010NNJV7S8": {
         "status": "sick",
@@ -7353,6 +7870,32 @@
       "WAM5KDYBZ": {
         "status": "no_info",
         "note": null
+      }
+    },
+    "2026-04-03": {
+      "W4R4S9FS4": {
+        "status": "holiday",
+        "note": "Good Friday"
+      },
+      "WAM5KDYBZ": {
+        "status": "holiday",
+        "note": "Good Friday"
+      },
+      "W010NNJV7S8": {
+        "status": "holiday",
+        "note": "Good Friday"
+      },
+      "U03HRQ036BD": {
+        "status": "holiday",
+        "note": "Good Friday"
+      },
+      "U0900H3NUUT": {
+        "status": "holiday",
+        "note": "Good Friday"
+      },
+      "U08HVLWG1UM": {
+        "status": "holiday",
+        "note": "Good Friday"
       }
     },
     "2026-04-06": {
@@ -7849,6 +8392,32 @@
         "note": "At Office"
       }
     },
+    "2026-05-01": {
+      "W4R4S9FS4": {
+        "status": "holiday",
+        "note": "Labour Day"
+      },
+      "WAM5KDYBZ": {
+        "status": "holiday",
+        "note": "Labour Day"
+      },
+      "W010NNJV7S8": {
+        "status": "holiday",
+        "note": "Labour Day"
+      },
+      "U03HRQ036BD": {
+        "status": "holiday",
+        "note": "Labour Day"
+      },
+      "U0900H3NUUT": {
+        "status": "holiday",
+        "note": "Labour Day"
+      },
+      "U08HVLWG1UM": {
+        "status": "holiday",
+        "note": "Labour Day"
+      }
+    },
     "2026-05-04": {
       "U0900H3NUUT": {
         "status": "wfh",
@@ -8289,6 +8858,32 @@
       "U08HVLWG1UM": {
         "status": "no_info",
         "note": null
+      }
+    },
+    "2026-05-27": {
+      "W4R4S9FS4": {
+        "status": "holiday",
+        "note": "Eid al-Adha"
+      },
+      "WAM5KDYBZ": {
+        "status": "holiday",
+        "note": "Eid al-Adha"
+      },
+      "W010NNJV7S8": {
+        "status": "holiday",
+        "note": "Eid al-Adha"
+      },
+      "U03HRQ036BD": {
+        "status": "holiday",
+        "note": "Eid al-Adha"
+      },
+      "U0900H3NUUT": {
+        "status": "holiday",
+        "note": "Eid al-Adha"
+      },
+      "U08HVLWG1UM": {
+        "status": "holiday",
+        "note": "Eid al-Adha"
       }
     },
     "2026-05-28": {

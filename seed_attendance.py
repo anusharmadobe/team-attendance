@@ -831,6 +831,7 @@ HOLIDAYS = {
     # Makar Sankranti Jan 14 (Bangalore/Chris) → already "leave" in EVENTS
     "2025-03-14",   # Holi (Friday) [est-2025]
     "2025-03-21",   # Global Wellbeing Day (Friday) [est-2025 — Adobe quarterly GWD]
+    "2025-04-14",   # Dr. Ambedkar Jayanti (Monday) [national holiday]
     "2025-04-18",   # Good Friday (Friday) [est-2025]
     "2025-05-01",   # Labour Day (Thursday) [est-2025]
     "2025-06-27",   # Global Wellbeing Day (Friday) [est-2025 — Q2, similar to 2026 Jun 29]
