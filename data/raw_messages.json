@@ -105,7 +105,16 @@
     "thread_ts": null,
     "is_reply": false,
     "reply_count": 0,
-    "reactions": []
+    "reactions": [
+      {
+        "name": "+1moji",
+        "count": 2,
+        "users": [
+          "U03HRQ036BD",
+          "U04BTKLSUF7"
+        ]
+      }
+    ]
   },
   {
     "ts": "1736824567",
@@ -285,7 +294,22 @@
     "thread_ts": null,
     "is_reply": false,
     "reply_count": 0,
-    "reactions": []
+    "reactions": [
+      {
+        "name": "+1",
+        "count": 1,
+        "users": [
+          "WAM5KDYBZ"
+        ]
+      },
+      {
+        "name": "+1::skin-tone-2",
+        "count": 1,
+        "users": [
+          "W4R4S9FS4"
+        ]
+      }
+    ]
   },
   {
     "ts": "1738731795",
@@ -675,6 +699,24 @@
     "reactions": []
   },
   {
+    "ts": "1743523585.769559",
+    "user": "U08HVLWG1UM",
+    "text": ":wave: Hello, team! Thank you all for the warm welcome :relaxed:",
+    "thread_ts": null,
+    "is_reply": false,
+    "reply_count": 0,
+    "reactions": []
+  },
+  {
+    "ts": "1743583874.985319",
+    "user": "U08HVLWG1UM",
+    "text": "Thank You <@W010NNJV7S8|Chris J> :blush:",
+    "thread_ts": null,
+    "is_reply": false,
+    "reply_count": 0,
+    "reactions": []
+  },
+  {
     "ts": "1743737502",
     "user": "U03HRQ036BD",
     "text": "Hi team, WFH today",
@@ -702,6 +744,23 @@
     "reactions": []
   },
   {
+    "ts": "1743743312.235449",
+    "user": "U08HVLWG1UM",
+    "text": "<@WAM5KDYBZ|Khushwant Singh> Take care",
+    "thread_ts": null,
+    "is_reply": false,
+    "reply_count": 0,
+    "reactions": [
+      {
+        "name": "thanks-5424",
+        "count": 1,
+        "users": [
+          "WAM5KDYBZ"
+        ]
+      }
+    ]
+  },
+  {
     "ts": "1743994422",
     "user": "U03HRQ036BD",
     "text": "Hi team, on PTO today",
@@ -723,6 +782,15 @@
     "ts": "1744345344",
     "user": "U03HRQ036BD",
     "text": "WFH today",
+    "thread_ts": null,
+    "is_reply": false,
+    "reply_count": 0,
+    "reactions": []
+  },
+  {
+    "ts": "1744347522.578689",
+    "user": "U08HVLWG1UM",
+    "text": "I’m doing WFH today!",
     "thread_ts": null,
     "is_reply": false,
     "reply_count": 0,
@@ -763,6 +831,23 @@
     "is_reply": false,
     "reply_count": 0,
     "reactions": []
+  },
+  {
+    "ts": "1744866020.440159",
+    "user": "U08HVLWG1UM",
+    "text": "WFH Today!",
+    "thread_ts": null,
+    "is_reply": false,
+    "reply_count": 0,
+    "reactions": [
+      {
+        "name": "+1moji",
+        "count": 1,
+        "users": [
+          "W010NNJV7S8"
+        ]
+      }
+    ]
   },
   {
     "ts": "1744868472",
@@ -810,9 +895,27 @@
     "reactions": []
   },
   {
+    "ts": "1745378443.452999",
+    "user": "U08HVLWG1UM",
+    "text": "WFH Today!",
+    "thread_ts": null,
+    "is_reply": false,
+    "reply_count": 0,
+    "reactions": []
+  },
+  {
     "ts": "1745549487",
     "user": "W4R4S9FS4",
     "text": "WFH today",
+    "thread_ts": null,
+    "is_reply": false,
+    "reply_count": 0,
+    "reactions": []
+  },
+  {
+    "ts": "1745551711.420979",
+    "user": "U08HVLWG1UM",
+    "text": "WFH Today! :sun_with_face:",
     "thread_ts": null,
     "is_reply": false,
     "reply_count": 0,
@@ -846,6 +949,66 @@
     "reactions": []
   },
   {
+    "ts": "1745574488.907199",
+    "user": "U08HVLWG1UM",
+    "text": "Hi Team, I’ve also created a community and blogging website to cultivate a network where women can inspire and uplift each other. Also, i’m modifying it as per my requirements and will host it on my domain. Thank you <@WAM5KDYBZ|Khushwant Singh> for letting us learn new AI Tools. Please have a look.  <https://bhumikaanand-community-hub.lovable.app/>",
+    "thread_ts": "1745574488.907199",
+    "is_reply": false,
+    "reply_count": 2,
+    "reactions": [
+      {
+        "name": "+1",
+        "count": 1,
+        "users": [
+          "U03HRQ036BD"
+        ]
+      },
+      {
+        "name": "+1::skin-tone-2",
+        "count": 1,
+        "users": [
+          "W4R4S9FS4"
+        ]
+      }
+    ]
+  },
+  {
+    "ts": "1745575882.958589",
+    "user": "U08HVLWG1UM",
+    "text": "<@W4R4S9FS4|Anurag Sharma> I haven’t used cursor yet. Need access!",
+    "thread_ts": null,
+    "is_reply": false,
+    "reply_count": 0,
+    "reactions": []
+  },
+  {
+    "ts": "1745811336.518929",
+    "user": "U08HVLWG1UM",
+    "text": "Hi Team, WFH Today. :sun_with_face:",
+    "thread_ts": null,
+    "is_reply": false,
+    "reply_count": 0,
+    "reactions": []
+  },
+  {
+    "ts": "1745896437.769919",
+    "user": "U08HVLWG1UM",
+    "text": "I’m not feeling well. WFH Today!",
+    "thread_ts": "1745896437.769919",
+    "is_reply": false,
+    "reply_count": 1,
+    "reactions": [
+      {
+        "name": "take_care2",
+        "count": 2,
+        "users": [
+          "U03HRQ036BD",
+          "W4R4S9FS4"
+        ]
+      }
+    ]
+  },
+  {
     "ts": "1745914492",
     "user": "W4R4S9FS4",
     "text": "Working from home and PTO 2nd half, family not well.",
@@ -853,6 +1016,23 @@
     "is_reply": false,
     "reply_count": 0,
     "reactions": []
+  },
+  {
+    "ts": "1745988883.236279",
+    "user": "WAM5KDYBZ",
+    "text": "I will be on leave for first half and WFH for second half on Wed 30 Apr",
+    "thread_ts": null,
+    "is_reply": false,
+    "reply_count": 0,
+    "reactions": [
+      {
+        "name": "ok",
+        "count": 1,
+        "users": [
+          "U03HRQ036BD"
+        ]
+      }
+    ]
   },
   {
     "ts": "1746413425",
@@ -1030,7 +1210,15 @@
     "thread_ts": null,
     "is_reply": false,
     "reply_count": 0,
-    "reactions": []
+    "reactions": [
+      {
+        "name": "+1",
+        "count": 1,
+        "users": [
+          "U08HVLWG1UM"
+        ]
+      }
+    ]
   },
   {
     "ts": "1747804796",
@@ -1174,7 +1362,15 @@
     "thread_ts": null,
     "is_reply": false,
     "reply_count": 0,
-    "reactions": []
+    "reactions": [
+      {
+        "name": "+1",
+        "count": 1,
+        "users": [
+          "U08HVLWG1UM"
+        ]
+      }
+    ]
   },
   {
     "ts": "1748573208",
@@ -8345,6 +8541,21 @@
     "reactions": []
   },
   {
+    "ts": "1777990028.084129",
+    "user": "U08HVLWG1UM",
+    "text": "Hi Team,\n\nAs I move on from my time here, I wanted to take a moment to sincerely thank each one of you for your support, collaboration, and the many learnings along the way.\n\nIt’s been a truly rewarding journey working with such a talented and supportive team. I’m grateful for the experiences we’ve shared and the bonds we’ve built, that will always stay with me.\n\nWishing you all continued success and growth ahead. I hope our paths cross again sometime in the future. :innocent:",
+    "thread_ts": null,
+    "is_reply": false,
+    "reply_count": 0,
+    "reactions": [
+      {
+        "name": "heart",
+        "count": 3,
+        "users": []
+      }
+    ]
+  },
+  {
     "ts": "1778038825",
     "user": "U0900H3NUUT",
     "text": "At office",
@@ -8981,15 +9192,6 @@
   {
     "ts": "1780641941",
     "user": "W010NNJV7S8",
-    "text": "At office",
-    "thread_ts": null,
-    "is_reply": false,
-    "reply_count": 0,
-    "reactions": []
-  },
-  {
-    "ts": "1780642068",
-    "user": "W4R4S9FS4",
     "text": "At office",
     "thread_ts": null,
     "is_reply": false,

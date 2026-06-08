@@ -251,11 +251,11 @@
         "status": "office",
         "note": "Working from office"
       },
-      "W4R4S9FS4": {
-        "status": "no_info",
-        "note": null
-      },
       "U03HRQ036BD": {
+        "status": "office",
+        "note": "[+1 to Khushwant Singh] Working from office"
+      },
+      "W4R4S9FS4": {
         "status": "no_info",
         "note": null
       }
@@ -555,7 +555,7 @@
       },
       "WAM5KDYBZ": {
         "status": "wfh",
-        "note": "WFH"
+        "note": "[+1 to Ruchita Srivastava] WFH due to the Delhi elections. Will head out in the afternoon to cast my vote."
       },
       "W4R4S9FS4": {
         "status": "no_info",
@@ -1431,6 +1431,10 @@
         "status": "wfh",
         "note": "WFH today"
       },
+      "U08HVLWG1UM": {
+        "status": "wfh",
+        "note": "I\u2019m doing WFH today!"
+      },
       "W4R4S9FS4": {
         "status": "no_info",
         "note": null
@@ -1440,10 +1444,6 @@
         "note": null
       },
       "W010NNJV7S8": {
-        "status": "no_info",
-        "note": null
-      },
-      "U08HVLWG1UM": {
         "status": "no_info",
         "note": null
       }
@@ -1519,6 +1519,14 @@
         "status": "wfh",
         "note": "WFH today"
       },
+      "U08HVLWG1UM": {
+        "status": "wfh",
+        "note": "WFH Today!"
+      },
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "[+1 to Bhumika Yadav] WFH Today!"
+      },
       "W4R4S9FS4": {
         "status": "wfh",
         "note": "WFH today"
@@ -1526,14 +1534,6 @@
       "WAM5KDYBZ": {
         "status": "leave",
         "note": "On leave 16th and 17th April"
-      },
-      "W010NNJV7S8": {
-        "status": "no_info",
-        "note": null
-      },
-      "U08HVLWG1UM": {
-        "status": "no_info",
-        "note": null
       }
     },
     "2025-04-18": {
@@ -1611,15 +1611,15 @@
         "status": "leave",
         "note": "On PTO today. Thanks"
       },
+      "U08HVLWG1UM": {
+        "status": "wfh",
+        "note": "WFH Today!"
+      },
       "W4R4S9FS4": {
         "status": "no_info",
         "note": null
       },
       "WAM5KDYBZ": {
-        "status": "no_info",
-        "note": null
-      },
-      "U08HVLWG1UM": {
         "status": "no_info",
         "note": null
       }
@@ -1655,6 +1655,10 @@
         "status": "wfh",
         "note": "WFH today"
       },
+      "U08HVLWG1UM": {
+        "status": "wfh",
+        "note": "WFH Today! :sun_with_face:"
+      },
       "U03HRQ036BD": {
         "status": "wfh",
         "note": "WFH today"
@@ -1662,13 +1666,13 @@
       "WAM5KDYBZ": {
         "status": "office",
         "note": "Working from office"
-      },
-      "U08HVLWG1UM": {
-        "status": "no_info",
-        "note": null
       }
     },
     "2025-04-28": {
+      "U08HVLWG1UM": {
+        "status": "wfh",
+        "note": "Hi Team, WFH Today. :sun_with_face:"
+      },
       "W4R4S9FS4": {
         "status": "no_info",
         "note": null
@@ -1684,13 +1688,13 @@
       "U03HRQ036BD": {
         "status": "no_info",
         "note": null
-      },
-      "U08HVLWG1UM": {
-        "status": "no_info",
-        "note": null
       }
     },
     "2025-04-29": {
+      "U08HVLWG1UM": {
+        "status": "wfh",
+        "note": "I\u2019m not feeling well. WFH Today!"
+      },
       "W4R4S9FS4": {
         "status": "wfh",
         "note": "Working from home and PTO 2nd half"
@@ -1706,20 +1710,16 @@
       "U03HRQ036BD": {
         "status": "no_info",
         "note": null
-      },
-      "U08HVLWG1UM": {
-        "status": "no_info",
-        "note": null
       }
     },
     "2025-04-30": {
-      "W4R4S9FS4": {
-        "status": "no_info",
-        "note": null
-      },
       "WAM5KDYBZ": {
         "status": "wfh",
         "note": "Leave 1st half, WFH 2nd half"
+      },
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
       },
       "W010NNJV7S8": {
         "status": "no_info",
@@ -2047,6 +2047,10 @@
         "status": "wfh",
         "note": "Hi team, WFH today. I'll be logging late as I need to visit the bank."
       },
+      "U08HVLWG1UM": {
+        "status": "wfh",
+        "note": "[+1 to Ruchita Srivastava] Hi team, WFH today. I'll be logging late as I need to visit the bank."
+      },
       "W4R4S9FS4": {
         "status": "office",
         "note": "In office again"
@@ -2056,10 +2060,6 @@
         "note": null
       },
       "W010NNJV7S8": {
-        "status": "no_info",
-        "note": null
-      },
-      "U08HVLWG1UM": {
         "status": "no_info",
         "note": null
       }
