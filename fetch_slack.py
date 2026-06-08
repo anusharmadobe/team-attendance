@@ -186,6 +186,11 @@ def main():
     DATA_DIR.mkdir(exist_ok=True)
     token = get_token()
 
+    full_resync = "--full-resync" in sys.argv
+    if full_resync:
+        print("⚠️  FULL RESYNC MODE — fetching ALL history from Jan 2025.")
+        print("   Existing records will be kept; all reactions will be re-fetched.")
+
     # Load existing raw dump
     existing: list[dict] = []
     if RAW_PATH.exists():
@@ -194,8 +199,17 @@ def main():
         except json.JSONDecodeError:
             print("⚠  Existing raw_messages.json is corrupt — starting fresh.")
 
-    # Determine start of incremental fetch
-    if META_PATH.exists():
+    # Determine start of fetch
+    if full_resync:
+        oldest = HISTORY_START          # always start from the beginning
+        existing = []                   # rebuild entirely (dedup will merge)
+        existing_orig = []
+        if RAW_PATH.exists():
+            try:
+                existing_orig = json.loads(RAW_PATH.read_text())
+            except Exception:
+                pass
+    elif META_PATH.exists():
         try:
             meta = json.loads(META_PATH.read_text())
             oldest = float(meta.get("last_ts", 0)) + 0.000001

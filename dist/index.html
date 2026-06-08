@@ -142,11 +142,14 @@ nav button.active{color:var(--acc);border-bottom-color:var(--acc)}
 .view-btns{display:flex;gap:0;border:1px solid var(--bdr2);border-radius:var(--r);overflow:hidden;margin-left:auto}
 .vbtn{background:var(--surf2);border:none;color:var(--txs);cursor:pointer;padding:5px 12px;font-size:12px;transition:.1s}
 .vbtn.act{background:var(--acc);color:#fff}
-.custom-dates{display:none;gap:8px;align-items:center;margin-bottom:12px;font-size:12px;color:var(--txm)}
+.custom-dates{display:none;gap:8px;align-items:center;flex-wrap:wrap;margin-bottom:12px;font-size:12px;color:var(--txm)}
 .custom-dates.vis{display:flex}
 .custom-dates input{background:var(--surf2);border:1px solid var(--bdr2);color:var(--tx);
   padding:5px 8px;border-radius:var(--r);font-size:12px;outline:none}
 .custom-dates input:focus{border-color:var(--acc)}
+.apply-btn{background:var(--acc);color:#fff;border:none;border-radius:var(--r);padding:5px 12px;font-size:12px;font-weight:600;cursor:pointer;letter-spacing:.01em}
+.apply-btn:hover{opacity:.88}
+.applied-range{font-size:11px;color:var(--acc);font-weight:500}
 .drill-stats{display:grid;grid-template-columns:repeat(6,1fr);gap:8px;margin-top:16px}
 @media(max-width:700px){.drill-stats{grid-template-columns:repeat(3,1fr)}}
 .ds{background:var(--surf2);border:1px solid var(--bdr);border-radius:var(--r);padding:10px 12px}
@@ -1001,13 +1004,21 @@ function renderDrill(){
       </div>
       <div class="custom-dates${drillPeriod==='custom'?' vis':''}" id="cust-dates">
         <span>From</span>
-        <input type="date" id="cd-f" value="${drillFrom||f}" onchange="setCustomRange()">
+        <input type="date" id="cd-f" value="${drillFrom||f}">
         <span>To</span>
-        <input type="date" id="cd-t" value="${drillTo||t}" onchange="setCustomRange()">
+        <input type="date" id="cd-t" value="${drillTo||t}">
+        <button class="apply-btn" onclick="setCustomRange()">Apply</button>
+        ${drillFrom&&drillTo?`<span class="applied-range">✓ ${drillFrom} → ${drillTo}</span>`:'<span class="applied-range" style="color:var(--txm)">← pick dates then Apply</span>'}
       </div>
       <div id="drill-chart"></div>
       <div class="drill-stats" id="drill-stats"></div>
-      <div style="margin-top:16px;font-size:12px;color:var(--txm);font-weight:600;margin-bottom:8px">Daily calendar — ${MONTHS[new Date(f).getMonth()]} ${new Date(f).getFullYear()} to ${MONTHS[new Date(t).getMonth()]} ${new Date(t).getFullYear()}</div>
+      <div style="margin-top:16px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:6px;margin-bottom:8px">
+        <span style="font-size:12px;color:var(--txm);font-weight:600">Daily calendar — ${MONTHS[new Date(f).getMonth()]} ${new Date(f).getFullYear()} to ${MONTHS[new Date(t).getMonth()]} ${new Date(t).getFullYear()}</span>
+        <span style="display:flex;gap:10px;flex-wrap:wrap">${['office','wfh','sick','leave','holiday','no_info'].map(s=>{
+          const boxStyle=s==='no_info'?'background:var(--g200);border:1px dashed var(--g400)':s==='holiday'?'background:#C7D2FE;border:1px solid #818CF8;opacity:.75':'background:'+SC[s];
+          return `<span style="display:inline-flex;align-items:center;gap:4px;font-size:10px;color:var(--txs)"><span style="width:12px;height:12px;border-radius:3px;display:inline-block;${boxStyle}"></span>${SL[s]}</span>`;
+        }).join('')}</span>
+      </div>
       <div id="drill-cal"></div>
     </div>`;
   renderDrillChart(drillId,f,t);
@@ -1021,7 +1032,13 @@ function setDV(v){drillView=v;renderDrill();}
 function setCustomRange(){
   drillFrom=document.getElementById('cd-f')?.value;
   drillTo  =document.getElementById('cd-t')?.value;
-  renderDrill();}
+  if(!drillFrom||!drillTo){return;}
+  if(drillFrom>drillTo){alert('Start date must be before end date');return;}
+  renderDrill();
+  // Update the applied-range confirmation label after re-render
+  const lbl=document.querySelector('#cust-dates .applied-range');
+  if(lbl){lbl.textContent=`✓ ${drillFrom} → ${drillTo}`;lbl.style.color='var(--acc)';}
+}
 function getDrillRange(){
   if(drillPeriod==='custom'&&drillFrom&&drillTo) return{f:drillFrom,t:drillTo};
   return periodRange(drillPeriod);
@@ -1069,8 +1086,12 @@ function renderDrillChart(mid,from,to){
   const grid=yticks.map(v=>`<line x1="${ml}" y1="${ys(v)}" x2="${ml+pw}" y2="${ys(v)}" stroke="#EAEAEA" stroke-width="1"/>
     <text x="${ml-3}" y="${ys(v)+4}" text-anchor="end" font-size="9" fill="#979797">${v}d</text>`).join('');
 
-  const legend=['office','wfh','sick','leave','holiday'].map(s=>
-    `<span style="display:inline-flex;align-items:center;gap:5px;font-size:11px;color:var(--txs)"><span style="width:10px;height:10px;background:${SC[s]};border-radius:2px;display:inline-block"></span>${SL[s]}</span>`).join('');
+  const legend=['office','wfh','sick','leave','holiday','no_info'].map(s=>{
+    const dot=s==='no_info'
+      ?`<span style="width:10px;height:10px;background:${SC[s]};border-radius:2px;display:inline-block;border:1px dashed #999"></span>`
+      :`<span style="width:10px;height:10px;background:${SC[s]};border-radius:2px;display:inline-block"></span>`;
+    return `<span style="display:inline-flex;align-items:center;gap:5px;font-size:11px;color:var(--txs)">${dot}${SL[s]}</span>`;
+  }).join('');
 
   document.getElementById('drill-chart').innerHTML=`
     <svg viewBox="0 0 ${W} ${H}" style="width:100%;display:block;overflow:visible">${grid}${bars}</svg>
