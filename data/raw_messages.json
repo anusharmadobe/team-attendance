@@ -5539,7 +5539,18 @@
     "thread_ts": null,
     "is_reply": false,
     "reply_count": 0,
-    "reactions": []
+    "reactions": [
+      {
+        "name": "+1_number",
+        "count": 4,
+        "users": [
+          "W4R4S9FS4",
+          "U03HRQ036BD",
+          "U0900H3NUUT",
+          "WAM5KDYBZ"
+        ]
+      }
+    ]
   },
   {
     "ts": "1767852899",
@@ -6912,11 +6923,10 @@
     "reply_count": 0,
     "reactions": [
       {
-        "name": "+1_sign",
-        "count": 2,
+        "name": "+1moji",
+        "count": 1,
         "users": [
-          "W010NNJV7S8",
-          "W4R4S9FS4"
+          "U0900H3NUUT"
         ]
       }
     ]
@@ -7031,9 +7041,9 @@
         "name": "+1moji",
         "count": 3,
         "users": [
+          "U0900H3NUUT",
           "U03HRQ036BD",
-          "U08HVLWG1UM",
-          "WAM5KDYBZ"
+          "W4R4S9FS4"
         ]
       }
     ]
@@ -8291,7 +8301,7 @@
         "name": "+1moji",
         "count": 1,
         "users": [
-          "U03HRQ036BD"
+          "U0900H3NUUT"
         ]
       }
     ]
@@ -8374,10 +8384,9 @@
     "reactions": [
       {
         "name": "+1moji",
-        "count": 2,
+        "count": 1,
         "users": [
-          "U03HRQ036BD",
-          "W010NNJV7S8"
+          "U0900H3NUUT"
         ]
       }
     ]

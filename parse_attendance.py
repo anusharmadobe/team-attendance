@@ -103,7 +103,7 @@ STATUS_PRIORITY = {"office": 5, "wfh": 4, "sick": 3, "leave": 2, "holiday": 1, "
 # When a team member reacts with one of these to a classified message,
 # they are recorded with the same status as the message sender.
 # Applies to office and wfh only — sick/leave reactions are too ambiguous.
-PLUS_ONE_EMOJIS = {"+1moji", "+1_sign", "plus_one", "thumbsup", "+1"}
+PLUS_ONE_EMOJIS = {"+1moji", "+1_sign", "+1_number", "plus_one", "thumbsup", "+1"}
 PLUS_ONE_STATUSES = {"office", "wfh"}
 
 # ── Illness keywords ───────────────────────────────────────────────────────────
@@ -178,6 +178,7 @@ RULES = [
         r"heading (?:to|into) (?:the )?office",
         r"going (?:to|into) (?:the )?office",
         r"will (?:be )?(?:reach|arrive|be) (?:at )?office",
+        r"late (?:to|for) (?:the )?office",   # "stuck in traffic, will be late to office"
         r"reaching office",
         r"reach (?:the )?office",
         # "Leaving for home" implies was at office (P1: context-sensitive)
