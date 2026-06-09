@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-06-08",
+  "generated_at": "2026-06-09",
   "period": {
     "from": "2025-01-01",
-    "to": "2026-06-08"
+    "to": "2026-06-09"
   },
   "team_members": {
     "W4R4S9FS4": {
@@ -9066,6 +9066,28 @@
         "note": "At office"
       },
       "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      }
+    },
+    "2026-06-09": {
+      "W4R4S9FS4": {
+        "status": "no_info",
+        "note": null
+      },
+      "WAM5KDYBZ": {
+        "status": "no_info",
+        "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      },
+      "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      },
+      "U0900H3NUUT": {
         "status": "no_info",
         "note": null
       }

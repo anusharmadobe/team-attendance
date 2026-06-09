@@ -18,6 +18,30 @@
     "reactions": []
   },
   {
+    "ts": "1735794906.543669",
+    "user": "U04BTKLSUF7",
+    "text": "Happy New Year :tada:",
+    "thread_ts": null,
+    "is_reply": false,
+    "reply_count": 0,
+    "reactions": [
+      {
+        "name": "grinning",
+        "count": 1,
+        "users": []
+      }
+    ]
+  },
+  {
+    "ts": "1735880871.519299",
+    "user": "U04BTKLSUF7",
+    "text": "WFH today, Thanks!",
+    "thread_ts": null,
+    "is_reply": false,
+    "reply_count": 0,
+    "reactions": []
+  },
+  {
     "ts": "1736071650",
     "user": "WAM5KDYBZ",
     "text": "Khushwant will be on leave for next week.",
@@ -25,6 +49,21 @@
     "is_reply": false,
     "reply_count": 0,
     "reactions": []
+  },
+  {
+    "ts": "1736165227.055819",
+    "user": "W010NNJV7S8",
+    "text": "Hi <!channel>, I have scheduled a meeting for tomorrow morning, which relates to this FPR - <https://nam04.safelinks.protection.outlook.com/?url=https%3A%2F%2Fjira.corp.adobe.com%2Fbrowse%2FFORMS-15313|FORMS-15313>\nThe requirement was to remove existing documentation on uninstall instructions. Khushwant was working on it. so the agenda would be to get status and next steps on updated document requirements",
+    "thread_ts": null,
+    "is_reply": false,
+    "reply_count": 0,
+    "reactions": [
+      {
+        "name": "sure",
+        "count": 1,
+        "users": []
+      }
+    ]
   },
   {
     "ts": "1736165276",
@@ -90,6 +129,21 @@
     "reactions": []
   },
   {
+    "ts": "1736486176.133999",
+    "user": "W4R4S9FS4",
+    "text": "<@W010NNJV7S8|Chris J> Good morning. Can you review the 9 community tickets assigned to our team (see action items Arun Taneja JIRA tickets) at <https://wiki.corp.adobe.com/display/supportdelivery/AEM+Community+-+Active+Ideas+Dashboard> and give me your recommendation on these over email by Mon EOD, then we can discuss with Arun offline and decide final course of action by next week. Thanks.",
+    "thread_ts": null,
+    "is_reply": false,
+    "reply_count": 0,
+    "reactions": [
+      {
+        "name": "sure",
+        "count": 1,
+        "users": []
+      }
+    ]
+  },
+  {
     "ts": "1736743993",
     "user": "W010NNJV7S8",
     "text": "Wfh today",
@@ -113,6 +167,21 @@
           "U03HRQ036BD",
           "U04BTKLSUF7"
         ]
+      }
+    ]
+  },
+  {
+    "ts": "1736824509.252689",
+    "user": "U04BTKLSUF7",
+    "text": "Hi Team, I'm having muscle cramps and severe back pain, so I'm on medication and exercise for relief. I'll work from home today. Thanks!",
+    "thread_ts": null,
+    "is_reply": false,
+    "reply_count": 0,
+    "reactions": [
+      {
+        "name": "take_care2",
+        "count": 2,
+        "users": []
       }
     ]
   },
@@ -180,6 +249,15 @@
     "reactions": []
   },
   {
+    "ts": "1737090813.143779",
+    "user": "U04BTKLSUF7",
+    "text": "WFH today. Thanks!",
+    "thread_ts": null,
+    "is_reply": false,
+    "reply_count": 0,
+    "reactions": []
+  },
+  {
     "ts": "1737091008",
     "user": "WAM5KDYBZ",
     "text": "WFH Today. Thanks!",
@@ -198,9 +276,43 @@
     "reactions": []
   },
   {
+    "ts": "1737391949.741529",
+    "user": "WAM5KDYBZ",
+    "text": "<https://www.linkedin.com/feed/update/urn:li:activity:7287093979718762498/>",
+    "thread_ts": null,
+    "is_reply": false,
+    "reply_count": 0,
+    "reactions": [
+      {
+        "name": "nice3",
+        "count": 1,
+        "users": []
+      },
+      {
+        "name": "clap-neutral",
+        "count": 1,
+        "users": []
+      },
+      {
+        "name": "heart",
+        "count": 2,
+        "users": []
+      }
+    ]
+  },
+  {
     "ts": "1737683384",
     "user": "U03HRQ036BD",
     "text": "PTO today. Thanks",
+    "thread_ts": null,
+    "is_reply": false,
+    "reply_count": 0,
+    "reactions": []
+  },
+  {
+    "ts": "1737692036.366019",
+    "user": "U04BTKLSUF7",
+    "text": "WFH today. Thanks!",
     "thread_ts": null,
     "is_reply": false,
     "reply_count": 0,
@@ -214,6 +326,21 @@
     "is_reply": false,
     "reply_count": 0,
     "reactions": []
+  },
+  {
+    "ts": "1737946817.104689",
+    "user": "U04BTKLSUF7",
+    "text": "I'm not feeling well today, so I'm taking a sick leave, Thanks.",
+    "thread_ts": null,
+    "is_reply": false,
+    "reply_count": 2,
+    "reactions": [
+      {
+        "name": "take_care2",
+        "count": 4,
+        "users": []
+      }
+    ]
   },
   {
     "ts": "1737953319",
@@ -255,6 +382,15 @@
     "ts": "1738297255",
     "user": "W010NNJV7S8",
     "text": "Both me and my wife are unwell. Taking PTO today. Will attend essential meetings alone",
+    "thread_ts": null,
+    "is_reply": false,
+    "reply_count": 0,
+    "reactions": []
+  },
+  {
+    "ts": "1738303093.838209",
+    "user": "W4R4S9FS4",
+    "text": "Take care <@W010NNJV7S8|Chris J>",
     "thread_ts": null,
     "is_reply": false,
     "reply_count": 0,
