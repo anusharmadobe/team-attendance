@@ -3,7 +3,7 @@
 # update.sh — manual one-shot attendance refresh
 #
 # For scheduled automated runs, use the Claude Scheduled Tasks instead:
-#   team-attendance-weekly-refresh   (every Monday 9:30 AM IST)
+#   team-attendance-weekly-refresh   (every Monday 12:10 PM IST)
 #   team-attendance-monthly-report   (1st of every month 9:30 AM IST)
 #
 # Those tasks auto-fetch new Slack messages via MCP, parse, report, and push.
