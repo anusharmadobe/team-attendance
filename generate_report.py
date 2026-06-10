@@ -81,7 +81,7 @@ def compute_stats(att, members, from_date, to_date):
             if uid not in by_person:
                 by_person[uid] = {"office": 0, "wfh": 0, "sick": 0,
                                   "leave": 0, "no_info": 0, "days": 0}
-            by_person[uid][s] += 1
+            by_person[uid][s] = by_person[uid].get(s, 0) + 1
             by_person[uid]["days"] += 1
 
     total_pd = sum(totals.values())

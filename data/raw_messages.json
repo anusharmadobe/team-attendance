@@ -28,7 +28,9 @@
       {
         "name": "grinning",
         "count": 1,
-        "users": []
+        "users": [
+          "U03HRQ036BD"
+        ]
       }
     ]
   },
@@ -61,7 +63,9 @@
       {
         "name": "sure",
         "count": 1,
-        "users": []
+        "users": [
+          "U03HRQ036BD"
+        ]
       }
     ]
   },
@@ -139,7 +143,9 @@
       {
         "name": "sure",
         "count": 1,
-        "users": []
+        "users": [
+          "W010NNJV7S8"
+        ]
       }
     ]
   },
@@ -181,7 +187,10 @@
       {
         "name": "take_care2",
         "count": 2,
-        "users": []
+        "users": [
+          "U03HRQ036BD",
+          "W4R4S9FS4"
+        ]
       }
     ]
   },
@@ -286,17 +295,24 @@
       {
         "name": "nice3",
         "count": 1,
-        "users": []
+        "users": [
+          "U04BTKLSUF7"
+        ]
       },
       {
         "name": "clap-neutral",
         "count": 1,
-        "users": []
+        "users": [
+          "U03HRQ036BD"
+        ]
       },
       {
         "name": "heart",
         "count": 2,
-        "users": []
+        "users": [
+          "W4R4S9FS4",
+          "W010NNJV7S8"
+        ]
       }
     ]
   },
@@ -338,7 +354,12 @@
       {
         "name": "take_care2",
         "count": 4,
-        "users": []
+        "users": [
+          "U03HRQ036BD",
+          "W010NNJV7S8",
+          "WAM5KDYBZ",
+          "W4R4S9FS4"
+        ]
       }
     ]
   },
@@ -8687,7 +8708,11 @@
       {
         "name": "heart",
         "count": 3,
-        "users": []
+        "users": [
+          "U0AKAJDDJHH",
+          "U03HRQ036BD",
+          "U0900H3NUUT"
+        ]
       }
     ]
   },
@@ -9350,7 +9375,18 @@
     "thread_ts": null,
     "is_reply": false,
     "reply_count": 0,
-    "reactions": []
+    "reactions": [
+      {
+        "name": "take_care2",
+        "count": 4,
+        "users": [
+          "U0900H3NUUT",
+          "W4R4S9FS4",
+          "WAM5KDYBZ",
+          "W010NNJV7S8"
+        ]
+      }
+    ]
   },
   {
     "ts": "1780892229.728029",
@@ -9372,6 +9408,96 @@
   },
   {
     "ts": "1780897862.757619",
+    "user": "W4R4S9FS4",
+    "text": "At office",
+    "thread_ts": null,
+    "is_reply": false,
+    "reply_count": 0,
+    "reactions": []
+  },
+  {
+    "ts": "1780902392.981999",
+    "user": "WAM5KDYBZ",
+    "text": "At office",
+    "thread_ts": null,
+    "is_reply": false,
+    "reply_count": 0,
+    "reactions": []
+  },
+  {
+    "ts": "1780977325.813139",
+    "user": "U03HRQ036BD",
+    "text": "At office",
+    "thread_ts": null,
+    "is_reply": false,
+    "reply_count": 0,
+    "reactions": []
+  },
+  {
+    "ts": "1780978697.779179",
+    "user": "U0900H3NUUT",
+    "text": "At office",
+    "thread_ts": null,
+    "is_reply": false,
+    "reply_count": 0,
+    "reactions": []
+  },
+  {
+    "ts": "1780980464.764369",
+    "user": "W4R4S9FS4",
+    "text": "At office",
+    "thread_ts": null,
+    "is_reply": false,
+    "reply_count": 0,
+    "reactions": []
+  },
+  {
+    "ts": "1780988398.725019",
+    "user": "W010NNJV7S8",
+    "text": "Had planned to go to office today, after morning calls. But traffic was heavier than usual, and got a couple of ad-hoc calls. so opting for WFH today for higher productivity",
+    "thread_ts": null,
+    "is_reply": false,
+    "reply_count": 0,
+    "reactions": []
+  },
+  {
+    "ts": "1781063364.153389",
+    "user": "W010NNJV7S8",
+    "text": "At office",
+    "thread_ts": null,
+    "is_reply": false,
+    "reply_count": 0,
+    "reactions": []
+  },
+  {
+    "ts": "1781064023.819789",
+    "user": "U03HRQ036BD",
+    "text": "At Office",
+    "thread_ts": null,
+    "is_reply": false,
+    "reply_count": 0,
+    "reactions": []
+  },
+  {
+    "ts": "1781064630.327459",
+    "user": "WAM5KDYBZ",
+    "text": "WFH till 11:30 am\nWasted too much time in morning traffic in last 2 days, will start for office a bit late, around 11:30 am",
+    "thread_ts": null,
+    "is_reply": false,
+    "reply_count": 0,
+    "reactions": []
+  },
+  {
+    "ts": "1781064662.021339",
+    "user": "U0900H3NUUT",
+    "text": "At office ",
+    "thread_ts": null,
+    "is_reply": false,
+    "reply_count": 0,
+    "reactions": []
+  },
+  {
+    "ts": "1781066963.408529",
     "user": "W4R4S9FS4",
     "text": "At office",
     "thread_ts": null,

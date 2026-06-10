@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-06-09",
+  "generated_at": "2026-06-10",
   "period": {
     "from": "2025-01-01",
-    "to": "2026-06-09"
+    "to": "2026-06-10"
   },
   "team_members": {
     "W4R4S9FS4": {
@@ -9066,30 +9066,52 @@
         "note": "At office"
       },
       "WAM5KDYBZ": {
-        "status": "no_info",
-        "note": null
+        "status": "office",
+        "note": "At office"
       }
     },
     "2026-06-09": {
+      "U03HRQ036BD": {
+        "status": "office",
+        "note": "At office"
+      },
+      "U0900H3NUUT": {
+        "status": "office",
+        "note": "At office"
+      },
       "W4R4S9FS4": {
-        "status": "no_info",
-        "note": null
+        "status": "office",
+        "note": "At office"
+      },
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "Had planned to go to office today, after morning calls. But traffic was heavier than usual, and got a couple of ad-hoc calls. so opting for WFH today for higher productivity"
       },
       "WAM5KDYBZ": {
         "status": "no_info",
         "note": null
-      },
+      }
+    },
+    "2026-06-10": {
       "W010NNJV7S8": {
-        "status": "no_info",
-        "note": null
+        "status": "office",
+        "note": "At office"
       },
       "U03HRQ036BD": {
-        "status": "no_info",
-        "note": null
+        "status": "office",
+        "note": "At Office"
+      },
+      "WAM5KDYBZ": {
+        "status": "wfh",
+        "note": "WFH till 11:30 am\nWasted too much time in morning traffic in last 2 days, will start for office a bit late, around 11:30 am"
       },
       "U0900H3NUUT": {
-        "status": "no_info",
-        "note": null
+        "status": "office",
+        "note": "At office"
+      },
+      "W4R4S9FS4": {
+        "status": "office",
+        "note": "At office"
       }
     }
   }
