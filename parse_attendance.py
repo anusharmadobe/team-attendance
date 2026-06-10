@@ -121,6 +121,21 @@ FAMILY_ILLNESS_KW = re.compile(
     re.I,
 )
 
+# ── Contradiction-detection signals ──────────────────────────────────────────
+# Narrower than RULES — only the clearest WFH/office indicators.
+# Used to catch messages that contain BOTH, e.g. "WFH till noon, then office".
+_OFFICE_SIGNALS = re.compile(
+    r"(?:at|in|to|for|start for|heading to|coming to|going to|reach(?:ing)?)"
+    r"\s+(?:the\s+)?office"
+    r"|working\s+(?:from|at)\s+office"
+    r"|\bwfo\b",
+    re.I,
+)
+_WFH_SIGNALS = re.compile(
+    r"\bwfh\b|work(?:ing)?\s+from\s+home|working\s+remotely",
+    re.I,
+)
+
 # ── Classification rules ──────────────────────────────────────────────────────
 # Checked in order; first match wins (after illness upgrades applied).
 RULES = [
@@ -210,24 +225,40 @@ def classify(text: str):
     # Check multi-day expansion patterns (P1)
     extra = _count_extra_days(tl)
 
+    matched_status = None
+    matched_extra  = extra
+
     for status, patterns in RULES:
         for pat in patterns:
             if re.search(pat, tl):
                 # ── Illness upgrades ──────────────────────────────────────
                 if status == "wfh" and personal_ill and not family_ill:
-                    # Personal illness + WFH = still WFH (they're working)
-                    return ("wfh", extra)
-                if status in ("leave", "pto") and personal_ill and not family_ill:
-                    # Leave specifically because person is ill = sick
-                    return ("sick", extra)
-                return (status, extra)
+                    matched_status = "wfh"
+                elif status in ("leave", "pto") and personal_ill and not family_ill:
+                    matched_status = "sick"
+                else:
+                    matched_status = status
+                break
+        if matched_status is not None:
+            break
 
     # Illness mentioned without explicit status → sick if taking day off
-    if personal_ill and not family_ill:
+    if matched_status is None and personal_ill and not family_ill:
         if re.search(r"tak(?:e|ing) (?:the )?(?:day|leave|rest|first half)", tl):
-            return ("sick", extra)
+            return ("sick", matched_extra)
 
-    return (None, 0)
+    if matched_status is None:
+        return (None, 0)
+
+    # ── Contradiction check: wfh ↔ office conflict ────────────────────────
+    # If the same message has BOTH office and WFH signals the intent is
+    # ambiguous (e.g. "WFH till 11:30 am, will start for office after that").
+    # Return None → goes to unclassified.json → Friday review picks it up.
+    if matched_status in ("wfh", "office"):
+        if _OFFICE_SIGNALS.search(tl) and _WFH_SIGNALS.search(tl):
+            return (None, 0)
+
+    return (matched_status, matched_extra)
 
 
 def _count_extra_days(tl: str) -> int:

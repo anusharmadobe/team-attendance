@@ -196,6 +196,13 @@
     "ts": "1747976903"
   },
   {
+    "date": "2025-06-02",
+    "user_id": "WAM5KDYBZ",
+    "name": "Khushwant Singh",
+    "text": "WFH Today for first half, will be at office for 2nd half!",
+    "ts": "1748839909"
+  },
+  {
     "date": "2025-07-22",
     "user_id": "WAM5KDYBZ",
     "name": "Khushwant Singh",
@@ -215,6 +222,27 @@
     "name": "Chris J",
     "text": "Taking calls from home. will travel to office post that",
     "ts": "1755059623"
+  },
+  {
+    "date": "2025-09-02",
+    "user_id": "W4R4S9FS4",
+    "name": "Anurag Sharma",
+    "text": "WFH in morning, will reach office at 12",
+    "ts": "1756787573"
+  },
+  {
+    "date": "2025-09-16",
+    "user_id": "W4R4S9FS4",
+    "name": "Anurag Sharma",
+    "text": "WFH morning, At office around noon.",
+    "ts": "1757999420"
+  },
+  {
+    "date": "2025-09-25",
+    "user_id": "U08HVLWG1UM",
+    "name": "Bhumika Yadav",
+    "text": "Hi team, working from home in the morning. Will be there in office bit late today.",
+    "ts": "1758771107"
   },
   {
     "date": "2025-10-15",
@@ -252,6 +280,13 @@
     "ts": "1768189319"
   },
   {
+    "date": "2026-01-23",
+    "user_id": "WAM5KDYBZ",
+    "name": "Khushwant Singh",
+    "text": "Forced to drop plans to go to office, WFH Today",
+    "ts": "1769144136"
+  },
+  {
     "date": "2026-02-11",
     "user_id": "U08HVLWG1UM",
     "name": "Bhumika Yadav",
@@ -266,6 +301,13 @@
     "ts": "1771560272"
   },
   {
+    "date": "2026-02-27",
+    "user_id": "WAM5KDYBZ",
+    "name": "Khushwant Singh",
+    "text": "WFH for first half, will be at office in 2nd half",
+    "ts": "1772169615"
+  },
+  {
     "date": "2026-03-10",
     "user_id": "WAM5KDYBZ",
     "name": "Khushwant Singh",
@@ -273,11 +315,46 @@
     "ts": "1773120073"
   },
   {
+    "date": "2026-03-13",
+    "user_id": "W4R4S9FS4",
+    "name": "Anurag Sharma",
+    "text": "WFH 1st half, at office post lunch",
+    "ts": "1773376997"
+  },
+  {
+    "date": "2026-03-17",
+    "user_id": "WAM5KDYBZ",
+    "name": "Khushwant Singh",
+    "text": "WFH for first half; will be at office in 2nd half",
+    "ts": "1773723445"
+  },
+  {
+    "date": "2026-03-18",
+    "user_id": "WAM5KDYBZ",
+    "name": "Khushwant Singh",
+    "text": "WFH for first half, may go to office for 2nd half.",
+    "ts": "1773809619"
+  },
+  {
+    "date": "2026-03-19",
+    "user_id": "W4R4S9FS4",
+    "name": "Anurag Sharma",
+    "text": "WFH today till 2 PM, may come to office later in day.",
+    "ts": "1773900086"
+  },
+  {
     "date": "2026-03-30",
     "user_id": "U08HVLWG1UM",
     "name": "Bhumika Yadav",
     "text": "Will work from 25A today",
     "ts": "1774845969"
+  },
+  {
+    "date": "2026-04-06",
+    "user_id": "W4R4S9FS4",
+    "name": "Anurag Sharma",
+    "text": "WFH 1st half, at office post lunch",
+    "ts": "1775448881"
   },
   {
     "date": "2026-04-20",
@@ -299,5 +376,26 @@
     "name": "Bhumika Yadav",
     "text": "Hi Team,\n\nAs I move on from my time here, I wanted to take a moment to sincerely thank each one of you for your support, collaboration, and the many learnings along the way.\n\nIt’s been a truly rewarding journey working with such a talented and supportive team. I’m grateful for the experiences we’ve ",
     "ts": "1777990028.084129"
+  },
+  {
+    "date": "2026-05-22",
+    "user_id": "W4R4S9FS4",
+    "name": "Anurag Sharma",
+    "text": "Was at office in morning, WFH for rest of the day",
+    "ts": "1779436699"
+  },
+  {
+    "date": "2026-06-09",
+    "user_id": "W010NNJV7S8",
+    "name": "Chris J",
+    "text": "Had planned to go to office today, after morning calls. But traffic was heavier than usual, and got a couple of ad-hoc calls. so opting for WFH today for higher productivity",
+    "ts": "1780988398.725019"
+  },
+  {
+    "date": "2026-06-10",
+    "user_id": "WAM5KDYBZ",
+    "name": "Khushwant Singh",
+    "text": "WFH till 11:30 am\nWasted too much time in morning traffic in last 2 days, will start for office a bit late, around 11:30 am",
+    "ts": "1781064630.327459"
   }
 ]

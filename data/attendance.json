@@ -2223,13 +2223,13 @@
         "status": "wfh",
         "note": "WFH Today!"
       },
-      "WAM5KDYBZ": {
-        "status": "wfh",
-        "note": "WFH Today for first half, will be at office for 2nd half!"
-      },
       "W4R4S9FS4": {
         "status": "wfh",
         "note": "WFH today"
+      },
+      "WAM5KDYBZ": {
+        "status": "wfh",
+        "note": "WFH 1st half, office 2nd half"
       },
       "W010NNJV7S8": {
         "status": "no_info",
@@ -4337,10 +4337,6 @@
       }
     },
     "2025-09-25": {
-      "U08HVLWG1UM": {
-        "status": "wfh",
-        "note": "Hi team, working from home in the morning. Will be there in office bit late today."
-      },
       "U0900H3NUUT": {
         "status": "office",
         "note": "At office"
@@ -4358,6 +4354,10 @@
         "note": "WFH 1st half, then to office"
       },
       "U03HRQ036BD": {
+        "status": "no_info",
+        "note": null
+      },
+      "U08HVLWG1UM": {
         "status": "no_info",
         "note": null
       }
@@ -6581,19 +6581,19 @@
         "status": "wfh",
         "note": "[+1 to Ruchita Srivastava] WFH today"
       },
-      "WAM5KDYBZ": {
-        "status": "wfh",
-        "note": "Forced to drop plans to go to office, WFH Today"
-      },
-      "U0900H3NUUT": {
-        "status": "wfh",
-        "note": "[+1 to Khushwant Singh] Forced to drop plans to go to office, WFH Today"
-      },
       "W4R4S9FS4": {
         "status": "wfh",
         "note": "WFH due to rains"
       },
+      "WAM5KDYBZ": {
+        "status": "wfh",
+        "note": "WFH Today (rain)"
+      },
       "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
+      },
+      "U0900H3NUUT": {
         "status": "no_info",
         "note": null
       }
@@ -7495,17 +7495,17 @@
         "status": "wfh",
         "note": "WFH Today"
       },
+      "WAM5KDYBZ": {
+        "status": "wfh",
+        "note": "WFH Today"
+      },
       "W4R4S9FS4": {
         "status": "wfh",
         "note": "WFH 1st half, at office post lunch"
       },
       "U0900H3NUUT": {
-        "status": "wfh",
-        "note": "[+1 to Anurag Sharma] WFH 1st half, at office post lunch"
-      },
-      "WAM5KDYBZ": {
-        "status": "wfh",
-        "note": "WFH Today"
+        "status": "no_info",
+        "note": null
       }
     },
     "2026-03-16": {
@@ -7547,13 +7547,13 @@
         "status": "office",
         "note": "At office"
       },
-      "WAM5KDYBZ": {
-        "status": "office",
-        "note": "At Office"
-      },
       "U0900H3NUUT": {
         "status": "office",
         "note": "At office"
+      },
+      "WAM5KDYBZ": {
+        "status": "office",
+        "note": "At Office"
       },
       "U03HRQ036BD": {
         "status": "no_info",
@@ -7569,17 +7569,17 @@
         "status": "wfh",
         "note": "WFH today"
       },
-      "WAM5KDYBZ": {
-        "status": "wfh",
-        "note": "WFH for first half, may go to office for 2nd half."
-      },
-      "W010NNJV7S8": {
-        "status": "wfh",
-        "note": "[+1 to Khushwant Singh] WFH for first half, may go to office for 2nd half."
-      },
       "U0900H3NUUT": {
         "status": "office",
         "note": "At office"
+      },
+      "WAM5KDYBZ": {
+        "status": "wfh",
+        "note": "WFH 1st half, may go to office 2nd half"
+      },
+      "W010NNJV7S8": {
+        "status": "no_info",
+        "note": null
       },
       "U03HRQ036BD": {
         "status": "no_info",
@@ -7599,13 +7599,13 @@
         "status": "wfh",
         "note": "Wfh today"
       },
-      "W4R4S9FS4": {
-        "status": "office",
-        "note": "At office"
-      },
       "WAM5KDYBZ": {
         "status": "office",
         "note": "At Office Since Morning"
+      },
+      "W4R4S9FS4": {
+        "status": "office",
+        "note": "At office"
       },
       "U03HRQ036BD": {
         "status": "office",
@@ -7917,7 +7917,7 @@
       },
       "W4R4S9FS4": {
         "status": "wfh",
-        "note": "WFH 1st half, at office post lunch"
+        "note": "WFH 1st half, office post lunch"
       },
       "W010NNJV7S8": {
         "status": "wfh",
@@ -9083,13 +9083,13 @@
         "status": "office",
         "note": "At office"
       },
-      "W010NNJV7S8": {
-        "status": "wfh",
-        "note": "Had planned to go to office today, after morning calls. But traffic was heavier than usual, and got a couple of ad-hoc calls. so opting for WFH today for higher productivity"
-      },
       "WAM5KDYBZ": {
         "status": "no_info",
         "note": null
+      },
+      "W010NNJV7S8": {
+        "status": "wfh",
+        "note": "Planned office but traffic + ad-hoc calls \u2192 opted for WFH"
       }
     },
     "2026-06-10": {
@@ -9101,10 +9101,6 @@
         "status": "office",
         "note": "At Office"
       },
-      "WAM5KDYBZ": {
-        "status": "office",
-        "note": "WFH till 11:30 am then office (late start due to traffic)"
-      },
       "U0900H3NUUT": {
         "status": "office",
         "note": "At office"
@@ -9112,6 +9108,10 @@
       "W4R4S9FS4": {
         "status": "office",
         "note": "At office"
+      },
+      "WAM5KDYBZ": {
+        "status": "office",
+        "note": "WFH till 11:30 am then office (late start due to traffic)"
       }
     }
   }
