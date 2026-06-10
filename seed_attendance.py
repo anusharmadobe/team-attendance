@@ -803,6 +803,7 @@ EVENTS = [
     ("2026-06-05", C,  "office", "At office"),
     ("2026-06-05", R,  "wfh",    "WFH today"),
     ("2026-06-05", U,  "wfh",    "+1 to Ruchita (WFH today)"),
+    ("2026-06-10", K,  "office", "WFH till 11:30 am then office (late start due to traffic)"),
     # ── AUTO-ADDED by Friday review task — insert new entries above this line ──
 ]
 
